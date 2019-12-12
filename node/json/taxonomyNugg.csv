@@ -1,0 +1,9 @@
+group,name,key,value
+Gender,F,d1,B5BE
+Gender,M,d1,72FF
+Age Groups,14-19,d2,2311
+Age Groups,20-29,d2,5EE2
+Age Groups,30-39,d2,9BE3
+Age Groups,40-49,d2,6BF1
+Age Groups,50-59,d2,3B86
+Age Groups,>65,d2,8A60

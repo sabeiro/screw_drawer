@@ -1,0 +1,178 @@
+{
+    "name":"head",
+    "children":[
+	{"name":"taxonomy_mediamond",
+	 "children":[
+	     {"expansionState":"0,1"}
+	 ]}
+    ],
+    "name":"body",
+    "children":[
+	{"name":"mon_taxonomy",
+	 "children":[
+	     {"name":"Gender",
+	      "children":[
+		  {"name":"M","key":"26B5","size":1,"value":"B5BE"},
+		  {"name":"F","key":"26B5","size":1,"value":"72FF"}
+	      ]},
+	     {"name":"Age",
+	      "children":[
+		  {"name":"18-19","key":"6615","size":1,"value":"2311"},
+		  {"name":"20-24","key":"6615","size":1,"value":"5EE2"},
+		  {"name":"25-34","key":"6615","size":1,"value":"9BE3"},
+		  {"name":"35-44","key":"6615","size":1,"value":"6BF1"},
+		  {"name":"45-54","key":"6615","size":1,"value":"3B86"},
+		  {"name":"55-64","key":"6615","size":1,"value":"0B96"},
+		  {"name":">65","key":"6615","size":1,"value":"8A60"}
+	      ]},
+	     {"name":"CardType",
+	      "children":[
+		  {"name":"RIC","key":"C117","size":1,"value":"6502"},
+		  {"name":"NOR","key":"C117","size":1,"value":"0F00"},
+		  {"name":"DAV","key":"C117","size":1,"value":"AE25"}
+	      ]},
+	     {"name":"Customer",
+	      "children":[
+		  {"name":"Customer","key":"5DBC","size":1,"value":"91B1"},
+		  {"name":"Business","key":"5DBC","size":1,"value":"55D9"}
+	      ]},
+	     {"name":"Campaign",
+	      "children":[
+		  {"name":"Abbonamento","key":"A259","size":1,"value":"DA15"},
+		  {"name":"Generico","key":"A259","size":1,"value":"E91D"},
+		  {"name":"Fibra","key":"A259","size":1,"value":"DDC8"}
+	      ]},
+	     {"name":"netflix",
+	      "children":[
+		  {"name":"activation","key":"DFDD","size":1,"value":"0E9B"}
+	      ]},
+	     {"name":"Message+",
+	      "children":[
+		  {"name":"true","key":"007B","size":1,"value":"3771"}
+	      ]},
+	     {"name":"Nielsen Area+",
+	      "children":[
+		  {"name":"Area 1","key":"3A17","size":1,"value":"A196"},
+		  {"name":"Area 2","key":"3A17","size":1,"value":"A0D6"},
+		  {"name":"Area3","key":"3A17","size":1,"value":"6157"},
+		  {"name":"Area4","key":"3A17","size":1,"value":"A316"}
+	      ]},
+	     {"name":"Region",
+	      "children":[
+		  {"name":"Abruzzo","key":"D522","size":1,"value":"E68C"},
+		  {"name":"Basilicata","key":"D522","size":1,"value":"2A40"},
+		  {"name":"Calabria","key":"D522","size":1,"value":"EB23"},
+		  {"name":"Campania","key":"D522","size":1,"value":"BB1F"},
+		  {"name":"Emilia-Romagna","key":"D522","size":1,"value":"064A"},
+		  {"name":"Friuli-Venezia Giulia","key":"D522","size":1,"value":"8070"},
+		  {"name":"Lazio","key":"D522","size":1,"value":"D10D"},
+		  {"name":"Liguria","key":"D522","size":1,"value":"A851"},
+		  {"name":"Lombardia","key":"D522","size":1,"value":"BD69"},
+		  {"name":"Marche","key":"D522","size":1,"value":"6DF1"},
+		  {"name":"Molise","key":"D522","size":1,"value":"76B4"},
+		  {"name":"Piemonte","key":"D522","size":1,"value":"5330"},
+		  {"name":"Puglia","key":"D522","size":1,"value":"BFF6"},
+		  {"name":"Sardegna","key":"D522","size":1,"value":"D9FF"},
+		  {"name":"Sicilia","key":"D522","size":1,"value":"3F29"},
+		  {"name":"Toscana","key":"D522","size":1,"value":"710E"},
+		  {"name":"Trentino-Alto Adige","key":"D522","size":1,"value":"D411"},
+		  {"name":"Umbria","key":"D522","size":1,"value":"22B6"},
+		  {"name":"Valle d'Aosta","key":"D522","size":1,"value":"D715"},
+		  {"name":"Veneto","key":"D522","size":1,"value":"106C"}
+	      ]},
+	     {"name":"Province",
+	      "children":[
+		  {"name":"Agrigento","key":"3E43","size":1,"value":"3D0F"},
+		  {"name":"Alessandria","key":"3E43","size":1,"value":"BCF1"},
+		  {"name":"Ancona","key":"3E43","size":1,"value":"70FF"},
+		  {"name":"Aosta","key":"3E43","size":1,"value":"B295"},
+		  {"name":"Arezzo","key":"3E43","size":1,"value":"3AB1"},
+		  {"name":"Ascoli Piceno","key":"3E43","size":1,"value":"5923"},
+		  {"name":"Asti","key":"3E43","size":1,"value":"ABDB"},
+		  {"name":"Avellino","key":"3E43","size":1,"value":"4570"},
+		  {"name":"...","key":"3E43","size":1,"value":"4570"}
+	      ]},
+	     {"name":"City",
+	      "children":[
+		  {"name":"Bari","key":"5E23","size":1,"value":"605E"},
+		  {"name":"Bologna","key":"5E23","size":1,"value":"21BC"},
+		  {"name":"Cagliari","key":"5E23","size":1,"value":"33B4"},
+		  {"name":"Catania","key":"5E23","size":1,"value":"175D"},
+		  {"name":"Ferrara","key":"5E23","size":1,"value":"E4BF"},
+		  {"name":"Genova","key":"5E23","size":1,"value":"C4C9"},
+		  {"name":"La Spezia","key":"5E23","size":1,"value":"541C"},
+		  {"name":"Messina","key":"5E23","size":1,"value":"1AB0"},
+		  {"name":"Milano","key":"5E23","size":1,"value":"D032"},
+		  {"name":"Napoli","key":"5E23","size":1,"value":"1334"},
+		  {"name":"Padova","key":"5E23","size":1,"value":"FB38"},
+		  {"name":"Palermo","key":"5E23","size":1,"value":"261C"},
+		  {"name":"Parma","key":"5E23","size":1,"value":"D39A"},
+		  {"name":"Reggio Calabria","key":"5E23","size":1,"value":"5352"},
+		  {"name":"Reggio Emilia","key":"5E23","size":1,"value":"7069"},
+		  {"name":"Roma","key":"5E23","size":1,"value":"9532"},
+		  {"name":"Sassari","key":"5E23","size":1,"value":"5BC7"},
+		  {"name":"Torino","key":"5E23","size":1,"value":"333F"},
+		  {"name":"Trieste","key":"5E23","size":1,"value":"124D"},
+		  {"name":"Venezia","key":"5E23","size":1,"value":"A400"},
+		  {"name":"Verona","key":"5E23","size":1,"value":"15C7"}
+	      ]},
+	     {"name":"Nationality",
+	      "children":[
+		  {"name":"AFGHANISTAN","key":"18A5","size":1,"value":"67BE"},
+		  {"name":"ALBANIA","key":"18A5","size":1,"value":"679B"},
+		  {"name":"ALGERIA","key":"18A5","size":1,"value":"9197"},
+		  {"name":"ANDORRA","key":"18A5","size":1,"value":"5BDB"},
+		  {"name":"ANGOLA","key":"18A5","size":1,"value":"B2D2"},
+		  {"name":"ANTIGUA E BARBUDA","key":"18A5","size":1,"value":"4B05"},
+		  {"name":"ANTILLE OLANDESI","key":"18A5","size":1,"value":"F074"},
+		  {"name":"ARABIA SAUDITA","key":"18A5","size":1,"value":"B04B"},
+		  {"name":"ARGENTINA","key":"18A5","size":1,"value":"E08C"},
+		  {"name":"ARMENIA","key":"18A5","size":1,"value":"E8CD"},
+		  {"name":"AUSTRALIA","key":"18A5","size":1,"value":"B95D"},
+		  {"name":"AUSTRIA","key":"18A5","size":1,"value":"A7A0"},
+		  {"name":"AZERBAIGIAN","key":"18A5","size":1,"value":"D741"},
+		  {"name":"BAHAMAS","key":"18A5","size":1,"value":"B646"},
+		  {"name":"BAHREIN","key":"18A5","size":1,"value":"3904"},
+		  {"name":"BANGLADESH","key":"18A5","size":1,"value":"E958"},
+		  {"name":"...","key":"18A5","size":1,"value":"E958"}
+	      ]}
+	 ]},
+	{"name":"nugg_taxonomy",
+	 "children":[
+	     {"name":"Gender",
+	      "children":[
+		  {"name":"M","key":"d1","size":1,"value":"B5BE"},
+		  {"name":"F","key":"d1","size":1,"value":"72FF"}
+	      ]},
+	     {"name":"Age",
+	      "children":[
+		  {"name":"14-19","key":"d2","size":1,"value":"2311"},
+		  {"name":"20-29","key":"d2","size":1,"value":"5EE2"},
+		  {"name":"30-39","key":"d2","size":1,"value":"9BE3"},
+		  {"name":"40-49","key":"d2","size":1,"value":"6BF1"},
+		  {"name":"50-59","key":"d2","size":1,"value":"3B86"},
+		  {"name":">65","key":"d2","size":1,"value":"8A60"}
+	      ]}
+	 ]},
+	{"name":"adv_taxonomy",
+	 "children":[
+	     {"name":"Categorie merceologiche",
+	      "children":[
+		  {"name":"largo consume - food","key":"d2","size":1,"value":"2311"},
+		  {"name":"auto ","key":"d2","size":1,"value":"5EE2"},
+		  {"name":"telco","key":"d2","size":1,"value":"9BE3"},
+		  {"name":"largo consumo - non food","key":"d2","size":1,"value":"6BF1"},
+		  {"name":"editoria","key":"d2","size":1,"value":"3B86"},
+		  {"name":"moda","key":"d2","size":1,"value":"3B86"},
+		  {"name":"largo consumo - pharma","key":"d2","size":1,"value":"3B86"},
+		  {"name":"turismo","key":"d2","size":1,"value":"3B86"},
+		  {"name":"cosmesi","key":"d2","size":1,"value":"3B86"},
+		  {"name":"arredamento","key":"d2","size":1,"value":"3B86"},
+		  {"name":"informatica","key":"d2","size":1,"value":"3B86"},
+		  {"name":"affari","key":"d2","size":1,"value":"8A60"}
+	      ]}
+	 ]}
+    ]
+}
+
+

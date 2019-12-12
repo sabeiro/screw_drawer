@@ -1,0 +1,601 @@
+{
+    "totalSize": 11,
+    "campaigns": [
+        {
+            "campaignId": 88343,
+            "name": "pattine",
+            "startDate": "2016-01-31",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 111864,
+            "audienceName": "moda",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 515757,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            },
+                            {
+                                "cat": 515830,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [
+                {
+                    "pixelURLId": 112965,
+                    "campaignId": 88343,
+                    "pixelURL": "http://dauvi.org/track?camp=pattine",
+                    "vendor": 0
+                }
+            ],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 88345,
+            "name": "triciclo racing",
+            "startDate": "2016-01-31",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 111863,
+            "audienceName": "sport",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 515579,
+                                "freq": [
+                                    2,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 88346,
+            "name": "brasato",
+            "startDate": "2016-01-31",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 110496,
+            "audienceName": "cibo 2",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 515837,
+                                "freq": [
+                                    2,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 89327,
+            "name": "donne camp",
+            "startDate": "2016-02-11",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 113530,
+            "audienceName": "donne",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 515394,
+                                "freq": [
+                                    2,
+                                    null
+                                ]
+                            },
+                            {
+                                "cat": 515401,
+                                "freq": [
+                                    2,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 90802,
+            "name": "tele 3+",
+            "startDate": "2016-03-01",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 115656,
+            "audienceName": "tele 3+",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 515516,
+                                "freq": [
+                                    3,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [
+                {
+                    "pixelURLId": 112056,
+                    "campaignId": 90802,
+                    "pixelURL": "http://tags.bluekai.com/site/14749?camp=$CAMPAIGNS&cats=$CATEGORIES",
+                    "vendor": 51691,
+                    "vendorSegmentId": "NOT_API_VENDOR"
+                }
+            ],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 92566,
+            "name": "zoccolo",
+            "startDate": "2016-03-16",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 117216,
+            "audienceName": "Ret",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 549073,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [
+                {
+                    "pixelURLId": 113272,
+                    "campaignId": 92566,
+                    "pixelURL": "http://tags.bluekai.com/site/2785",
+                    "vendor": 52179,
+                    "vendorSegmentId": "NOT_API_VENDOR"
+                },
+                {
+                    "pixelURLId": 113273,
+                    "campaignId": 92566,
+                    "pixelURL": "http://tags.bluekai.com/site/14749",
+                    "vendor": 51691,
+                    "vendorSegmentId": "NOT_API_VENDOR"
+                }
+            ],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 92567,
+            "name": "CB",
+            "startDate": "2016-03-16",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 117215,
+            "audienceName": "MNO",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 549120,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 92574,
+            "name": "ciuinga",
+            "startDate": "2016-03-16",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "IDLE",
+            "audienceId": 117234,
+            "audienceName": "bimbi ",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 515321,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            },
+                            {
+                                "cat": 515322,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            },
+                            {
+                                "cat": 515323,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 97501,
+            "name": "zoccolo women",
+            "startDate": "2016-05-05",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 123921,
+            "audienceName": "zalando women",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 549075,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 97511,
+            "name": "cotiche",
+            "startDate": "2016-05-05",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 113528,
+            "audienceName": "cibo",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 515838,
+                                "freq": [
+                                    2,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [
+                {
+                    "pixelURLId": 112363,
+                    "campaignId": 97511,
+                    "pixelURL": "http://tags.bluekai.com/site/14749?ttp://tags.bluekai.com/site/32157?bk_c=0",
+                    "vendor": 51691,
+                    "vendorSegmentId": "NOT_API_VENDOR"
+                },
+                {
+                    "pixelURLId": 112376,
+                    "campaignId": 97511,
+                    "pixelURL": "http://tags.bluekai.com/site/32157?bk_c=0",
+                    "vendor": 0
+                }
+            ],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": false,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        },
+        {
+            "campaignId": 97900,
+            "name": "i luf",
+            "startDate": "2016-05-10",
+            "pacingType": "NO_RESTRICTION",
+            "pacingGoal": 0,
+            "pacingDescription": "No Restriction",
+            "bid": 0.1,
+            "campaignState": "ACTIVE",
+            "audienceId": 116731,
+            "audienceName": "musica",
+            "segment": {
+                "and": [
+                    {
+                        "or": [
+                            {
+                                "cat": 515757,
+                                "freq": [
+                                    1,
+                                    null
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "intlDataCountry": "-1",
+            "orderId": -1,
+            "order": {},
+            "recency": 90,
+            "fixedPrice": false,
+            "retargeting": true,
+            "prospecting": true,
+            "activated": true,
+            "campaignType": "BLANKET",
+            "includeTopNodes": true,
+            "categoryTransferMethod": "WIN_MULTIPLE_PER_REQUEST",
+            "pixelURLs": [
+                {
+                    "pixelURLId": 112964,
+                    "campaignId": 97900,
+                    "pixelURL": "https://ssl.ad.dotandad.com/setRTG.jsp?c=21&f=28&v=bk_$CAMPAIGNS",
+                    "vendor": 0
+                }
+            ],
+            "privateSellerTargets": [],
+            "retargetingSites": [],
+            "httpsPull": false,
+            "jsonResult": true,
+            "revRecog": false,
+            "testCamp": false,
+            "idSwap": false,
+            "targetingSource": "user"
+        }
+    ]
+}

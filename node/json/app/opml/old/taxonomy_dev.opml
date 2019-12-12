@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>taxonomy_dev</title>
+    <expansionState>0,1</expansionState>
+  </head>
+  <body>
+    <outline text="Self-Classification" CAT="false:false:false" REACH="0" IDS="515290::">
+      <outline text="Log" CAT="false:false:false" REACH="0" IDS="529232:515290:">
+        <outline text="AdBlocker Attivo" BK_phints_rule="mx_l_ad,is,a" CAT="true:true:true" REACH="0" IDS="533343:529232:U36062,P35627" BK_URL_rule="http://www.io.com&#10;http://www.tu.com"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

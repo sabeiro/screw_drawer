@@ -1,0 +1,115 @@
+UDO,PHINT KEY,DESCRIZIONE,ESEMPIO VALORIZZAZIONE,VALORE/I,Note 
+USER,,,,,
+user_id,id ,User email hash SHA-256 (per utenti loggati),2c69e77a4d2ff8486c20bec7518bfc1218bbb4968846e3c4b2486838d8fa0cc9,,FB 2016-03-15: Da utilizzare per inviare a Bluekai l'email a cui deve essere stato applicato preventivamente l'algoritmo SHA-256
+user_gender,mx_u_g,Sesso dell’utente (per utenti loggati),a,"a = maschio
+b = femmina",
+user_age_range,mx_u_e,Fascia d’età dell’utente (per utenti loggati),e,"a = età compresa da 2-10
+b = età compresa da 11-17
+c = per  età compresa da 18-24 
+d = età compresa da 25-34
+e = età compresa da  35-44
+f = età compresa da 45-54
+g = compresa da 55-74
+h = età maggiore di > 74",
+user_province,mx_u_p,Provincia di Residenza dell’utente (per utenti loggati),MI,"Sigla della provincia come da elenco:
+
+http://www.aci.it/i-servizi/normative/codice-della-strada/elenco-sigle-province-ditalia.html",
+user_username,mx_u_un,Username dell’utente loggato,ttessarolo,,
+user_status,mx_u_st,Status dell’utente,,"a = logged
+b = not logged",
+user_email,mx_u_em,Email dell’utente loggato,tommaso@tessarolo.it,,
+user_crm_id_1, mx_u_crm_1,CRM ID dell'utente (es. Gigya ID),GUID659503543,,
+user_crm_id_2, mx_u_crm_2,CRM ID dell'utente,GUID659503543,,
+user_crm_id_3, mx_u_crm_3,CRM ID dell'utente,GUID659503543,,
+user_crm_id_4, mx_u_crm_4,CRM ID dell'utente,GUID659503543,,
+CONTENT,,,,,
+page_title,__bk_t,Titolo del contenuto,Attentato in centro a Istanbul: un kamikaze fa strage nell'area turistica - Tgcom2,,
+page_keywords,__bk_k,Keywords relative al contenuto,"turchia, esplosione, istanbul, feriti",,
+page_url,__bk_l,URL del contenuto,http://www.tgcom24.mediaset.it/mondo/attentato-in-centro-a-istanbul-un-kamikaze-fa-strage-nell-area-turistica_2153757-201602a.shtml,,
+page_referrer,__bk_pr,Page Referrer,http://www.tgcom24.mediaset.it/,,
+page_section,mx_cn_s,Sezione di appartenenza del contenuto,sport,,
+page_subsection,mx_cn_ss,Sottosezione di appartenenza del contenuto,calcio,,
+page_type,mx_cn_c,Classe descrittiva del contenuto,foto,,
+search_term,mx_cn_st,Contenuto di una ricerca effettuata dall’utente,“Salone del Mobile”,,
+search_results,mx_cn_sr,,,,
+search_type,mx_cn_st,,,,
+MOBILE,,,,,
+mobile_adid,AdID,GOOGLE_AD_ID per Mobile App,38400000-8cf0-11bd-b23e-10b96e40000d,,
+mobile_idfa,idfa,iPhone_IDFA per Mobile App,AEBE52E7-03EE-455A-B3C4-E57283966239,,
+mobile_appid,appid,app ID per Mobile App,id659503543,,
+mobile_app_name,mx_mb_n,Nome dell’app Mobile,mediaset-app-tgcom24-meteoit,,
+++ Tealium Mobile Lib,,,,,
+CLASSIFICATION,,,,,
+iab_tier1,mx_ib_1,Codice della categoria IAB Tier 1,1,,
+iab_tier2,mx_ib_2,Codice della categoria IAB Tier 2,1-1,,
+taxonomy_cat_1,mx_tx_1,ID della categoria della Tassonomia per effettuare associazione diretta,50009,,
+taxonomy_cat_2,mx_tx_2,ID della categoria della Tassonomia per effettuare associazione diretta,50010,,
+taxonomy_cat_3,mx_tx_3,ID della categoria della Tassonomia per effettuare associazione diretta,50011,,
+taxonomy_cat_4,mx_tx_4,ID della categoria della Tassonomia per effettuare associazione diretta,50012,,
+GEOLOCALIZATION,,,,,
+geo_city,mx_g_ct,IP Based GEO: città da dove l’utente effettua il collegamento,milano,,
+geo_country,mx_g_cn,IP Based GEO: nazione da dove l’utente effettua il collegamento,italia,,
+geo_region,mx_g_rg,IP Based GEO: regione da dove l’utente effettua il collegamento,lombardia,,
+geo_zip,mx_g_pc,IP Based GEO: codice postale da dove l’utente effettua il collegamento,20100,,
+geo_latitude,mx_g_lt,IP Based GEO: latitudine da dove l’utente effettua il collegamento,37.7880,,
+geo_longitude,mx_g_lg,IP Based GEO: longitudine da dove l’utente effettua il collegamento,-122.4075,,
+LOGS,,,,,
+log_adblocker_active,mx_l_ad,Presenza di un AdBlocker sul browser dell’utente,a,"a = active
+b = not active",
+log_active_time,mx_l_tp,Active Time on Page dell’utente,c,"a = 0 - 30 sec
+b = 30 - 60 sec
+c = 60 - 120 sec
+d = 120 - 140 sec
+e = > 240 sec",
+log_scroll_percentage,mx_l_sp,Scroll Percentage dell’utente in pagina,b,"a = baseline
+b = 25%
+c = 50%
+d = 75%
+e = 100%",
+log_domain,mx_l_dm,,,,
+log_operating_system,mx_l_os,,,,
+log_browser_type,mx_l_b_t,,,,
+log_browser_version,mx_l_b_v,,,,
+log_browser_height,mx_l_b_h,,,,
+log_browser_width,mx_l_b_w,,,,
+VIDEO,,,,,
+video_id,mx_v_id,Video ID (es. Codice F),12345,,
+video_name,mx_v_n,Nome del video,Le Iene,,
+video_offset,mx_v_of,Offset del video quando avviene un evento,10m 3s,,
+video_state,mx_v_st,Lo stato del video,a,"a = Play
+b = Pause
+c = End",
+video_player,mx_v_pl,Il nome del Video Player,MSK2001,,
+video_player_version,mx_v_pl_v,La versione del Video Player,2.01.3,,
+video_category,mx_v_c,,,,
+video_subcategory,mx_v_sc,,,,
+video_genre,mx_v_g,,,,
+ECOMMERCE,,,,,
+product_id,mx_p_id,,,,
+product_sku,mx_p_sku,,,,
+product_name,mx_p_n,,,,
+product_brand,mx_p_br,,,,
+product_category,mx_p_c,,,,
+product_subcategory,mx_p_sc,,,,
+product_unit_price,mx_p_up,,,,
+product_list_price,mx_p_lp,,,,
+product_quantity,mx_p_q,,,,
+product_discount,mx_p_di,,,,
+order_id,mx_p_o_id,,,,
+order_total,mx_p_o_t,,,,
+order_subtotal,mx_p_o_sub,,,,
+order_payment_type,mx_p_o_pt,,,,
+order_discount,mx_p_o_d,,,,
+order_shipping,mx_p_o_sh,,,,
+order_tax,mx_p_o_tx,,,,
+order_currency,mx_p_o_cr,,,,
+order_cupon_code,mx_p_o_cc,,,,
+order_store,mx_p_o_st,,,,
+order_type,mx_p_o_ty,,,,
+EVENTS,,,,,
+event_type,mx_e_ty,,,,
+event_target,mx_e_ta,,,,
+event_attr1,mx_e_a_1,,,,
+event_attr2,mx_e_a_2,,,,
+event_attr3,mx_e_a_3,,,,
+event_attr4,mx_e_a_4,,,,

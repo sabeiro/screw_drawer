@@ -1,0 +1,208 @@
+node1,node2,reach
+Arts and Entertainment,,310000000
+Arts and Entertainment,Books and Literature,321000000
+Arts and Entertainment,Movies,1407000000
+Arts and Entertainment,Music,1788000000
+Arts and Entertainment,Television,2274000000
+Arts and Entertainment,Video and Computer Games,1139000000
+Automotive,,1523000000
+Automotive,Auto parts,131000000
+Automotive,Convertible,13000000
+Automotive,Coupe,4757000
+Automotive,Electric/Hybrid,7865000
+Automotive,Hatchback,7000
+Automotive,Luxury,44000000
+Automotive,MiniVan,5958000
+Automotive,Motorcycles,14000000
+Automotive,SUV,26000000
+Automotive,Sedan,176000000
+Automotive,Trucks and Accessories,22000000
+Automotive,Used Autos,112000000
+Automotive,Wagon,1041000
+Beauty and Persol Care,,1733000000
+Beauty and Persol Care,Face and Body Care,92000000
+Beauty and Persol Care,Hair Care,93000000
+Business,,2804000000
+Business,Business Fince,1486000000
+Business,Business Services,1486000000
+Business,Business Software,1845000000
+Business,Human Resources Audiences,451000000
+Business,Industrial,6507000
+Business,Transportation and Logistics,29000000
+Careers,,1521000000
+Education and Training,,1268000000
+Education and Training,Adult Education,442000000
+Education and Training,Career Training,26000000
+Education and Training,College Life,823000000
+Education and Training,K to 12 Education,665000000
+Education and Training,Language Learning,1108000000
+Family and Parenting,,82000000
+Family and Parenting,AUD6_Retail_Y!_Parents of Babies and Toddlers,444000000
+Family and Parenting,Parenting School-Age Kids,215000000
+Family and Parenting,Toys,79000000
+Food and Drink,,1263000000
+Food and Drink,Coffee and Tea,42000000
+Food and Drink,Cooking and Recipes,452000000
+Food and Drink,Desserts & Baking,74000000
+Food and Drink,Dining Out,1467000000
+Food and Drink,Dining Out - Fast Food - Yahoo Data,46000000
+Food and Drink,Health and Lowfat Cooking,89000000
+Health and Fitness,,1142000000
+Health and Fitness,Chronic Pain,655000000
+Health and Fitness,Dental Care,407000000
+Health and Fitness,Exercise,5788000
+Health and Fitness,Men's Health,3726000
+Health and Fitness,Vision,31000000
+Health and Fitness,Weight Loss,168000000
+Health and Fitness,Women's Health,17000000
+Hobbies and Interests,,1362000000
+Hobbies and Interests,Arts and Crafts-Yahoo Data,134000000
+Home and Garden,,404000000
+Home and Garden,Appliances,53000000
+Home and Garden,Cleaning,29000000
+Home and Garden,Gardening and Landscaping,618000000
+Home and Garden,Gifts,125000000
+Home and Garden,Home Repair,299000
+Home and Garden,Home Theater,72000000
+Home and Garden,Interior Decorating,6000000
+Home and Garden,Remodeling and Construction,1587000000
+Law, Government and Politics,1957000000
+Law,Legal Issues,1668000000
+Law,Politics and Commentary,483000000
+News,,1817000000
+News,Fincial News,1033000000
+Persol Fince,,3965000000
+Persol Fince,Credit and Debt,1275000000
+Persol Fince,Insurance,936000000
+Persol Fince,Investing,919000000
+Persol Fince,Mutual Funds,551000000
+Persol Fince,Retirement Planning,442000000
+Persol Fince,Tax Planning,1194000000
+Pets,,245000000
+Pets,Cats,36000000
+Pets,Dogs,11000000
+Real Estate,,669000000
+Real Estate,Buying and Selling Homes,1178000000
+Real Estate,Real Estate Rentals,53000000
+Science,,1346000000
+Science,Weather,329000000
+Shopping,,1512000000
+Shopping,Contests and Freebies,24000000
+Shopping,Couponing,17000000
+Society,,2594000000
+Society,Dating,68000000
+Society,Marriage,137000000
+Society,Senior Living,155000000
+Society,Teens,35000000
+Society,Wedding,853000000
+Sports,,5036000000
+Sports,Action Sports,72000000
+Sports,Auto Racing,1299000000
+Sports,Baseball,9376000
+Sports,Boxing-Yahoo Segments,68000000
+Sports,Fishing,1006000000
+Sports,Fitness Sports,1054000000
+Sports,Football (Shoppers + American Football),438000000
+Sports,Golf,2443000000
+Sports,Hunting and Shooting,1598000
+Sports,Ice Hockey,52000000
+Sports,Martial Arts,64000000
+Sports,Olympics,4000000
+Sports,Outdoor Sports,525000000
+Sports,Pro Basketball,226000000
+Sports,Rugby,75000000
+Sports,Sailing,8779000
+Sports,Water Sports,24000000
+Sports,World Soccer,1146000000
+Style and Fashion,,2292000000
+Style and Fashion,Accessories,138000000
+Style and Fashion,Clothing,1742000000
+Style and Fashion,Footwear,3000000
+Style and Fashion,Jewelry,911000000
+Technology and Computing,,2951000000
+Technology and Computing,Antivirus Software,567000000
+Technology and Computing,Cameras and Camcorders,897000000
+Technology and Computing,Cell Phones,160000000
+Technology and Computing,Computer Networking,12000000
+Technology and Computing,Computer Peripherals,17000000
+Technology and Computing,Digital Audio,16000000
+Technology and Computing,Email,155000000
+Technology and Computing,Graphics Software,45000000
+Technology and Computing,Internet Technology,1557000000
+Technology and Computing,Network Security,716000000
+Technology and Computing,PC Support,125000000
+Technology and Computing,Portable Entertainment,19000000
+Technology and Computing,Programming Languages,74000000
+Technology and Computing,Social Media and Networking,515000000
+Travel,,2006000000
+Travel,Africa,595000000
+Travel,Air Travel - Yahoo Data,737000000
+Travel,Asia,973000000
+Travel,Australia and New Zealand,826000000
+Travel,Budget Travel-Yahoo Data,212000000
+Travel,Bus and Rail,4579000
+Travel,Business Travel,88000000
+Travel,Cada,932000000
+Travel,Cruises - Yahoo Data,9000000
+Travel,Europe,32000000
+Travel,Hotels - Yahoo Data,478000000
+Travel,Mexico and Central America,2329000
+Travel,South America,4262000
+Travel,Traveling with Kids,29000000
+Travel,US Travel,1016000000
+Yahoo Autos, ,
+Yahoo Autos,Acura,23000
+Yahoo Autos,Alfa Romeo,151
+Yahoo Autos,Aston Martin,326
+Yahoo Autos,Audi,10000
+Yahoo Autos,BMW,155000
+Yahoo Autos,Bentley,19000
+Yahoo Autos,Buick,38000
+Yahoo Autos,Cadillac,69000
+Yahoo Autos,Chevrolet,238000
+Yahoo Autos,Chrysler,32000
+Yahoo Autos,Dodge,8000
+Yahoo Autos,FIAT,1000
+Yahoo Autos,Ferrari,18000
+Yahoo Autos,Ford,628000
+Yahoo Autos,Freightliner,362
+Yahoo Autos,GMC,134000
+Yahoo Autos,Honda,184000
+Yahoo Autos,Hyundai,72000
+Yahoo Autos,Infiniti,42000
+Yahoo Autos,Jaguar,25000
+Yahoo Autos,Jeep,115000
+Yahoo Autos,Kia,5000
+Yahoo Autos,Lamborghini,16000
+Yahoo Autos,Land Rover,16000
+Yahoo Autos,Lexus,278000
+Yahoo Autos,Lincoln,28000
+Yahoo Autos,MINI Cooper, 
+Yahoo Autos,Maserati,21000
+Yahoo Autos,Mazda,112000
+Yahoo Autos,McLaren,604
+Yahoo Autos,Mercedes-Benz,57000
+Yahoo Autos,Mitsubishi,21000
+Yahoo Autos,Nissan,117000
+Yahoo Autos,Porsche,62000
+Yahoo Autos,Ram,18000
+Yahoo Autos,Rolls-Royce,163
+Yahoo Autos,Scion,14000
+Yahoo Autos,Smart,480
+Yahoo Autos,Subaru,72000
+Yahoo Autos,Tesla,26000
+Yahoo Autos,Toyota,337000
+Yahoo Autos,Volkswagen,54000
+Yahoo Autos,Volvo,31000
+Yahoo Premium Audience, ,
+Yahoo Premium Audience,Business and Industry,
+Yahoo Premium Audience,Entertainment,
+Yahoo Premium Audience,Family and relationships,438000000
+Yahoo Premium Audience,Fitness and wellness,1471000000
+Yahoo Premium Audience,Food and drink,3944000000
+Yahoo Premium Audience,Hispanic Affinity,6036000000
+Yahoo Premium Audience,Hobbies and activities,
+Yahoo Premium Audience,Shopping and fashion,5282000000
+Yahoo Premium Audience,Sports,564000000
+Yahoo Premium Audience,Technology,3138000000
+Yahoo Premium Audience,Vehicles,207000000

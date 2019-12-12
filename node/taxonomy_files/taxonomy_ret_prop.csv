@@ -1,0 +1,26 @@
+group,text,url regexp
+fashion,fashion man,"fashion,outfit"
+fashion,fashion woman,"fashion,outfit"
+fashion,casual man,causal
+fashion,basic man,basic
+fashion,casual woman,causal
+fashion,basic woman,basic
+fashion,casual man,causal
+fashion,basic man,basic
+fashion,curvy,"comode,curvy"
+sport,sporty,"sport,attrezzature"
+sport,outdoor,outdoor
+sport,fitness,"fitness,running,yoga"
+sport,calcio,"calcio,"
+sport,spiaggia,"spiaggia,nuoto"
+sport,altri,"tennis,golf,pallavolo"
+business,uomo,elegante
+business,donna,elegante
+expenses,premium woman,premium*donna
+expenses,premium man,premium*uomo
+expenses,discount,promo
+parents,parents,bambini
+parents,'0-2,"2-0,gender=5,gender=6"
+parents,2-9,"2-9,gender=9,gender=10"
+parents,'9-16,"9-16,gender=17,gender=18"
+parents,premaman,mamma

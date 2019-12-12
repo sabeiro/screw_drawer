@@ -1,0 +1,180 @@
+Clear Name,Clear Value,Hashed Name,Hashed Value
+Gender,F,26B5,B5BE
+Gender,M,26B5,72FF
+Age Groups,18 - 19,6615,2311
+Age Groups,20 - 24,6615,5EE2
+Age Groups,25 - 34,6615,9BE3
+Age Groups,35 - 44,6615,6BF1
+Age Groups,45 - 54,6615,3B86
+Age Groups,55 - 64,6615,0B96
+Age Groups,>65,6615,8A60
+Card Type,RIC,C117,6502
+Card Type,NOR,C117,0F00
+Customer,Consumer,5DBC,91B1
+Customer,Business,5DBC,55D9
+Nielsen Area,Area 1,3A17,A0D6
+Nielsen Area,Area 2,3A17,A196
+Nielsen Area,Area 3,3A17,6157
+Nielsen Area,Area 4,3A17,A316
+Region,Abruzzo,D522,E68C
+Region,Basilicata,D522,2A40
+Region,Calabria,D522,EB23
+Region,Campania,D522,BB1F
+Region,Emilia-Romagna,D522,064A
+Region,Friuli-Venezia Giulia,D522,8070
+Region,Lazio,D522,D10D
+Region,Liguria,D522,A851
+Region,Lombardia,D522,BD69
+Region,Marche,D522,6DF1
+Region,Molise,D522,76B4
+Region,Piemonte,D522,5330
+Region,Puglia,D522,BFF6
+Region,Sardegna,D522,D9FF
+Region,Sicilia,D522,3F29
+Region,Toscana,D522,710E
+Region,Trentino-Alto Adige,D522,D411
+Region,Umbria,D522,22B6
+Region,Valle d'Aosta,D522,D715
+Region,Veneto,D522,106C
+Province,Agrigento,3E43,3D0F
+Province,Alessandria,3E43,BCF1
+Province,Ancona,3E43,70FF
+Province,Aosta,3E43,B295
+Province,Arezzo,3E43,3AB1
+Province,Ascoli Piceno,3E43,5923
+Province,Asti,3E43,ABDB
+Province,Avellino,3E43,4570
+Province,Bari,3E43,4A78
+Province,Barletta,3E43,484D
+Province,Belluno,3E43,A563
+Province,Benevento,3E43,1ABB
+Province,Bergamo,3E43,7789
+Province,Biella,3E43,6BBB
+Province,Bologna,3E43,8A42
+Province,Bolzano,3E43,4327
+Province,Brescia,3E43,67D9
+Province,Brindisi,3E43,AE87
+Province,Cagliari,3E43,B39E
+Province,Caltanissetta,3E43,4D19
+Province,Campobasso,3E43,5270
+Province,Carbonia - Iglesias,3E43,4F7F
+Province,Caserta,3E43,DADF
+Province,Catania,3E43,BCA3
+Province,Catanzaro,3E43,4919
+Province,Chieti,3E43,EE5F
+Province,Como,3E43,4790
+Province,Cosenza,3E43,521B
+Province,Cremona,3E43,BC0D
+Province,Crotone,3E43,2293
+Province,Cuneo,3E43,F8F6
+Province,Enna,3E43,3B40
+Province,Fermo,3E43,3EF8
+Province,Ferrara,3E43,4F41
+Province,Firenze,3E43,3772
+Province,Foggia,3E43,C541
+Province,Forl� - Cesena,3E43,27D4
+Province,Frosinone,3E43,4796
+Province,Genova,3E43,7B52
+Province,Gorizia,3E43,362D
+Province,Grosseto,3E43,70EC
+Province,Imperia,3E43,4638
+Province,Isernia,3E43,49F2
+Province,La Spezia,3E43,8B1D
+Province,L'Aquila,3E43,079C
+Province,Latina,3E43,D94F
+Province,Lecce,3E43,5DB4
+Province,Lecco,3E43,5A34
+Province,Livorno,3E43,EE64
+Province,Lodi,3E43,115
+Province,Lucca,3E43,5EB1
+Province,Macerata,3E43,38C6
+Province,Mantova,3E43,4248
+Province,Massa,3E43,6B85
+Province,Matera,3E43,CB86
+Province,Messina,3E43,B14E
+Province,Milano,3E43,6FA9
+Province,Modena,3E43,0AE3
+Province,Monza - Brianza,3E43,9098
+Province,Napoli,3E43,ACAF
+Province,Novara,3E43,40AF
+Province,Nuoro,3E43,985
+Province,Ogliastra,3E43,B792
+Province,Olbia - Tempio,3E43,F309
+Province,Oristano,3E43,65A6
+Province,Padova,3E43,44A3
+Province,Palermo,3E43,8DE2
+Province,Parma,3E43,931
+Province,Pavia,3E43,872
+Province,Perugia,3E43,0BDD
+Province,Pesaro - Urbino,3E43,51A8
+Province,Pescara,3E43,720E
+Province,Piacenza,3E43,5837
+Province,Pisa,3E43,A6FC
+Province,Pistoia,3E43,3960
+Province,Pordenone,3E43,956E
+Province,Potenza,3E43,538C
+Province,Prato,3E43,1C4E
+Province,Ragusa,3E43,7580
+Province,Ravenna,3E43,7DD8
+Province,Reggio Calabria,3E43,51C6
+Province,Reggio Emilia,3E43,7659
+Province,Rieti,3E43,FBF0
+Province,Rimini,3E43,3CAB
+Province,Roma,3E43,BF14
+Province,Rovigo,3E43,8AA3
+Province,Salerno,3E43,7DD1
+Province,Sassari,3E43,F039
+Province,Savona,3E43,0FAC
+Province,Siena,3E43,9DC7
+Province,Siracusa,3E43,F17A
+Province,Sondrio,3E43,5FAA
+Province,Taranto,3E43,29C4
+Province,Teramo,3E43,BFBD
+Province,Terni,3E43,CFC0
+Province,Torino,3E43,8CA4
+Province,Trapani,3E43,14FD
+Province,Trento,3E43,9BF7
+Province,Treviso,3E43,CC04
+Province,Trieste,3E43,B9B3
+Province,Udine,3E43,F18C
+Province,Varese,3E43,FB85
+Province,Venezia,3E43,0FFE
+Province,Verbania,3E43,1148
+Province,Vercelli,3E43,B7D7
+Province,Verona,3E43,AA5C
+Province,Vibo Valentia,3E43,6679
+Province,Vicenza,3E43,369E
+Province,Villacidro - Sanluri,3E43,F7BE
+Province,Viterbo,3E43,37A0
+City,Bari,5E23,605E
+City,Bologna,5E23,21BC
+City,Cagliari,5E23,33B4
+City,Catania,5E23,175D
+City,Ferrara,5E23,E4BF
+City,Genova,5E23,C4C9
+City,La Spezia,5E23,541C
+City,Messina,5E23,1AB0
+City,Milano,5E23,D032
+City,Napoli,5E23,1334
+City,Padova,5E23,FB38
+City,Palermo,5E23,261C
+City,Parma,5E23,D39A
+City,Reggio Calabria,5E23,5352
+City,Reggio Emilia,5E23,7069
+City,Roma,5E23,9532
+City,Sassari,5E23,5BC7
+City,Torino,5E23,333F
+City,Trieste,5E23,124D
+City,Venezia,5E23,A400
+City,Verona,5E23,15C7
+Nationality,ALBANIA,18A5,679B
+Nationality,EGITTO,18A5,1CF6
+Nationality,FRANCIA,18A5,CE38
+Nationality,GERMANIA,18A5,3558
+Nationality,ITALIA,18A5,E079
+Nationality,MAROCCO,18A5,F683
+Nationality,POLONIA,18A5,7CF1
+Nationality,ROMANIA,18A5,94ED
+Nationality,STATI UNITI D'AMERICA,18A5,E31F
+Nationality,SVIZZERA,18A5,3570
+Nationality,UCRAINA,18A5,ABBD

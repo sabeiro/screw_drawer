@@ -1,0 +1,11 @@
+group,text,CAT,REACH,IDS,key,value
+sport,running,,,,,
+sport,outdoor,,,,,
+expense frequency,rarely,,,,,
+,occasional,,,,,
+,frequent,,,,,
+expense capability,<100,,,,,
+,100<<500,,,,,
+,500<<1000,,,,,
+price sensitivity,discount ,,,,,
+,full price,,,,,

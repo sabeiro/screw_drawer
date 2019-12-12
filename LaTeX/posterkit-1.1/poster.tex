@@ -1,0 +1,365 @@
+\documentclass[a0]{a0poster}
+\usepackage{palatino}
+\usepackage{epsfig}
+\usepackage{alltt}
+
+% For debugging, force all o/p to be on one page, even though it will overrun.
+% Remove this to print final copy
+% \textheight200in
+
+\parindent=0pt
+\newcommand{\rect}[2]{
+\mbox{\begin{minipage}{#1}
+\framebox[#1]{\rule{0pt}{#2}}
+\vspace{-#2}
+\vspace{-\baselineskip}
+\vspace{-10pt}
+\end{minipage}
+}}
+
+\def\m#1{{\tt #1}}
+\def\v#1{{\bf #1}}
+\newcommand{\colvec}[1]{\left( \begin{array}{c} #1 \end{array} \right)}
+\newcommand{\awfwbox}[1]{\parbox{\textwidth}{\hspace*{\fill}#1\hspace*{\fill}}}
+\newcommand{\epswide}[2]{\psfig{figure=#2,width=#1\textwidth}}
+\newcommand{\epshigh}[2]{\psfig{figure=#2,height=#1\textwidth}}
+\newcommand{\T}{{\cal T}}
+
+\renewcommand{\paragraph}[1]{\vspace{1cm}\par{\Large\bf #1}\par}
+
+\newcommand{\awfhline}{\rule{\textwidth}{1pt}}
+
+\newlength{\colwidth}
+\setlength{\colwidth}{0.181\textwidth}
+
+\newcommand{\col}[1]{
+\fbox{
+\begin{minipage}[t]{\colwidth}\raggedright\large
+#1
+\end{minipage}
+}
+}
+
+\newcounter{elist}
+\newenvironment{awfitemize}[1]{\begin{list}{#1}{
+ \usecounter{elist}
+ \setlength{\leftmargin}{2mm}
+ \setlength{\labelwidth}{4mm}
+ \setlength{\labelsep}{.1mm}
+ \setlength{\itemindent}{0pt}
+ \setlength{\rightmargin}{0pt}
+}}{\end{list}}
+% 
+% \renewenvironment{itemize}{\awfitemize{$\bullet$\hfill}\setlength{\labelwidth}{2mm}}{\endawfitemize}
+% \renewenvironment{enumerate}{\awfitemize{\arabic{elist}.}}{\endawfitemize}
+% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\awfp}[2]{{
+\tiny\begin{tabular}{c}
+\epsfysize=30mm\epsfbox{#1}\\
+\hfill#2
+\end{tabular}
+\hspace{-1em}
+}}
+
+\begin{document}
+\small
+\thispagestyle{empty}
+\rect{\textwidth}{\textheight}
+
+\begin{center}
+{\Huge\bf Automatic Camera Recovery for Closed or Open Image Sequences}\\
+\LARGE Andrew W.~Fitzgibbon and Andrew Zisserman\\
+University of Oxford\\
+{\tt \{awf,az\}@robots.ox.ac.uk}\\
+\end{center}
+
+{\parbox{\textwidth}{
+\leavevmode
+\hfill\awfp{unnamed.eps}{000}%
+\awfp{unnamed.eps}{002}%
+\awfp{unnamed.eps}{004}%
+\awfp{unnamed.eps}{006}%
+\awfp{unnamed.eps}{008}%
+\awfp{unnamed.eps}{010}\hfill
+%
+\awfp{unnamed.eps}{000}%
+\awfp{unnamed.eps}{006}%
+\awfp{unnamed.eps}{012}%
+\awfp{unnamed.eps}{018}%
+\awfp{unnamed.eps}{024}%
+\awfp{unnamed.eps}{030}\hfill
+%
+\awfp{unnamed.eps}{000}%
+\awfp{unnamed.eps}{006}%
+\awfp{unnamed.eps}{012}%
+\awfp{unnamed.eps}{018}%
+\awfp{unnamed.eps}{024}%
+\awfp{unnamed.eps}{030}\hfill
+%
+\awfp{unnamed.eps}{001}%
+\awfp{unnamed.eps}{005}%
+\awfp{unnamed.eps}{010}%
+\awfp{unnamed.eps}{015}%
+\awfp{unnamed.eps}{020}%
+\awfp{unnamed.eps}{025}\hfill~~~~~~
+}}
+
+%% Column 1
+\begin{center}
+\col{
+
+\paragraph{Objective} Obtain camera positions and 3D structure reliably over
+long sequences.
+
+{\em Fully automatic} system: need point tracks through sequence and an
+estimation procedure which distributes error over the sequence.
+
+Build on competences: two and three view reliability is high, feature
+tracking is robust.
+\begin{itemize}
+\item Fundamental matrix $\m F$ and trifocal tensor $\cal T$ estimated {\em
+well}.
+\item Bundle adjustment works well, {\em given initial estimate}.
+\item Sequential approaches suffer from error accumulation, {\bf batch method}
+preferable where all images are available.
+\item Not yet a reliable noniterative batch method.  (Triggs' method needs
+initial structure, Tomasi-Kanade not projective).
+\item ``Pasting'' projective frames [Zisserman {\em et.\ al.} 95, Laveau
+96], is a sequential approach readily converted to batch.
+
+\item {\bf Build hierarchical reliable batch method by ``pasting''
+projective frames}
+
+\end{itemize}
+
+\awfhline 
+
+\paragraph{Maximum Likelihood Estimation}
+
+At all stages, want ML estimate of structure and motion.
+
+Homogeneous 3D points $\v X_j$ are projected by $3\times4$ camera matrices
+$\m P_i$.  Detected 2D points are $\v x_{ij}$ (homogeneous 3-vectors).
+
+Assuming errors on positions of image points are Gaussian distributed, the
+ML estimate minimizes {\em reprojection error}:
+
+\[
+\epsilon^2 = \sum_{ij} d^2(\v x_{ij}, \m P_i \v X_j)
+\]
+Where the 2D Euclidean distance $d^2$ is
+{
+\normalsize
+\[
+d^2 \left[ \colvec{x \\ y \\ w}, \colvec{x' \\ y' \\ w'} \right] = 
+\left(\frac x w - \frac{x'}{w'}\right)^2 + \left(\frac y w - \frac{y'}{w'}\right)^2
+\]
+}
+
+This is minimized efficiently by sparse bundle adjustment [Hartley 94].
+}
+%
+\col{
+
+\paragraph{Algorithm: $\cal T$ Estimation}
+The workhorse of the system.
+\begin{enumerate}\itemindent=1cm
+\item Compute corners [Harris].
+\item Get pairwise correlation matches.
+\item RANSAC fit $\m F$ to each pair.
+\item Make triplet matches.
+\item RANSAC fit $\cal T$ to triplets.
+\item Repeat 
+\begin{enumerate}\itemindent=1in
+\item ML estimate of $\cal T$.
+\item Guided matching
+\end{enumerate}
+Until convergence
+\end{enumerate}
+Note that guided matching and estimation {\em must} use same error metric
+to avoid oscillation.
+
+\paragraph{Typical results for $\cal T$}
+
+%%%%%%%%%%%%%
+
+\begin{center}
+\newcommand{\pic}[1]{\epsfxsize=0.3\textwidth\epsfbox{#1}}
+\pic{unnamed.eps}~%
+\pic{unnamed.eps}~%
+\pic{unnamed.eps}\\[-5mm]
+~\hfill Input Images \hfill~\\[8mm]
+\pic{unnamed.eps}~%
+\pic{unnamed.eps}~%
+\pic{unnamed.eps}\\[-5mm]
+~\hfill Corners \hfill~\\[8mm]
+\pic{unnamed.eps} \pic{unnamed.eps} \pic{unnamed.eps}\\[-5mm]
+~\hfill Inliers \hfill Outliers \hfill Guided \hfill~
+\end{center}
+\awfhline
+\paragraph{Adaptive RANSAC}
+RANSAC termination is generally described as requiring an estimate of the
+inlier proportion $\varepsilon$, then number of samples required is $r =
+\lceil \frac{\log (1 - P)}{\log (1 - \varepsilon^n)} \rceil$.  But
+$\varepsilon$ may be initialized to 0 and adaptively updated [Torr 97].
+Example results for $P = 99\%$, $n = 6$:
+\begin{center}\small
+\begin{tabular}{crl}
+Sample & \hfill Inliers $\varepsilon$  \hfill & Required $r$ \\
+\hline
+   0   &      9\%  & 	6532519.\\
+   0   &     28\%  & 	8958.\\
+   2   &     50\%  & 	261.\\
+   4   &     50\%  & 	261.\\
+   5   &     59\%  & 	102.\\
+  26   &     83\%  & 	11.\\
+\end{tabular}
+\end{center}
+Terminate when Samples taken $>$ Required.
+
+
+}
+%
+\col{
+\paragraph{Registration of trifocal tensors into consistent projective
+frames}
+\awfwbox{\epshigh{0.25}{unnamed.eps}\hfill\epshigh{0.25}{unnamed.eps}}
+Homographies of ${\cal P}^3$ are computed which place tensors
+$\T_{234}$ and $\T_{345}$ in the frame of $\T_{123}$.
+
+\paragraph{Computation of H}
+
+Point in first triplet: $\v X_i$; Correspondence in second: $\v X_i'$; 
+Cameras: $\m P_j, \m P'_j$\\[-2cm]
+\begin{eqnarray}
+\m P_j  & = & \m P'_j \m H^{-1} \label{eqn:p=ph}\\
+\v X_i & = & \m H \v X'_i       \label{eqn:x=hx}
+\end{eqnarray}
+
+{\bf Methods}:
+\begin{list}{}{\setlength{\leftmargin}{20mm}
+ \setlength{\labelwidth}{18mm}
+ \setlength{\labelsep}{0.5em}
+ \setlength{\itemindent}{0pt}
+ \setlength{\rightmargin}{0pt}
+}
+\item[I.] Consistent 3D points: Minimize (\ref{eqn:x=hx}).
+\item[II.] Consistent cameras, one-view overlap.  Minimize (\ref{eqn:x=hx})
+subject to (\ref{eqn:p=ph}).
+\item[III.] Consistent cameras, many-view overlap.  Minimize (\ref{eqn:p=ph}).
+\end{list}
+All have linear initializations followed by nonlinear minimization of
+reprojection error.
+
+\awfhline
+\paragraph{Finding Correspondences}
+\begin{center}
+\epsfxsize=0.18\textwidth\epsfbox{unnamed.eps}~%
+\epsfxsize=0.18\textwidth\epsfbox{unnamed.eps}~%
+\epsfxsize=0.18\textwidth\epsfbox{unnamed.eps}~%
+\makebox[0.18\textwidth]{}~\makebox[0.18\textwidth]{}\\
+\makebox[0.18\textwidth]{}~\makebox[0.18\textwidth]{}~%
+\epsfxsize=0.18\textwidth\epsfbox{unnamed.eps}~%
+\epsfxsize=0.18\textwidth\epsfbox{unnamed.eps}~%
+\epsfxsize=0.18\textwidth\epsfbox{unnamed.eps}
+\end{center}
+
+
+\awfhline
+\paragraph{Comparison of triplet registration}
+{\tiny
+Table wuz here
+}
+
+}
+%
+\col{
+\paragraph{Hierarchical Registration}
+Pasting through sequence leads to accumulation of error, such that final
+bundle adjustment ends in (wrong) local minima.
+
+Can be corrected by bundle adjustment after each paste, but very slow.
+
+Therefore hierarchically register subsequences: a tractable batch process.
+
+\paragraph{Algorithm: Batch Estimation}
+{\em
+\begin{enumerate}
+\item Optimally estimate {\bf trifocal tensors} $\T$ for all consecutive image triplets.
+\item {\bf Compute structure} points $\{\v X_i\}$ and camera positions $\{\m P_1,
+\m P_2, \m P_3\}$ for each triplet.
+\item {\bf Register triplets} into consistent sub-sequences using 3-space
+homographies $\m H$.
+\item {\bf Bundle adjust} sub-sequences.
+\item {\bf Hierarchical~registration} of sub-sequences into longer sub-sequences.
+\item Final {\bf bundle adjustment} of cameras and 3D structure for the complete sequence.
+\end{enumerate}
+}
+
+\awfhline
+\paragraph{Closure}
+For ``closed'' sequences, the additional constraint can significantly
+improve camera recovery.
+
+Easily imposed by the introduction of homography ``hinges'' into the
+structure.
+
+\awfwbox{\epsfxsize=\textwidth\epsfysize=0.5\textwidth\epsfbox{unnamed.eps}}
+Before and after application of the closure constraint.
+
+Suppose 3 hinges, then minimize for each 3D point $\v X$, over homographies
+$\m H_i$
+
+{\small
+\[
+  \sum D^2(       \v X_1, \m H_2 \v X_2) +
+  \sum D^2(\m H_2 \v X_2, \m H_3 \v X_3) +
+  \sum D^2(\m H_3 \v X_3,        \v X_1)
+\]
+}
+
+}
+%
+\col{
+\newlength{\lskip}
+\setlength{\lskip}{9mm}
+\paragraph{Results}
+Cameras, 3D points and lines, VRML models.
+\vspace{3mm}
+\awfwbox{\epswide{0.5}{unnamed.eps}}
+{{\bf Basement}: 3D points, lines and cameras.
+}
+\vspace*{\lskip}
+
+\awfwbox{\epswide{0.45}{unnamed.eps}\hfill\epswide{0.45}{unnamed.eps}}
+{{\bf Basement}: Planes fitted to 3D lines.
+}
+
+\vspace*{\lskip}
+\awfwbox{\epswide{0.5}{unnamed.eps}\epswide{0.5}{unnamed.eps}}
+{{\bf Model House}: Plane fitting and photogrammetric editing.}
+
+\vspace*{\lskip}
+\awfwbox{\epshigh{0.14}{unnamed.eps}
+\epshigh{0.138}{unnamed.eps}
+\epshigh{0.138}{unnamed.eps}} 
+{{\bf Dinosaur}: Occluding contour volume intersection after recovery of
+cameras.  Right: After imposition of turntable constraint.}
+
+\vspace*{\lskip}
+\awfwbox{\epshigh{0.5}{unnamed.eps}}
+{{\bf Castle}: 3D points and cameras.}
+
+}
+\end{center}
+
+\vfill
+\begin{center}
+\small{\bf Acknowledgements:} Thanks to the University of Hannover for permission to use the dinosaur
+sequence and to the University of Leuven for the castle.  Thanks to
+Cordelia Schmid for the 3D line extraction.
+\end{center}
+
+\end{document}

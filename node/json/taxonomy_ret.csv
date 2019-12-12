@@ -1,0 +1,256 @@
+"","group","text","CAT","REACH","IDS","BK_phints_rule"
+"newrow","Shopping behaviour","zalando user","false:false:false","0","595379:595377:P45416","za,is,1"
+"newrow","Shopping behaviour","High basket value","false:false:false","0","572160:595377:P41235","hb,is,1"
+"newrow","Shopping behaviour","Fashion Woman ","false:false:false","0","572165:595377:P45416","fw,is,1"
+"newrow","Shopping behaviour","Fashion Man ","false:false:false","0","574488:595377:P43072","fm,is,1"
+"newrow","Shopping behaviour","Casual Woman","false:false:false","0","574489:595377:P43071","cw,is,1"
+"newrow","Shopping behaviour","Casual Man ","false:false:false","0","574490:595377:P43070","cm,is,1"
+"newrow","Shopping behaviour","Basic Woman ","false:false:false","0","574491:595377:P43069","bw,is,1"
+"newrow","Shopping behaviour","Basic Man ","false:false:false","0","574492:595377:P43068","bm,is,1"
+"newrow","Shopping behaviour","Business Woman","false:false:false","0","574493:595377:P43067","bw2,is,1"
+"newrow","Shopping behaviour","Business Man ","false:false:false","0","574238:595377:P43066","bm2,is,1"
+"newrow","Shopping behaviour","Premium Woman","false:false:false","0","574494:595377:P43065","pw,is,1"
+"newrow","Shopping behaviour","Premium Man ","false:false:false","0","574495:595377:P43064","pm,is,1"
+"newrow","Shopping behaviour","Sport","false:false:false","0","574496:595377:P43063","sp,is,1"
+"newrow","Shopping behaviour","Swim & Bathing ","false:false:false","0","574241:595377:P43062","sb,is,1"
+"newrow","Shopping behaviour","Discount/Promo","false:false:false","0","574497:595377:P43061","dp,is,1"
+"newrow","Shopping behaviour","Parents ","false:false:false","0","574242:595377:P43060","pa,is,1"
+"newrow","Shopping behaviour","Visitor Segment Top ","false:false:false","0","574498:595377:P43059","vst,is,1"
+"newrow","Shopping behaviour","Visitor Segment Regular","false:false:false","0","574243:595377:P43058","vsr,is,1"
+"newrow","Shopping behaviour","Visitor Segment Low","false:false:false","0","574499:595377:P43057","vsl,is,1"
+"newrow","Gender","F","false:false:false","0","549075:549074:P38900","j1,is,2"
+"newrow","Gender","M","false:false:false","0","549076:549074:P38899","j1,is,1"
+"newrow","Gender","F behavioural","false:false:false","0","595375:549074:P45414","j2,is,2"
+"newrow","Gender","M behavioural","false:false:false","0","595376:549074:P45415","j2,is,1"
+"newrow","Age Groups","14-17","false:false:false","0","549078:549077:P38898","k1,is,1"
+"newrow","Age Groups","18-24","false:false:false","0","549079:549077:P38897","k1,is,2"
+"newrow","Age Groups","25-34","false:false:false","0","549080:549077:P38896","k1,is,3"
+"newrow","Age Groups","35-44","false:false:false","0","549081:549077:P38895","k1,is,4"
+"newrow","Age Groups","45-55","false:false:false","0","549082:549077:P38894","k1,is,5"
+"newrow","Age Groups","55+","false:false:false","0","549083:549077:P38893","k1,is,6"
+"newrow","Age Groups","14-17 beha","false:false:false","0","576006:549077:P43045","k2,is,1"
+"newrow","Age Groups","18-24 beha","false:false:false","0","592903:549077:P43044","k2,is,2"
+"newrow","Age Groups","25-34 beha","false:false:false","0","572167:549077:P43043","k2,is,3"
+"newrow","Age Groups","35-44 beha","false:false:false","0","574471:549077:P43042","k2,is,4"
+"newrow","Age Groups","45-55 beha","false:false:false","0","576007:549077:P43041","k2,is,5"
+"newrow","Age Groups","55+ beha","false:false:false","0","592904:549077:P43040","k2,is,6"
+"newrow","Accessories","Accessories MF","false:false:false","0","556790:556789:P38759","a1,is,1"
+"newrow","Accessories","Accessories M","false:false:false","0","556791:556789:P38758","a2,is,1"
+"newrow","Accessories","Accessories F","false:false:false","0","556792:556789:P38757","a3,is,1"
+"newrow","Accessories","Caps and hats","false:false:false","0","556793:556789:P38756","b1,is,1"
+"newrow","Accessories","Glasses and sunglasses","false:false:false","0","556794:556789:P38755","c1,is,1"
+"newrow","Accessories","Wristwatches","false:false:false","0","556795:556789:P38754","d1,is,1"
+"newrow","Jewelery","Jewelery","false:false:false","0","556797:556796:P38753","e1,is,1"
+"newrow","Bags","Bags MF","false:false:false","0","556799:556798:P38752","f1,is,1"
+"newrow","Bags","Bags M","false:false:false","0","556800:556798:P38751","f2,is,1"
+"newrow","Bags","Bags F","false:false:false","0","556801:556798:P38750","f3,is,1"
+"newrow","Clothing","Dresses MF","false:false:false","0","556803:556802:P38749","h1,is,1"
+"newrow","Clothing","Trousers MF","false:false:false","0","556804:556802:P38748","i1,is,1"
+"newrow","Clothing","Shirts MF","false:false:false","0","556805:556802:P38747","l1,is,1"
+"newrow","Clothing","Jackets MF","false:false:false","0","556806:556802:P38746","m1,is,1"
+"newrow","Clothing","T Shirts MF","false:false:false","0","556807:556802:P38745","n1,is,1"
+"newrow","Clothing","Swimwear MF","false:false:false","0","556808:556802:P38744","o1,is,1"
+"newrow","Clothing","Underwear MF","false:false:false","0","556809:556802:P38743","p1,is,1"
+"newrow","Clothing","Suits MF","false:false:false","0","556810:556802:P38742","q1,is,1"
+"newrow","Clothing","Pyjamas MF","false:false:false","0","556811:556802:P38741","r1,is,1"
+"newrow","Clothing","Sportswear MF","false:false:false","0","556812:556802:P38740","s1,is,1"
+"newrow","Clothing","Dresses M","false:false:false","0","556813:556802:P38739","h2,is,1"
+"newrow","Clothing","Trousers M ","false:false:false","0","556814:556802:P38738","i2,is,1"
+"newrow","Clothing","Shirts M ","false:false:false","0","556815:556802:P38737","l2,is,1"
+"newrow","Clothing","Jackets M ","false:false:false","0","556816:556802:P38736","m2,is,1"
+"newrow","Clothing","T Shirts M ","false:false:false","0","556817:556802:P38735","n2,is,1"
+"newrow","Clothing","Swimwear M ","false:false:false","0","556818:556802:P38734","o2,is,1"
+"newrow","Clothing","Underwear M ","false:false:false","0","556819:556802:P38733","p2,is,1"
+"newrow","Clothing","Suits M","false:false:false","0","556820:556802:P38732","q2,is,1"
+"newrow","Clothing","Pyjamas M ","false:false:false","0","556821:556802:P38731","r2,is,1"
+"newrow","Clothing","Sportswear M ","false:false:false","0","556822:556802:P38730","s2,is,1"
+"newrow","Clothing","Dresses F","false:false:false","0","556823:556802:P38729","h3,is,1"
+"newrow","Clothing","Trousers F","false:false:false","0","556824:556802:P38728","i3,is,1"
+"newrow","Clothing","Shirts F","false:false:false","0","556825:556802:P38727","l3,is,1"
+"newrow","Clothing","Jackets F","false:false:false","0","556826:556802:P38726","m3,is,1"
+"newrow","Clothing","T Shirts F","false:false:false","0","556827:556802:P38725","n3,is,1"
+"newrow","Clothing","Swimwear F","false:false:false","0","556828:556802:P38724","o3,is,1"
+"newrow","Clothing","Underwear F","false:false:false","0","556829:556802:P38723","p3,is,1"
+"newrow","Clothing","Suits F","false:false:false","0","556830:556802:P38722","q3,is,1"
+"newrow","Clothing","Pyjamas F","false:false:false","0","556831:556802:P38721","r3,is,1"
+"newrow","Clothing","Sportswear F","false:false:false","0","556832:556802:P38720","s3,is,1"
+"newrow","Kids Clothes","Kids Clothes","false:false:false","0","556834:556833:P38719","z1,is,1"
+"newrow","Shoes","Shoes MF","false:false:false","0","556836:556835:P38718","t1,is,1"
+"newrow","Shoes","Shoes M ","false:false:false","0","556837:556835:P38717","t2,is,1"
+"newrow","Shoes","Shoes F","false:false:false","0","556838:556835:P38715","t3,is,1"
+"newrow","Shoes","Sports shoes","false:false:false","0","556839:556835:P38714","u1,is,1"
+"newrow","Shoes","Sneakers","false:false:false","0","556840:556835:P38713","v1,is,1"
+"newrow","Geo","ABR","false:false:false","0","576001:556841:P41231,P41230,P41229,P41228","w1,contains,64
+
+w1,contains,65
+
+w1,contains,66
+
+w1,contains,67"
+"newrow","Geo","BAS","false:false:false","0","572162:556841:P41227,P41226","w1,contains,75
+
+w1,contains,85"
+"newrow","Geo","CAL","false:false:false","0","574466:556841:P41225,P41224,P41223","w1,contains,87
+
+w1,contains,88
+
+w1,contains,89"
+"newrow","Geo","CAM","false:false:false","0","576002:556841:P41222,P41221,P41220,P41219,P41218","w1,contains,89
+
+w1,contains,81
+
+w1,contains,82
+
+w1,contains,83
+
+w1,contains,84"
+"newrow","Geo","EMR","false:false:false","0","572163:556841:P41217,P41216,P41215,P41214,P41213,P41212,P41211,P41210","w1,contains,29
+
+w1,contains,40
+
+w1,contains,41
+
+w1,contains,42
+
+w1,contains,43
+
+w1,contains,44
+
+w1,contains,47
+
+w1,contains,48"
+"newrow","Geo","FVG","false:false:false","0","574467:556841:P41209,P41208","w1,contains,33
+
+w1,contains,34"
+"newrow","Geo","LAZ","false:false:false","0","576003:556841:P41207,P41206,P41205,P41204","w1,contains,00
+
+w1,contains,49
+
+w1,contains,68
+
+w1,contains,69"
+"newrow","Geo","LIG","false:false:false","0","572164:556841:P41203,P41202,P41201,P41200","w1,contains,16
+
+w1,contains,17
+
+w1,contains,18
+
+w1,contains,19"
+"newrow","Geo","LOM","false:false:false","0","574468:556841:P41199,P41198,P41197,P41196,P41195,P41194,P41193,P41192,P41191","w1,contains,20
+
+w1,contains,21
+
+w1,contains,22
+
+w1,contains,23
+
+w1,contains,24
+
+w1,contains,25
+
+w1,contains,26
+
+w1,contains,27
+
+w1,contains,46"
+"newrow","Geo","MAR","false:false:false","0","576004:556841:P41190,P41189,P41188,P41187","w1,contains,60
+
+w1,contains,61
+
+w1,contains,62
+
+w1,contains,63"
+"newrow","Geo","MOL","false:false:false","0","576010:556841:P41186","w1,contains,86"
+"newrow","Geo","PIE","false:false:false","0","574475:556841:P41185,P41184,P41183,P41182,P41181,P41180","w1,contains,10
+
+w1,contains,12
+
+w1,contains,13
+
+w1,contains,14
+
+w1,contains,15
+
+w1,contains,28"
+"newrow","Geo","PUG","false:false:false","0","576011:556841:P41179,P41178,P41177,P41176,P41175,P41174","w1,contains,70
+
+w1,contains,71
+
+w1,contains,72
+
+w1,contains,73
+
+w1,contains,74
+
+w1,contains,76"
+"newrow","Geo","SAR","false:false:false","0","574476:556841:P41173","w1,contains,09"
+"newrow","Geo","SIC","false:false:false","0","576012:556841:P41172,P41171,P41170,P41169,P41168,P41167,P41166,P41165,P41164","w1,contains,90
+
+w1,contains,91
+
+w1,contains,92
+
+w1,contains,93
+
+w1,contains,94
+
+w1,contains,95
+
+w1,contains,96
+
+w1,contains,97
+
+w1,contains,98"
+"newrow","Geo","TAA","false:false:false","0","574477:556841:P40896,P40895","w1,contains,38
+
+w1,contains,39"
+"newrow","Geo","TOS","false:false:false","0","576013:556841:P40894,P40893,P40892,P40891,P40890,P40889,P40888,P40887,P40886,P40885","w1,contains,50
+
+w1,contains,51
+
+w1,contains,52
+
+w1,contains,53
+
+w1,contains,54
+
+w1,contains,55
+
+w1,contains,56
+
+w1,contains,57
+
+w1,contains,58
+
+w1,contains,59"
+"newrow","Geo","UMB","false:false:false","0","574478:556841:P40884","w1,contains,60"
+"newrow","Geo","VDA","false:false:false","0","574479:556841:P40883","w1,contains,11"
+"newrow","Geo","VEN","false:false:false","0","574480:556841:P40882,P40881,P40880,P40879,P40878,P40877,P40876","w1,contains,30
+
+w1,contains,31
+
+w1,contains,32
+
+w1,contains,35
+
+w1,contains,36
+
+w1,contains,37
+
+w1,contains,45"
+"newrow","Geo","Roma","false:false:false","0","574481:556841:P40875","w1,is,001"
+"newrow","Geo","Firenze","false:false:false","0","574482:556841:P40874","w1,is,501"
+"newrow","Geo","Milano","false:false:false","0","574485:556841:P40873","w1,is,201"
+"newrow","Geo","Torino","false:false:false","0","574486:556841:P40872","w1,is,101"
+"newrow","Geo","Napoli","false:false:false","0","574487:556841:P40871","w1,is,801"
+"newrow","Consumer Type ","LOHAS","false:false:false","0","574464:592896:P43056","ctl,is,1"
+"newrow","Consumer Type ","Outdoor adventures","false:false:false","0","576000:592896:P43055","ctoa,is,1"
+"newrow","Consumer Type ","Young professional","false:false:false","0","592897:592896:P43054","ctyp,is,1"
+"newrow","Consumer Type ","Trend Setter","false:false:false","0","572161:592896:P43053","ctts,is,1"
+"newrow","Consumer Type ","Metropolitans millenials","false:false:false","0","592898:592896:P43052","ctmm,is,1"
+"newrow","Consumer Type ","Urban lifestyler","false:false:false","0","592899:592896:P43051","ctul,is,1"
+"newrow","Consumer Type ","Conservatives","false:false:false","0","574469:592896:P43050","ctc,is,1"
+"newrow","Consumer Type ","High Income","false:false:false","0","576005:592896:P43049","cthi,is,1"
+"newrow","Consumer Type ","Team players","false:false:false","0","592902:592896:P43048","cttp,is,1"
+"newrow","Consumer Type ","New and expecting moms","false:false:false","0","572166:592896:P43047","ctnem,is,1"
+"newrow","Consumer Type ","Familiy with kids","false:false:false","0","574470:592896:P43046","ctfk,is,1"

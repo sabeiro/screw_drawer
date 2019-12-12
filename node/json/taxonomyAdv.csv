@@ -1,0 +1,14 @@
+group,name,key,value
+merce,largo comsumo food,d1,B5BE
+merce,largo comsumo non food,d1,72FF
+merce,largo comsumo pharma,d2,73FF
+merce,auto,d2,5EE2
+merce,telco,d2,9BE3
+merce,editoria,d2,6BF1
+merce,moda,d2,3B86
+merce,turismo,d2,8A60
+merce,cosmesi,d2,8A61
+merce,arredamento,d2,8A62
+merce,informatica,d2,8A63
+merce,affari,d2,8A64
+

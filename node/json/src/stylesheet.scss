@@ -1,0 +1,132 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  //font: 120% $font-stack;
+  color: $primary-color;
+}
+
+.panel{
+	width: 800px;
+	@include centerer;
+}
+
+.nav-pills{
+	margin-bottom: 20px;
+}
+
+.jumbotron{
+	display: block;
+	padding: 8px;
+	height: 348px;
+}
+
+.jumbotron h1 {
+    font-size: 43px;
+}
+
+.jumbotron p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.nav-pills>li.active>a{
+	background-color: #AAA;
+}
+
+.card .card-height-indicator {
+   margin-top: 50%;
+}
+
+.pager{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.form-group{
+	margin: 0;
+}
+
+#fileBox{
+	margin-top: 22px;
+}
+#verifyOPMLErrorTable{
+	height: 135px;
+	margin-top: 5px;
+	overflow-y: scroll;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.progress {
+    margin-top: 25px;
+}
+
+#taxonomy_job_node{
+	font-size: small;
+}
+
+#iconDonwloadOPML{
+	color: #AAA;
+}
+#user_count_claim{
+	font-size: 64px;
+	color:#e6e600;
+}
+
+.table{
+	font-size: small;
+}
+
+.warningIcon{
+	color: yellow;
+	font-weight: normal;
+	margin-right: 10px;
+}
+
+.spin{
+	/*
+	 -webkit-transform-origin: 50% 58%;
+     transform-origin:50% 58%;
+     -ms-transform-origin:50% 58%; 
+     */
+	
+     -webkit-animation: spin .8s infinite linear;
+     -moz-animation: spin .8s infinite linear;
+     -o-animation: spin .8s infinite linear;
+     animation: spin .8s infinite linear;
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

@@ -1,0 +1,12 @@
+{"HTTP/1.1":"200 OK"
+,"Date":"Wed, 26 Apr 2017 10:39:07 GMT"
+,"Server":"Apache/2.4.7 (Ubuntu)"
+,"X-Powered-By":"Servlet/3.0; JBossAS-6"
+,"Set-Cookie":"JSESSIONID=48DB5CECF71A15CDB47BAEBE22FDC055; Path=/"
+,"Set-Cookie2":"ubridge=\"\"; Domain=.dashboard.ad.dotandad.com; Path=/"
+,"Content-Disposition":"inline"
+,"Content-Type":"text/html"
+,"Vary":"Accept-Encoding"
+,"Transfer-Encoding":"chunked"
+}
+

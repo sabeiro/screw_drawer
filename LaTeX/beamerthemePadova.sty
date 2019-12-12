@@ -1,0 +1,175 @@
+% Copyright 2010 by Giovanni Marelli
+% 
+% This file may be distributed and/or modified
+% 
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+% 
+% See the file doc/licenses/LICENSE for more details.
+
+\hypersetup{colorlinks=true,linkcolor=red}
+\ProvidesPackageRCS $Header: /cvsroot/latex-beamer/latex-beamer/themes/theme/compatibility/beamerthemePadova.sty,v 1.12 2007/01/28 20:48:30 tantau Exp $
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerthemePadova}%[08.09.2010]
+
+\usefonttheme[stillsansseriftext]{serif} 
+% \hypersetup{colorlinks=true,linkcolor=red}
+
+\mode<presentation>
+
+\setbeamercovered{transparent} % or whatever (possibly just delete it)
+\setbeamersize{text margin left=6mm, text margin right=6mm} 
+\providecommand\insertframetitle{}
+
+% ------Color-------
+% \setbeamercolor{normal text}{fg=purple} 
+% \definecolor{unixagred}{rgb}{.7,.2,0.5}
+% \usecolortheme{orchid}
+% \usecolortheme{whale}
+\usecolortheme[named=brown]{structure}
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=structure.fg!25!white}
+\setbeamercolor*{palette secondary}{use=structure,fg=black,bg=lightgray}
+\setbeamercolor*{palette tertiary}{use=structure,fg=black,bg=lightgray!75!white}
+\setbeamercolor*{palette quaternary}{use=structure,fg=black,bg=lightgray!50!white}
+% \setbeamercolor{structure}{fg=unixagred}
+\setbeamercolor{structure}{fg=purple} 
+%\setbeamercolor{title}{use=structure,fg=white,bg=structure.fg}
+\setbeamercolor*{frametitle}{parent=palette primary}
+\setbeamercolor*{titlelike}{parent=palette primary}
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+\setbeamercolor*{title}{parent=palette tertiary}
+% ------Font------------
+\setbeamerfont{block title}{size={}}
+\setbeamerfont{frametitle}{series=\bfseries,size=\large}
+\setbeamerfont{structure}{family=\rmfamily,shape=\itshape} 
+\usefonttheme[onlylarge]{structureitalicserif}
+\usefonttheme[onlysmall]{structuresmallcapsserif}
+% ------Template--------
+\setbeamertemplate{items}[ball] 
+\setbeamertemplate{blocks}[rounded][shadow=true] 
+\setbeamertemplate{navigation symbols}{}
+% ------Theme-----------
+% \usetheme{umbc1} 
+% \useoutertheme{infolines} 
+% \useoutertheme{umbcfootline}
+% \usecolortheme[named=brown]{structure}
+% \usecolortheme[RGB={50,200,120}]{structure}
+\useinnertheme{rectangles}
+\useinnertheme[shadow=true]{rounded}
+\useoutertheme{shadow}
+\useoutertheme[subsection=false]{miniframes}
+\setbeamerfont{block title}{size={}}
+% \lstset{language=[LaTeX]TeX,postbreak=\space, breakindent=5pt, backgroundcolor=\color{sourcebackgroundcolor},
+% captionpos=b,
+% breaklines,
+% basicstyle=\ttfamily\footnotesize,
+% keywordstyle=\color{keywordcolor}\textbf,
+% morecomment=[s][\color{mathmodecolor}]{\$}{\$},
+% floatplacement=t,
+% numbers=left,
+% numberstyle=\tiny,
+% numberblanklines=false,
+% numbersep=1em,
+% xleftmargin=1em}
+% -------------Title-page----------------
+\defbeamertemplate*{title page}{simple}[1][]
+{
+  \vbox{}
+  \vfill
+  \begin{centering}
+    \begin{beamercolorbox}[center,#1]{title}
+      \hbox{%
+        \begin{beamercolorbox}[wd=\linewidth,ht=.25em,dp=1ex,center]{section in head/foot}%
+          % nothing
+        \end{beamercolorbox}}\par%
+      \vspace*{1em}%
+      \usebeamerfont{title}\inserttitle\par%
+      \ifx\insertsubtitle\@empty%
+      \else%
+      \vskip0.25em%
+      {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%
+      \vspace*{1em}%
+    \end{beamercolorbox}%
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center,#1]{author}
+      \usebeamerfont{author}\insertauthor
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center,#1]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}\vskip1em
+    {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+  \end{centering}
+  \vfill
+}
+% -----------------Footer-----------------------
+% \setfootline{\insertshortinstitute, \insertshortdate \hfill slide \insertframenumber/\inserttotalframenumber} 
+% \defbeamertemplate*{footline}{myFooter}{\insertframetitle} 
+\defbeamertemplate*{footline}{simple theme}
+{
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+      \usebeamerfont{author in head/foot}\hspace*{2ex}\insertshortauthor
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+      \usebeamerfont{title in head/foot}\insertshorttitle
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+      \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+      \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+    \end{beamercolorbox}}\par%
+  \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=.25ex,dp=1ex,center]{section in head/foot}%
+      % nothing
+    \end{beamercolorbox}}%
+  \vskip0pt%
+}
+% ------------------------Header---------------------------
+\defbeamertemplate*{headline}{simple theme}
+{
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=.25ex,dp=1ex,center]{section in head/foot}%
+      % nothing
+    \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+
+% \defbeamertemplate{footline}{body}%
+% {
+% \leavevmode%
+% \hbox{%
+% \begin{beamercolorbox}[wd=.33333\paperwidth,ht=2.25ex,dp=1ex]
+%   {author in head/foot}%
+%   \usebeamerfont{author in head/foot}\includegraphics[height=5ex]
+%   {../Vorlage/FotoVarie/LogoGoe}{XYZ confidential}
+% \end{beamercolorbox}%
+% \begin{beamercolorbox}[wd=.33333\paperwidth,ht=2.25ex,dp=1ex,center]
+%   {author in head/foot}%
+%   \usebeamerfont{author in head/foot}\insertshortauthor,
+%   \insertshortinstitute
+% \end{beamercolorbox}%
+% \begin{beamercolorbox}[wd=.33333\paperwidth,ht=2.25ex,dp=1ex,right]
+%   {author in head/foot}%
+%   \usebeamerfont{author in head/foot}p.~\insertframenumber{}
+% \end{beamercolorbox}
+% }%
+%   \vskip0pt%
+% }
+
+%   \defbeamertemplate{footline}{title slide}{%
+%   \leavevmode%
+%   %   \vskip{-10ex}%
+%   \parbox{\textwidth}{%
+%   \includegraphics[height=4.5ex]{../../FotoVarie/LogoGoe}{XYZ confidential}
+%   \hfill
+%   {\large\OtherCompany}%
+% }
+% }
+
+
+\mode
+<all>

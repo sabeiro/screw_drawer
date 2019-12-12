@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Wed, 26 Apr 2017 16:43:12 GMT
+Server: Apache-Coyote/1.1
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Expires: 0
+Content-Type: text/html;charset=UTF-8
+Content-Length: 3109
+Set-Cookie: JSESSIONID=341C1CC40112609E71868D4EDD5A3A86.APPS33002; Path=/
+Vary: Accept-Encoding
+P3P: CP="NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC"
+Set-Cookie: NSC_bqqt-nhnu-uftu-qvc-443-qs2=ffffffff096c921c45525d5f4f58455e445a4a423660;path=/;secure;httponly
+

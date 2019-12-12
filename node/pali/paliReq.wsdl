@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:mhp="http://rti.mediaset.it/onair/main/MHPService">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <mhp:MhpInput>
+         <!--Optional:-->
+         <mhp:channel>C5</mhp:channel>
+         <mhp:startdttime>01/10/2016 00:00:00</mhp:startdttime>
+         <mhp:enddttime>02/10/2016 06:00:00</mhp:enddttime>
+         <!--Optional:-->
+         <mhp:duration>5</mhp:duration>
+      </mhp:MhpInput>
+   </soapenv:Body>
+</soapenv:Envelope>

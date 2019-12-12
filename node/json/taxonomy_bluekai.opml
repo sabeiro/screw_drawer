@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>taxonomy_prod</title>
+    <expansionState>0,1,71,81,82,146,149,559,574,582,658,659,660,908</expansionState>
+  </head>
+  <body>
+    <outline text="Self-Classification" IDS="498774::" CAT="false:false:false" REACH="0">
+      <outline text="Consumo Media" IDS="515363:498774:" CAT="true:true:false" REACH="0">
+        <outline text="Cinema" BK_URL_rule="http://mobile.tgcom24.it/spettacolo/supercinema/&#10;http://www.tgcom24.mediaset.it/spettacolo/supercinema/&#10;http://lookdavip.tgcom24.it/category/cinema/&#10;http://www.donnamoderna.com/lifestyle/cinema/&#10;http://m.donnamoderna.com/lifestyle/cinema/" IDS="515464:515363:U34253,U36185" CAT="false:false:false" REACH="0">
+          <outline text="Durata Fruizione" IDS="515512:515464:" CAT="true:true:false" REACH="0">
+            <outline text="&gt; 5 Ore" IDS="515515:515512:" CAT="false:false:false" REACH="0"/>
+            <outline text="1-3 Ore" IDS="515513:515512:" CAT="false:false:false" REACH="0"/>
+            <outline text="3-5 Ore" IDS="515514:515512:" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Preferenze" IDS="515465:515464:" CAT="true:true:false" REACH="0">
+            <outline text="Attori" IDS="515509:515465:" CAT="true:true:false" REACH="0"/>
+            <outline text="Film" IDS="515511:515465:" CAT="true:true:false" REACH="0"/>
+            <outline text="Generi" IDS="515466:515465:" CAT="true:true:false" REACH="0">
+              <outline text="Genere Diegetico" IDS="515491:515466:" CAT="true:true:false" REACH="0">
+                <outline text="Cour-Legal Procedural" IDS="515499:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Fantascienza" IDS="515492:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Fantastico" IDS="515493:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Gangster" IDS="515497:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Medical" IDS="515500:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Musica" IDS="515503:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Noir " IDS="515498:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="On-the-Road" IDS="515501:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Period  In Costume" IDS="515494:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Prison" IDS="515496:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Super-Eroico" IDS="515502:515491:" CAT="false:false:false" REACH="0"/>
+                <outline text="Western" IDS="515495:515491:" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Genere Patemico" IDS="515504:515466:" CAT="true:true:false" REACH="0">
+                <outline text="Azione" IDS="515505:515504:" CAT="false:false:false" REACH="0"/>
+                <outline text="Comico-Commedia" IDS="515508:515504:" CAT="false:false:false" REACH="0"/>
+                <outline text="Dramma" IDS="515507:515504:" CAT="false:false:false" REACH="0"/>
+                <outline text="Thriller" IDS="515506:515504:" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Genere Tematico" IDS="515467:515466:" CAT="true:true:false" REACH="0">
+                <outline text="Avventura" IDS="515488:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Biographical" IDS="515470:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Contest" IDS="515476:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Crime" IDS="515478:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Disaster" IDS="515468:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Erotico" IDS="515485:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Family Relations" IDS="515483:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Horror" IDS="515487:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Love and Romance" IDS="515482:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Musica" IDS="515490:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Other Relations" IDS="515484:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Paranormal - Mystery" IDS="515471:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Parodia" IDS="515474:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Physical Disease" IDS="515475:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Political" IDS="515477:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Psychological" IDS="515479:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Religioso" IDS="515486:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Satira" IDS="515481:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Social" IDS="515480:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Spy" IDS="515472:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Storico" IDS="515489:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="Talent" IDS="515473:515467:" CAT="false:false:false" REACH="0"/>
+                <outline text="War" IDS="515469:515467:" CAT="false:false:false" REACH="0"/>
+              </outline>
+            </outline>
+            <outline text="Registi" IDS="515510:515465:" CAT="true:true:false" REACH="0"/>
+          </outline>
+        </outline>
+        <outline text="Giornali e Riviste" IDS="515557:515363:" CAT="false:false:false" REACH="0">
+          <outline text="Periodici" IDS="515558:515557:" CAT="true:true:false" REACH="0">
+            <outline text="Mensili" IDS="515567:515558:" CAT="false:false:false" REACH="0">
+              <outline text="Preferenze" IDS="515568:515567:" CAT="true:true:false" REACH="0">
+                <outline text="Testata" IDS="515572:515568:" CAT="true:true:false" REACH="0">
+                  <outline text="Casabella" IDS="515573:515572:" CAT="false:false:false" REACH="0"/>
+                </outline>
+                <outline text="Tipologia" IDS="515569:515568:" CAT="true:true:false" REACH="0">
+                  <outline text="Cartaceo" IDS="515571:515569:" CAT="false:false:false" REACH="0"/>
+                  <outline text="Digitale" IDS="515570:515569:" CAT="false:false:false" REACH="0"/>
+                </outline>
+              </outline>
+            </outline>
+            <outline text="Settimanali" IDS="515559:515558:" CAT="false:false:false" REACH="0">
+              <outline text="Preferenze" IDS="515560:515559:" CAT="true:true:false" REACH="0">
+                <outline text="Testata" IDS="515564:515560:" CAT="true:true:false" REACH="0">
+                  <outline text="Panorama" IDS="515566:515564:" CAT="false:false:false" REACH="0"/>
+                  <outline text="Sorrisi e Canzoni TV" IDS="515565:515564:" CAT="false:false:false" REACH="0"/>
+                </outline>
+                <outline text="Tipologia" IDS="515561:515560:" CAT="true:true:false" REACH="0">
+                  <outline text="Cartaceo" IDS="515563:515561:" CAT="false:false:false" REACH="0"/>
+                  <outline text="Digitale" IDS="515562:515561:" CAT="false:false:false" REACH="0"/>
+                </outline>
+              </outline>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="Internet" IDS="515364:515363:" CAT="false:false:false" REACH="0">
+          <outline text="Mobile" IDS="515455:515364:" CAT="false:false:false" REACH="0">
+            <outline text="Destinazioni Preferite" IDS="515456:515455:" CAT="true:true:false" REACH="0">
+              <outline text="Mediaset.it App" IDS="515458:515456:" CAT="false:false:false" REACH="0"/>
+              <outline text="Meteo.it App" IDS="515457:515456:" CAT="false:false:false" REACH="0"/>
+              <outline text="Sport Mediaset" IDS="515459:515456:" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Durata Fruizione" IDS="515460:515455:" CAT="true:true:false" REACH="0">
+              <outline text="1-3 Ore" IDS="515461:515460:" CAT="false:false:false" REACH="0"/>
+              <outline text="3-5 Ore" IDS="515462:515460:" CAT="false:false:false" REACH="0"/>
+              <outline text="5+ Ore" IDS="515463:515460:" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+          <outline text="Web" IDS="515365:515364:" CAT="false:false:false" REACH="0">
+            <outline text="Destinazioni Preferite" IDS="515366:515365:" CAT="true:true:false" REACH="0">
+              <outline text="Donnamoderna" BK_URL_rule="http://www.donnamoderna.com/&#10;http://m.donnamoderna.com/" IDS="515401:515366:U34123,U36186" CAT="false:false:false" REACH="0">
+                <outline text="Attualita" BK_URL_rule="http://www.donnamoderna.com/attualita/&#10;http://m.donnamoderna.com/attualita/&#10;http://video.donnamoderna.com/attualita/&#10;http://video.donnamoderna.com/speciale/&#10;http://video.donnamoderna.com/meteo/&#10;http://video.donnamoderna.com/expoexpress/&#10;http://giornimoderni.donnamoderna.com/donne/&#10;http://giornimoderni.donnamoderna.com/affetti/" IDS="515410:515401:U34324,U36187" CAT="false:false:false" REACH="0"/>
+                <outline text="Bambino" BK_URL_rule="http://www.donnamoderna.com/bambino/&#10;http://m.donnamoderna.com/bambino/" IDS="515412:515401:U34325,U36188" CAT="false:false:false" REACH="0"/>
+                <outline text="Bellezza" BK_URL_rule="http://www.donnamoderna.com/bellezza/&#10;http://m.donnamoderna.com/bellezza/&#10;http://video.donnamoderna.com/bellezza/&#10;http://forum.donnamoderna.com/bellezza-f4/" IDS="515402:515401:U34296,U36189" CAT="false:false:false" REACH="0"/>
+                <outline text="Casa" BK_URL_rule="http://www.donnamoderna.com/casa/&#10;http://m.donnamoderna.com/casa/&#10;http://video.donnamoderna.com/fai-da-te/&#10;http://video.donnamoderna.com/casafacile/&#10;http://www.donnamoderna.com/comefare/&#10;http://m.donnamoderna.com/comefare/&#10;http://comefare.donnamoderna.com/&#10;http://www.casafacile.it/&#10;http://forum.donnamoderna.com/casa-f136/" IDS="515408:515401:U34326,U36190" CAT="false:false:false" REACH="0"/>
+                <outline text="Casting" BK_URL_rule="http://casting.donnamoderna.com/" IDS="517730:515401:U34327,U36191" CAT="false:false:false" REACH="0"/>
+                <outline text="Community" BK_URL_rule="http://community.donnamoderna.com/" IDS="517731:515401:U34328,U36192" CAT="false:false:false" REACH="0"/>
+                <outline text="Cucina" BK_URL_rule="http://www.donnamoderna.com/cucina/&#10;http://m.donnamoderna.com/cucina/&#10;http://video.donnamoderna.com/cucina/&#10;http://ricette.donnamoderna.com/&#10;http://forum.donnamoderna.com/cucina-f5/" IDS="515405:515401:U34299,U36193" CAT="false:false:false" REACH="0"/>
+                <outline text="Forum" BK_URL_rule="http://forum.donnamoderna.com/" IDS="517732:515401:U34329,U36194" CAT="false:false:false" REACH="0"/>
+                <outline text="Gossip" BK_URL_rule="http://www.donnamoderna.com/gossip/&#10;http://m.donnamoderna.com/gossip/&#10;http://video.donnamoderna.com/gossip/&#10;http://forum.donnamoderna.com/gossip-e-tv-f127/" IDS="515409:515401:U34330,U36195" CAT="false:false:false" REACH="0"/>
+                <outline text="LifeStyle" BK_URL_rule="http://www.donnamoderna.com/lifestyle/&#10;http://m.donnamoderna.com/lifestyle/&#10;http://video.donnamoderna.com/lifestyle/&#10;http://www.donnamoderna.com/tempo-libero/concorso-romanzo/&#10;http://www.donnamoderna.com/tempo-libero/amore-ai-tempi-di-internet/&#10;http://www.donnamoderna.com/tempo-libero/donna-tech/&#10;http://www.donnamoderna.com/tempo-libero/cinquanta-sfumature/&#10;http://www.donnamoderna.com/tempo-libero/tecnologia-famiglia/&#10;http://m.donnamoderna.com/tempo-libero/concorso-romanzo/&#10;http://m.donnamoderna.com/tempo-libero/amore-ai-tempi-di-internet/&#10;http://m.donnamoderna.com/tempo-libero/donna-tech/&#10;http://m.donnamoderna.com/tempo-libero/cinquanta-sfumature/&#10;http://m.donnamoderna.com/tempo-libero/tecnologia-famiglia/&#10;http://casting.donnamoderna.com/cartoline-di-viaggio/" IDS="515414:515401:U34331,U36196" CAT="false:false:false" REACH="0"/>
+                <outline text="Mamme" BK_URL_rule="http://www.donnamoderna.com/mamme/&#10;http://m.donnamoderna.com/mamme/&#10;http://video.donnamoderna.com/ridere-in-famiglia/&#10;http://www.donnamoderna.com/bambino/&#10;http://m.donnamoderna.com/bambino/&#10;http://forum.donnamoderna.com/mamme-f107/&#10;http://forum.donnamoderna.com/matrimonio-f106/&#10;http://casting.donnamoderna.com/salva-mamma/&#10;http://casting.donnamoderna.com/parola-di-bimbo/&#10;http://casting.donnamoderna.com/panciadimamma/&#10;http://casting.donnamoderna.com/ilmiomatrimonio/" IDS="515406:515401:U34300,U36197" CAT="false:false:false" REACH="0"/>
+                <outline text="Matrimonio" BK_URL_rule="http://www.donnamoderna.com/matrimonio/&#10;http://m.donnamoderna.com/matrimonio/" IDS="515407:515401:U34332,U36198" CAT="false:false:false" REACH="0"/>
+                <outline text="Moda" BK_URL_rule="http://www.donnamoderna.com/moda/&#10;http://m.donnamoderna.com/moda/&#10;http://video.donnamoderna.com/moda/&#10;http://forum.donnamoderna.com/moda-f132/" IDS="515403:515401:U34297,U36199" CAT="false:false:false" REACH="0"/>
+                <outline text="Salute" BK_URL_rule="http://www.donnamoderna.com/salute/&#10;http://m.donnamoderna.com/salute/&#10;http://video.donnamoderna.com/vivere-meglio/&#10;http://video.donnamoderna.com/benessere/&#10;http://blog.donnamoderna.com/vivere-meglio/&#10;http://blog.donnamoderna.com/amiche-di-salvataggio/&#10;http://blog.donnamoderna.com/coaching-caffe/&#10;http://blog.donnamoderna.com/dialogo-con-la-psiche/&#10;http://blog.donnamoderna.com/schelotto/&#10;http://blog.donnamoderna.com/speciani/&#10;http://blog.donnamoderna.com/sessoeluna/&#10;http://blog.donnamoderna.com/boralevi/&#10;http://blog.donnamoderna.com/expo-express/&#10;http://blog.donnamoderna.com/ragazze-moderne/&#10;http://giornimoderni.donnamoderna.com/corpo/&#10;http://www.confidenze.com/&#10;http://salutehitech.starbene.it/&#10;http://forum.donnamoderna.com/amore-sesso-f10/&#10;http://forum.donnamoderna.com/psicologia-f9/&#10;http://forum.donnamoderna.com/salute-f7/" IDS="515411:515401:U34377,U36200" CAT="false:false:false" REACH="0"/>
+                <outline text="Sfilate" BK_URL_rule="http://www.donnamoderna.com/sfilate/&#10;http://m.donnamoderna.com/sfilate/" IDS="515404:515401:U34298,U36201" CAT="false:false:false" REACH="0"/>
+                <outline text="Tempo Libero" BK_URL_rule="http://www.donnamoderna.com/tempo-libero/&#10;http://www.donnamoderna.com/attualita/tempo-libero/&#10;http://m.donnamoderna.com/tempo-libero/&#10;http://m.donnamoderna.com/attualita/tempo-libero/&#10;http://blog.donnamoderna.com/viaggi/&#10;http://forum.donnamoderna.com/animali-f108/&#10;http://forum.donnamoderna.com/tempo-libero-f1111/" IDS="515413:515401:U34334,U36202" CAT="false:false:false" REACH="0"/>
+                <outline text="Video" BK_URL_rule="http://video.donnamoderna.com/" IDS="517734:515401:U34335,U36203" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Grande Fratello" BK_URL_rule="http://www.grandefratello.mediaset.it/" IDS="515415:515366:U34158,U36204" CAT="false:false:false" REACH="0"/>
+              <outline text="L Isola dei Famosi" BK_URL_rule="http://isola.mediaset.it/" IDS="516388:515366:U34231,U36205" CAT="false:false:false" REACH="0"/>
+              <outline text="Le Iene" BK_URL_rule="http://www.iene.mediaset.it/" IDS="515416:515366:U34159,U36206" CAT="false:false:false" REACH="0">
+                <outline text="Pubblico" BK_URL_rule="http://www.iene.mediaset.it/2014/news/pubblico_4.shtml" IDS="515418:515416:U34161,U36207" CAT="false:false:false" REACH="0"/>
+                <outline text="Segnalazioni" BK_URL_rule="http://www.iene.mediaset.it/forms/dillo-alle-iene_1.shtml" IDS="515417:515416:U34160,U36208" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Maria De Filippi" BK_URL_rule="http://www.mariadefilippi.mediaset.it/" IDS="515419:515366:U34162,U36209" CAT="false:false:false" REACH="0">
+                <outline text="Amici" BK_URL_rule="http://www.mariadefilippi.mediaset.it/amici/" IDS="515420:515419:U34163,U36210" CAT="false:false:false" REACH="0"/>
+                <outline text="C e Posta per Te" BK_URL_rule="http://www.mariadefilippi.mediaset.it/ce-posta-per-te/" IDS="515422:515419:U34165,U36211" CAT="false:false:false" REACH="0"/>
+                <outline text="Uomini e Donne" BK_URL_rule="http://www.mariadefilippi.mediaset.it/uomini-e-donne/" IDS="515421:515419:U34164,U36212" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Mediaset.it" BK_URL_rule="http://www.mediaset.it/" IDS="515442:515366:U34185,U36213" CAT="false:false:false" REACH="0">
+                <outline text="Come Vederci" BK_URL_rule="http://www.mediaset.it/comevederci/&#10;http://www.mediaset.it/digitaleterrestre/copertura.shtml" IDS="515443:515442:U34186,U36214" CAT="false:false:false" REACH="0"/>
+                <outline text="Corporate" BK_URL_rule="http://www.mediaset.it/corporate/" IDS="515444:515442:U34187,U36215" CAT="false:false:false" REACH="0">
+                  <outline text="Lavora con noi" BK_URL_rule="http://www.mediaset.it/corporate/Lavora_con_Noi/" IDS="515445:515444:U34188,U36216" CAT="false:false:false" REACH="0"/>
+                </outline>
+              </outline>
+              <outline text="Meteo.it" BK_URL_rule="http://www.meteo.it/" IDS="515446:515366:U34189,U36217" CAT="false:false:false" REACH="0"/>
+              <outline text="On-Demand (Video Mediaset)" BK_URL_rule="http://www.video.mediaset.it/on-demand/" IDS="515447:515366:U34190,U36218" CAT="false:false:false" REACH="0">
+                <outline text="Grande Fratello" BK_URL_rule="http://www.video.mediaset.it/programma/gf/&#10;http://www.video.mediaset.it/video/gf/" IDS="515448:515447:U34191,U36219" CAT="false:false:false" REACH="0"/>
+                <outline text="Il Segreto" BK_URL_rule="http://www.video.mediaset.it/programma/il_segreto/&#10;http://www.video.mediaset.it/video/il_segreto/" IDS="515450:515447:U34193,U36220" CAT="false:false:false" REACH="0"/>
+                <outline text="L Isola dei Famosi" BK_URL_rule="http://www.video.mediaset.it/programma/l_isola_dei_famosi/&#10;http://www.video.mediaset.it/video/l_isola_dei_famosi/" IDS="515575:515447:U34195,U36221" CAT="false:false:false" REACH="0"/>
+                <outline text="Le Iene" BK_URL_rule="http://www.video.mediaset.it/programma/iene/&#10;http://www.video.mediaset.it/video/iene/" IDS="515449:515447:U34192,U36222" CAT="false:false:false" REACH="0"/>
+                <outline text="Matrix" BK_URL_rule="http://www.video.mediaset.it/programma/matrix/&#10;http://www.video.mediaset.it/video/matrix/" IDS="515576:515447:U34196,U36223" CAT="false:false:false" REACH="0"/>
+                <outline text="Pomeriggio 5" BK_URL_rule="http://www.video.mediaset.it/programma/pomeriggio_5/&#10;http://www.video.mediaset.it/video/pomeriggio_5/" IDS="516383:515447:U34200,U36224" CAT="false:false:false" REACH="0"/>
+                <outline text="Striscia la Notizia" BK_URL_rule="http://www.video.mediaset.it/programma/striscialanotizia/&#10;http://www.video.mediaset.it/video/striscialanotizia/" IDS="515574:515447:U34194,U36225" CAT="false:false:false" REACH="0"/>
+                <outline text="Studio Aperto" BK_URL_rule="http://www.video.mediaset.it/programma/studioaperto/&#10;http://www.video.mediaset.it/video/studioaperto/" IDS="516382:515447:U34199,U36226" CAT="false:false:false" REACH="0"/>
+                <outline text="TG4" BK_URL_rule="http://www.video.mediaset.it/programma/tg4/&#10;http://www.video.mediaset.it/video/tg4/" IDS="516381:515447:U34198,U36227" CAT="false:false:false" REACH="0"/>
+                <outline text="TG5" BK_URL_rule="http://www.video.mediaset.it/programma/tg5/&#10;http://www.video.mediaset.it/video/tg5/" IDS="515577:515447:U34197,U36228" CAT="false:false:false" REACH="0"/>
+                <outline text="TGCom24" BK_URL_rule="http://www.video.mediaset.it/programma/tgcom24/&#10;http://www.video.mediaset.it/video/tgcom24/" IDS="516384:515447:U34201,U36229" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Sport Mediaset" BK_URL_rule="http://www.sportmediaset.mediaset.it/" IDS="515423:515366:U34166,U36230" CAT="false:false:false" REACH="0">
+                <outline text="Altri Motori" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrimotori/" IDS="515427:515423:U34167,U36231" CAT="false:false:false" REACH="0"/>
+                <outline text="Altri Sport" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrisport/" IDS="515432:515423:U34168,U36232" CAT="false:false:false" REACH="0"/>
+                <outline text="Basket" BK_URL_rule="http://www.sportmediaset.mediaset.it/basket/" IDS="515429:515423:U34169,U36233" CAT="false:false:false" REACH="0"/>
+                <outline text="Blog" BK_URL_rule="http://www.sportmediaset.mediaset.it/blog/" IDS="515437:515423:U34170,U36234" CAT="false:false:false" REACH="0"/>
+                <outline text="Calcio" BK_URL_rule="http://www.sportmediaset.mediaset.it/calcio/" IDS="515434:515423:U34171,U36235" CAT="false:false:false" REACH="0"/>
+                <outline text="Eventi" BK_URL_rule="http://www.sportmediaset.mediaset.it/calcio/eventistreaming.shtml" IDS="515438:515423:U34172,U36236" CAT="false:false:false" REACH="0"/>
+                <outline text="F1" BK_URL_rule="http://www.sportmediaset.mediaset.it/formula1/" IDS="515426:515423:U34173,U36237" CAT="false:false:false" REACH="0"/>
+                <outline text="Foto" BK_URL_rule="http://www.sportmediaset.mediaset.it/foto/" IDS="515435:515423:U34174,U36238" CAT="false:false:false" REACH="0"/>
+                <outline text="Libri" BK_URL_rule="http://www.sportmediaset.mediaset.it/libri/" IDS="515440:515423:U34175,U36239" CAT="false:false:false" REACH="0"/>
+                <outline text="Mercato" BK_URL_rule="http://www.sportmediaset.mediaset.it/mercato/" IDS="515424:515423:U34176,U36240" CAT="false:false:false" REACH="0"/>
+                <outline text="MotoGP" BK_URL_rule="http://www.sportmediaset.mediaset.it/motogp/" IDS="515425:515423:U34177,U36241" CAT="false:false:false" REACH="0"/>
+                <outline text="Pazzo Sport" BK_URL_rule="http://www.sportmediaset.mediaset.it/pazzosport/" IDS="515433:515423:U34178,U36242" CAT="false:false:false" REACH="0"/>
+                <outline text="Poker" BK_URL_rule="http://www.sportmediaset.mediaset.it/poker/" IDS="515439:515423:U34179,U36243" CAT="false:false:false" REACH="0"/>
+                <outline text="Sci" BK_URL_rule="http://www.sportmediaset.mediaset.it/sci/" IDS="515430:515423:U34180,U36244" CAT="false:false:false" REACH="0"/>
+                <outline text="Tennis" BK_URL_rule="http://www.sportmediaset.mediaset.it/tennis/" IDS="515428:515423:U34181,U36245" CAT="false:false:false" REACH="0"/>
+                <outline text="Video" BK_URL_rule="http://www.sportmediaset.mediaset.it/video/" IDS="515436:515423:U34182,U36246" CAT="false:false:false" REACH="0"/>
+                <outline text="Volley" BK_URL_rule="http://www.sportmediaset.mediaset.it/volley/" IDS="515431:515423:U34183,U36247" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Striscia la Notizia" BK_URL_rule="http://www.striscialanotizia.mediaset.it/" IDS="515441:515366:U34184,U36248" CAT="false:false:false" REACH="0"/>
+              <outline text="TGCom24" BK_URL_rule="http://www.tgcom24.mediaset.it/&#10;http://mobile.tgcom24.it/" IDS="515367:515366:U34034,U36249" CAT="false:false:false" REACH="0">
+                <outline text="Animali" BK_URL_rule="http://www.tgcom24.mediaset.it/animali/&#10;http://mobile.tgcom24.it/animali/" IDS="515392:515367:U34151,U36250" CAT="false:false:false" REACH="0"/>
+                <outline text="Assicurazioni" BK_URL_rule="http://assicurazione-online.tgcom24.mediaset.it/" IDS="515393:515367:U34152,U36251" CAT="false:false:false" REACH="0"/>
+                <outline text="Blog" BK_URL_rule="http://superblog.tgcom24.it/" IDS="515400:515367:U34157,U36252" CAT="false:false:false" REACH="0">
+                  <outline text="Cucina" BK_URL_rule="http://prontointavola.tgcom24.it/" IDS="515390:515400:U34149,U36253" CAT="false:false:false" REACH="0">
+                    <outline text="Cotto e Mangiato" BK_URL_rule="http://www.tgcom24.mediaset.it/cottoemangiato1/&#10;http://mobile.tgcom24.it/cottoemangiato1/" IDS="515391:515390:U34150,U36254" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Cultura" BK_URL_rule="http://www.tgcom24.mediaset.it/cultura/&#10;http://mobile.tgcom24.it/cultura/" IDS="515389:515367:U34148,U36255" CAT="false:false:false" REACH="0"/>
+                <outline text="Donne" BK_URL_rule="http://www.tgcom24.mediaset.it/donne/&#10;http://mobile.tgcom24.it/donne/" IDS="515394:515367:U34121,U36256" CAT="false:false:false" REACH="0">
+                  <outline text="Look da VIP" BK_URL_rule="http://lookdavip.tgcom24.it/" IDS="515395:515394:U34122,U36257" CAT="false:false:false" REACH="0"/>
+                </outline>
+                <outline text="Giochi e Scommesse" BK_URL_rule="http://www.tgcom24.mediaset.it/giochiescommesse/&#10;http://mobile.tgcom24.it/giochiescommesse/" IDS="515396:515367:U34153,U36258" CAT="false:false:false" REACH="0"/>
+                <outline text="Green" BK_URL_rule="http://www.tgcom24.mediaset.it/green/&#10;http://mobile.tgcom24.it/green/" IDS="515397:515367:U34154,U36259" CAT="false:false:false" REACH="0"/>
+                <outline text="Magazine" BK_URL_rule="http://www.tgcom24.mediaset.it/magazine/&#10;http://mobile.tgcom24.it/magazine/" IDS="515398:515367:U34155,U36260" CAT="false:false:false" REACH="0"/>
+                <outline text="MediaFriends" BK_URL_rule="http://www.tgcom24.mediaset.it/speciale-mediafriends/&#10;http://mobile.tgcom24.it/speciale-mediafriends/" IDS="515399:515367:U34156,U36261" CAT="false:false:false" REACH="0"/>
+                <outline text="Moda" BK_URL_rule="http://www.tgcom24.mediaset.it/donne/moda/&#10;http://www.tgcom24.mediaset.it/speciale-tv-moda/&#10;http://mobile.tgcom24.it/donne/moda/&#10;http://mobile.tgcom24.it/speciale-tv-moda/" IDS="515383:515367:U34118,U36262" CAT="false:false:false" REACH="0"/>
+                <outline text="Motori" BK_URL_rule="http://www.tgcom24.mediaset.it/motori/&#10;http://mobile.tgcom24.it/motori/" IDS="515382:515367:U34117,U36263" CAT="false:false:false" REACH="0"/>
+                <outline text="People" BK_URL_rule="http://www.tgcom24.mediaset.it/people/&#10;http://mobile.tgcom24.it/people/" IDS="515384:515367:U34119,U36264" CAT="false:false:false" REACH="0"/>
+                <outline text="Primo Piano" IDS="515368:515367:" CAT="false:false:false" REACH="0">
+                  <outline text="Economia" BK_URL_rule="http://www.tgcom24.mediaset.it/economia/&#10;http://mobile.tgcom24.it/economia/&#10;http://consumatore.tgcom24.it/" IDS="515376:515368:U34012,U36265" CAT="false:false:false" REACH="0"/>
+                  <outline text="Finanza" BK_URL_rule="http://finanza.tgcom.mediaset.it/" IDS="515374:515368:U34016,U36266" CAT="false:false:false" REACH="0"/>
+                  <outline text="International News" BK_URL_rule="http://www.tgcom24.mediaset.it/mondo/&#10;http://mobile.tgcom24.it/mondo/" IDS="515369:515368:U34030,U36267" CAT="false:false:false" REACH="0"/>
+                  <outline text="Local News" IDS="515370:515368:" CAT="false:false:false" REACH="0">
+                    <outline text="Lazio" BK_URL_rule="http://www.tgcom24.mediaset.it/cronaca/lazio/&#10;http://mobile.tgcom24.it/cronaca/lazio/" IDS="515371:515370:U34029,U36268" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lombardia" BK_URL_rule="http://www.tgcom24.mediaset.it/cronaca/lombardia/&#10;http://mobile.tgcom24.it/cronaca/lombardia/" IDS="515372:515370:U34028,U36269" CAT="false:false:false" REACH="0"/>
+                    <outline text="Piemonte" BK_URL_rule="http://www.tgcom24.mediaset.it/cronaca/piemonte/&#10;http://mobile.tgcom24.it/cronaca/piemonte/" IDS="515373:515370:U34017,U36270" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Politica" BK_URL_rule="http://www.tgcom24.mediaset.it/politica/&#10;http://mobile.tgcom24.it/politica/" IDS="515375:515368:U34014,U36271" CAT="false:false:false" REACH="0"/>
+                </outline>
+                <outline text="Radio" BK_URL_rule="http://www.tgcom24.mediaset.it/speciale-radioitalia/&#10;http://mobile.tgcom24.it/speciale-radioitalia/" IDS="515387:515367:U34146,U36272" CAT="false:false:false" REACH="0"/>
+                <outline text="Salute" BK_URL_rule="http://www.tgcom24.mediaset.it/salute/&#10;http://mobile.tgcom24.it/salute/" IDS="515380:515367:U33995,U36273" CAT="false:false:false" REACH="0"/>
+                <outline text="Scuola" BK_URL_rule="http://www.tgcom24.mediaset.it/skuola/&#10;http://mobile.tgcom24.it/skuola/" IDS="515381:515367:U33989,U36274" CAT="false:false:false" REACH="0"/>
+                <outline text="Spettacolo" BK_URL_rule="http://www.tgcom24.mediaset.it/spettacolo/&#10;http://mobile.tgcom24.it/spettacolo/" IDS="515388:515367:U34147,U36275" CAT="false:false:false" REACH="0"/>
+                <outline text="Sport" BK_URL_rule="http://www.tgcom24.mediaset.it/sport/&#10;http://mobile.tgcom24.it/sport/" IDS="515377:515367:U34009,U36276" CAT="false:false:false" REACH="0"/>
+                <outline text="Teatro" BK_URL_rule="http://www.tgcom24.mediaset.it/speciale-teatro/&#10;http://mobile.tgcom24.it/speciale-teatro/" IDS="515385:515367:U34120,U36277" CAT="false:false:false" REACH="0"/>
+                <outline text="Tecnologia" BK_URL_rule="http://www.tgcom24.mediaset.it/tgtech/&#10;http://mobile.tgcom24.it/tgtech/" IDS="515386:515367:U34145,U36278" CAT="false:false:false" REACH="0"/>
+                <outline text="Televisione" BK_URL_rule="http://www.tgcom24.mediaset.it/televisione/&#10;http://mobile.tgcom24.it/televisione/" IDS="515378:515367:U34004,U36279" CAT="false:false:false" REACH="0"/>
+                <outline text="Viaggi" BK_URL_rule="http://www.tgcom24.mediaset.it/viaggi/&#10;http://mobile.tgcom24.it/viaggi/" IDS="515379:515367:U34002,U36280" CAT="false:false:false" REACH="0"/>
+              </outline>
+            </outline>
+            <outline text="Durata Fruizione" IDS="515451:515365:" CAT="true:true:false" REACH="0">
+              <outline text="&gt; 5 Ore" IDS="515454:515451:" CAT="false:false:false" REACH="0"/>
+              <outline text="1-3 Ore" IDS="515452:515451:" CAT="false:false:false" REACH="0"/>
+              <outline text="3-5 Ore" IDS="515453:515451:" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="Radio" IDS="515548:515363:" CAT="false:false:false" REACH="0">
+          <outline text="Durata Fruizione" IDS="515553:515548:" CAT="true:true:false" REACH="0">
+            <outline text="&gt; 5 Ore" IDS="515556:515553:" CAT="false:false:false" REACH="0"/>
+            <outline text="1-3 Ore" IDS="515554:515553:" CAT="false:false:false" REACH="0"/>
+            <outline text="3-5 Ore" IDS="515555:515553:" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Preferenze" IDS="515549:515548:" CAT="true:true:false" REACH="0">
+            <outline text="Stazioni" IDS="515550:515549:" CAT="true:true:false" REACH="0">
+              <outline text="101" BK_URL_rule="http://www.r101.it/" IDS="515551:515550:U34235,U36281" CAT="false:false:false" REACH="0"/>
+              <outline text="Radio Italia" BK_URL_rule="http://www.tgcom24.mediaset.it/speciale-radioitalia/&#10;http://mobile.tgcom24.it/speciale-radioitalia/&#10;http://www.radioitalia.it/" IDS="515552:515550:U34236,U36282" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="Televisione" BK_URL_rule="http://www.tgcom24.mediaset.it/televisione/&#10;http://mobile.tgcom24.it/televisione/&#10;http://www.donnamoderna.com/lifestyle/tv/" IDS="515516:515363:U34124,U36283" CAT="false:false:false" REACH="0">
+          <outline text="Durata Fruizione" IDS="515544:515516:" CAT="true:true:false" REACH="0">
+            <outline text="&gt; 5 Ore" IDS="515547:515544:" CAT="false:false:false" REACH="0"/>
+            <outline text="1-3 Ore" IDS="515545:515544:" CAT="false:false:false" REACH="0"/>
+            <outline text="3-5 Ore" IDS="515546:515544:" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Preferenze" IDS="515517:515516:" CAT="true:true:false" REACH="0">
+            <outline text="Canali" IDS="515518:515517:" CAT="true:true:false" REACH="0">
+              <outline text="Mediaset" IDS="515519:515518:" CAT="false:false:false" REACH="0">
+                <outline text="Boing" BK_URL_rule="http://www.boingtv.it/" IDS="516385:515519:U34210,U36284" CAT="false:false:false" REACH="0"/>
+                <outline text="Canale 5" BK_URL_rule="http://www.mediaset.it/canale5/" IDS="515520:515519:U34202,U36285" CAT="false:false:false" REACH="0"/>
+                <outline text="Cartoonito" BK_URL_rule="http://www.cartoonito.it/" IDS="516386:515519:U34211,U36286" CAT="false:false:false" REACH="0"/>
+                <outline text="Iris" BK_URL_rule="http://www.mediaset.it/iris/" IDS="515527:515519:U34209,U36287" CAT="false:false:false" REACH="0"/>
+                <outline text="Italia 1" BK_URL_rule="http://www.mediaset.it/italia1/" IDS="515521:515519:U34203,U36288" CAT="false:false:false" REACH="0"/>
+                <outline text="Italia 2" BK_URL_rule="http://www.mediaset.it/italia2/" IDS="515524:515519:U34206,U36289" CAT="false:false:false" REACH="0"/>
+                <outline text="La 5" BK_URL_rule="http://www.mediaset.it/la5/" IDS="515523:515519:U34205,U36290" CAT="false:false:false" REACH="0"/>
+                <outline text="Mediaset Extra" BK_URL_rule="http://www.mediaset.it/mediasetextra/" IDS="515525:515519:U34207,U36291" CAT="false:false:false" REACH="0"/>
+                <outline text="Rete 4" BK_URL_rule="http://www.mediaset.it/rete4/" IDS="515522:515519:U34204,U36292" CAT="false:false:false" REACH="0"/>
+                <outline text="Top Crime" BK_URL_rule="http://www.mediaset.it/topcrime/" IDS="515526:515519:U34208,U36293" CAT="false:false:false" REACH="0"/>
+              </outline>
+            </outline>
+            <outline text="Generi" IDS="515528:515517:" CAT="true:true:false" REACH="0">
+              <outline text="Fiction" BK_URL_rule="http://www.video.mediaset.it/programma/il_segreto/&#10;http://www.video.mediaset.it/video/il_segreto/" IDS="515529:515528:U34232,U36294" CAT="false:false:false" REACH="0"/>
+              <outline text="News" BK_URL_rule="http://www.tgcom24.mediaset.it/&#10;http://mobile.tgcom24.it/&#10;http://www.video.mediaset.it/programma/tgcom24/&#10;http://www.video.mediaset.it/video/tgcom24/&#10;http://www.video.mediaset.it/programma/matrix/&#10;http://www.video.mediaset.it/video/matrix/&#10;http://www.tgcom24.mediaset.it/tg5/&#10;http://mobile.tgcom24.it/tg5/&#10;http://www.video.mediaset.it/programma/tg5/&#10;http://www.video.mediaset.it/video/tg5/&#10;http://www.tgcom24.mediaset.it/tg4/&#10;http://mobile.tgcom24.it/tg4/&#10;http://www.video.mediaset.it/programma/tg4/&#10;http://www.video.mediaset.it/video/tg4/&#10;http://www.tgcom24.mediaset.it/studioaperto/&#10;http://mobile.tgcom24.it/studioaperto/&#10;http://www.video.mediaset.it/programma/studioaperto/&#10;http://www.video.mediaset.it/video/studioaperto/" IDS="515531:515528:U34234,U36295" CAT="false:false:false" REACH="0"/>
+              <outline text="Reality" BK_URL_rule="http://www.grandefratello.mediaset.it/&#10;http://www.video.mediaset.it/programma/gf/&#10;http://www.video.mediaset.it/video/gf/&#10;http://isola.mediaset.it/&#10;http://www.video.mediaset.it/programma/l_isola_dei_famosi/&#10;http://www.video.mediaset.it/video/l_isola_dei_famosi/" IDS="515530:515528:U34233,U36296" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Personaggi" IDS="515542:515517:" CAT="true:true:false" REACH="0">
+              <outline text="Maria De Filippi" BK_URL_rule="http://www.mariadefilippi.mediaset.it/" IDS="515543:515542:U34222,U36297" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Programmi" IDS="515532:515517:" CAT="true:true:false" REACH="0">
+              <outline text="Grande Fratello" BK_URL_rule="http://www.grandefratello.mediaset.it/&#10;http://www.video.mediaset.it/programma/gf/&#10;http://www.video.mediaset.it/video/gf/" IDS="515534:515532:U34213,U36298" CAT="false:false:false" REACH="0"/>
+              <outline text="Il Segreto" BK_URL_rule="http://www.video.mediaset.it/programma/il_segreto/&#10;http://www.video.mediaset.it/video/il_segreto/" IDS="515536:515532:U34216,U36299" CAT="false:false:false" REACH="0"/>
+              <outline text="L Isola dei Famosi" BK_URL_rule="http://isola.mediaset.it/&#10;http://www.video.mediaset.it/programma/l_isola_dei_famosi/&#10;http://www.video.mediaset.it/video/l_isola_dei_famosi/" IDS="515535:515532:U34214,U36300" CAT="false:false:false" REACH="0"/>
+              <outline text="Le Iene" BK_URL_rule="http://www.iene.mediaset.it/&#10;http://www.video.mediaset.it/programma/iene/&#10;http://www.video.mediaset.it/video/iene/" IDS="515533:515532:U34212,U36301" CAT="false:false:false" REACH="0"/>
+              <outline text="Matrix" BK_URL_rule="http://www.video.mediaset.it/programma/matrix/&#10;http://www.video.mediaset.it/video/matrix/" IDS="515537:515532:U34217,U36302" CAT="false:false:false" REACH="0"/>
+              <outline text="Pomerigio 5" BK_URL_rule="http://www.video.mediaset.it/programma/pomeriggio_5/&#10;http://www.video.mediaset.it/video/pomeriggio_5/" IDS="515541:515532:U34221,U36303" CAT="false:false:false" REACH="0"/>
+              <outline text="Striscia la Notizia" BK_URL_rule="http://www.striscialanotizia.mediaset.it/&#10;http://www.video.mediaset.it/programma/striscialanotizia/&#10;http://www.video.mediaset.it/video/striscialanotizia/" IDS="516387:515532:U34215,U36304" CAT="false:false:false" REACH="0"/>
+              <outline text="Studio Aperto" BK_URL_rule="http://www.tgcom24.mediaset.it/studioaperto/&#10;http://mobile.tgcom24.it/studioaperto/&#10;http://www.video.mediaset.it/programma/studioaperto/&#10;http://www.video.mediaset.it/video/studioaperto/" IDS="515540:515532:U34220,U36305" CAT="false:false:false" REACH="0"/>
+              <outline text="TG4" BK_URL_rule="http://www.tgcom24.mediaset.it/tg4/&#10;http://mobile.tgcom24.it/tg4/&#10;http://www.video.mediaset.it/programma/tg4/&#10;http://www.video.mediaset.it/video/tg4/" IDS="515539:515532:U34219,U36306" CAT="false:false:false" REACH="0"/>
+              <outline text="TG5" BK_URL_rule="http://www.tgcom24.mediaset.it/tg5/&#10;http://mobile.tgcom24.it/tg5/&#10;http://www.video.mediaset.it/programma/tg5/&#10;http://www.video.mediaset.it/video/tg5/" IDS="515538:515532:U34218,U36307" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="Dati Personali" IDS="510001:498774:" CAT="true:true:false" REACH="0">
+        <outline text="Data di Nascita" IDS="515313:510001:" CAT="true:true:false" REACH="0">
+          <outline text="Eta" IDS="515317:515313:" CAT="true:true:false" REACH="0">
+            <outline text="&gt; 74" BK_phints_rule="mx_u_e,is,h" IDS="515325:515317:P34753" CAT="false:false:false" REACH="0"/>
+            <outline text="11-17" BK_phints_rule="mx_u_e,is,b" IDS="515319:515317:P34754" CAT="false:false:false" REACH="0"/>
+            <outline text="18-24" BK_phints_rule="mx_u_e,is,c" IDS="515320:515317:P34755" CAT="false:false:false" REACH="0"/>
+            <outline text="2-10" BK_phints_rule="mx_u_e,is,a" IDS="515318:515317:P34756" CAT="false:false:false" REACH="0"/>
+            <outline text="25-34" BK_phints_rule="mx_u_e,is,d" IDS="515321:515317:P34757" CAT="false:false:false" REACH="0"/>
+            <outline text="35-44" BK_phints_rule="mx_u_e,is,e" IDS="515322:515317:P34758" CAT="false:false:false" REACH="0"/>
+            <outline text="45-54" BK_phints_rule="mx_u_e,is,f" IDS="515323:515317:P34759" CAT="false:false:false" REACH="0"/>
+            <outline text="55-74" BK_phints_rule="mx_u_e,is,g" IDS="515324:515317:P34760" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Lifestages" IDS="515314:515313:" CAT="true:true:false" REACH="0">
+            <outline text="Anziano" BK_phints_rule="mx_u_e,is,h" IDS="515315:515314:P34761" CAT="false:false:false" REACH="0"/>
+            <outline text="Teen" BK_phints_rule="mx_u_e,is,b&#10;&#10;mx_u_e,is,c" IDS="515316:515314:P34762,P34763" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Segno Zodiacale" BK_URL_rule="http://www.donnamoderna.com/lifestyle/oroscopo/&#10;http://m.donnamoderna.com/lifestyle/oroscopo/&#10;http://forum.donnamoderna.com/oroscopo-f17/" IDS="515326:515313:U34336,U36308" CAT="false:false:false" REACH="0">
+            <outline text="Acquario" IDS="515337:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Ariete" IDS="515327:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Bilancia" IDS="515333:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Cancro" IDS="515330:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Capricorno" IDS="515336:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Gemelli" IDS="515329:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Leone" IDS="515331:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Pesci" IDS="515338:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Sagittario" IDS="515335:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Scorpione" IDS="515334:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Toro" IDS="515328:515326:" CAT="false:false:false" REACH="0"/>
+            <outline text="Vergine" IDS="515332:515326:" CAT="false:false:false" REACH="0"/>
+          </outline>
+        </outline>
+        <outline text="Famiglia" IDS="515349:510001:" CAT="true:true:false" REACH="0">
+          <outline text="Composizione familiare" IDS="515356:515349:" CAT="true:true:false" REACH="0">
+            <outline text="Figli" BK_URL_rule="http://www.donnamoderna.com/mamme/bambini/&#10;http://m.donnamoderna.com/mamme/bambini/" IDS="515357:515356:U34337,U36309" CAT="false:false:false" REACH="0">
+              <outline text="Neonati" BK_URL_rule="http://www.donnamoderna.com/mamme/plasmon/&#10;http://www.donnamoderna.com/mamme/neonato/&#10;http://www.donnamoderna.com/bambino/neonato/&#10;http://m.donnamoderna.com/mamme/plasmon/&#10;http://m.donnamoderna.com/mamme/neonato/&#10;http://m.donnamoderna.com/bambino/neonato/" IDS="515358:515357:U34338,U36310" CAT="false:false:false" REACH="0"/>
+              <outline text="Prescolare" BK_URL_rule="http://www.donnamoderna.com/mamme/bambini-1-3-anni/&#10;http://www.donnamoderna.com/bambino/bambini-1-3-anni/&#10;http://m.donnamoderna.com/mamme/bambini-1-3-anni/&#10;http://m.donnamoderna.com/bambino/bambini-1-3-anni/" IDS="515359:515357:U34339,U36311" CAT="false:false:false" REACH="0"/>
+              <outline text="Scolare" BK_URL_rule="http://www.donnamoderna.com/mamme/back-to-school/&#10;http://www.donnamoderna.com/mamme/bambini-1-3-anni/&#10;http://www.donnamoderna.com/bambino/bambini-4-6-anni/&#10;http://www.donnamoderna.com/bambino/bambini-7-14-anni/&#10;http://m.donnamoderna.com/mamme/back-to-school/&#10;http://m.donnamoderna.com/mamme/bambini-1-3-anni/&#10;http://m.donnamoderna.com/bambino/bambini-4-6-anni/&#10;http://m.donnamoderna.com/bambino/bambini-7-14-anni/" IDS="515360:515357:U34340,U36312" CAT="false:false:false" REACH="0"/>
+              <outline text="Teenager" BK_URL_rule="http://www.donnamoderna.com/mamme/adolescenti&#10;http://m.donnamoderna.com/mamme/adolescenti" IDS="515361:515357:U34341,U36313" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Mamma" BK_URL_rule="http://www.donnamoderna.com/mamme/&#10;http://m.donnamoderna.com/mamme/&#10;http://video.donnamoderna.com/mamme-e-kids/&#10;http://video.donnamoderna.com/ridere-in-famiglia/&#10;http://www.donnamoderna.com/bambino/&#10;http://m.donnamoderna.com/bambino/&#10;http://forum.donnamoderna.com/mamme-f107/&#10;http://casting.donnamoderna.com/salva-mamma/&#10;http://casting.donnamoderna.com/parola-di-bimbo/&#10;http://casting.donnamoderna.com/panciadimamma/" IDS="516398:515356:U34295,U36314" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="In stato Interessante" BK_URL_rule="http://www.donnamoderna.com/mamme/gravidanza-in-forma/&#10;http://www.donnamoderna.com/mamme/tornare-in-forma-gravidanza/&#10;http://www.donnamoderna.com/mamme/gravidanza/&#10;http://www.donnamoderna.com/bambino/preconcepimento/&#10;http://www.donnamoderna.com/bambino/gravidanza/&#10;http://m.donnamoderna.com/mamme/gravidanza-in-forma/&#10;http://m.donnamoderna.com/mamme/tornare-in-forma-gravidanza/&#10;http://m.donnamoderna.com/mamme/gravidanza/&#10;http://m.donnamoderna.com/bambino/preconcepimento/&#10;http://m.donnamoderna.com/bambino/gravidanza/" IDS="515362:515349:U34342,U36315" CAT="false:false:false" REACH="0"/>
+          <outline text="Stato Sentimentale" IDS="515350:515349:" CAT="true:true:false" REACH="0">
+            <outline text="Convivente" IDS="515355:515350:" CAT="false:false:false" REACH="0"/>
+            <outline text="Divorziato" IDS="515354:515350:" CAT="false:false:false" REACH="0"/>
+            <outline text="Separato" IDS="515353:515350:" CAT="false:false:false" REACH="0"/>
+            <outline text="Single" IDS="515351:515350:" CAT="false:false:false" REACH="0"/>
+            <outline text="Sposato" IDS="515352:515350:" CAT="false:false:false" REACH="0"/>
+          </outline>
+        </outline>
+        <outline text="Geografici" IDS="510005:510001:" CAT="true:true:false" REACH="0">
+          <outline text="IP Based" IDS="513352:510005:" CAT="true:true:false" REACH="0">
+            <outline text="Nazione" IDS="498775:513352:" CAT="true:true:false" REACH="0">
+              <outline text="Altro" IDS="515217:498775:" CAT="false:false:false" REACH="0"/>
+              <outline text="Italia" IDS="498776:498775:" CAT="false:false:false" REACH="0">
+                <outline text="Nord" IDS="527655:498776:" CAT="false:false:false" REACH="0">
+                  <outline text="Valle d Aosta" IDS="527656:527655:" CAT="false:false:false" REACH="0">
+                    <outline text="Aosta" IDS="527657:527656:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Piemonte" IDS="527658:527655:" CAT="false:false:false" REACH="0">
+                    <outline text="Torino" IDS="527659:527658:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Asti" IDS="516395:527658:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cuneo" IDS="527660:527658:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Novara" IDS="527661:527658:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Alessandria" IDS="527662:527658:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Verbano" IDS="527663:527658:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vercelli" IDS="527664:527658:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Liguria" IDS="527665:527655:" CAT="false:false:false" REACH="0">
+                    <outline text="Genova" IDS="527666:527665:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Imperia" IDS="527667:527665:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Spezia" IDS="527668:527665:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Savona" IDS="527693:527665:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Lombardia" IDS="527694:527655:" CAT="false:false:false" REACH="0">
+                    <outline text="Bergamo" IDS="527695:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Brescia" IDS="527696:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Como" IDS="527697:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cremona" IDS="527698:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lecco" IDS="527699:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lodi" IDS="527700:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Mantova" IDS="527701:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Milano" IDS="527702:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Monza" IDS="527703:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pavia" IDS="527704:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Sondrio" IDS="527705:527694:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Varese" IDS="498777:527694:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Trentino-Alto Adige" IDS="527706:527655:" CAT="false:false:false" REACH="0">
+                    <outline text="Trento" IDS="527707:527706:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Bolzano" IDS="527708:527706:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Friuli Venezia Giulia" IDS="510812:527655:" CAT="false:false:false" REACH="0">
+                    <outline text="Gorizia" IDS="527709:510812:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pordenone" IDS="527710:510812:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Trieste" IDS="527711:510812:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Udine" IDS="527712:510812:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Veneto" IDS="515680:527655:" CAT="false:false:false" REACH="0">
+                    <outline text="Belluno" IDS="527713:515680:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Padova" IDS="512609:515680:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rovigo" IDS="527714:515680:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Treviso" IDS="512610:515680:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Venezia" IDS="527715:515680:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Verona" IDS="512611:515680:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vicenza" IDS="515683:515680:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Emilia-Romagna" IDS="527716:527655:" CAT="false:false:false" REACH="0">
+                    <outline text="Bologna" IDS="512612:527716:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ferrara" IDS="527717:527716:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Forli-Cesena" IDS="512613:527716:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Modena" IDS="527718:527716:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Parma" IDS="512614:527716:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Piacenza" IDS="527719:527716:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ravenna" IDS="512615:527716:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Reggio Emilia" IDS="527720:527716:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rimini" IDS="527721:527716:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Centro" IDS="527722:498776:" CAT="false:false:false" REACH="0">
+                  <outline text="Toscana" IDS="527723:527722:" CAT="false:false:false" REACH="0">
+                    <outline text="Arezzo" IDS="527724:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Firenze" IDS="527725:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Grosseto" IDS="512621:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Livorno" IDS="527726:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lucca" IDS="527727:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Massa-Carrara" IDS="527728:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pisa" IDS="527729:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pistoia" IDS="527730:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Prato" IDS="527731:527723:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Siena" IDS="527732:527723:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Marche" IDS="527733:527722:" CAT="false:false:false" REACH="0">
+                    <outline text="Ancona" IDS="512629:527733:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ascoli Piceno" IDS="527734:527733:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Fermo" IDS="512630:527733:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Macerata" IDS="527735:527733:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pesaro e Urbino" IDS="515191:527733:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Umbria" IDS="527736:527722:" CAT="false:false:false" REACH="0">
+                    <outline text="Perugia" IDS="515192:527736:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Terni" IDS="527737:527736:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Lazio" IDS="515193:527722:" CAT="false:false:false" REACH="0">
+                    <outline text="Frosinone" IDS="527738:515193:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Latina" IDS="515194:515193:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rieti" IDS="527739:515193:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Roma" IDS="515195:515193:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Viterbo" IDS="527740:515193:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Abruzzo" IDS="515196:527722:" CAT="false:false:false" REACH="0">
+                    <outline text="Chieti" IDS="527741:515196:" CAT="false:false:false" REACH="0"/>
+                    <outline text="L Aquila" IDS="515197:515196:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pescara" IDS="527742:515196:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Teramo" IDS="515198:515196:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Molise" IDS="527743:527722:" CAT="false:false:false" REACH="0">
+                    <outline text="Campobasso" IDS="515199:527743:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Isernia" IDS="527744:527743:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Sud" IDS="515200:498776:" CAT="false:false:false" REACH="0">
+                  <outline text="Campania" IDS="527745:515200:" CAT="false:false:false" REACH="0">
+                    <outline text="Avellino" IDS="515201:527745:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Benevento" IDS="527746:527745:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Caserta" IDS="515202:527745:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Napoli" IDS="527747:527745:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Salerno" IDS="515203:527745:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Puglia" IDS="527748:515200:" CAT="false:false:false" REACH="0">
+                    <outline text="Bari" IDS="515204:527748:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Barletta-Andria-Trani" IDS="527749:527748:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Brindisi" IDS="515205:527748:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Foggia" IDS="527750:527748:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lecce" IDS="515206:527748:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Taranto" IDS="527751:527748:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Basilicata" IDS="515207:515200:" CAT="false:false:false" REACH="0">
+                    <outline text="Matera" IDS="527752:515207:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Potenza" IDS="515208:515207:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Calabria" IDS="527753:515200:" CAT="false:false:false" REACH="0">
+                    <outline text="Catanzaro" IDS="515209:527753:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cosenza" IDS="527754:527753:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Crotone" IDS="515210:527753:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Reggio Calabria" IDS="527755:527753:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vibo Valentia" IDS="515211:527753:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Isole" IDS="527756:498776:" CAT="false:false:false" REACH="0">
+                  <outline text="Sicilia" IDS="515212:527756:" CAT="false:false:false" REACH="0">
+                    <outline text="Agrigento" IDS="527757:515212:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Caltanissetta" IDS="515213:515212:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Catania" IDS="527758:515212:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Enna" IDS="515214:515212:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Messina" IDS="527759:515212:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Palermo" IDS="515215:515212:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ragusa" IDS="527760:515212:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Siracusa" IDS="515216:515212:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Trapani" IDS="527761:515212:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Sardegna" IDS="527762:527756:" CAT="false:false:false" REACH="0">
+                    <outline text="Cagliari" IDS="527763:527762:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Carbonia-Iglesias" IDS="527764:527762:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Medio Campidano" IDS="527765:527762:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Nuoro" IDS="515221:527762:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ogliastra" IDS="527766:527762:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Olbia-Tempio" IDS="515222:527762:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Oristano" IDS="527767:527762:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Sassari" IDS="515223:527762:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+              </outline>
+            </outline>
+          </outline>
+          <outline text="Self-Declared" IDS="515218:510005:" CAT="true:true:false" REACH="0">
+            <outline text="Nazione" IDS="515219:515218:" CAT="true:true:false" REACH="0">
+              <outline text="Italia" IDS="515220:515219:" CAT="false:false:false" REACH="0">
+                <outline text="Nord" IDS="527768:515220:" CAT="false:false:false" REACH="0">
+                  <outline text="Valle d Aosta" IDS="515224:527768:" CAT="false:false:false" REACH="0">
+                    <outline text="Aosta" IDS="527769:515224:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Piemonte" IDS="515225:527768:" CAT="false:false:false" REACH="0">
+                    <outline text="Torino" IDS="527770:515225:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Asti" IDS="515226:515225:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cuneo" IDS="527771:515225:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Novara" IDS="515227:515225:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Alessandria" IDS="527772:515225:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Verbano" IDS="510876:515225:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vercelli" IDS="527773:515225:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Liguria" IDS="510877:527768:" CAT="false:false:false" REACH="0">
+                    <outline text="Genova" IDS="527774:510877:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Imperia" IDS="515230:510877:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Spezia" IDS="527775:510877:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Savona" IDS="512671:510877:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Lombardia" IDS="515231:527768:" CAT="false:false:false" REACH="0">
+                    <outline text="Bergamo" IDS="527776:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Brescia" IDS="512672:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Como" IDS="515232:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cremona" IDS="527777:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lecco" IDS="512673:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lodi" IDS="515233:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Mantova" IDS="527778:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Milano" IDS="512674:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Monza" IDS="515234:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pavia" IDS="527779:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Sondrio" IDS="515235:515231:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Varese" IDS="527780:515231:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Trentino-Alto Adige" IDS="515236:527768:" CAT="false:false:false" REACH="0">
+                    <outline text="Trento" IDS="527781:515236:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Bolzano" IDS="515237:515236:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Friuli Venezia Giulia" IDS="527782:527768:" CAT="false:false:false" REACH="0">
+                    <outline text="Gorizia" IDS="515238:527782:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pordenone" IDS="527783:527782:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Trieste" IDS="515239:527782:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Udine" IDS="527784:527782:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Veneto" IDS="515240:527768:" CAT="false:false:false" REACH="0">
+                    <outline text="Belluno" IDS="527785:515240:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Padova" IDS="515241:515240:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rovigo" IDS="527786:515240:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Treviso" IDS="515242:515240:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Venezia" IDS="527787:515240:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Verona" IDS="515243:515240:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vicenza" IDS="527788:515240:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Emilia-Romagna" IDS="515244:527768:" CAT="false:false:false" REACH="0">
+                    <outline text="Bologna" IDS="527789:515244:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ferrara" IDS="515245:515244:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Forli-Cesena" IDS="527790:515244:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Modena" IDS="515246:515244:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Parma" IDS="527791:515244:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Piacenza" IDS="515247:515244:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ravenna" IDS="527792:515244:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Reggio Emilia" IDS="515248:515244:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rimini" IDS="527793:515244:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Centro" IDS="515249:515220:" CAT="false:false:false" REACH="0">
+                  <outline text="Toscana" IDS="527794:515249:" CAT="false:false:false" REACH="0">
+                    <outline text="Arezzo" IDS="527795:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Firenze" IDS="527796:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Grosseto" IDS="527797:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Livorno" IDS="527798:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lucca" IDS="527799:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Massa-Carrara" IDS="527800:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pisa" IDS="527801:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pistoia" IDS="527802:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Prato" IDS="527803:527794:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Siena" IDS="527804:527794:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Marche" IDS="527805:515249:" CAT="false:false:false" REACH="0">
+                    <outline text="Ancona" IDS="527806:527805:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ascoli Piceno" IDS="527807:527805:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Fermo" IDS="514751:527805:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Macerata" IDS="527808:527805:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pesaro e Urbino" IDS="527809:527805:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Umbria" IDS="527810:515249:" CAT="false:false:false" REACH="0">
+                    <outline text="Perugia" IDS="527811:527810:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Terni" IDS="527812:527810:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Lazio" IDS="527813:515249:" CAT="false:false:false" REACH="0">
+                    <outline text="Frosinone" IDS="527814:527813:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Latina" IDS="527815:527813:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rieti" IDS="527816:527813:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Roma" IDS="527817:527813:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Viterbo" IDS="527818:527813:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Abruzzo" IDS="527819:515249:" CAT="false:false:false" REACH="0">
+                    <outline text="Chieti" IDS="527820:527819:" CAT="false:false:false" REACH="0"/>
+                    <outline text="L Aquila" IDS="527821:527819:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pescara" IDS="527822:527819:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Teramo" IDS="527823:527819:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Molise" IDS="527824:515249:" CAT="false:false:false" REACH="0">
+                    <outline text="Campobasso" IDS="527825:527824:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Isernia" IDS="527826:527824:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Sud" IDS="527827:515220:" CAT="false:false:false" REACH="0">
+                  <outline text="Campania" IDS="527828:527827:" CAT="false:false:false" REACH="0">
+                    <outline text="Avellino" IDS="527829:527828:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Benevento" IDS="527830:527828:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Caserta" IDS="527831:527828:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Napoli" IDS="527832:527828:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Salerno" IDS="527833:527828:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Puglia" IDS="527834:527827:" CAT="false:false:false" REACH="0">
+                    <outline text="Bari" IDS="527835:527834:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Barletta-Andria-Trani" IDS="527836:527834:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Brindisi" IDS="527837:527834:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Foggia" IDS="527838:527834:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lecce" IDS="527839:527834:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Taranto" IDS="527840:527834:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Basilicata" IDS="527841:527827:" CAT="false:false:false" REACH="0">
+                    <outline text="Matera" IDS="527842:527841:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Potenza" IDS="527843:527841:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Calabria" IDS="527844:527827:" CAT="false:false:false" REACH="0">
+                    <outline text="Catanzaro" IDS="527845:527844:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cosenza" IDS="527846:527844:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Crotone" IDS="527847:527844:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Reggio Calabria" IDS="527848:527844:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vibo Valentia" IDS="527849:527844:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Isole" IDS="527850:515220:" CAT="false:false:false" REACH="0">
+                  <outline text="Sicilia" IDS="527851:527850:" CAT="false:false:false" REACH="0">
+                    <outline text="Agrigento" IDS="527852:527851:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Caltanissetta" IDS="527853:527851:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Catania" IDS="515309:527851:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Enna" IDS="527854:527851:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Messina" IDS="515310:527851:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Palermo" IDS="527855:527851:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ragusa" IDS="515311:527851:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Siracusa" IDS="527856:527851:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Trapani" IDS="515312:527851:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Sardegna" IDS="527857:527850:" CAT="false:false:false" REACH="0">
+                    <outline text="Cagliari" IDS="527858:527857:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Carbonia-Iglesias" IDS="527859:527857:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Medio Campidano" IDS="527860:527857:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Nuoro" IDS="527861:527857:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ogliastra" IDS="527862:527857:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Olbia-Tempio" IDS="527863:527857:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Oristano" IDS="527864:527857:" CAT="false:false:false" REACH="0"/>
+                    <outline text="Sassari" IDS="527865:527857:" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+              </outline>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="Interessato a" IDS="515339:510001:" CAT="true:true:false" REACH="0">
+          <outline text="Donne" IDS="515341:515339:" CAT="false:false:false" REACH="0"/>
+          <outline text="Gay" IDS="515342:515339:" CAT="false:false:false" REACH="0"/>
+          <outline text="Uomini" IDS="515340:515339:" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Lavoro" IDS="517736:510001:" CAT="true:true:false" REACH="0">
+          <outline text="In cerca di lavoro" BK_URL_rule="http://www.donnamoderna.com/attualita/lavoro-giovani/&#10;http://www.donnamoderna.com/attualita/soluzione-lavoro/&#10;http://www.donnamoderna.com/tempo-libero/lavoro-giovani/&#10;http://www.donnamoderna.com/tempo-libero/soluzione-lavoro/&#10;http://m.donnamoderna.com/attualita/lavoro-giovani/&#10;http://m.donnamoderna.com/attualita/soluzione-lavoro/&#10;http://m.donnamoderna.com/tempo-libero/lavoro-giovani/&#10;http://m.donnamoderna.com/tempo-libero/soluzione-lavoro/&#10;http://giornimoderni.donnamoderna.com/lavoro/" IDS="517737:517736:U34343,U36316" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Politica" IDS="515343:510001:" CAT="true:true:false" REACH="0">
+          <outline text="Ideologia" IDS="515344:515343:" CAT="true:true:false" REACH="0">
+            <outline text="Ambientalista" IDS="515348:515344:" CAT="false:false:false" REACH="0"/>
+            <outline text="Democratico" IDS="515347:515344:" CAT="false:false:false" REACH="0"/>
+            <outline text="Liberal" IDS="515345:515344:" CAT="false:false:false" REACH="0"/>
+            <outline text="Moderato" IDS="515346:515344:" CAT="false:false:false" REACH="0"/>
+          </outline>
+        </outline>
+        <outline text="Sesso" IDS="510002:510001:" CAT="true:true:false" REACH="0">
+          <outline text="Femmina" IDS="510004:510002:" CAT="false:false:false" REACH="0"/>
+          <outline text="Maschio" IDS="510003:510002:" CAT="false:false:false" REACH="0"/>
+        </outline>
+      </outline>
+      <outline text="Hobby e Interessi" IDS="515578:498774:" CAT="true:true:false" REACH="0">
+        <outline text="Animali" BK_URL_rule="http://www.tgcom24.mediaset.it/animali/&#10;http://www.donnamoderna.com/tempo-libero/animali/&#10;http://www.donnamoderna.com/tempo-libero/pet-gallery/&#10;http://www.donnamoderna.com/lifestyle/pets/&#10;http://forum.donnamoderna.com/animali-f108/&#10;http://mobile.tgcom24.it/animali/&#10;http://m.donnamoderna.com/tempo-libero/animali/&#10;http://m.donnamoderna.com/tempo-libero/pet-gallery/&#10;http://m.donnamoderna.com/lifestyle/pets/" IDS="515743:515578:U34274,U36317" CAT="false:false:false" REACH="0">
+          <outline text="Tipologia" IDS="515744:515743:" CAT="true:true:false" REACH="0">
+            <outline text="Acquario" IDS="515755:515744:" CAT="false:false:false" REACH="0"/>
+            <outline text="Cani" IDS="515745:515744:" CAT="false:false:false" REACH="0">
+              <outline text="Razza" IDS="515746:515745:" CAT="true:true:false" REACH="0">
+                <outline text="Dalmata" IDS="515747:515746:" CAT="false:false:false" REACH="0"/>
+                <outline text="Dobermann" IDS="515749:515746:" CAT="false:false:false" REACH="0"/>
+                <outline text="Golde Retriver" IDS="515748:515746:" CAT="false:false:false" REACH="0"/>
+              </outline>
+            </outline>
+            <outline text="Criceto" IDS="515754:515744:" CAT="false:false:false" REACH="0"/>
+            <outline text="Gatti" IDS="515750:515744:" CAT="false:false:false" REACH="0"/>
+            <outline text="Grandi Animali" IDS="515756:515744:" CAT="false:false:false" REACH="0"/>
+            <outline text="Rettili" IDS="515752:515744:" CAT="false:false:false" REACH="0">
+              <outline text="Serpenti" IDS="515753:515752:" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Uccelli" IDS="515751:515744:" CAT="false:false:false" REACH="0"/>
+          </outline>
+        </outline>
+        <outline text="Salute e Benessere" IDS="515875:515578:" CAT="false:false:false" REACH="0">
+          <outline text="Personal Care" BK_URL_rule="http://www.tgcom24.mediaset.it/salute/&#10;http://www.donnamoderna.com/salute/&#10;http://www.donnamoderna.com/mamme/salute-bambini/&#10;http://mobile.tgcom24.it/salute/&#10;http://m.donnamoderna.com/salute/&#10;http://m.donnamoderna.com/mamme/salute-bambini/&#10;http://video.donnamoderna.com/vivere-meglio/&#10;http://video.donnamoderna.com/benessere/&#10;http://blog.donnamoderna.com/vivere-meglio/&#10;http://blog.donnamoderna.com/amiche-di-salvataggio/&#10;http://blog.donnamoderna.com/coaching-caffe/&#10;http://blog.donnamoderna.com/dialogo-con-la-psiche/&#10;http://blog.donnamoderna.com/schelotto/&#10;http://blog.donnamoderna.com/speciani/&#10;http://blog.donnamoderna.com/sessoeluna/&#10;http://blog.donnamoderna.com/boralevi/&#10;http://blog.donnamoderna.com/expo-express/&#10;http://blog.donnamoderna.com/ragazze-moderne/&#10;http://giornimoderni.donnamoderna.com/corpo/&#10;http://www.confidenze.com/&#10;http://salutehitech.starbene.it/&#10;http://forum.donnamoderna.com/amore-sesso-f10/&#10;http://forum.donnamoderna.com/psicologia-f9/&#10;http://forum.donnamoderna.com/salute-f7/" IDS="521727:515875:U34281,U36318" CAT="false:false:false" REACH="0"/>
+          <outline text="Dieta" IDS="515887:515875:" CAT="false:false:false" REACH="0">
+            <outline text="Dimagrante" BK_URL_rule="http://www.portalebenessere.com/alimentazione/diete-per-dimagrire/&#10;http://www.donnamoderna.com/starbene/diario-della-mia-dieta/&#10;http://www.donnamoderna.com/salute/diete/&#10;http://www.donnamoderna.com/salute/dimagrire-mangiando/&#10;http://m.donnamoderna.com/starbene/diario-della-mia-dieta/&#10;http://m.donnamoderna.com/salute/diete/&#10;http://m.donnamoderna.com/salute/dimagrire-mangiando/" IDS="515888:515887:U34294,U36319" CAT="false:false:false" REACH="0">
+              <outline text="Dukan" BK_URL_rule="http://www.donnamoderna.com/salute/come-funziona-la-dieta-dukan/&#10;http://m.donnamoderna.com/salute/come-funziona-la-dieta-dukan/" IDS="517751:515888:U34362,U36320" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+          <outline text="Intolleranze" IDS="517752:515875:" CAT="false:false:false" REACH="0">
+            <outline text="Alimentari" BK_URL_rule="http://www.donnamoderna.com/salute/intolleranze-alimentari/&#10;http://m.donnamoderna.com/salute/intolleranze-alimentari/" IDS="517753:517752:U34363,U36321" CAT="false:false:false" REACH="0"/>
+            <outline text="Allergie" BK_URL_rule="http://www.donnamoderna.com/salute/speciale-allergie/&#10;http://m.donnamoderna.com/salute/speciale-allergie/" IDS="517754:517752:U34364,U36322" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Medicine e Cure" IDS="515876:515875:" CAT="false:false:false" REACH="0">
+            <outline text="Cura dei Denti" IDS="515878:515876:" CAT="false:false:false" REACH="0"/>
+            <outline text="Dermatologia" IDS="515879:515876:" CAT="false:false:false" REACH="0"/>
+            <outline text="Dietista-Nutrizionista" BK_URL_rule="http://www.portalebenessere.com/alimentazione/diete-per-dimagrire/&#10;http://prontointavola.tgcom24.it/ricette/cucina-e-benessere/" IDS="515884:515876:U34293,U36323" CAT="false:false:false" REACH="0"/>
+            <outline text="Erbe Medicinali" BK_URL_rule="http://www.portalebenessere.com/alimentazione/erbe-piante-officinali/&#10;http://www.portalebenessere.com/rimedi-naturali/&#10;http://www.donnamoderna.com/salute/erbe-e-benessere/&#10;http://m.donnamoderna.com/salute/erbe-e-benessere/" IDS="515882:515876:U34292,U36324" CAT="false:false:false" REACH="0"/>
+            <outline text="Medicina Alternativa" IDS="515877:515876:" CAT="false:false:false" REACH="0"/>
+            <outline text="Ortopedia" IDS="515880:515876:" CAT="false:false:false" REACH="0"/>
+            <outline text="Pediatria" IDS="515881:515876:" CAT="false:false:false" REACH="0"/>
+            <outline text="Supporto per Abuso-Incesto" IDS="515883:515876:" CAT="false:false:false" REACH="0"/>
+            <outline text="Terapia Fisica" IDS="515885:515876:" CAT="false:false:false" REACH="0"/>
+            <outline text="Terapia Psicologica-Psichiatrica" IDS="515886:515876:" CAT="false:false:false" REACH="0"/>
+          </outline>
+        </outline>
+        <outline text="Appuntamenti" BK_URL_rule="http://www.tgcom24.mediaset.it/donne/amore/&#10;http://www.donnamoderna.com/attualita/schelotto/&#10;http://www.donnamoderna.com/attualita/schelotto2/&#10;http://www.donnamoderna.com/tempo-libero/uomo-che-vorrei/&#10;http://mobile.tgcom24.it/donne/amore/&#10;http://m.donnamoderna.com/attualita/schelotto/&#10;http://m.donnamoderna.com/attualita/schelotto2/&#10;http://m.donnamoderna.com/tempo-libero/uomo-che-vorrei/" IDS="515854:515578:U34286,U36325" CAT="false:false:false" REACH="0"/>
+        <outline text="Arte" BK_URL_rule="http://www.tgcom24.mediaset.it/cultura/mostre/&#10;http://mobile.tgcom24.it/cultura/mostre/" IDS="515852:515578:U34284,U36326" CAT="false:false:false" REACH="0"/>
+        <outline text="Arti e Mestieri" BK_URL_rule="http://artigianare.tgcom24.it/&#10;http://www.donnamoderna.com/attualita/hyundai/&#10;http://www.donnamoderna.com/tempo-libero/amore-ai-tempi-di-internet/&#10;http://www.donnamoderna.com/tempo-libero/concorso-romanzo/&#10;http://m.donnamoderna.com/attualita/hyundai/&#10;http://m.donnamoderna.com/tempo-libero/amore-ai-tempi-di-internet/&#10;http://m.donnamoderna.com/tempo-libero/concorso-romanzo/&#10;http://giornimoderni.donnamoderna.com/societa/&#10;http://giornimoderni.donnamoderna.com/cultura/&#10;http://giornimoderni.donnamoderna.com/autori/&#10;http://giornimoderni.donnamoderna.com/foto/&#10;http://giornimoderni.donnamoderna.com/video/&#10;http://sognipossibili.donnamoderna.com/le-grandi-storie/&#10;http://sognipossibili.donnamoderna.com/i-vostri-sogni/" IDS="515856:515578:U34288,U36327" CAT="false:false:false" REACH="0"/>
+        <outline text="Auto e Moto" BK_URL_rule="http://www.tgcom24.mediaset.it/motori/&#10;http://mobile.tgcom24.it/motori/" IDS="515698:515578:U34271,U36328" CAT="false:false:false" REACH="0">
+          <outline text="Automobili" BK_URL_rule="http://www.tgcom24.mediaset.it/motori/prove/&#10;http://mobile.tgcom24.it/motori/prove/" IDS="515699:515698:U34272,U36329" CAT="false:false:false" REACH="0">
+            <outline text="Alimentazione" IDS="515728:515699:" CAT="true:true:false" REACH="0">
+              <outline text="Benzina" IDS="515730:515728:" CAT="false:false:false" REACH="0"/>
+              <outline text="Diesel" IDS="515729:515728:" CAT="false:false:false" REACH="0"/>
+              <outline text="Elettrica" IDS="515731:515728:" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Brand" IDS="515714:515699:" CAT="true:true:false" REACH="0">
+              <outline text="Alfa" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Alfa" IDS="515718:515714:P34764" CAT="false:false:false" REACH="0"/>
+              <outline text="Audi" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Audi" IDS="515722:515714:P34765" CAT="false:false:false" REACH="0"/>
+              <outline text="BMW" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,BMW" IDS="515715:515714:P34766" CAT="false:false:false" REACH="0"/>
+              <outline text="Citroen" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Citroen" IDS="515720:515714:P34767" CAT="false:false:false" REACH="0"/>
+              <outline text="Ferrari" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Ferrari" IDS="515724:515714:P34768" CAT="false:false:false" REACH="0"/>
+              <outline text="Fiat" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Fiat" IDS="515717:515714:P34769" CAT="false:false:false" REACH="0"/>
+              <outline text="Inifiniti" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Infiniti" IDS="527669:515714:P34770" CAT="false:false:false" REACH="0"/>
+              <outline text="Kia" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Kia" IDS="515727:515714:P34771" CAT="false:false:false" REACH="0"/>
+              <outline text="Lamborghini" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Lamborghini" IDS="515725:515714:P34772" CAT="false:false:false" REACH="0"/>
+              <outline text="Lancia" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Lancia" IDS="527670:515714:P34773" CAT="false:false:false" REACH="0"/>
+              <outline text="Maserati" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Maserati" IDS="527671:515714:P34774" CAT="false:false:false" REACH="0"/>
+              <outline text="Mazda" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Mazda" IDS="527672:515714:P34775" CAT="false:false:false" REACH="0"/>
+              <outline text="Mercedes" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Mercedes" IDS="515716:515714:P34776" CAT="false:false:false" REACH="0"/>
+              <outline text="Nissan" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Nissan" IDS="527673:515714:P34777" CAT="false:false:false" REACH="0"/>
+              <outline text="Opel" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Opel" IDS="515721:515714:P34778" CAT="false:false:false" REACH="0"/>
+              <outline text="Porche" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Porche" IDS="515723:515714:P34779" CAT="false:false:false" REACH="0"/>
+              <outline text="Renault" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Renault" IDS="515719:515714:P34780" CAT="false:false:false" REACH="0"/>
+              <outline text="Subaru" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Subaru" IDS="527674:515714:P34781" CAT="false:false:false" REACH="0"/>
+              <outline text="Suzuki" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Suzuki" IDS="527675:515714:P34782" CAT="false:false:false" REACH="0"/>
+              <outline text="Toyota" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Toyota" IDS="515726:515714:P34783" CAT="false:false:false" REACH="0"/>
+              <outline text="Volvo" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Volvo" IDS="527676:515714:P34784" CAT="false:false:false" REACH="0"/>
+              <outline text="Bentley" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Bentley" IDS="527677:515714:P34785" CAT="false:false:false" REACH="0"/>
+              <outline text="Land Rover" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Land Rover" IDS="527678:515714:P34786" CAT="false:false:false" REACH="0"/>
+              <outline text="Chrysler" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Chrysler" IDS="527679:515714:P34787" CAT="false:false:false" REACH="0"/>
+              <outline text="Jeep" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Jeep" IDS="527680:515714:P34788" CAT="false:false:false" REACH="0"/>
+              <outline text="Honda" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Honda" IDS="527681:515714:P34789" CAT="false:false:false" REACH="0"/>
+              <outline text="Volkswagen" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Volkswagen" IDS="530710:515714:P34033" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Tipo di Auto" IDS="515700:515699:" CAT="true:true:false" REACH="0">
+              <outline text="Cabrio" IDS="515701:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Coupe" IDS="515702:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Crossover" IDS="515703:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Due Volumi" IDS="515704:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Hybrid" IDS="515706:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Luxury" IDS="515707:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="MiniVan" IDS="515708:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Off-Road" IDS="515709:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Pickup" IDS="515710:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Sedan" IDS="515711:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Veicolo Elettrico" IDS="515705:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Vintage" IDS="515712:515700:" CAT="false:false:false" REACH="0"/>
+              <outline text="Wagon" IDS="515713:515700:" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+          <outline text="Moto" BK_URL_rule="http://www.tgcom24.mediaset.it/motori/moto/&#10;http://mobile.tgcom24.it/motori/moto/" IDS="515732:515698:U34273,U36330" CAT="false:false:false" REACH="0">
+            <outline text="Brand" IDS="515733:515732:" CAT="true:true:false" REACH="0">
+              <outline text="Ducati" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Ducati" IDS="515735:515733:P34790" CAT="false:false:false" REACH="0"/>
+              <outline text="Honda" IDS="515734:515733:" CAT="false:false:false" REACH="0"/>
+              <outline text="Yamaka" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Yamaka" IDS="515736:515733:P34791" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+          <outline text="Motorino" IDS="515737:515698:" CAT="false:false:false" REACH="0">
+            <outline text="Brand" IDS="515738:515737:" CAT="true:true:false" REACH="0">
+              <outline text="Honda" IDS="515739:515738:" CAT="false:false:false" REACH="0"/>
+              <outline text="Piaggio" IDS="515740:515738:" CAT="false:false:false" REACH="0"/>
+              <outline text="Vespa" BK_phints_rule="__bk_l,contains,motori&#10;__bk_k,contains,Vespa" IDS="515741:515738:P34792" CAT="false:false:false" REACH="0"/>
+              <outline text="Yhamaka" IDS="515742:515738:" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="Casa e Arredamento" BK_URL_rule="http://www.donnamoderna.com/casa/&#10;http://m.donnamoderna.com/casa/&#10;http://video.donnamoderna.com/casafacile/&#10;http://www.casafacile.it/&#10;http://forum.donnamoderna.com/casa-f136/&#10;http://casting.donnamoderna.com/casainordine/&#10;http://casting.donnamoderna.com/casedavacanza/" IDS="515857:515578:U34344,U36331" CAT="false:false:false" REACH="0">
+          <outline text="Interior Design" BK_URL_rule="http://www.donnamoderna.com/casa/arredamento/&#10;http://www.donnamoderna.com/casa/vostre-case/&#10;http://www.donnamoderna.com/casa/fuori-salone3/&#10;http://m.donnamoderna.com/casa/arredamento/&#10;http://m.donnamoderna.com/casa/vostre-case/&#10;http://m.donnamoderna.com/casa/fuori-salone3/" IDS="515859:515857:U34345,U36332" CAT="false:false:false" REACH="0"/>
+          <outline text="Riparazioni Domestiche" BK_URL_rule="http://www.donnamoderna.com/casa/fai-da-te/&#10;http://m.donnamoderna.com/casa/fai-da-te/&#10;http://video.donnamoderna.com/fai-da-te/&#10;http://www.donnamoderna.com/casa/bricolady-blog/&#10;http://www.donnamoderna.com/come-si-fa/&#10;http://www.donnamoderna.com/comefare/&#10;http://m.donnamoderna.com/casa/bricolady-blog/&#10;http://m.donnamoderna.com/come-si-fa/&#10;http://m.donnamoderna.com/comefare/&#10;http://comefare.donnamoderna.com/" IDS="515858:515857:U34346,U36333" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Cucina" IDS="515837:515578:" CAT="false:false:false" REACH="0">
+          <outline text="Cibo" BK_URL_rule="http://prontointavola.tgcom24.it/&#10;http://www.tgcom24.mediaset.it/cottoemangiato1/&#10;http://www.donnamoderna.com/cucina/&#10;http://mobile.tgcom24.it/cottoemangiato1/&#10;http://m.donnamoderna.com/cucina/&#10;http://video.donnamoderna.com/cucina/&#10;http://casting.donnamoderna.com/dolci-delizie/&#10;http://casting.donnamoderna.com/i-menu-di-misya/&#10;http://ricette.donnamoderna.com/&#10;http://forum.donnamoderna.com/cucina-f5/&#10;http://casting.donnamoderna.com/unatavolaspeciale/" IDS="515838:515837:U34347,U36334" CAT="false:false:false" REACH="0">
+            <outline text="Alimentazione" IDS="515847:515838:" CAT="true:true:false" REACH="0">
+              <outline text="Bambini" BK_URL_rule="http://www.donnamoderna.com/mamme/alimentazione-bambini/&#10;http://m.donnamoderna.com/mamme/alimentazione-bambini/" IDS="517738:515847:U34348,U36335" CAT="false:false:false" REACH="0"/>
+              <outline text="Omnivoro" IDS="515848:515847:" CAT="false:false:false" REACH="0"/>
+              <outline text="Vegana" IDS="515849:515847:" CAT="false:false:false" REACH="0"/>
+              <outline text="Vegetariano" BK_URL_rule="http://prontointavola.tgcom24.it/ricette/ricette-vegetariane/" IDS="515850:515847:U34282,U36336" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Cucine" IDS="515839:515838:" CAT="true:true:false" REACH="0">
+              <outline text="Americana" IDS="515845:515839:" CAT="false:false:false" REACH="0"/>
+              <outline text="Cinese" IDS="515843:515839:" CAT="false:false:false" REACH="0"/>
+              <outline text="Creola" IDS="515844:515839:" CAT="false:false:false" REACH="0"/>
+              <outline text="Francese" BK_URL_rule="http://www.donnamoderna.com/cucina/cucina-francese/&#10;http://m.donnamoderna.com/cucina/cucina-francese/" IDS="515841:515839:U34301,U36337" CAT="false:false:false" REACH="0"/>
+              <outline text="Giapponese" IDS="515842:515839:" CAT="false:false:false" REACH="0"/>
+              <outline text="Italiana" IDS="515840:515839:" CAT="false:false:false" REACH="0"/>
+              <outline text="Messicana" IDS="515846:515839:" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+          <outline text="Vino" BK_URL_rule="http://avvinando.tgcom24.it/" IDS="515851:515837:U34283,U36338" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Giardinaggio" BK_URL_rule="http://www.donnamoderna.com/casa/giardinaggio/&#10;http://www.donnamoderna.com/casa/kit-di-giardinaggio/&#10;http://www.donnamoderna.com/casa/fiorita/&#10;http://www.donnamoderna.com/casa/fiori-autunnali/&#10;http://m.donnamoderna.com/casa/giardinaggio/&#10;http://m.donnamoderna.com/casa/kit-di-giardinaggio/&#10;http://m.donnamoderna.com/casa/fiorita/&#10;http://m.donnamoderna.com/casa/fiori-autunnali/&#10;http://fioriefoglie.tgcom24.it/" IDS="515853:515578:U34285,U36339" CAT="false:false:false" REACH="0"/>
+        <outline text="Gossip" BK_URL_rule="http://www.donnamoderna.com/gossip/&#10;http://m.donnamoderna.com/gossip/&#10;http://video.donnamoderna.com/gossip/&#10;http://www.donnamoderna.com/attualita/gossip-tv/&#10;http://m.donnamoderna.com/attualita/gossip-tv/&#10;http://forum.donnamoderna.com/gossip-e-tv-f127/&#10;http://www.sportmediaset.mediaset.it/altrisport/gossip/&#10;http://www.sportmediaset.mediaset.it/calcio/gossip/&#10;http://lookdavip.tgcom24.it/category/gossip/&#10;http://lookdavip.tgcom24.it/personaggi/&#10;http://www.tgcom24.mediaset.it/people/&#10;http://www.tgcom24.mediaset.it/sport/gossip/&#10;http://mobile.tgcom24.it/people/&#10;http://mobile.tgcom24.it/sport/gossip/" IDS="515766:515578:U34276,U36340" CAT="false:false:false" REACH="0">
+          <outline text="Personaggi Preferiti" IDS="515767:515766:" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Libri" BK_URL_rule="http://video.donnamoderna.com/libri/&#10;http://www.donnamoderna.com/tempo-libero/natale-libri/&#10;http://www.tgcom24.mediaset.it/cultura/libri/&#10;http://www.sportmediaset.mediaset.it/libri/" IDS="515768:515578:U34277,U36341" CAT="false:false:false" REACH="0">
+          <outline text="Preferenze" IDS="515769:515768:" CAT="true:true:false" REACH="0">
+            <outline text="Autori" IDS="517739:515769:" CAT="true:true:false" REACH="0">
+              <outline text="Michael Connelly" BK_URL_rule="http://www.donnamoderna.com/tempo-libero/michael-connelly/&#10;http://m.donnamoderna.com/tempo-libero/michael-connelly/" IDS="517740:517739:U34349,U36342" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Generi" IDS="515773:515769:" CAT="true:true:false" REACH="0">
+              <outline text="Agende" IDS="515774:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Ambiente e Animali" IDS="515775:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Archietttura Design e Moda" IDS="515776:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Arte Beni Culturali e Fotografia" IDS="515777:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Arte e Illustrati" IDS="515778:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Bambini e Ragazzi" IDS="515779:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Business e Economia" IDS="515780:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Cinema e Spettacolo" IDS="515781:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Commedia" IDS="515782:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Diritto" IDS="515783:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Documentario" IDS="515784:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Donne" IDS="515785:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Drammatico" IDS="515786:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Economia Diritto e Lavoro" IDS="515788:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Economia e Management" IDS="515787:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Edilizia Sicurezza Ambiente" IDS="515789:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Enti Locali" IDS="515790:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Esoterismo e Astrologia" IDS="515791:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Famiglia Scuola e Universita" IDS="515792:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Fantascienza" IDS="515793:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Fantastico" IDS="515794:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Fantasy Horror e Gothic" IDS="515795:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Fisco e Contabilita" IDS="515796:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Fumetti" IDS="515797:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Gastronomia" IDS="515798:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Gialli e Fantasy" IDS="515799:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Gialli Noir e Avventura" IDS="515800:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Guide Turistiche e Viaggi" IDS="515801:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Hobby e Tempo Libero" IDS="515802:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Immobili" IDS="515803:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Informatica e Web" IDS="515804:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Lavoro" IDS="515805:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Lingue e Dizionari" IDS="515806:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Lingue e Enciclopedie" IDS="515807:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Merchandising" IDS="515808:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Musica" IDS="515809:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Musica e Spettacolo" IDS="515810:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Non Profit" IDS="515811:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Passione e Sentimenti" IDS="515812:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Politica e Societa" IDS="515813:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Pop Rock Internazionale" IDS="515814:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Popo Rock Italiana" IDS="515815:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Psicologia e Filosofia" IDS="515816:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Puzzle" IDS="515817:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Ragazzi" IDS="515818:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Religione e Spiritualita" IDS="515819:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Romanzi e Letterature" IDS="515820:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Salute e Benessere" IDS="515821:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Scienza e Tecnica" IDS="515822:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Scienze Umane" IDS="515823:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Sport e Tempo Libero" BK_URL_rule="http://www.sportmediaset.mediaset.it/libri/calcio/" IDS="515824:515773:U34278,U36343" CAT="false:false:false" REACH="0"/>
+              <outline text="Storia e Biografie" IDS="515825:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Teatro" IDS="515826:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Thriller" IDS="515827:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Ufficio e Cancelleria" IDS="515828:515773:" CAT="false:false:false" REACH="0"/>
+              <outline text="Viaggi e Turismo" IDS="515829:515773:" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Tipologia" IDS="515770:515769:" CAT="true:true:false" REACH="0">
+              <outline text="Cartaceo" IDS="515771:515770:" CAT="false:false:false" REACH="0"/>
+              <outline text="E-Book" IDS="515772:515770:" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="Meteo" BK_URL_rule="http://www.meteo.it/&#10;http://video.donnamoderna.com/meteo/" IDS="517741:515578:U34350,U36344" CAT="false:false:false" REACH="0"/>
+        <outline text="Moda" BK_URL_rule="http://www.tgcom24.mediaset.it/donne/moda/&#10;http://www.tgcom24.mediaset.it/speciale-tv-moda/&#10;http://www.donnamoderna.com/moda/&#10;http://forum.donnamoderna.com/moda-f132/&#10;http://mobile.tgcom24.it/donne/moda/&#10;http://mobile.tgcom24.it/speciale-tv-moda/&#10;http://m.donnamoderna.com/moda/" IDS="515830:515578:U34135,U36345" CAT="false:false:false" REACH="0">
+          <outline text="Abbigliamento" IDS="515832:515830:" CAT="false:false:false" REACH="0"/>
+          <outline text="Accessori" IDS="515836:515830:" CAT="false:false:false" REACH="0"/>
+          <outline text="Body Art" IDS="515833:515830:" CAT="false:false:false" REACH="0"/>
+          <outline text="Cosmesi e Beauty Care" BK_URL_rule="http://latuabeautyclinic.tgcom24.it/&#10;http://www.portalebenessere.com/bellezza/&#10;http://www.donnamoderna.com/bellezza/&#10;http://video.donnamoderna.com/bellezza/&#10;http://forum.donnamoderna.com/bellezza-f4/" IDS="515831:515830:U34279,U36346" CAT="false:false:false" REACH="0"/>
+          <outline text="Fashion" BK_URL_rule="http://www.portalebenessere.com/bellezza/&#10;http://www.tgcom24.mediaset.it/donne/bellezza/&#10;http://www.donnamoderna.com/sfilate/&#10;http://mobile.tgcom24.it/donne/bellezza/&#10;http://m.donnamoderna.com/sfilate/&#10;http://video.donnamoderna.com/moda/&#10;http://www.donnamoderna.com/lifestyle/&#10;http://www.donnamoderna.com/tempo-libero/sfilate-diretta/&#10;http://m.donnamoderna.com/lifestyle/&#10;http://m.donnamoderna.com/tempo-libero/sfilate-diretta/&#10;http://blog.donnamoderna.com/moda/" IDS="515834:515830:U34280,U36347" CAT="false:false:false" REACH="0"/>
+          <outline text="Gioielleria" IDS="515835:515830:" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Musica" BK_URL_rule="http://lookdavip.tgcom24.it/category/musica/&#10;http://www.donnamoderna.com/attualita/tempo-libero/musica/&#10;http://m.donnamoderna.com/attualita/tempo-libero/musica/" IDS="515757:515578:U34275,U36348" CAT="false:false:false" REACH="0">
+          <outline text="Ascolto" IDS="515758:515757:" CAT="true:true:false" REACH="0">
+            <outline text="Generi Preferiti" IDS="515759:515758:" CAT="true:true:false" REACH="0">
+              <outline text="Blues" IDS="515762:515759:" CAT="false:false:false" REACH="0"/>
+              <outline text="Jazz" IDS="515761:515759:" CAT="false:false:false" REACH="0"/>
+              <outline text="Pop" IDS="515763:515759:" CAT="false:false:false" REACH="0"/>
+              <outline text="Rock" IDS="515760:515759:" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Musiciti/Interpreti Preferiti" IDS="515764:515758:" CAT="true:true:false" REACH="0">
+              <outline text="Miles Davis" IDS="515765:515764:" CAT="false:false:false" REACH="0"/>
+            </outline>
+          </outline>
+          <outline text="Eventi" IDS="517742:515757:" CAT="false:false:false" REACH="0">
+            <outline text="San Remo" BK_URL_rule="http://www.donnamoderna.com/gossip/sanremo-news/&#10;http://m.donnamoderna.com/gossip/sanremo-news/" IDS="517743:517742:U34351,U36349" CAT="false:false:false" REACH="0"/>
+          </outline>
+        </outline>
+        <outline text="Scienza" BK_URL_rule="http://doveosanoibosoni.tgcom24.it/" IDS="515855:515578:U34287,U36350" CAT="false:false:false" REACH="0"/>
+        <outline text="Sport" BK_URL_rule="http://www.tgcom24.mediaset.it/sport/&#10;http://www.sportmediaset.mediaset.it/" IDS="515579:515578:U34237,U36351" CAT="false:false:false" REACH="0">
+          <outline text="Arrampicate" IDS="515628:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Arti Marziali" IDS="515607:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Atletica Leggera" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrisport/atletica/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/atletica/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/atletica/" IDS="515608:515579:U34238,U36352" CAT="false:false:false" REACH="0"/>
+          <outline text="Barca" IDS="515629:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Baseball" IDS="515630:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Basket" BK_URL_rule="http://www.tgcom24.mediaset.it/sport/basket/&#10;http://mobile.tgcom24.it/sport/basket/&#10;http://www.sportmediaset.mediaset.it/basket/&#10;http://www.sportmediaset.mediaset.it/altrisport/basket/&#10;http://www.sportmediaset.mediaset.it/pazzosport/basket/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/basket/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/basket/" IDS="515609:515579:U34223,U36353" CAT="false:false:false" REACH="0"/>
+          <outline text="Bici" IDS="515610:515579:" CAT="false:false:false" REACH="0">
+            <outline text="Corsa" IDS="515611:515610:" CAT="false:false:false" REACH="0"/>
+            <outline text="Mountain Bike" IDS="515612:515610:" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Bodybuilding" IDS="515632:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Boxe" IDS="515631:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Calcio" BK_URL_rule="http://www.sportmediaset.mediaset.it/calcio/&#10;http://www.sportmediaset.mediaset.it/calcio/eventistreaming.shtml&#10;http://direttacalcio.sportmediaset.it/&#10;http://statistiche.sportmediaset.it&#10;http://www.sportmediaset.mediaset.it/foto/calcio/&#10;http://www.sportmediaset.mediaset.it/video/calcio/" IDS="515580:515579:U34224,U36354" CAT="false:false:false" REACH="0">
+            <outline text="Estero" BK_URL_rule="http://www.sportmediaset.mediaset.it/calcioestero/&#10;http://www.tgcom24.mediaset.it/specialecalcio/calcio_estero/&#10;http://mobile.tgcom24.it/specialecalcio/calcio_estero/" IDS="515597:515580:U34240,U36355" CAT="false:false:false" REACH="0">
+              <outline text="Bundesliga" IDS="515606:515597:" CAT="false:false:false" REACH="0"/>
+              <outline text="Champions League" BK_URL_rule="http://www.sportmediaset.mediaset.it/calcio/championsleague.shtml&#10;http://www.sportmediaset.mediaset.it/calcio/championsleague/&#10;http://www.sportmediaset.mediaset.it/video/calcio/championsleague/&#10;http://www.tgcom24.mediaset.it/specialecalcio/champions_league/&#10;http://mobile.tgcom24.it/specialecalcio/champions_league/" IDS="516390:515597:U34241,U36356" CAT="false:false:false" REACH="0"/>
+              <outline text="Europa League" BK_URL_rule="http://www.sportmediaset.mediaset.it/calcio/europaleague.shtml&#10;http://www.sportmediaset.mediaset.it/calcio/europa_league/&#10;http://www.sportmediaset.mediaset.it/video/calcio/europaleague/&#10;http://www.tgcom24.mediaset.it/specialecalcio/europa_league/&#10;http://mobile.tgcom24.it/specialecalcio/europa_league/" IDS="516391:515597:U34242,U36357" CAT="false:false:false" REACH="0"/>
+              <outline text="Liga" IDS="515598:515597:" CAT="false:false:false" REACH="0"/>
+              <outline text="Ligue1" IDS="515605:515597:" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Italia" IDS="515581:515580:" CAT="false:false:false" REACH="0">
+              <outline text="Coppa Italia" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/coppa_italia/&#10;http://mobile.tgcom24.it/specialecalcio/coppa_italia/" IDS="516389:515581:U34239,U36358" CAT="false:false:false" REACH="0"/>
+              <outline text="Personaggi" IDS="515582:515581:" CAT="true:true:false" REACH="0">
+                <outline text="Roberto Mancini" IDS="515583:515582:" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Squadre" IDS="515584:515581:" CAT="true:true:false" REACH="0">
+                <outline text="Atalanta" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?atalanta_2&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?atalanta_2&#10;http://www.sportmediaset.mediaset.it/calcio/atalanta/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/atalanta.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/atalanta/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/atalanta/" IDS="515599:515584:U34254,U36359" CAT="false:false:false" REACH="0"/>
+                <outline text="Bologna" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?bologna_19&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?bologna_19&#10;http://www.sportmediaset.mediaset.it/calcio/bologna/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/bologna.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/bologna/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/bologna/" IDS="515600:515584:U34255,U36360" CAT="false:false:false" REACH="0"/>
+                <outline text="Carpi" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?carpi_600&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?carpi_600&#10;http://www.sportmediaset.mediaset.it/calcio/carpi/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/carpi.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/carpi/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/carpi/" IDS="515601:515584:U34256,U36361" CAT="false:false:false" REACH="0"/>
+                <outline text="Chievo" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?chievo_466&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?chievo_466&#10;http://www.sportmediaset.mediaset.it/calcio/chievo/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/chievo.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/chievo/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/chievo/" IDS="515602:515584:U34257,U36362" CAT="false:false:false" REACH="0"/>
+                <outline text="Empoli" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?empoli_6&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?empoli_6&#10;http://www.sportmediaset.mediaset.it/calcio/empoli/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/empoli.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/empolli/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/empoli/" IDS="515603:515584:U34258,U36363" CAT="false:false:false" REACH="0"/>
+                <outline text="Fiorentina" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/europa_league/2016/scheda_squadra.shtml?fiorentina_7&#10;http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?fiorentina_7&#10;http://mobile.tgcom24.it/specialecalcio/europa_league/2016/scheda_squadra.shtml?fiorentina_7&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?fiorentina_7&#10;http://www.sportmediaset.mediaset.it/calcio/fiorentina/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/fiorentina.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/fiorentina/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/fiorentina/" IDS="515596:515584:U34259,U36364" CAT="false:false:false" REACH="0"/>
+                <outline text="Frosinone" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?frosinone_480&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?frosinone_480&#10;http://www.sportmediaset.mediaset.it/calcio/frosinone/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/frosinone.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/frosinone/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/frosinone/" IDS="515595:515584:U34132,U36365" CAT="false:false:false" REACH="0"/>
+                <outline text="Genoa" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?genoa_25&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?genoa_25&#10;http://www.sportmediaset.mediaset.it/calcio/genoa/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/gemoa.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/genoa/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/genoa/" IDS="515604:515584:U34260,U36366" CAT="false:false:false" REACH="0"/>
+                <outline text="Hellas Verona" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?hellas_verona_16&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?hellas_verona_16&#10;http://www.sportmediaset.mediaset.it/calcio/veona/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/verona.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/verona/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/verona/" IDS="515641:515584:U34261,U36367" CAT="false:false:false" REACH="0"/>
+                <outline text="Inter" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?inter_8&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?inter_8&#10;http://www.sportmediaset.mediaset.it/calcio/inter/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/inter.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/inter/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/inter/" IDS="515588:515584:U34128,U36368" CAT="false:false:false" REACH="0"/>
+                <outline text="Juventus" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/champions_league/2016/scheda_squadra.shtml?juventus_9&#10;http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?juventus_9&#10;http://mobile.tgcom24.it/specialecalcio/champions_league/2016/scheda_squadra.shtml?juventus_9&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?juventus_9&#10;http://www.sportmediaset.mediaset.it/calcio/juventus/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/juventus.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/juventus/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/juventus/" IDS="515587:515584:U34127,U36369" CAT="false:false:false" REACH="0"/>
+                <outline text="Lazio" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/europa_league/2016/scheda_squadra.shtml?lazio_26&#10;http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?lazio_26&#10;http://mobile.tgcom24.it/specialecalcio/europa_league/2016/scheda_squadra.shtml?lazio_26&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?lazio_26&#10;http://www.sportmediaset.mediaset.it/calcio/lazio/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/lazio.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/lazio/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/lazio/" IDS="515586:515584:U34126,U36370" CAT="false:false:false" REACH="0"/>
+                <outline text="Milan" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?milan_10&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?milan_10&#10;http://www.sportmediaset.mediaset.it/calcio/milan/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/milan.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/milan/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/milan/" IDS="515589:515584:U34129,U36371" CAT="false:false:false" REACH="0"/>
+                <outline text="Napoli" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/europa_league/2016/scheda_squadra.shtml?napoli_11&#10;http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?napoli_11&#10;http://mobile.tgcom24.it/specialecalcio/europa_league/2016/scheda_squadra.shtml?napoli_11&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?napoli_11&#10;http://www.sportmediaset.mediaset.it/calcio/napoli/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/napoli.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/napoli/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/napoli/" IDS="515585:515584:U34125,U36372" CAT="false:false:false" REACH="0"/>
+                <outline text="Palermo" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?palermo_542&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?palermo_542&#10;http://www.sportmediaset.mediaset.it/calcio/palermo/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/palermo.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/palermo/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/palermo/" IDS="515592:515584:U34262,U36373" CAT="false:false:false" REACH="0"/>
+                <outline text="Roma" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/champions_league/2016/scheda_squadra.shtml?roma_12&#10;http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?roma_12&#10;http://mobile.tgcom24.it/specialecalcio/champions_league/2016/scheda_squadra.shtml?roma_12&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?roma_12&#10;http://www.sportmediaset.mediaset.it/calcio/roma/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/roma.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/roma/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/roma/" IDS="515590:515584:U34130,U36374" CAT="false:false:false" REACH="0"/>
+                <outline text="Sampdoria" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?sampdoria_13&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?sampdoria_13&#10;http://www.sportmediaset.mediaset.it/calcio/sampdoria/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/sampdoria.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/sampdoria/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/sampdoria/" IDS="515593:515584:U34263,U36375" CAT="false:false:false" REACH="0"/>
+                <outline text="Sassuolo" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?sassuolo_456&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?sassuolo_456&#10;http://www.sportmediaset.mediaset.it/calcio/sassuolo/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/sassuolo.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/sassuolo/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/sassuolo/" IDS="515591:515584:U34264,U36376" CAT="false:false:false" REACH="0"/>
+                <outline text="Torino" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?torino_14&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?torino_14&#10;http://www.sportmediaset.mediaset.it/calcio/torino/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/torino.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/torino/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/torino/" IDS="515594:515584:U34131,U36377" CAT="false:false:false" REACH="0"/>
+                <outline text="Udinese" BK_URL_rule="http://www.tgcom24.mediaset.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?udinese_15&#10;http://mobile.tgcom24.it/specialecalcio/serie_a/2016/scheda_squadra.shtml?udinese_15&#10;http://www.sportmediaset.mediaset.it/calcio/udinese/&#10;http://www.sportmediaset.mediaset.it/calcio/squadre/udinese.shtml&#10;http://www.sportmediaset.mediaset.it/video/calcio/udinese/&#10;http://www.sportmediaset.mediaset.it/foto/calcio/udinese/" IDS="516394:515584:U34265,U36378" CAT="false:false:false" REACH="0"/>
+              </outline>
+            </outline>
+          </outline>
+          <outline text="Canoa-Kayk" IDS="515633:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Cavalli" IDS="515634:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Corse Automobili" BK_URL_rule="http://www.tgcom24.mediaset.it/sport/motori/&#10;http://www.tgcom24.mediaset.it/specialemotori/&#10;http://mobile.tgcom24.it/sport/motori/&#10;http://mobile.tgcom24.it/specialemotori/" IDS="515613:515579:U34243,U36379" CAT="false:false:false" REACH="0">
+            <outline text="Formula 1" BK_URL_rule="http://www.sportmediaset.mediaset.it/formula1/&#10;http://www.sportmediaset.mediaset.it/altrisport/formula1/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/formula1/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/formula1/" IDS="515614:515613:U34225,U36380" CAT="false:false:false" REACH="0">
+              <outline text="Piloti Preferiti" IDS="515615:515614:" CAT="true:true:false" REACH="0">
+                <outline text="Alonso" IDS="515618:515615:" CAT="false:false:false" REACH="0"/>
+                <outline text="Hamilton" IDS="515617:515615:" CAT="false:false:false" REACH="0"/>
+                <outline text="Vettel" IDS="515616:515615:" CAT="false:false:false" REACH="0"/>
+              </outline>
+            </outline>
+            <outline text="Rally" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrimotori/rally/&#10;http://www.tgcom24.mediaset.it/sport/rally/&#10;http://mobile.tgcom24.it/sport/rally/" IDS="515619:515613:U34244,U36381" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Corse Motocicli" IDS="515635:515579:" CAT="false:false:false" REACH="0">
+            <outline text="MotoGP" BK_URL_rule="http://www.tgcom24.mediaset.it/sport/motogp/&#10;http://www.tgcom24.mediaset.it/specialemotori/motomondiale/&#10;http://mobile.tgcom24.it/sport/motogp/&#10;http://mobile.tgcom24.it/specialemotori/motomondiale/&#10;http://www.sportmediaset.mediaset.it/motogp/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/motogp/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/motogp/" IDS="515636:515635:U34226,U36382" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Cricket" IDS="515637:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Footbal" IDS="515638:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Ginnastica" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrisport/ginnastica/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/ginnastica/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/ginnastica/" IDS="516392:515579:U34245,U36383" CAT="false:false:false" REACH="0"/>
+          <outline text="Golf" IDS="515639:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Hockey" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrisport/hockey/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/hockey/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/hockey/" IDS="515640:515579:U34246,U36384" CAT="false:false:false" REACH="0"/>
+          <outline text="Nuoto" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrisport/nuoto/&#10;http://www.sportmediaset.mediaset.it/pazzosport/nuoto/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/nuoto/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/nuoto/" IDS="515620:515579:U34247,U36385" CAT="false:false:false" REACH="0"/>
+          <outline text="Pallanuoto" IDS="515621:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Pallavolo" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrisport/pallavolo/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/pallavolo/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/pallavolo/&#10;http://www.sportmediaset.mediaset.it/volley/&#10;http://www.sportmediaset.mediaset.it/altrisport/volley/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/volley/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/volley/&#10;http://www.tgcom24.mediaset.it/sport/volley/&#10;http://mobile.tgcom24.it/sport/volley/" IDS="515622:515579:U34248,U36386" CAT="false:false:false" REACH="0"/>
+          <outline text="Pattinaggio" IDS="515642:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Pesca" IDS="515643:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Ping-Pong" IDS="515644:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Poker" BK_URL_rule="http://www.sportmediaset.mediaset.it/poker/" IDS="516393:515579:U34249,U36387" CAT="false:false:false" REACH="0"/>
+          <outline text="Rugby" BK_URL_rule="http://www.tgcom24.mediaset.it/sport/rugby/&#10;http://www.tgcom24.mediaset.it/sport/specialerugby/&#10;http://mobile.tgcom24.it/sport/rugby/&#10;http://mobile.tgcom24.it/sport/specialerugby/&#10;http://www.sportmediaset.mediaset.it/rugby/&#10;http://www.sportmediaset.mediaset.it/altrisport/rugby/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/rugby/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/rugby/" IDS="515623:515579:U34250,U36388" CAT="false:false:false" REACH="0"/>
+          <outline text="Running" IDS="515645:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Scherma" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrisport/scherma/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/scherma/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/scherma/" IDS="515646:515579:U34251,U36389" CAT="false:false:false" REACH="0"/>
+          <outline text="Sci" BK_URL_rule="http://www.tgcom24.mediaset.it/sport/sci/&#10;http://mobile.tgcom24.it/sport/sci/&#10;http://www.sportmediaset.mediaset.it/sci/&#10;http://www.sportmediaset.mediaset.it/altrisport/sci/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/sci/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/sci/" IDS="515647:515579:U34227,U36390" CAT="false:false:false" REACH="0"/>
+          <outline text="Sci d Acqua" IDS="515648:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Skateboard" IDS="515651:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Snowboarding" IDS="515652:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Subacquea" IDS="515650:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Surf" IDS="515649:515579:" CAT="false:false:false" REACH="0"/>
+          <outline text="Tennis" BK_URL_rule="http://www.tgcom24.mediaset.it/sport/tennis/&#10;http://mobile.tgcom24.it/sport/tennis/&#10;http://www.sportmediaset.mediaset.it/tennis/&#10;http://www.sportmediaset.mediaset.it/altrisport/tennis/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/tennis/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/tennis/" IDS="515624:515579:U34228,U36391" CAT="false:false:false" REACH="0"/>
+          <outline text="Tiro" IDS="515625:515579:" CAT="false:false:false" REACH="0">
+            <outline text="Arco" IDS="515626:515625:" CAT="false:false:false" REACH="0"/>
+            <outline text="Piattello" IDS="515627:515625:" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Vela" BK_URL_rule="http://www.sportmediaset.mediaset.it/altrisport/vela/&#10;http://www.sportmediaset.mediaset.it/foto/altrisport/vela/&#10;http://www.sportmediaset.mediaset.it/video/altrisport/vela/" IDS="515654:515579:U34252,U36392" CAT="false:false:false" REACH="0"/>
+          <outline text="Volley" BK_URL_rule="http://www.sportmediaset.mediaset.it/volley/" IDS="515653:515579:U34229,U36393" CAT="false:false:false" REACH="0"/>
+          <outline text="Walking" IDS="515655:515579:" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Tech" BK_URL_rule="http://www.donnamoderna.com/lifestyle/tech/&#10;http://www.tgcom24.mediaset.it/tgtech/&#10;http://m.donnamoderna.com/lifestyle/tech/&#10;http://mobile.tgcom24.com/tgtech/" IDS="517745:515578:U34352,U36394" CAT="false:false:false" REACH="0"/>
+        <outline text="Viaggi" BK_URL_rule="http://www.donnamoderna.com/lifestyle/viaggi/&#10;http://www.donnamoderna.com/tempo-libero/viaggi-pollicino/&#10;http://www.tgcom24.mediaset.it/viaggi/&#10;http://www.donnamoderna.com/tempo-libero/in-viaggio/&#10;http://www.donnamoderna.com/tempo-libero/organizza-il-tuo-viaggio/&#10;http://www.donnamoderna.com/tempo-libero/viaggiaconme/&#10;http://blog.donnamoderna.com/viaggi/&#10;http://casting.donnamoderna.com/cartoline-di-viaggio/&#10;http://m.donnamoderna.com/lifestyle/viaggi/&#10;http://m.donnamoderna.com/tempo-libero/viaggi-pollicino/&#10;http://mobile.tgcom24.it/viaggi/&#10;http://m.donnamoderna.com/tempo-libero/in-viaggio/&#10;http://m.donnamoderna.com/tempo-libero/organizza-il-tuo-viaggio/&#10;http://m.donnamoderna.com/tempo-libero/viaggiaconme/" IDS="515656:515578:U34353,U36395" CAT="false:false:false" REACH="0">
+          <outline text="Destinazioni" IDS="515657:515656:" CAT="true:true:false" REACH="0">
+            <outline text="Africa" IDS="515671:515657:" CAT="false:false:false" REACH="0"/>
+            <outline text="America del Sud" IDS="515672:515657:" CAT="false:false:false" REACH="0"/>
+            <outline text="Australia e Nuova Zelanda" IDS="515673:515657:" CAT="false:false:false" REACH="0"/>
+            <outline text="Canada" IDS="515674:515657:" CAT="false:false:false" REACH="0"/>
+            <outline text="Caraibi" IDS="515675:515657:" CAT="false:false:false" REACH="0"/>
+            <outline text="Europa" BK_URL_rule="http://www.tgcom24.mediaset.it/viaggi/europa/&#10;http://mobile.tgcom24.it/viaggi/europa/" IDS="515658:515657:U34133,U36396" CAT="false:false:false" REACH="0">
+              <outline text="Spagna" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Spagna" IDS="527682:515658:P34793" CAT="false:false:false" REACH="0">
+                <outline text="Madrid" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Madrid" IDS="515663:527682:P34794" CAT="false:false:false" REACH="0"/>
+                <outline text="Barcellona" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Barcellona" IDS="515662:527682:P34795" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="UK" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,UK&#10;&#10;__bk_l,contains,viaggi&#10;__bk_k,contains,Inghilterra" IDS="515684:515658:P34796,P34797" CAT="false:false:false" REACH="0">
+                <outline text="Londra" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Londra" IDS="515660:515684:P34798" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Francia" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Francia" IDS="515677:515658:P34799" CAT="false:false:false" REACH="0">
+                <outline text="Parigi" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Parigi" IDS="515659:515677:P34800" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Vienna" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Vienna" IDS="515661:515658:P34801" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Europa dell-Est" IDS="515676:515657:" CAT="false:false:false" REACH="0"/>
+            <outline text="Giappone" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Giappone" IDS="515678:515657:P34802" CAT="false:false:false" REACH="0">
+              <outline text="Tokio" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Tokio" IDS="527683:515678:P34803" CAT="false:false:false" REACH="0"/>
+              <outline text="Osaka" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Osaka" IDS="527684:515678:P34804" CAT="false:false:false" REACH="0"/>
+            </outline>
+            <outline text="Grecia" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Grecia" IDS="515679:515657:P34805" CAT="false:false:false" REACH="0"/>
+            <outline text="Italia" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Italia" BK_URL_rule="http://www.tgcom24.mediaset.it/viaggi/italia/&#10;http://mobile.tgcom24.it/viaggi/italia/" IDS="515664:515657:U34134,U36397,P34806" CAT="false:false:false" REACH="0">
+              <outline text="Nord" IDS="515665:515664:" CAT="false:false:false" REACH="0">
+                <outline text="Bologna" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Bologna" IDS="515670:515665:P34807" CAT="false:false:false" REACH="0"/>
+                <outline text="Milano" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Milano" IDS="515668:515665:P34808" CAT="false:false:false" REACH="0"/>
+                <outline text="Torino" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Torino" IDS="515667:515665:P34809" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Centro" IDS="527685:515664:" CAT="false:false:false" REACH="0">
+                <outline text="Firenze" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Firenze" IDS="515669:527685:P34810" CAT="false:false:false" REACH="0"/>
+                <outline text="Roma" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Roma" IDS="515666:527685:P34811" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Sud" IDS="527686:515664:" CAT="false:false:false" REACH="0">
+                <outline text="Napoli" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Napoli" IDS="527687:527686:P34812" CAT="false:false:false" REACH="0"/>
+                <outline text="Lecce" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Lecce" IDS="527688:527686:P34813" CAT="false:false:false" REACH="0"/>
+              </outline>
+              <outline text="Isole" IDS="527689:515664:" CAT="false:false:false" REACH="0">
+                <outline text="Palermo" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Palermo" IDS="527690:527689:P34814" CAT="false:false:false" REACH="0"/>
+                <outline text="Cagliari" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Cagliari" IDS="527691:527689:P34815" CAT="false:false:false" REACH="0"/>
+              </outline>
+            </outline>
+            <outline text="Messico e Centro America" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Messico" IDS="515681:515657:P34816" CAT="false:false:false" REACH="0"/>
+            <outline text="Mondo" IDS="515682:515657:" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Tipologia" IDS="515685:515656:" CAT="true:true:false" REACH="0">
+            <outline text="Avventura" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Avventura" IDS="515688:515685:P34817" CAT="false:false:false" REACH="0"/>
+            <outline text="Crociere" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Crociere" IDS="515695:515685:P34818" CAT="false:false:false" REACH="0"/>
+            <outline text="Low Cost" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Low Cost" IDS="515696:515685:P34819" CAT="false:false:false" REACH="0"/>
+            <outline text="Mare" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Mare" BK_URL_rule="http://www.tgcom24.mediaset.it/viaggi/mare/&#10;http://mobile.tgcom24.it/viaggi/mare/" IDS="516396:515685:U34269,U36398,P34820" CAT="false:false:false" REACH="0"/>
+            <outline text="Montagna" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Montagna" IDS="527692:515685:P34821" CAT="false:false:false" REACH="0"/>
+            <outline text="Neve" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Neve" BK_URL_rule="http://www.tgcom24.mediaset.it/viaggi/neve/&#10;http://mobile.tgcom24.it/viaggi/neve/" IDS="516397:515685:U34270,U36399,P34822" CAT="false:false:false" REACH="0"/>
+            <outline text="On The Road" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,OnTheRoad" BK_URL_rule="http://www.tgcom24.mediaset.it/viaggi/on-the-road/&#10;http://mobile.tgcom24.it/viaggi/on-the-road/" IDS="515686:515685:U34266,U36400,P34823" CAT="false:false:false" REACH="0"/>
+            <outline text="Parchi Nazionali" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Parchi Nazionali" IDS="515692:515685:P34824" CAT="false:false:false" REACH="0"/>
+            <outline text="Parchi Tematici" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Parchi Tematici" IDS="515690:515685:P34825" CAT="false:false:false" REACH="0"/>
+            <outline text="SPA" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,SPA" IDS="515689:515685:P34826" CAT="false:false:false" REACH="0"/>
+            <outline text="Viaggi Aerei" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Aereo" IDS="515697:515685:P34827" CAT="false:false:false" REACH="0"/>
+            <outline text="Viaggi di Lavoro" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Lavoro" IDS="515694:515685:P34828" CAT="false:false:false" REACH="0"/>
+            <outline text="Viaggiare con i Figli" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Figli" BK_URL_rule="http://www.donnamoderna.com/mamme/campestivi/&#10;http://m.donnamoderna.com/mamme/campestivi/" IDS="515691:515685:U34354,U36401,P34829" CAT="false:false:false" REACH="0"/>
+            <outline text="Viaggio di Nozze" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,Nozze" BK_URL_rule="http://www.donnamoderna.com/matrimonio/viaggi-nozze/&#10;http://m.donnamoderna.com/matrimonio/viaggi-nozze/" IDS="515693:515685:U34355,U36402,P34830" CAT="false:false:false" REACH="0"/>
+            <outline text="Week End" BK_phints_rule="__bk_l,contains,viaggi&#10;__bk_k,contains,WeekEnd" BK_URL_rule="http://www.tgcom24.mediaset.it/viaggi/week-end/&#10;http://www.donnamoderna.com/attualita/idee-vacanza-weekend/&#10;http://mobile.tgcom24.it/viaggi/week-end/&#10;http://m.donnamoderna.com/attualita/idee-vacanza-weekend/" IDS="515687:515685:U34267,U36403,P34831" CAT="false:false:false" REACH="0"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="Intenzioni" IDS="515867:498774:" CAT="true:true:false" REACH="0">
+        <outline text="Acquisto" IDS="515868:515867:" CAT="false:false:false" REACH="0">
+          <outline text="Acquisto Assicurazione" BK_URL_rule="http://assicurazione-online.tgcom24.mediaset.it/" IDS="515869:515868:U34230,U36404" CAT="false:false:false" REACH="0">
+            <outline text="Auto" IDS="515870:515869:" CAT="false:false:false" REACH="0"/>
+            <outline text="Casa" BK_URL_rule="http://eurekasa.tgcom.mediaset.it/" IDS="515872:515869:U34291,U36405" CAT="false:false:false" REACH="0"/>
+            <outline text="Moto" IDS="515871:515869:" CAT="false:false:false" REACH="0"/>
+          </outline>
+          <outline text="Acquisto Casa" BK_URL_rule="http://www.donnamoderna.com/casa/cerco-casa/&#10;http://www.donnamoderna.com/attualita/voglia-casa2/&#10;http://m.donnamoderna.com/casa/cerco-casa/&#10;http://m.donnamoderna.com/attualita/voglia-casa2/" IDS="515873:515868:U34356,U36406" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Divorzio" BK_URL_rule="http://www.donnamoderna.com/matrimonio/divorzio/&#10;http://m.donnamoderna.com/matrimonio/divorzio/" IDS="517746:515867:U34357,U36407" CAT="false:false:false" REACH="0"/>
+        <outline text="Figli" BK_URL_rule="http://www.donnamoderna.com/mamme/rimanere-incinta/&#10;http://m.donnamoderna.com/mamme/rimanere-incinta/" IDS="517747:515867:U34358,U36408" CAT="false:false:false" REACH="0"/>
+        <outline text="Matrimonio" BK_URL_rule="http://www.donnamoderna.com/matrimonio/&#10;http://www.donnamoderna.com/casa/speciale-matrimonio/&#10;http://www.donnamoderna.com/casa/matrimonio/&#10;http://m.donnamoderna.com/matrimonio/&#10;http://m.donnamoderna.com/casa/speciale-matrimonio/&#10;http://m.donnamoderna.com/casa/matrimonio/&#10;http://forum.donnamoderna.com/matrimonio-f106/&#10;http://casting.donnamoderna.com/ilmiomatrimonio/" IDS="515874:515867:U34359,U36409" CAT="false:false:false" REACH="0"/>
+      </outline>
+      <outline text="Log" IDS="509994:498774:" CAT="true:true:false" REACH="0">
+        <outline text="AdBlocker Attivo" BK_phints_rule="mx_l_ad,is,a" IDS="509995:509994:P34832" CAT="false:false:false" REACH="0"/>
+        <outline text="Scroll Percentage" IDS="509989:509994:" CAT="true:true:false" REACH="0">
+          <outline text="100%" BK_phints_rule="mx_l_sp,is,e" IDS="510000:509989:P34833" CAT="false:false:false" REACH="0"/>
+          <outline text="25%" BK_phints_rule="mx_l_sp,is,b" IDS="509991:509989:P34834" CAT="false:false:false" REACH="0"/>
+          <outline text="50%" BK_phints_rule="mx_l_sp,is,c" IDS="509992:509989:P34835" CAT="false:false:false" REACH="0"/>
+          <outline text="75%" BK_phints_rule="mx_l_sp,is,d" IDS="509993:509989:P34836" CAT="false:false:false" REACH="0"/>
+          <outline text="Baseline" BK_phints_rule="mx_l_sp,is,a" IDS="509990:509989:P34837" CAT="false:false:false" REACH="0"/>
+        </outline>
+        <outline text="Time on Page" IDS="509996:509994:" CAT="true:true:false" REACH="0">
+          <outline text="&gt; 240 sec" BK_phints_rule="mx_l_tp,is,e" IDS="509988:509996:P34838" CAT="false:false:false" REACH="0"/>
+          <outline text="0 - 30 sec" BK_phints_rule="mx_l_tp,is,a" IDS="509997:509996:P34839" CAT="false:false:false" REACH="0"/>
+          <outline text="120 - 240 sec" BK_phints_rule="mx_l_tp,is,d" IDS="510740:509996:P34840" CAT="false:false:false" REACH="0"/>
+          <outline text="30 - 60 sec" BK_phints_rule="mx_l_tp,is,b" IDS="509999:509996:P34841" CAT="false:false:false" REACH="0"/>
+          <outline text="60 - 120 sec" BK_phints_rule="mx_l_tp,is,c" IDS="509998:509996:P34842" CAT="false:false:false" REACH="0"/>
+        </outline>
+      </outline>
+      <outline text="Private" IDS="515860:498774:" CAT="true:true:false" REACH="0">
+        <outline text="Investitore Finanziario" BK_URL_rule="http://finanza.tgcom.mediaset.it/" IDS="515861:515860:U34289,U36410" CAT="false:false:false" REACH="0">
+          <outline text="Hedge Fund" IDS="515864:515861:" CAT="false:false:false" REACH="0"/>
+          <outline text="Mutual Fund" IDS="515865:515861:" CAT="false:false:false" REACH="0"/>
+          <outline text="Options" IDS="515866:515861:" CAT="false:false:false" REACH="0"/>
+          <outline text="Portafoglio Titoli" IDS="515862:515861:" CAT="true:true:false" REACH="0">
+            <outline text="Mediaset" BK_phints_rule="__bk_l,is,http://finanza.tgcom.mediaset.it/quotazioni/dettaglio_quotazioni.asp?StockCodeRt=0029&amp;selettore=&amp;codiceStrumento=w2ae&amp;titolo=MEDIASET%20S.P.A;" IDS="515863:515862:P34376" CAT="false:false:false" REACH="0"/>
+          </outline>
+        </outline>
+        <outline text="Pensione" BK_URL_rule="http://www.donnamoderna.com/bambino/quando-andro-in-pensione/&#10;http://www.donnamoderna.com/bambino/quanto-percepiro-quando-andro-in-pensione/&#10;http://www.donnamoderna.com/tempo-libero/calcola-la-tua-pensione/&#10;http://www.donnamoderna.com/tempo-libero/pensioni/&#10;http://m.donnamoderna.com/bambino/quando-andro-in-pensione/&#10;http://m.donnamoderna.com/bambino/quanto-percepiro-quando-andro-in-pensione/&#10;http://m.donnamoderna.com/tempo-libero/calcola-la-tua-pensione/&#10;http://m.donnamoderna.com/tempo-libero/pensioni/" IDS="517748:515860:U34360,U36411" CAT="false:false:false" REACH="0"/>
+        <outline text="Tasse" BK_URL_rule="http://www.donnamoderna.com/bambino/busta-paga/&#10;http://www.donnamoderna.com/bambino/calcolo-imu/&#10;http://www.donnamoderna.com/bambino/elenco-strumenti/&#10;http://m.donnamoderna.com/bambino/busta-paga/&#10;http://m.donnamoderna.com/bambino/calcolo-imu/&#10;http://m.donnamoderna.com/bambino/elenco-strumenti/" IDS="517749:515860:U34361,U36412" CAT="false:false:false" REACH="0"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

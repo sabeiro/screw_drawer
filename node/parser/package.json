@@ -1,0 +1,23 @@
+{
+  "name": "bk-tag-test",
+  "version": "1.0.0",
+  "description": "Test Bluekai Tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tommaso Tessarolo",
+  "license": "ISC",
+  "dependencies": {
+      "request": "^2.69.0"
+      ,"tough-cookie": "^2.2.1"
+      ,"tough-cookie-filestore": "0.0.1"
+      ,"express": "*"
+      ,"cheerio": "*"
+      ,"htmlparser": "*"
+      ,"util": "*"
+      ,"fs": "*"
+      ,"cookie-parser": "*"
+      ,"mysql": "*"
+ }
+}

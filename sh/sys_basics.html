@@ -1,0 +1,619 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><title>Bash by example, Part 2</title><meta http-equiv="PICS-Label" content="(PICS-1.1 &quot;http://www.icra.org/ratingsv02.html&quot; l gen true r (cz 1 lz 1 nz 1 oz 1 vz 1) &quot;http://www.rsac.org/ratingsv01.html&quot; l gen true r (n 0 s 0 v 0 l 0) &quot;http://www.classify.org/safesurf/&quot; l gen true r (SS~~000 1))">
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/">
+<link rel="SHORTCUT ICON" href="http://www.ibm.com/favicon.ico">
+<meta name="Owner" content="dW Information/Raleigh/IBM">
+<meta name="DC.Language" scheme="rfc1766" content="en">
+<meta name="IBM.Country" content="ZZ">
+<meta name="Security" content="Public">
+<meta name="IBM.SpecialPurpose" content="SP001">
+<meta name="IBM.PageAttributes" content="sid=1003">
+<meta name="Source" content="Based on v15 Template Generator, Template 15"><meta name="Abstract" content="In his introductory article on bash, Daniel Robbins walked you through some of the scripting language's basic elements and reasons for using bash. In this, the second installment, Daniel picks up where he left off and looks at bash's basic constructs like conditional (if-then) statements, looping, and more."><meta name="Description" content="In his introductory article on bash, Daniel Robbins walked you through some of the scripting language's basic elements and reasons for using bash. In this, the second installment, Daniel picks up where he left off and looks at bash's basic constructs like conditional (if-then) statements, looping, and more."><meta name="Keywords" content="Linux, operating systems, Linux news, open source, Linux papers, Linux information, Linux articles, Linux whitepapers, IBM, tttlca"><meta name="DC.Date" scheme="iso8601" content="2000-04-01"><meta name="DC.Type" scheme="IBM_ContentClassTaxonomy" content="CT316"><meta name="DC.Subject" scheme="IBM_SubjectTaxonomy" content="SWGC0"><meta name="DC.Rights" content="Copyright (c) 2000 by IBM Corporation"> <meta name="Robots" content="index,follow"><meta name="IBM.Effective" scheme="W3CDTF" content="2000-04-01"><meta name="Last update" content="13062005ganesab@us.ibm.com"><!-- STYLESHEETS/SCRIPTS -->
+<!-- for tables -->
+<link rel="stylesheet" type="text/css" media="screen,print" href="l-bash2_files/table.css"> 
+<!-- end for tables -->
+<script language="JavaScript" src="l-bash2_files/dwcss14.js" type="text/javascript"></script><link rel="stylesheet" href="l-bash2_files/r1v14.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="l-bash2_files/main.css">
+<link rel="stylesheet" type="text/css" media="all" href="l-bash2_files/screen.css">
+<link rel="stylesheet" type="text/css" media="print" href="l-bash2_files/print.css">
+<script language="JavaScript" src="l-bash2_files/detection.js" type="text/javascript"></script>
+<script language="JavaScript" src="l-bash2_files/ibmcommon.js" type="text/javascript">//</script><link title="IBM Search" href="http://www.ibm.com/search/opensearch/description.xml" type="application/opensearchdescription+xml" rel="search">
+<script language="JavaScript" src="l-bash2_files/dynamicnav.js" type="text/javascript">//</script>
+<script language="JavaScript" src="l-bash2_files/dropdown.js" type="text/javascript"></script>
+<script language="JavaScript" src="l-bash2_files/grabtitle.js" type="text/javascript"></script>
+<script language="JavaScript" src="l-bash2_files/emailfriend2.js" type="text/javascript"></script><script language="JavaScript" src="l-bash2_files/urltactic.js" type="text/javascript"></script><script language="JavaScript" type="text/javascript">
+ <!--
+ setDefaultQuery('linuxart');
+ //-->
+</script>
+<!--START RESERVED FOR FUTURE USE INCLUDE FILES--><script language="javascript" src="l-bash2_files/ajax1.js" type="text/javascript"></script><script language="javascript" src="l-bash2_files/search_counter.js" type="text/javascript"></script><script language="javascript" src="l-bash2_files/request_referer_capture.js" type="text/javascript"></script><script language="javascript" src="l-bash2_files/summaries_switcher.js" type="text/javascript"></script><!--END RESERVED FOR FUTURE USE INCLUDE FILES--><script language="JavaScript" type="text/javascript">var emailAbstract = "In his introductory article on bash, Daniel Robbins walked you through some of the scripting language's basic elements and reasons for using bash. In this, the second installment, Daniel picks up where he left off and looks at bash's basic constructs like conditional (if-then) statements, looping, and more."; </script><script charset="UTF-8" src="l-bash2_files/usen-utf8.js" type="text/javascript" id="mhMenu"></script><script charset="UTF-8" src="l-bash2_files/Controller" type="text/javascript" id="dynavEA"></script><script charset="UTF-8" src="l-bash2_files/Controller_002" type="text/javascript" id="wiBundle"></script></head><body><!--MASTHEAD_BEGIN--><div id="ibm-top" class="ibm-liquid">
+<div class="ibm-access"><a href="#main">Skip to main content</a></div>
+
+<div id="ibm-masthead">
+<div id="ibm-logo"><a href="http://www.ibm.com/"><img src="l-bash2_files/ibm-logo.gif" alt="IBM®" width="110" height="50"></a></div>
+
+<ul id="ibm-geo">
+<li class="ibm-first" id="ibm-country">Country/region</li>
+<li id="ibm-change-country">[ <a href="http://www.ibm.com/developerworks/country/">select</a> ]</li>
+</ul>
+
+<form id="ibm-search-form" action="//www.ibm.com/developerworks/search/searchResults.jsp" method="get" name="form1"><input name="searchType" value="1" type="hidden"><input name="searchSite" value="dW" type="hidden"><p>
+<span id="ibm-search-scope">
+<label for="sn"><img src="l-bash2_files/c.gif" alt="Search in:" width="1" height="1"></label>
+<select class="input-local" name="searchScope" id="sn" size="1">
+<option value="dW" selected="selected">All of dW</option>
+<option value="dW">-----------------</option>
+<option value="aixunix">&nbsp;&nbsp;AIX and UNIX</option>
+<option value="db2">&nbsp;&nbsp;Information Mgmt</option>
+<option value="lotus">&nbsp;&nbsp;Lotus</option>
+<option value="rdd">&nbsp;&nbsp;Rational</option>
+<option value="tivoli">&nbsp;&nbsp;Tivoli</option>  
+<option value="WSDD">&nbsp;&nbsp;WebSphere</option>
+<option value="dW">-----------------</option> 
+<option value="archZ">&nbsp;&nbsp;Architecture</option>
+<option value="acZ">&nbsp;&nbsp;Autonomic computing</option>
+<option value="javaZ">&nbsp;&nbsp;Java technology</option> 
+<option value="linuxZ">&nbsp;&nbsp;Linux</option> 
+<option value="paZ">&nbsp;&nbsp;Multicore acceleration</option>
+<option value="opensrcZ">&nbsp;&nbsp;Open source</option>
+<option value="webservZ">&nbsp;&nbsp;SOA &amp; Web services</option>
+<option value="webarchZ">&nbsp;&nbsp;Web development</option>  
+<option value="xmlZ">&nbsp;&nbsp;XML</option>
+<option value="dW">-----------------</option>
+<option value="forums">&nbsp;&nbsp;dW forums</option> 
+<option value="dW">-----------------</option>
+<option value="aW">alphaWorks</option>
+<option value="dW">-----------------</option>
+<option value="all">All of IBM</option>
+</select>
+</span>
+
+<label for="q"><img alt="Search for:" src="l-bash2_files/c.gif" width="1" height="1"></label><input name="query" maxlength="100" id="q" type="text"><input id="ibm-search" class="ibm-btn-search" name="Search" value="Search" type="submit"></p></form>
+
+<div id="ibm-site-name">
+<!-- IBM site name container -->
+</div>
+
+<div id="ibm-universal-nav">
+<ul>
+<li class="ibm-first" id="ibm-unav-home"><a href="http://www.ibm.com/us/en/">Home</a></li>
+<li id="ibm-unav-solutions"><a class="ibm-unav-has-child" href="http://www.ibm.com/solutions/us/en/">Solutions</a><div id="gi-3b15026f" class="ibm-unav-menu"><span id="gi-3b15026f-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li class="ibm-place-holder"><a id="gi-2e52bc99-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">By industry</a><div id="gi-2e52bc99" class="ibm-unav-menu ibm-place-holder"><span id="gi-2e52bc99-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/industries/aerodefense/?cm_re=masthead-_-business-_-ind-aerodef">Aerospace and defense</a></li><li><a href="http://www.ibm.com/industries/automotive/?cm_re=masthead-_-business-_-ind-auto">Automotive</a></li><li><a href="http://www.ibm.com/industries/financialservices/banking/?cm_re=masthead-_-business-_-ind-banking">Banking</a></li><li><a href="http://www.ibm.com/industries/chemicalspetroleum/?cm_re=masthead-_-business-_-ind-chem">Chemicals and petroleum</a></li><li><a href="http://www.ibm.com/industries/consumerproducts/?cm_re=masthead-_-business-_-ind-consumer">Consumer products</a></li><li><a href="http://www.ibm.com/industries/education/?cm_re=masthead-_-business-_-ind-edu">Education</a></li><li><a href="http://www.ibm.com/industries/electronics/?cm_re=masthead-_-business-_-ind-elec">Electronics</a></li><li><a href="http://www.ibm.com/industries/utilities/?cm_re=masthead-_-business-_-ind-energy">Energy and utilities</a></li><li><a href="http://www.ibm.com/industries/financialservices/financialmarkets/?cm_re=masthead-_-business-_-ind-finance">Financial markets</a></li><li><a href="http://www.ibm.com/industries/government/?cm_re=masthead-_-business-_-ind-gov">Government</a></li><li><a href="http://www.ibm.com/industries/healthcare/?cm_re=masthead-_-business-_-ind-health">Healthcare and life sciences</a></li><li><a href="http://www.ibm.com/industries/industrialproducts/index.jsp?cm_re=masthead-_-business-_-ind-ind_prods">Industrial products</a></li><li><a href="http://www.ibm.com/industries/financialservices/insurance/?cm_re=masthead-_-business-_-ind-ins">Insurance</a></li><li><a href="http://www.ibm.com/industries/media/?cm_re=masthead-_-business-_-ind-media">Media and entertainment</a></li><li><a href="http://www.ibm.com/industries/retail/?cm_re=masthead-_-business-_-ind-retail">Retail</a></li><li><a href="http://www.ibm.com/industries/telecom/?cm_re=masthead-_-business-_-ind-tele">Telecommunications</a></li><li><a href="http://www.ibm.com/industries/travel/?cm_re=masthead-_-business-_-ind-travel">Travel and transportation</a></li><li><a href="http://www.ibm.com/wholesaledistribution/?cm_re=masthead-_-business-_-ind-wholesale">Wholesale distribution</a></li><li><a href="http://www.ibm.com/businesscenter/smb/us/en/industries?cm_re=masthead-_-business-_-ind-medbus">Medium business industries</a></li></ul></div></li><li class="ibm-place-holder"><a id="gi-e44525d9-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">By business need</a><div id="gi-e44525d9" class="ibm-unav-menu ibm-place-holder"><span id="gi-e44525d9-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/software/data/db2bi/?cm_re=masthead-_-business-_-bzn-busint">Business intelligence</a></li><li><a href="http://www.ibm.com/services/crm/?cm_re=masthead-_-business-_-bzn-crm">Customer relationship management</a></li><li><a href="http://www.ibm.com/solutions/erp/?cm_re=masthead-_-business-_-bzn-erp">Enterprise resource planning</a></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_financialmgmt.html?re=bcs_home&amp;cm_re=masthead-_-business-_-bzn-finmgmt">Financial management</a></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_humancapitalmgmt.html?re=bcs_home&amp;cm_re=masthead-_-business-_-bzn-humancap">Human capital management</a></li><li><a href="http://www.ibm.com/software/plm/?cm_re=masthead-_-business-_-bzn-plm">Product lifecycle management</a></li><li><a href="http://www.ibm.com/security/index.shtml?cm_re=masthead-_-business-_-bzn-sec">Security</a></li><li><a href="http://www.ibm.com/solutions/businesssolutions/sensors/index.jsp?cm_re=masthead-_-business-_-bzn-sensors">Sensors and actuators</a></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_strategyplanning.html?re=bcs_home&amp;cm_re=masthead-_-business-_-bzn-strat">Strategy and change</a></li><li><a href="http://www.ibm.com/services/scm/?cm_re=masthead-_-business-_-bzn-scm">Supply chain management</a></li></ul></div></li><li class="ibm-place-holder"><a id="gi-ad0d96f9-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">By IT issue</a><div id="gi-ad0d96f9" class="ibm-unav-menu ibm-place-holder"><span id="gi-ad0d96f9-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/itsolutions/business-process-management/?cm_re=masthead-_-business-_-bzn-bpm">Business process management</a></li><li><a href="http://www.ibm.com/itsolutions/collaboration/?cm_re=masthead-_-business-_-bzn-collab">Collaboration</a></li><li><a href="http://www.ibm.com/itsolutions/content-management//?cm_re=masthead-_-business-_-bzn-content">Content management</a></li><li><a href="http://www.ibm.com/itsolutions/it-cost/?cm_re=masthead-_-business-_-bzn-cost">Cost management</a></li><li><a href="http://www.ibm.com/itsolutions/data/?cm_re=masthead-_-business-_-bzn-data">Data management</a></li><li><a href="http://www.ibm.com/itsolutions/disaster-recovery/?cm_re=masthead-_-business-_-bzn-recovery">Disaster recovery</a></li><li><a href="http://www.ibm.com/itsolutions/distribution-management/?cm_re=masthead-_-business-_-bzn-disman">Distribution management</a></li><li><a href="http://www.ibm.com/itsolutions/energy-efficiency/?cm_re=masthead-_-business-_-bzn-energy">Energy efficiency</a></li><li><a href="http://www.ibm.com/itsolutions/eai/?cm_re=masthead-_-business-_-bzn-eai">Enterprise application integration</a></li><li><a href="http://www.ibm.com/itsolutions/enterprisearchitecture/">Enterprise architecture</a></li><li><a href="http://www.ibm.com/itsolutions/compliance/?cm_re=masthead-_-business-_-bzn-compliance">Regulatory compliance</a></li><li><a href="http://www.ibm.com/security?cm_re=masthead-_-business-_-bzn-security">Security</a></li><li><a href="http://www.ibm.com/itsolutions/systems-management/?cm_re=masthead-_-business-_-bzn-sysman">Systems management</a></li><li><a href="http://www.ibm.com/itsolutions/virtualization/?cm_re=masthead-_-business-_-bzn-virtual">Virtualization</a></li><li><a href="http://www.ibm.com/itsolutions/portals/?cm_re=masthead-_-business-_-bzn-wrkforce">Workforce productivity</a></li></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-1ba6efb-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">By top Business Partner</a><div id="gi-1ba6efb" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-1ba6efb-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/solutions/cisco/?cm_re=masthead-_-business-_-bp-cisco">IBM and Cisco</a></li><li><a href="http://www.ibm.com/solutions/businesssolutions/oracle/?cm_re=masthead-_-business-_-bp-oracle">IBM and Oracle</a></li><li><a href="http://www.ibm.com/solutions/sap/?cm_re=masthead-_-business-_-bp-sap">IBM and SAP</a></li><li><a href="http://www.ibm.com/solutions/businesssolutions/">More alliance partners</a></li></ul></div></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_index.html?cm_re=masthead-_-business-_-busconsult">Business consulting</a></li><li><a href="http://www.ibm.com/systems/dynamicinfrastructure/?cm_re=masthead-_-business-_-di">Dynamic infrastructure</a></li><li><a href="http://www.ibm.com/financing/us/?cm_re=masthead-_-business-_-financing">Financing</a></li><li><a href="http://www.ibm.com/green/?cm_re=masthead-_-business-_-green">Green: energy, environment &amp; sustainability</a></li><li class="ibm-mhdyn-rule"><a id="gi-26cf5b74-trigger" href="http://www.ibm.com/soa?pgel=ibmhzn&amp;cm_re=masthead-_-business-_-soa">Service oriented architecture (SOA)</a><div id="gi-26cf5b74" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-26cf5b74-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-389d48ec-trigger" href="http://www.ibm.com/businesscenter/smb/us/en/solutionareas?cm_re=masthead-_-business-_-sol4mb">Small and medium business solutions</a><div id="gi-389d48ec" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-389d48ec-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li><a href="http://www.ibm.com/businesssolutions/us/en/?cm_re=masthead-_-business-_-more">More</a></li></ul></div></li>
+<li id="ibm-unav-services"><a class="ibm-unav-has-child" href="http://www.ibm.com/technologyservices/us/en/">Services</a><div id="gi-29b9350b" class="ibm-unav-menu"><span id="gi-29b9350b-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li class="ibm-mhdyn-rule"><a id="gi-b33c42a7-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">IT services</a><div id="gi-b33c42a7" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-b33c42a7-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/services/us/index.wss">All IT services</a></li><li><a href="http://www.ibm.com/services/continuity/?cm_re=masthead-_-itservices-_-buscont">Business continuity and resiliency services</a></li><li><a href="http://www.ibm.com/services/enduser/?cm_re=masthead-_-itservices-_-enduser">End-user services</a></li><li><a href="http://www.ibm.com/services/integratedcommunications/?cm_re=masthead-_-itservices-_-communications">Integrated communications services</a></li><li><a href="http://www.ibm.com/services/itsaconsulting/?cm_re=masthead-_-itservices-_-strategy">IT strategy and architecture services</a></li><li><a href="http://www.ibm.com/services/maintenance/?cm_re=masthead-_-itservices-_-maint">Maintenance and technical support services</a></li><li><a href="http://www.ibm.com/services/middleware/?cm_re=masthead-_-itservices-_-middleware">Middleware services</a></li><li><a href="http://www.ibm.com/services/security/?cm_re=masthead-_-itservices-_-security">Security services</a></li><li><a href="http://www.ibm.com/services/server/?cm_re=masthead-_-itservices-_-server">Server services</a></li><li><a href="http://www.ibm.com/services/siteandfacilities/?cm_re=masthead-_-itservices-_-site">Site and facilities services</a></li><li><a href="http://www.ibm.com/services/storage/?cm_re=masthead-_-itservices-_-storage">Storage and data services</a></li><li><a href="http://www.ibm.com/services/us/index.wss/allservices">IT services A-Z</a></li></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-52971bd0-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Business consulting</a><div id="gi-52971bd0" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-52971bd0-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_index.html?cm_re=masthead-_-itservices-_-busconsult">All business consulting</a></li><li><a href="http://www.ibm.com/gbs/bao?cm_re=masthead-_-itservices-_-bao">Business analytics and optimization</a></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_salesmrktingservices.html?re=bcs_home">Customer relationship management</a></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_financialmgmt.html?re=bcs_home">Financial management</a></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_humancapitalmgmt.html?re=bcs_home">Human capital management</a></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_strategyplanning.html?re=bcs_home">Strategy and change</a></li><li><a href="http://www.ibm.com/services/us/gbs/bus/html/bcs_supplychainprocurement.html?re=bcs_home">Supply chain management</a></li></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-8e3c5d9d-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Application services</a><div id="gi-8e3c5d9d" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-8e3c5d9d-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/services/applications?cm_re=masthead-_-business-_-apps-allappserv">All application services</a></li><li><a href="http://www.ibm.com/services/us/gbs/app/html/gbs_app_custom_appdev_sysinteg.html?cm_re=masthead-_-business-_-apps-appdev">Custom application development and system integration</a></li><li><a href="http://www.ibm.com/services/us/gbs/app/html/gbs_app_appmanagement.html?cm_re=masthead-_-business-_-apps-appmgmt">Application management</a></li></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-aa31906a-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Outsourcing services</a><div id="gi-aa31906a" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-aa31906a-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/services/us/index.wss/offerfamily/aod/a1028600">Applications outsourcing</a></li><li><a href="http://www.ibm.com/services/us/index.wss/offerfamily/igs/a1001429">Business process outsourcing</a></li><li><a href="http://www.ibm.com/services/us/index.wss/offerfamily/gts/a1029385">IT outsourcing and hosting</a></li></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-1e12a578-trigger" href="http://www.ibm.com/training">Training</a><div id="gi-1e12a578" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-1e12a578-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-2daa22b4-trigger" href="http://www.ibm.com/businesscenter/smb/us/en/service?cm_re=masthead-_-itservices-_-medbus">Small and medium business services</a><div id="gi-2daa22b4" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-2daa22b4-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-9fa79a12-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Other services</a><div id="gi-9fa79a12" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-9fa79a12-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/financing/us/recovery/?cm_re=masthead-_-itservices-_-asset">Asset recovery</a></li><li><a href="http://www.ibm.com/software/sw-services/?cm_re=masthead-_-itservices-_-software">Software services</a></li></ul></div></li><li><a href="http://www.ibm.com/technologyservices/us/en/?cm_re=masthead-_-itservices-_-more">More</a></li></ul></div></li>
+<li id="ibm-unav-products"><a class="ibm-unav-has-child" href="http://www.ibm.com/products/us/en/">Products</a><div id="gi-520e05c" class="ibm-unav-menu"><span id="gi-520e05c-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li class="ibm-place-holder"><a id="gi-16092e3e-trigger" href="http://www.ibm.com/products/specialoffers/us/en/index.html?cm_re=masthead-_-products-_-promo">Special offers</a><div id="gi-16092e3e" class="ibm-unav-menu ibm-place-holder"><span id="gi-16092e3e-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-5f1f12d2-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Software</a><div id="gi-5f1f12d2" class="ibm-unav-menu ibm-place-holder"><span id="gi-5f1f12d2-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/software?pgel=ibmhzn&amp;cm_re=masthead-_-products-_-sw-allsoftware">Software overview</a></li><li><a href="http://www.ibm.com/software/sw-products?pgel=ibmhzn&amp;cm_re=masthead-_-products-_-swprodfinder">Products</a></li><li><a href="http://www14.software.ibm.com/webapp/download/byproduct.jsp?pgel=ibmhzn1&amp;cm_re=masthead-_-supdl-_-dl-trials">Trials and demos</a></li><li><a href="http://www.ibm.com/software/data?pgel=ibmhzn&amp;cm_re=masthead-_-products-_-sw-infomgmt">Information Management</a></li><li><a href="http://www.ibm.com/software/lotus?pgel=ibmhzn&amp;cm_re=masthead-_-products-_-sw-lotus">Lotus</a></li><li><a href="http://www.ibm.com/software/rational?pgel=ibmhzn&amp;cm_re=masthead-_-products-_-sw-rational">Rational</a></li><li><a href="http://www.ibm.com/software/tivoli?pgel=ibmhzn&amp;cm_re=masthead-_-products-_-sw-tivoli">Tivoli</a></li><li><a href="http://www.ibm.com/software/websphere?pgel=ibmhzn&amp;cm_re=masthead-_-products-_-sw-websphere">WebSphere</a></li><li><a href="http://www.ibm.com/software/os/zseries?pgel=ibmhzn&amp;cm_re=masthead-_-products-_-sw-sysz">System z software</a></li></ul></div></li><li class="ibm-place-holder"><a id="gi-ca185c0f-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Storage</a><div id="gi-ca185c0f" class="ibm-unav-menu ibm-place-holder"><span id="gi-ca185c0f-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/storage/?cm_re=masthead-_-products-_-stg-allstorage">All storage</a></li><li><a href="http://www.ibm.com/storage/disk/?cm_re=masthead-_-products-_-stg-disk">Disk systems</a></li><li><a href="http://www.ibm.com/storage/tape/?cm_re=masthead-_-products-_-stg-tape">Tape systems</a></li><li><a href="http://www.ibm.com/storage/snetwork/?cm_re=masthead-_-products-_-stg-san">Storage area networks</a></li><li><a href="http://www.ibm.com/totalstorage/nas/?cm_re=masthead-_-products-_-stg-nas">Network attached storage</a></li><li><a href="http://www.ibm.com/storage/software/?cm_re=masthead-_-products-_-stg-storagesoft">Storage software</a></li><li><a href="http://www.ibm.com/pc/ww/hdd/hddredirect.html?cm_re=masthead-_-products-_-stg-hdd">Hard drives/microdrives</a></li><li><a href="http://www.ibm.com/systems/storage/product/?cm_re=masthead-_-products-_-stg-storagea2z">Storage A to Z</a></li></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-a825ee83-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Servers &amp; systems</a><div id="gi-a825ee83" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-a825ee83-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/systems/?cm_re=masthead-_-products-_-sys-allsystems">All servers and systems</a></li><li><a href="http://www.ibm.com/systems/power/?cm_re=masthead-_-products-_-sys-power">Power Systems</a></li><li><a href="http://www.ibm.com/systems/i/?cm_re=masthead-_-products-_-sys-iseries">System i (iSeries)</a></li><li><a href="http://www.ibm.com/systems/p/?cm_re=masthead-_-products-_-sys-pseries">System p (pSeries)</a></li><li><a href="http://www.ibm.com/systems/z/?cm_re=masthead-_-products-_-sys-zseries">System z (Mainframe)</a></li><li><a href="http://www.ibm.com/systems/x/?cm_re=masthead-_-products-_-sys-xseries">System x (xSeries)</a></li><li><a href="http://www.ibm.com/servers/eserver/bladecenter/?cm_re=masthead-_-products-_-sys-blade">BladeCenter</a></li><li><a href="http://www.ibm.com/systems/clusters/?cm_re=masthead-_-products-_-sys-cluster">Cluster systems</a></li><li><a href="http://www.ibm.com/systems/hardware/browse/unix/?cm_re=masthead-_-products-_-sys-unix">UNIX servers</a></li><li><a href="http://www.ibm.com/servers/eserver/linux/?cm_re=masthead-_-products-_-sys-linux">Linux servers</a></li><li><a href="http://www.ibm.com/servers/jump_intel.html?cm_re=masthead-_-products-_-sys-intel">Intel processor-based servers</a></li><li><a href="http://www.ibm.com/servers/eserver/opteron/?cm_re=masthead-_-products-_-sys-amd">AMD processor-based servers</a></li></ul></div></li><li class="ibm-place-holder"><a id="gi-d46b98f8-trigger" href="http://www.ibm.com/services/us/internet-security-products?cm_re=masthead-_-products-_-iss">Internet security</a><div id="gi-d46b98f8" class="ibm-unav-menu ibm-place-holder"><span id="gi-d46b98f8-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-9a8618be-trigger" href="http://www.ibm.com/products/retail/?cm_re=masthead-_-products-_-pos">Point of sale</a><div id="gi-9a8618be" class="ibm-unav-menu ibm-place-holder"><span id="gi-9a8618be-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-8d6fa63a-trigger" href="http://www.infoprint.com/us">Printing systems from InfoPrint</a><div id="gi-8d6fa63a" class="ibm-unav-menu ibm-place-holder"><span id="gi-8d6fa63a-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-458f2735-trigger" href="http://www.ibm.com/technology/?cm_re=masthead-_-products-_-chips">Semiconductors</a><div id="gi-458f2735" class="ibm-unav-menu ibm-place-holder"><span id="gi-458f2735-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-b86489a7-trigger" href="http://www.ibm.com/shop/americas/content/home/store_IBMPublicUSA/en_US/Upgrades.html?cm_re=masthead-_-products-_-upgrades">Upgrades, accessories &amp; parts</a><div id="gi-b86489a7" class="ibm-unav-menu ibm-place-holder"><span id="gi-b86489a7-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-ea747f5a-trigger" href="http://www.ibm.com/systems/intellistation/?cm_re=masthead-_-products-_-workstations">Workstations</a><div id="gi-ea747f5a" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-ea747f5a-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-c36cab9c-trigger" href="http://www.ibm.com/shop/americas/webapp/wcs/stores/servlet/HelpDisplay?storeId=1&amp;catalogId=-840&amp;langId=-1&amp;subject=2576394&amp;cm_re=masthead-_-products-_-ibmcue">Certified used PCs &amp; systems</a><div id="gi-c36cab9c" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-c36cab9c-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-4b3737a5-trigger" href="http://www.ibm.com/community/?cm_re=masthead-_-products-_-promo">Communities</a><div id="gi-4b3737a5" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-4b3737a5-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-d5c06231-trigger" href="http://www.ibm.com/businesscenter/smb/us/en/smallbusiness?cm_re=masthead-_-products-_-smallbus">Small business products</a><div id="gi-d5c06231" class="ibm-unav-menu ibm-place-holder"><span id="gi-d5c06231-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-8abadc53-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Medium business products</a><div id="gi-8abadc53" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-8abadc53-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/businesscenter/smb/us/en/product?cm_re=masthead-_-products-_-med-hardware">Hardware</a></li><li><a href="http://www.ibm.com/businesscenter/smb/us/en/software?cm_re=masthead-_-products-_-med-software">Software</a></li></ul></div></li><li class="ibm-place-holder"><a id="gi-6d786d54-trigger" href="http://www.ibm.com/products/us/?cm_re=masthead-_-products-_-more">More</a><div id="gi-6d786d54" class="ibm-unav-menu ibm-place-holder"><span id="gi-6d786d54-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li></ul></div></li>
+<li id="ibm-unav-support"><a class="ibm-unav-has-child" href="http://www.ibm.com/support/us/en/">Support &amp; downloads</a><div id="gi-ef254229" class="ibm-unav-menu"><span id="gi-ef254229-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li class="ibm-place-holder"><a id="gi-94862628-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Download</a><div id="gi-94862628" class="ibm-unav-menu ibm-place-holder"><span id="gi-94862628-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/products/finder/us/finders?pg=ddfinder&amp;cm_re=other-_-suprcn-_-download">Fixes, updates and drivers</a></li><li><a href="http://www14.software.ibm.com/webapp/download/byproduct.jsp?pgel=ibmhzn1&amp;cm_re=masthead-_-supdl-_-dl-trials">Trials and demos</a></li></ul></div></li><li class="ibm-place-holder"><a id="gi-707c532-trigger" href="http://www.ibm.com/support/troubleshooting/en_US?cm_re=other-_-suprcn-_-troubleshoot">Troubleshoot</a><div id="gi-707c532" class="ibm-unav-menu ibm-place-holder"><span id="gi-707c532-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-d0986696-trigger" href="http://www.ibm.com/support/advsrch.wss?rs=0&amp;loc=en_US&amp;cm_re=masthead-_-supdl-_-search">Search</a><div id="gi-d0986696" class="ibm-unav-menu ibm-place-holder"><span id="gi-d0986696-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-d0d29b2f-trigger" href="http://www.ibm.com/support/documentation/en_US?cm_re=other-_-suprcn-_-documentation">Documentation</a><div id="gi-d0d29b2f" class="ibm-unav-menu ibm-place-holder"><span id="gi-d0d29b2f-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-c0186f22-trigger" href="http://www.ibm.com/support/forums/en_US?cm_re=other-_-suprcn-_-forums">Forums &amp; communities</a><div id="gi-c0186f22" class="ibm-unav-menu ibm-place-holder"><span id="gi-c0186f22-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-68f91a59-trigger" href="http://www.ibm.com/support/plan/en_US?cm_re=other-_-suprcn-_-plan">Plan</a><div id="gi-68f91a59" class="ibm-unav-menu ibm-place-holder"><span id="gi-68f91a59-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-375a48f6-trigger" href="http://www.ibm.com/support/install/en_US?cm_re=other-_-suprcn-_-install">Install</a><div id="gi-375a48f6" class="ibm-unav-menu ibm-place-holder"><span id="gi-375a48f6-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-68381c53-trigger" href="http://www.ibm.com/support/use/en_US?cm_re=other-_-suprcn-_-use">Use</a><div id="gi-68381c53" class="ibm-unav-menu ibm-place-holder"><span id="gi-68381c53-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-c8d07153-trigger" href="http://www.ibm.com/support/electronic/uprtransition.wss?category=2&amp;locale=en_us&amp;cm_re=other-_-suprcn-_-request">Open a technical service request</a><div id="gi-c8d07153" class="ibm-unav-menu ibm-place-holder"><span id="gi-c8d07153-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-deddde3d-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0);">Support by product</a><div id="gi-deddde3d" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-deddde3d-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="http://www.ibm.com/software/support/?cm_re=masthead-_-supdl-_-sbp-software">Software</a></li><li><a href="http://www.ibm.com/systems/support?cm_re=masthead-_-supdl-_-sbp-systems">Servers and systems</a></li><li><a href="http://www.ibm.com/systems/support/supportsite.wss/brandmain?brandind=5345868&amp;cm_re=masthead-_-supdl-_-sbp-storage">System storage</a></li><li><a href="http://www.infoprintsolutionscompany.com/internet/wwsites.nsf/vwwebpublished/supportoverview_ww">Printing systems from InfoPrint</a></li><li><a href="http://www.lenovo.com/support/?cm_re=masthead-_-supdl-_-sbp-lenovo">Lenovo ThinkPads and ThinkCentres</a></li></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-19cac8b3-trigger" href="http://www.ibm.com/support/operations/us/en?cm_re=masthead-_-supdl-_-getadmin">Customer support</a><div id="gi-19cac8b3" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-19cac8b3-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-be050311-trigger" href="http://www.ibm.com/support/us/en/?cm_re=masthead-_-supdl-_-more">More</a><div id="gi-be050311" class="ibm-unav-menu ibm-place-holder"><span id="gi-be050311-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li></ul></div></li>
+<li id="ibm-unav-myibm"><a class="ibm-unav-has-child" href="http://www.ibm.com/account/us/en/">My IBM</a><div id="gi-a74510ab" class="ibm-unav-menu"><span id="gi-a74510ab-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li class="ibm-place-holder"><a id="gi-6aaa9df6-trigger" href="http://www.ibm.com/account/myaccounts/us/en/?cm_re=masthead-_-myibm-_-myacct">My accounts</a><div id="gi-6aaa9df6" class="ibm-unav-menu ibm-place-holder"><span id="gi-6aaa9df6-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-9bc979d8-trigger" href="https://www.ibm.com/account/myibm/profile.do?cc=us&amp;lc=&amp;cm_re=masthead-_-myibm-_-myprofile">My profile</a><div id="gi-9bc979d8" class="ibm-unav-menu ibm-place-holder"><span id="gi-9bc979d8-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-myinterest"><a id="gi-32a1632d-trigger" href="https://www.ibm.com/account/myibm/myinterestView.do?cc=us&amp;lc=en&amp;cm_re=masthead-_-myibm-_-myinterests">My interests</a><div id="gi-32a1632d" class="ibm-unav-menu ibm-myinterest"><span id="gi-32a1632d-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-c4b004b6-trigger" href="http://www.ibm.com/account/mycommunity/us/en/">My community spaces</a><div id="gi-c4b004b6" class="ibm-unav-menu ibm-place-holder"><span id="gi-c4b004b6-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-d6e26aac-trigger" href="https://www.ibm.com/systems/support/myview/subscription/css.wss/folders?methodName=listMyFolders">My technical support</a><div id="gi-d6e26aac" class="ibm-unav-menu ibm-place-holder"><span id="gi-d6e26aac-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-4a4bbc67-trigger" class="ibm-unav-menu-has-child" href="javascript:void(0)">My customer support</a><div id="gi-4a4bbc67" class="ibm-unav-menu ibm-place-holder"><span id="gi-4a4bbc67-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul><li><a href="https://www-132.ibm.com/webapp/wcs/stores/servlet/OrderItemDisplay?langId=-1&amp;storeId=1&amp;catalogId=-840&amp;krypto=g3mOZ2uZQalqnkMCJkVJ1Q%3D%3D&amp;ddkey=OrderItemDisplay&amp;cm_re=masthead-_-myibm-_-cs-cart">Shopping cart</a></li><li><a href="http://www.ibm.com/support/operations/us/en/contracts?cm_re=masthead-_-myibm-_-cs-contracts">Contracts</a></li><li><a href="http://www.ibm.com/support/operations/us/en/orderdelivery?cm_re=masthead-_-myibm-_-cs-orders">Orders and delivery</a></li><li><a href="http://www.ibm.com/support/operations/us/en/inventory?cm_re=masthead-_-myibm-_-cs-inventory">Inventory and maintenance</a></li><li><a href="http://www.ibm.com/support/operations/us/en/invoicespayments?cm_re=masthead-_-myibm-_-cs-invoices">Invoices and payments</a></li><li><a href="http://www.ibm.com/support/operations/us/en/learnmore3a?cm_re=masthead-_-myibm-_-cs-self">Self-service tools</a></li><li><a href="http://www.ibm.com/support/operations/us?cm_re=masthead-_-myibm-_-cs-more">More customer support</a></li></ul></div></li><li class="ibm-mhdyn-rule"><a id="gi-6bde2465-trigger" href="http://www-931.ibm.com/bin/subscriptions/welcome.cgi?cl=usen&amp;cm_re=masthead-_-myibm-_-subscriptions">Subscriptions</a><div id="gi-6bde2465" class="ibm-unav-menu ibm-mhdyn-rule"><span id="gi-6bde2465-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li><li class="ibm-place-holder"><a id="gi-88230cf4-trigger" href="http://www.ibm.com/account/us/en/?cm_re=masthead-_-myibm-_-more">More</a><div id="gi-88230cf4" class="ibm-unav-menu ibm-place-holder"><span id="gi-88230cf4-ehb" class="ibm-unav-menu-ehb"><img src="l-bash2_files/c.gif" alt=""></span><a class="ibm-access"></a><ul></ul></div></li></ul></div></li>
+</ul>
+</div>
+
+<a name="main"></a></div>
+
+<script type="text/javascript" language="JavaScript" src="l-bash2_files/pmh.js">
+</script><img src="l-bash2_files/print-header.gif" alt="" id="print-masthead" width="510" height="32">
+
+<!--MASTHEAD_END--><!-- CMA ID: 10996 --> <!-- Site ID: 1 --><table id="v14-body-table" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><!--LEFTNAV_BEGIN--><td id="navigation" width="150"><table width="150" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="left-nav-spacer"><a href="http://www.ibm.com/developerworks" class="left-nav-overview">&nbsp;</a></td></tr></tbody></table><table width="150" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="2" class="left-nav-overview"><a href="http://www.ibm.com/developerworks" class="left-nav-overview">developerWorks</a></td></tr></tbody></table><table width="150" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="2" class="left-nav-highlight"><a href="#" class="left-nav">In this article:</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N10052" class="left-nav-child">Accepting arguments</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N10068" class="left-nav-child">Bash programming constructs</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N1006F" class="left-nav-child">Conditional love</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N10085" class="left-nav-child">String comparison caveats</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N100B7" class="left-nav-child">Looping constructs: "for"</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N100F3" class="left-nav-child">Shell arithmetic</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N10100" class="left-nav-child">More looping constructs: "while" and "until"</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N1011C" class="left-nav-child">Case statements</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N10129" class="left-nav-child">Functions and namespaces</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N1014E" class="left-nav-child">Namespace</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#N10171" class="left-nav-child">Wrapping it up</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#resources" class="left-nav-child">Resources</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#author" class="left-nav-child">About the author</a></td></tr><tr class="left-nav-child-highlight"><td><img alt="" src="l-bash2_files/cl-bullet.gif" width="2" height="8"></td><td><a href="#rate" class="left-nav-child">Rate this page</a></td></tr><tr class="left-nav-last"><td width="14"><img class="display-img" alt="" src="l-bash2_files/c.gif" width="14" height="1"></td><td width="136"><img class="display-img" alt="" src="l-bash2_files/left-nav-corner.gif" width="136" height="19"></td></tr></tbody></table><br><table width="150" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="related" colspan="2"><b class="related">Related links</b></td></tr><tr class="rlinks"><td><img alt="" src="l-bash2_files/rl-bullet.gif" width="2" height="8"></td><td><a class="rlinks" href="http://www.ibm.com/developerworks/views/linux/library.jsp">Linux technical library</a></td></tr><!--START RESERVED FOR FUTURE USE INCLUDE FILES--><!-- No content currently --><!--END RESERVED FOR FUTURE USE INCLUDE FILES--><tr><td width="14"><img class="display-img" alt="" src="l-bash2_files/c.gif" width="14" height="1"></td><td width="136"><img class="display-img" alt="" src="l-bash2_files/c.gif" width="136" height="19"></td></tr></tbody></table><!--START RESERVED FOR FUTURE USE INCLUDE FILES--><!-- Next Steps Area:  Start -->
+<!-- Call Next Steps Servlet -->
+<script language="JavaScript" type="text/javascript">
+<!--
+/*
+ * ajaxInclude makes a call to the url and render the results in the div tag specified in divId
+ */
+function ajaxInclude(url, divId) { 
+ var req = newXMLHttpRequest(); 
+ if (req) { 
+   req.onreadystatechange = getReadyStateHandler(req, 
+	function (result) {  
+           var contents = document.getElementById(divId);  
+           if (result != null && result.length > 0 && contents != null) {
+	     contents.innerHTML = result;  
+           }
+        }); 
+   req.open("GET", url, true);
+   req.send("");
+ }
+}
+//-->
+</script>
+
+<!-- Display Next Steps Result -->
+<div id="nextsteps">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="70%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/c.gif" alt="" width="1" height="1"></td></tr></tbody></table>
+</div>
+
+<!-- Initiate Next Steps Call -->
+<script language="JavaScript" type="text/javascript">
+<!-- 
+ ajaxInclude("/developerworks/niagara/jsp/getNiagaraContent.jsp?url="+window.location.href,"nextsteps");
+//-->
+</script>
+<!-- Next Steps Area:  End --><!--END RESERVED FOR FUTURE USE INCLUDE FILES--></td><!--LEFTNAV_END--><td width="100%"><table id="content-table" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><td width="100%"><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><a name="main"><img alt="skip to main content" src="l-bash2_files/c.gif" width="592" border="0" height="1"></a></td></tr></tbody></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><td width="10" height="18"><img alt="" src="l-bash2_files/c.gif" width="10" height="18"></td><td width="100%"><img alt="" src="l-bash2_files/c.gif" width="1" height="6"><br><a href="http://www.ibm.com/developerworks/" class="bctl">developerWorks</a><span class="bct">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><a class="bctl" href="http://www.ibm.com/developerworks/linux/">Linux</a><span class="bct">&nbsp;&nbsp;&gt;</span><img alt="" src="l-bash2_files/c.gif" width="1" height="1"><br><h1>Bash by example, Part 2</h1><p id="subtitle"><em>More bash programming fundamentals</em></p><img alt="" src="l-bash2_files/c.gif" class="display-img" width="1" height="6"></td><td class="no-print" width="192"><a href="http://www.ibm.com/developerworks/"><img alt="developerWorks" src="l-bash2_files/dw.gif" width="192" border="0" height="18"></a></td></tr></tbody></table></td></tr></tbody></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><td width="10"><img alt="" src="l-bash2_files/c.gif" width="10" height="1"></td><td width="100%"><table class="no-print" width="160" align="right" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="10"><img alt="" src="l-bash2_files/c.gif" width="10" height="1"></td><td><table width="150" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="v14-header-1-small">Document options</td></tr></tbody></table><table class="v14-gray-table-border" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="no-padding" width="150"><noscript></noscript><noscript><tr
+valign="top"><td width="8"><img alt="" height="1" width="8"
+src="//www.ibm.com/i/c.gif"/></td><td width="16"><img alt="" width="16"
+height="16" src="//www.ibm.com/i/c.gif"/></td><td class="small"
+width="122"><p><span class="ast">Document options requiring JavaScript
+are not displayed</span></p></td></tr></noscript><table width="143" border="0" cellpadding="0" cellspacing="0"><script language="JavaScript" type="text/javascript">
+<!--
+document.write('<tr valign="top"><td width="8"><img src="//www.ibm.com/i/c.gif" width="8" height="1" alt=""/></td><td width="16"><img alt="Set printer orientation to landscape mode" height="16" src="//www.ibm.com/i/v14/icons/printer.gif" width="16" vspace="3" /></td><td width="122"><p><b><a class="smallplainlink" href="javascript:print()">Print this page</a></b></p></td></tr>');
+//-->
+</script><tbody><tr valign="top"><td width="8"><img src="l-bash2_files/c.gif" alt="" width="8" height="1"></td><td width="16"><img alt="Set printer orientation to landscape mode" src="l-bash2_files/printer.gif" vspace="3" width="16" height="16"></td><td width="122"><p><b><a class="smallplainlink" href="javascript:print()">Print this page</a></b></p></td></tr>
+<script language="JavaScript" type="text/javascript">
+<!-- 5.6 10/24 llk: added cdata around the subdirectory path of email gif-->
+<!--
+document.write('<tr valign="top"><td width="8"><img src="//www.ibm.com/i/c.gif" width="8" height="1" alt=""/></td><td width="16"><img src="//www.ibm.com/i/v14/icons/em.gif" height="16" width="16" vspace="3" alt="Email this page" /></td><td width="122"><p><a class="smallplainlink" href="javascript:void newWindow()"><b>E-mail this page</b></a></p></td></tr>');
+//-->
+</script><tr valign="top"><td width="8"><img src="l-bash2_files/c.gif" alt="" width="8" height="1"></td><td width="16"><img src="l-bash2_files/em.gif" alt="Email this page" vspace="3" width="16" height="16"></td><td width="122"><p><a class="smallplainlink" href="javascript:void%20newWindow()"><b>E-mail this page</b></a></p></td></tr></tbody></table></td></tr></tbody></table><!--START RESERVED FOR FUTURE USE INCLUDE FILES--><!--Updated 04/29/09 by gem-->
+<br><table width="150" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="v14-header-2-small">My developerWorks needs you!</td></tr></tbody></table><table class="v14-gray-table-border" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="no-padding" width="150"><table width="143" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><td width="8"><img src="l-bash2_files/c.gif" alt="" width="8" height="1"></td><td><img src="l-bash2_files/fw_bold.gif" alt="" vspace="3" width="16" border="0" height="16"></td><td width="125"><p><a href="http://www.ibm.com/developerworks/mydeveloperworks/?S_TACT=105AGX01&amp;S_CMP=nsf" class="smallplainlink">Connect to your technical community</a></p></td></tr></tbody></table></td></tr></tbody></table><!--END RESERVED FOR FUTURE USE INCLUDE FILES--><br><table width="150" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="v14-header-2-small">Rate this page</td></tr></tbody></table><table class="v14-gray-table-border" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="no-padding" width="150"><table width="143" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><td width="8"><img alt="" src="l-bash2_files/c.gif" width="8" height="1"></td><td><img alt="" src="l-bash2_files/d_bold.gif" vspace="3" width="16" border="0" height="16"></td><td width="125"><p><a href="#rate" class="smallplainlink"><b>Help us improve this content</b></a></p></td></tr></tbody></table></td></tr></tbody></table><br></td></tr></tbody></table><p>Level: Intermediate</p><p><a href="#author">Daniel Robbins</a> (<a href="mailto:drobbins@gentoo.org?subject=Bash%20by%20example,%20Part%202">drobbins@gentoo.org</a>), President and CEO, Gentoo Technologies, Inc.<br></p><p> 01 Apr  2000</p><blockquote>In
+his introductory article on bash, Daniel Robbins walked you through
+some of the scripting language's basic elements and reasons for using
+bash. In this, the second installment, Daniel picks up where he left
+off and looks at bash's basic constructs like conditional (if-then)
+statements, looping, and more.</blockquote><!--START RESERVED FOR FUTURE USE INCLUDE FILES--><script type="text/javascript" language="javascript">
+	     // <![CDATA[
+			capture_referrer();
+		 // ]]>
+</script>
+
+<!--  START : HTML FOR SEARCH REFERRER -->
+  <div id="search_referrer_results" style="display: none;">
+
+
+<!--  START : HTML FOR ARTICLE SEARCH -->
+  <div id="article_results" style="display: block;"></div>
+<!--  END : HTML FOR ARTICLE SEARCH -->
+
+<!--  START : HTML FOR CODE SEARCH -->
+   <div id="code_results" style="display: block;"></div>
+<!--  END : HTML FOR CODE SEARCH -->
+
+
+   <br>
+   <br>
+   </div>
+<!--  END : HTML FOR SEARCH REFERRER --><!--END RESERVED FOR FUTURE USE INCLUDE FILES--><p>Let's start with a brief tip on handling command-line arguments, and then look at bash's basic programming constructs.</p><p><a name="N10052"><span class="atitle">Accepting arguments</span></a></p><p>
+	
+In the sample program in the <a href="http://www.ibm.com/developerworks/library/l-bash.html">introductory article</a>,
+we used the environment variable "$1", which referred to the first
+command-line argument. Similarly, you can use "$2", "$3", etc. to refer
+to the second and third arguments passed to your script. Here's an
+example:</p><table width="70%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">#!/usr/bin/env bash
+
+echo name of script is $0
+echo first argument is $1
+echo second argument is $2
+echo seventeenth argument is $17
+echo number of arguments is $#
+</pre></td></tr></tbody></table><br><p>The example is self explanatory
+except for two small details. First, "$0" will expand to the name of
+the script, as called from the command line, and "$#" will expand to
+the number of arguments passed to the script. Play around with the
+above script, passing different kinds of command-line arguments to get
+the hang of how it works.</p><p>Sometimes, it's helpful to refer to <i>all</i>
+command-line arguments at once. For this purpose, bash features the
+"$@" variable, which expands to all command-line parameters separated
+by spaces. We'll see an example of its use when we take a look at "for"
+loops, a bit later in this article.</p><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N10068"><span class="atitle">Bash programming constructs</span></a></p><p>
+If you've programmed in a procedural language like C, Pascal, Python,
+or Perl, then you're familiar with standard programming constructs like
+"if" statements, "for" loops, and the like. Bash has its own versions
+of most of these standard constructs. In the next several sections, I
+will introduce several bash constructs and demonstrate the differences
+between these constructs and others you are already familiar with from
+other programming languages. If you haven't programmed much before,
+don't worry. I include enough information and examples so that you can
+follow the text.</p><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N1006F"><span class="atitle">Conditional love</span></a></p><p>
+
+If you've ever programmed any file-related code in C, you know that it
+requires a significant amount of effort to see if a particular
+file is newer than another.  That's because C doesn't have any built-in
+syntax for performing such a comparison; instead, two stat() calls and two stat
+structures must be used to perform the comparison by hand.  In contrast, bash has standard file comparison operators built in,
+so determining if "/tmp/myfile is readable" is as easy as checking to see if "$myvar
+is greater than 4".</p><p>The following table lists the most frequently used bash comparison
+operators.  You'll also find an example of how to use every option correctly.  The  
+example is meant to be placed immediately after the "if".  For example:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">if [ -z "$myvar" ]
+then
+        echo "myvar is not defined"
+fi
+</pre></td></tr></tbody></table><br><br><p>Sometimes, there are several
+different ways that a particular comparison can be made. For example,
+the following two snippets of code function identically:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">if [ "$myvar" -eq 3 ]
+then 
+    echo "myvar equals 3"
+fi
+
+
+if [ "$myvar" = "3" ]
+then
+    echo "myvar equals 3"
+fi
+</pre></td></tr></tbody></table><br><p>In the above two comparisons do
+exactly the same thing, but the first uses arithmetic comparison
+operators, while the second uses string comparison operators.</p><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N10085"><span class="atitle">String comparison caveats</span></a></p><p>
+
+Most of the time, while you can omit the use of double quotes
+surrounding strings and string variables, it's not a good idea.  Why?  Because your code will
+work perfectly, unless an environment variable happens to have a
+space or a tab in it, in which case bash will get confused.  Here's an
+example of a fouled-up comparison:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">if [ $myvar = "foo bar oni" ]
+then
+    echo "yes"
+fi
+</pre></td></tr></tbody></table><br><p>In the above example, if myvar equals "foo", the code will work as
+expected and not print anything.  However, if myvar equals "foo bar
+oni", the code will fail with the following error:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">[: too many arguments
+</pre></td></tr></tbody></table><br><p>In this case, the spaces in "$myvar" (which equals "foo bar oni") end up confusing bash.
+After bash expands "$myvar", it ends up with the following comparison:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">[ foo bar oni = "foo bar oni" ]
+</pre></td></tr></tbody></table><br><p>Because the environment variable
+wasn't placed inside double quotes,
+bash thinks that you stuffed too many arguments in-between the square
+brackets. You can easily eliminate this problem by surrounding the
+string arguments with double-quotes. Remember, if you get into the
+habit of surrounding all string arguments and environment variables
+with double-quotes,
+you'll eliminate many similar programming errors. Here's how the
+"foo bar oni" comparison <i>should</i> have been written:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">if [ "$myvar" = "foo bar oni" ]
+then
+    echo "yes"
+fi
+</pre></td></tr></tbody></table><br><p>
+</p><table width="40%" align="right" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="10"><img alt="" src="l-bash2_files/c.gif" width="10" height="1"></td><td><table width="100%" border="1" cellpadding="5" cellspacing="0"><tbody><tr><td bgcolor="#eeeeee">
+<a name="side1"><b>More quoting specifics</b></a><br> If you want your environment variables to be expanded, you must
+enclose them in <i>double quotes</i>, rather than single quotes.
+Single quotes <i>disable</i> variable (as well as history) expansion.</td></tr></tbody></table></td></tr></tbody></table>The above code will work as expected and will not create any
+unpleasant surprises.<br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N100B7"><span class="atitle">Looping constructs: "for"</span></a></p><p>
+
+OK, we've covered conditionals, now it's time to explore bash looping
+constructs.  We'll start with the standard "for" loop. Here's a basic example:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">#!/usr/bin/env bash
+
+for x in one two three four
+do
+    echo number $x
+done
+
+<span class="rboldcode">output:</span>
+number one
+number two 
+number three 
+number four
+</pre></td></tr></tbody></table><br><p>What exactly happened? The "for
+x" part of our "for" loop defined a
+new environment variable (also called a loop control variable)
+called "$x", which was successively set to the values "one", "two",
+"three", and "four". After each assignment, the body of the loop (the
+code between the "do" ... "done") was executed once. In the body, we
+referred to the loop control variable "$x" using standard variable
+expansion syntax, like any other environment variable. Also notice that
+"for" loops always accept some kind of word list after the "in"
+statement. In this case we specified four
+English words, but the word list can also refer to file(s) on disk or
+even file wildcards. Look at the following example, which demonstrates
+how to use standard shell wildcards:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">#!/usr/bin/env bash
+
+for myfile in /etc/r*
+do
+    if [ -d "$myfile" ] 
+    then
+      echo "$myfile (dir)"
+    else
+      echo "$myfile"
+    fi
+done
+
+<span class="rboldcode">output:</span>
+
+/etc/rc.d (dir)
+/etc/resolv.conf
+/etc/resolv.conf~
+/etc/rpc                  
+</pre></td></tr></tbody></table><br><p>The above code looped over each file in 
+/etc that began with an "r".  To do this, bash first took our wildcard /etc/r* and
+expanded it, replacing it with the string /etc/rc.d
+/etc/resolv.conf /etc/resolv.conf~ /etc/rpc before executing the
+loop.  Once inside the loop, the "-d" conditional operator was used to
+perform two different actions, depending on whether myfile was a
+directory or not.  If it was, a " (dir)" was appended to the output line.</p><p>We can also use multiple wildcards
+and even environment variables in the word list:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">for x in /etc/r??? /var/lo* /home/drobbins/mystuff/* /tmp/${MYPATH}/*
+do
+    cp $x /mnt/mydir
+done
+</pre></td></tr></tbody></table><br><p>Bash will perform wildcard and variable expansion in all the right
+places, and potentially create a very long word list.</p><p>While all of
+our wildcard expansion examples have used <i>absolute</i> paths, you
+can also use relative paths, as follows:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">for x in ../* mystuff/*
+do
+    echo $x is a silly file
+done
+</pre></td></tr></tbody></table><br><p>In the above example, bash performs wildcard expansion relative to the
+current working directory, just like when you use relative paths on
+the command line.  Play around with wildcard expansion a bit.  You'll
+notice that if you use absolute paths in your wildcard, bash will
+expand the wildcard to a list of absolute paths.  Otherwise, bash will
+use relative paths in the subsequent word list.  If you simply refer
+to files in the current working directory (for example, if you type
+"for x in *"), the resultant list of files will not be prefixed with any path
+information.  Remember that preceding path information can be stripped
+using the "basename" executable, as follows:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">for x in /var/log/*
+do
+    echo `basename $x` is a file living in /var/log
+done
+</pre></td></tr></tbody></table><br><p>Of course, it's often handy to perform loops that operate on a
+script's command-line arguments.  Here's an example of how to use the
+"$@" variable, introduced at the beginning of this article:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">#!/usr/bin/env bash
+
+for thing in "$@"
+do
+    echo you typed ${thing}.
+done
+
+<span class="rboldcode">output:</span>
+
+$ allargs hello there you silly
+you typed hello.
+you typed there.
+you typed you.
+you typed silly.
+</pre></td></tr></tbody></table><br><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N100F3"><span class="atitle">Shell arithmetic</span></a></p><p>
+
+Before looking at a second type of looping construct, it's a good idea
+to become familiar with performing shell arithmetic.  Yes, it's
+true: You can perform simple integer math using shell constructs.
+Simply enclose the particular arithmetic expression between a "$(("
+and a "))", and bash will evaluate the expression.  Here are some
+examples:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">$ echo $(( 100 / 3 ))
+33
+$ myvar="56"
+$ echo $(( $myvar + 12 ))
+68
+$ echo $(( $myvar - $myvar ))
+0
+$ myvar=$(( $myvar + 1 ))
+$ echo $myvar
+57
+</pre></td></tr></tbody></table><br><p>Now that you're familiar performing mathematical operations,
+it's time to introduce two other bash looping constructs, "while" and
+"until".</p><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N10100"><span class="atitle">More looping constructs: "while" and "until"</span></a></p><p>
+
+A "while" statement will execute as long as a particular condition is
+true, and has the following format:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">while [ condition ]
+do
+    statements
+done
+</pre></td></tr></tbody></table><br><p>"While" statements are typically used to loop a certain number of
+times, as in the following example, which will loop exactly 10
+times:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">myvar=0
+while [ $myvar -ne 10 ]
+do
+    echo $myvar
+    myvar=$(( $myvar + 1 ))
+done
+</pre></td></tr></tbody></table><br><p>You can see the use of arithmetic expansion to eventually
+cause the condition to be false, and the loop to terminate.</p><p>"Until" statements provide the inverse functionality of "while"
+statements: They repeat as long as a particular condition is
+<i>false</i>.  Here's an "until" loop that functions identically 
+to the previous "while" loop:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">myvar=0
+until [ $myvar -eq 10 ]
+do
+    echo $myvar
+    myvar=$(( $myvar + 1 ))
+done
+</pre></td></tr></tbody></table><br><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N1011C"><span class="atitle">Case statements</span></a></p><p>
+
+Case statements are another conditional construct that comes in
+handy.  Here's an example snippet:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">case "${x##*.}" in
+     gz)
+           gzunpack ${SROOT}/${x}
+           ;;
+     bz2)
+           bz2unpack ${SROOT}/${x}
+           ;;
+     *)
+           echo "Archive format not recognized."
+           exit
+           ;;
+esac                                      
+</pre></td></tr></tbody></table><br><p>Above, bash first expands "${x##*.}".  In the code, "$x" is
+the name of a file, and "${x##.*}" has the effect of stripping all
+text except that following the last period in the filename.  Then, bash
+compares the resultant string against the values listed to the left of the ")"s.
+In this case, "${x##.*}" gets compared against "gz", then "bz2" and
+finally "*".  If "${x##.*}" matches any of these strings or patterns,
+the lines immediately following the ")" are executed, up until the
+";;", at which point bash continues executing lines after the
+terminating "esac".  If no patterns or strings are matched, no lines
+of code are executed; however, in this particular code snippet, at
+least one block of code will execute, because the "*" pattern will
+catch everything that didn't match "gz" or "bz2".</p><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N10129"><span class="atitle">Functions and namespaces</span></a></p><p>
+
+In bash, you can even define functions, similar to those in other
+procedural languages like Pascal and C.  In bash, functions can even
+accept arguments, using a system very similar to the way scripts
+accept command-line arguments.  Let's take a look at a  sample
+function definition and then proceed from there:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">tarview() {
+    echo -n "Displaying contents of $1 "
+    if [ ${1##*.} = tar ]
+    then
+        echo "(uncompressed tar)"
+        tar tvf $1
+    elif [ ${1##*.} = gz ]
+    then
+        echo "(gzip-compressed tar)"
+        tar tzvf $1
+    elif [ ${1##*.} = bz2 ]
+    then
+        echo "(bzip2-compressed tar)"
+        cat $1 | bzip2 -d | tar tvf -
+    fi
+}
+</pre></td></tr></tbody></table><br><p>
+</p><table width="40%" align="right" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="10"><img alt="" src="l-bash2_files/c.gif" width="10" height="1"></td><td><table width="100%" border="1" cellpadding="5" cellspacing="0"><tbody><tr><td bgcolor="#eeeeee">
+<a name="side2"><b>Another case</b></a><br>The above code could have been written using a "case" statement.  Can you figure out how?</td></tr></tbody></table></td></tr></tbody></table>Above, we define a function called "tarview" that accepts one argument, a tarball of
+some kind.  When the function is executed, it identifies what type of tarball the argument is (either
+uncompressed, gzip-compressed, or bzip2-compressed), prints out a
+one-line informative message, and then displays the contents of the tarball.  This is
+how the above function should be called (whether from a script or from the
+command line, after it has been typed in, pasted in, or sourced):<table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">$ tarview shorten.tar.gz
+Displaying contents of shorten.tar.gz (gzip-compressed tar)
+drwxr-xr-x ajr/abbot         0 1999-02-27 16:17 shorten-2.3a/
+-rw-r--r-- ajr/abbot      1143 1997-09-04 04:06 shorten-2.3a/Makefile
+-rw-r--r-- ajr/abbot      1199 1996-02-04 12:24 shorten-2.3a/INSTALL
+-rw-r--r-- ajr/abbot       839 1996-05-29 00:19 shorten-2.3a/LICENSE
+....  
+</pre></td></tr></tbody></table><br><p>As you can see, arguments can be referenced inside the function
+definition by using the same mechanism used to reference
+command-line arguments.  In addition, the "$#" macro will be expanded
+to contain the number of arguments.  The only thing that may not work
+completely as expected is the variable "$0", which will either expand
+to the string "bash" (if you run the function from the shell,
+interactively) or to the name of the script the
+function is called from.</p><table width="40%" align="right" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="10"><img alt="" src="l-bash2_files/c.gif" width="10" height="1"></td><td><table width="100%" border="1" cellpadding="5" cellspacing="0"><tbody><tr><td bgcolor="#eeeeee">
+<a name="side3"><b>Use 'em interactively</b></a><br>Don't forget that functions, like the one above, can be placed
+in your ~/.bashrc or ~/.bash_profile so that they are available
+for use whenever you are in bash.</td></tr></tbody></table></td></tr></tbody></table>
+<br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N1014E"><span class="atitle">Namespace</span></a></p><p>
+Often, you'll need to create environment variables inside a
+function. While possible, there's a technicality you should know about.
+In most compiled languages (such as C), when you create a
+variable inside a function, it's placed in a separate local
+namespace. So, if you define a function in C called myfunction, and
+in it define a variable called "x", any global (outside the function)
+variable called "x" will not be affected by it, eliminating side
+effects.</p><p>While true in C, this isn't true in bash.  In bash, whenever you
+create an environment variable inside a function, it's added to the
+<i>global</i> namespace.  This means that it will overwrite any global
+variable outside the function, and will continue to exist even
+after the function exits:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">#!/usr/bin/env bash
+
+myvar="hello"
+
+myfunc() {
+
+    myvar="one two three"
+    for x in $myvar
+    do
+        echo $x
+    done
+}
+
+myfunc
+
+echo $myvar $x
+</pre></td></tr></tbody></table><br><p>When this script is run, it produces the output "one two three
+three", showing how "$myvar" defined in the function clobbered the
+global variable "$myvar", and how the loop control variable "$x" continued to
+exist even after the function exited (and also would have clobbered
+any global "$x", if one were defined).</p><p>In this simple example, the bug
+is easy to spot and to compensate for by using alternate variable names.
+However, this isn't the right approach; the best way to solve this
+problem is to prevent the possibility of clobbering global variables
+in the first place, by using the "local" command. 
+When we use "local" to create variables inside a function, they will
+be kept in the <i>local</i> namespace and not clobber any
+global variables.  Here's how to implement the above code so that no global
+variables are overwritten:</p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code-outline"><pre class="displaycode">#!/usr/bin/env bash
+
+myvar="hello"
+
+myfunc() {
+    local x
+    local myvar="one two three"
+    for x in $myvar
+    do
+        echo $x
+    done
+}
+
+myfunc
+
+echo $myvar $x
+</pre></td></tr></tbody></table><br><p>This function will produce the output "hello" -- the global "$myvar"
+doesn't get overwritten, and "$x" doesn't continue to exist outside
+of myfunc.  In the first line of the function,  
+we create x, a local variable that is used later, while in
+the second example (local myvar="one two three"") we create a local myvar <i>and</i>
+assign it a value.  The first form is handy for
+keeping loop control variables local, since we're not allowed to say
+"for local x in $myvar".  This function doesn't
+clobber any global variables, and you are encouraged to design all
+your functions this way.  The only time you should <i>not</i> use
+"local" is when you explicitly want to modify a global variable.</p><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="l-bash2_files/blue_rule.gif" alt="" width="100%" height="1"></td></tr></tbody></table><table class="no-print" align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br><p><a name="N10171"><span class="atitle">Wrapping it up</span></a></p><p>
+
+Now that we've covered the most essential bash functionality, it's
+time to look at how to develop an entire application based in bash.
+In my next installment, we'll do just that.  See you then!</p><br><br><p><a name="resources"><span class="atitle">Resources</span></a></p><ul><li>Read <a href="http://www.ibm.com/developerworks/library/l-bash.html">"Bash by example: Part 1"</a> on <i>developerWorks</i>.<br>
+<br><br></li><li>Read <a href="http://www.ibm.com/developerworks/library/l-bash3.html">"Bash by example: Part 3"</a> on <i>developerWorks</i>.<br>
+<br><br></li><li>Visit <a href="http://www.gnu.org/software/bash/bash.html">GNU's bash home page</a>.<br></li></ul><br><br><p><a name="author"><span class="atitle">About the author</span></a></p><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="3"><img alt="" src="l-bash2_files/c.gif" width="100%" height="5"></td></tr><tr valign="top" align="left"><td><p></p></td><td><img alt="" src="l-bash2_files/c.gif" width="4" height="5"></td><td width="100%"><p>Residing in Albuquerque, New Mexico, Daniel Robbins is the Chief Architect of the <a href="http://www.gentoo.org/">Gentoo Project</a>,
+CEO of Gentoo Technologies, Inc., the mentor for the Linux Advanced
+Multimedia Project (LAMP), and a contributing author for the Macmillan
+books <i>Caldera OpenLinux Unleashed</i>, <i>SuSE Linux Unleashed</i>, and <i>Samba Unleashed</i>.
+Daniel has been involved with computers in some fashion since the
+second grade, when he was first exposed to the Logo programming
+language as well as a potentially dangerous dose of Pac Man. This
+probably explains why he has since served as a Lead Graphic Artist at
+SONY Electronic Publishing/Psygnosis. Daniel enjoys spending time with
+his wife, Mary, who is expecting a child this spring. You can contact
+Daniel at <a href="mailto:drobbins@gentoo.org?cc=">drobbins@gentoo.org</a>.
+</p></td></tr></tbody></table><br><br><br><p class="no-print"><span class="atitle"><a name="rate">Rate this page</a></span></p><span class="no-print"><form action="http://www-128.ibm.com/developerworks/utils/RatingsHandler" method="get"><input value="1" name="SITE_ID" type="hidden"><input value="Bash by example, Part 2" name="ArticleTitle" type="hidden"><input value="Linux" name="Zone" type="hidden"><input value="http://www.ibm.com/developerworks/thankyou/feedback-thankyou.html" name="RedirectURL" type="hidden"><input value="10996" name="ArticleID" type="hidden"><input value="04012000" name="publish-date" type="hidden"><input name="author1-email" value="drobbins@gentoo.org" type="hidden"><input name="author1-email-cc" value="" type="hidden"><script language="javascript" type="text/javascript">document.write('<input type="hidden" name="url" value="'+location.href+'" />');</script><input name="url" value="http://www.ibm.com/developerworks/library/l-bash2.html" type="hidden"><img src="l-bash2_files/gray_rule.gif" alt="" width="100%" height="1"><br><table class="v14-gray-table-border" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="100%"><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="3"><p>Please take a moment to complete this form to help us better serve you.</p></td></tr><tr valign="top"><td width="140"><img src="l-bash2_files/c.gif" alt="" width="140" height="1"><br><p><label for="Goal">Did the information help you to achieve your goal?</label></p></td><td width="303"><img src="l-bash2_files/c.gif" alt="" width="303" height="6"><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><input value="Yes" id="goal-yes" name="goal" type="radio"><label for="goal-yes">Yes</label></td><td><input value="No" id="goal-no" name="goal" type="radio"><label for="goal-no">No</label></td><td><input value="Don't know" id="goal-undecided" name="goal" type="radio"><label for="goal-undecided">Don't know</label></td></tr></tbody></table></td><td width="100%">&nbsp;</td></tr><tr><td colspan="3"><img alt="" src="l-bash2_files/c.gif" width="8" height="12"></td></tr><tr valign="top"><td width="140"><img src="l-bash2_files/c.gif" alt="" width="140" height="1"><br><p><label for="Comments">Please provide us with comments to help improve this page:</label></p></td><td width="303"><img src="l-bash2_files/c.gif" alt="" width="303" height="6"><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><textarea class="iform" cols="35" rows="5" wrap="virtual" id="Comments" name="Comments">&nbsp;</textarea></td></tr></tbody></table></td><td width="100%">&nbsp;</td></tr><tr><td colspan="3"><img alt="" src="l-bash2_files/c.gif" width="8" height="12"></td></tr><tr valign="top"><td width="140"><img src="l-bash2_files/c.gif" alt="" width="140" height="1"><br><p><label for="Rating">How useful is the information?</label></p></td><td width="303"><img src="l-bash2_files/c.gif" alt="" width="303" height="6"><br><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="58" align="left"><input value="1" id="Rating1" name="Rating" type="radio"><label for="Rating1">1</label></td><td width="58" align="left"><input value="2" id="Rating2" name="Rating" type="radio"><label for="Rating2">2</label></td><td width="58" align="left"><input value="3" id="Rating3" name="Rating" type="radio"><label for="Rating3">3</label></td><td width="58" align="left"><input value="4" id="Rating4" name="Rating" type="radio"><label for="Rating4">4</label></td><td width="61" align="left"><input value="5" id="Rating5" name="Rating" type="radio"><label for="Rating5">5</label></td></tr><tr><td width="60" align="left"><span class="greytext">Not</span><br><span class="greytext">useful</span></td><td width="60" align="left"><img src="l-bash2_files/c.gif" alt="" width="1" height="1"></td><td width="60" align="left"><img src="l-bash2_files/c.gif" alt="" width="1" height="1"></td><td width="60" align="left"><img src="l-bash2_files/c.gif" alt="" width="1" height="1"></td><td width="63" align="left"><span class="greytext">Extremely<br>useful</span></td></tr></tbody></table></td><td width="100%">&nbsp;</td></tr></tbody></table></td></tr></tbody></table><table class="v14-gray-table-border" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="3"><img alt="" src="l-bash2_files/c.gif" width="8" height="8"></td></tr><tr><td width="8"><img alt="" src="l-bash2_files/c.gif" width="8" height="1"></td><td colspan="3"><input alt="Submit" src="l-bash2_files/submit.gif" type="image" width="120" border="0" height="21"></td></tr><tr><td colspan="3"><img alt="" src="l-bash2_files/c.gif" width="8" height="8"></td></tr></tbody></table></form><br></span><br><p></p><table width="100%" border="0" cellpadding="5" cellspacing="0">
+<tbody><tr><td><span class="atitle">Share this.... </span><p>
+</p><table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr valign="top" align="left">
+<td width="21">
+	<a href="javascript:location.href='http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)">
+<img src="l-bash2_files/10x10-digg-thumb.gif" alt="digg" width="10" border="0" height="10"></a></td>
+	<td width="120">
+             <a href="javascript:location.href='http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)"><span style="">Digg this story</span></a></td>
+
+<!--<td width="8"><img alt="" height="1" width="8" src="//www.ibm.com/i/c.gif"/></td>-->
+<td width="21"><img src="l-bash2_files/icon_delicious.gif" alt="del.icio.us" width="16" border="0" height="16"> </td>
+<td width="100"><a class="fbox" href="http://del.icio.us/post" onclick="window.open('http://del.icio.us/post?v=4&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=700,height=400'); return false;"><span style="">del.icio.us</span></a></td>
+
+<!--<td width="8"><img alt="" height="1" width="8" src="//www.ibm.com/i/c.gif"/></td>-->
+<td width="21">
+	<!-- start Slashdot it link -->
+	<a href="javascript:location.href='http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)">
+									<img src="l-bash2_files/slashdot-favicon.gif" alt="Slashdot" width="16" border="0" height="16"></a></td>
+	<td width="120"><a href="javascript:location.href='http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)">Slashdot it!</a></td>
+<!--<td width="8"><img alt="" height="1" width="8" src="//www.ibm.com/i/c.gif"/></td>-->
+<td><img alt="" src="l-bash2_files/c.gif" width="8" height="5"></td>
+</tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+<!--START RESERVED FOR FUTURE USE INCLUDE FILES--><!-- NO RESERVED CONTENT --><!--END RESERVED FOR FUTURE USE INCLUDE FILES--><br><span class="no-print"><table align="right" cellpadding="0" cellspacing="0"><tbody><tr align="right"><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle"><img src="l-bash2_files/u_bold.gif" alt="" width="16" border="0" height="16"><br></td><td valign="top" align="right"><a href="#main" class="fbox"><b>Back to top</b></a></td></tr></tbody></table></td></tr></tbody></table><br><br></span></td><td width="10"><img alt="" src="l-bash2_files/c.gif" width="10" height="1"></td></tr></tbody></table></td></tr></tbody></table><!--FOOTER_BEGIN--><div id="ibm-page-tools">
+<!-- IBM page tools -->
+<ul class="ibm-link-list"><li class="ibm-first"><a href="javascript:void(0);" id="etplnk" class="ibm-email-link" onclick="displayFormLayer(event, 2);">E-mail this page</a></li><li><a href="javascript:print();" id="ptplnk" class="ibm-print-link">Print this page</a></li><li><a href="javascript:void(0);" onclick="ibmCommonDynamicNavBookmarkRun('http://digg.com/submit?phase=2&amp;', 'url', 'title');return false" id="ibmCommonDynamicNavDiggLink" hreflang="en" class="ibm-digg-link">Digg this</a></li><li><a href="javascript:void(0);" onclick="ibmCommonDynamicNavBookmarkRun('http://del.icio.us/post?', 'url', 'title');return false" id="ibmCommonDynamicNavDeliciousLink" hreflang="en" class="ibm-delicious-link">Save to del.icio.us</a></li></ul></div>
+<div id="ibm-footer">
+<ul>
+<li class="ibm-first"><a href="http://www.ibm.com/ibm/">About IBM</a></li>
+<li><a href="http://www.ibm.com/privacy/">Privacy</a></li>
+<li><a href="http://www.ibm.com/contact/">Contact</a></li>
+<li><a href="http://www.ibm.com/legal/">Terms of use</a></li>
+<li><a href="http://www.ibm.com/ibm/syndication/us/en/?cm_re=footer-_-ibmfeeds-_-top_level">IBM Feeds</a></li></ul>
+</div>
+
+<div id="ibm-overlay-top"></div></div>
+
+<script type="text/javascript" language="JavaScript1.2" src="l-bash2_files/stats.js"></script><script type="text/javascript" language="JavaScript1.1" src="l-bash2_files/sa3p.sjs"></script>
+
+<noscript><img src="//stats.www.ibm.com/rc/images/uc.GIF?R=noscript" width="1" height="1" alt="" border="0" /></noscript>
+
+<script type="text/javascript" language="JavaScript" src="l-bash2_files/ratingsposttoget.js"></script><!--FOOTER_END--><!--XSLT stylesheet used to transform this file:  dw-document-html-5.10.xsl--></body></html>

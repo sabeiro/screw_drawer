@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Wed, 26 Apr 2017 09:13:33 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: Servlet/3.0; JBossAS-6
+Set-Cookie: JSESSIONID=05FAD147F4FBDC72AAEDC700B69B9EC9; Path=/
+Set-Cookie: ubridge=""; Domain=.dashboard.ad.dotandad.com; Path=/
+Content-Disposition: inline
+Content-Type: text/html
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+

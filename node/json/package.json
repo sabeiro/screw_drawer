@@ -1,0 +1,18 @@
+{
+  "name": "gulp taxonomy",
+  "version": "1.0.0",
+  "description": "BlueKai Taxonomy Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tommaso Tessarolo",
+  "license": "ISC",
+  "dependencies": {
+    "browserSync": "",
+    "gulp": "",
+    "gulp-babel": "^2.67.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.2.0"
+  }
+}

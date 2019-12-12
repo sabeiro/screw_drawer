@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>TAXONOMY MANAGER</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+
+    <!-- Material Design fonts -->
+  	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Bootstrap theme -->
+	<script src="https://cdn.jsdelivr.net/g/bootstrap.material-design@0.5.8(js/material.min.js+js/ripples.min.js)"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/bootstrap.material-design@0.5.8(css/bootstrap-material-design.min.css+css/ripples.min.css)">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.28.2/react-bootstrap.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+	<script type="text/javascript">
+	$.material.init();
+	$.material.ripples();
+
+	var socket = io();
+	
+	var fileSub = function(evt){
+		var file = document.getElementById('fileBox').files[0]; //Files[0] = 1st file
+		var reader = new FileReader()
+		reader.readAsText(file, 'UTF-8');
+		reader.onload = shipOff;
+		return false;
+	}	
+
+	function shipOff(event) {
+	    var result = event.target.result;
+	    var fileName = document.getElementById('fileBox').files[0].name; 
+	    $.post('/taxonomy/opml/', { data: result, name: fileName }).done(function( msg ) {
+		    console.log(msg);
+		  });;
+	}
+
+	var callAPI = function(endPoint, the_method, the_data){
+		$.ajax({
+		  method: the_method,
+		  url: endPoint,
+		  data: the_data
+		})
+		.done(function( msg ) {
+		    console.log(msg);
+		  });
+	}
+
+	</script>
+</head>
+<body>
+<div id="reactMountingNode"></div>
+<script src="assets/js/react-taxonomy.js"></script>
+<body>
+</html>

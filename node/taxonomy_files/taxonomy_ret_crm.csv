@@ -1,0 +1,12 @@
+group,text,value
+crm,low expense,av<100
+crm,mid expense,100<av<300
+crm,high expense,300<av<500
+crm,low frequency,av<1/y
+crm,mid frequency,1/y<av<0.25/m
+crm,high frequency,0.25/m<av<1/m
+,,
+,,
+,,
+,,
+  ,,

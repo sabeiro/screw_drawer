@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>taxonomy_mediamond</title>
+    <expansionState>0,1</expansionState>
+  </head>
+  <body>
+    <outline text="Self-Classification" CAT="false:false:false" REACH="0" IDS="498541::">
+      <outline text="mno" CAT="false:false:false" REACH="0" IDS="549120:498541:">
+        <outline text="Gender" CAT="false:false:false" REACH="0" IDS="549908:549120:">
+          <outline text="F" CAT="false:false:false" REACH="0" IDS="549909:549908:P38943" BK_phints_rule="26B5,is,B5BE"/>
+          <outline text="M" CAT="false:false:false" REACH="0" IDS="549021:549908:P38942" BK_phints_rule="26B5,is,72FF"/>
+        </outline>
+        <outline text="Age Groups" CAT="false:false:false" REACH="0" IDS="549022:549120:">
+          <outline text="18 - 19" CAT="false:false:false" REACH="0" IDS="549023:549022:P38941" BK_phints_rule="6615,is,2311"/>
+          <outline text="20 - 24" CAT="false:false:false" REACH="0" IDS="549024:549022:P38940" BK_phints_rule="6615,is,5EE2"/>
+          <outline text="25 - 34" CAT="false:false:false" REACH="0" IDS="549025:549022:P38939" BK_phints_rule="6615,is,9BE3"/>
+          <outline text="35 - 44" CAT="false:false:false" REACH="0" IDS="549026:549022:P38938" BK_phints_rule="6615,is,6BF1"/>
+          <outline text="45 - 54" CAT="false:false:false" REACH="0" IDS="549027:549022:P38937" BK_phints_rule="6615,is,3B86"/>
+          <outline text="55 - 64" CAT="false:false:false" REACH="0" IDS="549028:549022:P38936" BK_phints_rule="6615,is,0B96"/>
+          <outline text="&gt;65" CAT="false:false:false" REACH="0" IDS="549029:549022:P38935" BK_phints_rule="6615,is,8A60"/>
+        </outline>
+        <outline text="Card Type" CAT="false:false:false" REACH="0" IDS="549030:549120:">
+          <outline text="RIC" CAT="false:false:false" REACH="0" IDS="549031:549030:P38934" BK_phints_rule="C117,is,6502"/>
+          <outline text="NOR" CAT="false:false:false" REACH="0" IDS="549032:549030:P38933" BK_phints_rule="C117,is,0F00"/>
+          <outline text="DAV" CAT="false:false:false" REACH="0" IDS="549033:549030:P38932" BK_phints_rule="C117,is,AE25"/>
+        </outline>
+        <outline text="Customer" CAT="false:false:false" REACH="0" IDS="549034:549120:">
+          <outline text="Consumer" CAT="false:false:false" REACH="0" IDS="549035:549034:P38931" BK_phints_rule="5DBC,is,91B1"/>
+          <outline text="Business" CAT="false:false:false" REACH="0" IDS="549036:549034:P38930" BK_phints_rule="5DBC,is,55D9"/>
+        </outline>
+        <outline text="Campaign" CAT="false:false:false" REACH="0" IDS="549037:549120:">
+          <outline text="Abbonamento" CAT="false:false:false" REACH="0" IDS="549038:549037:P38929" BK_phints_rule="A259,is,DA15"/>
+          <outline text="Generico" CAT="false:false:false" REACH="0" IDS="549039:549037:P38928" BK_phints_rule="A259,is,E91D"/>
+          <outline text="Fibra" CAT="false:false:false" REACH="0" IDS="549040:549037:P38927" BK_phints_rule="A259,is,DDC8"/>
+        </outline>
+        <outline text="netflix" CAT="false:false:false" REACH="0" IDS="549041:549120:">
+          <outline text="activation" CAT="false:false:false" REACH="0" IDS="549044:549041:P38926" BK_phints_rule="DFDD,is,0E9B"/>
+        </outline>
+        <outline text="Message+" CAT="false:false:false" REACH="0" IDS="549045:549120:">
+          <outline text="true" CAT="false:false:false" REACH="0" IDS="549046:549045:P38925" BK_phints_rule="007B,is,3771"/>
+        </outline>
+        <outline text="Nielsen Area" CAT="false:false:false" REACH="0" IDS="549047:549120:">
+          <outline text="Area 1" CAT="false:false:false" REACH="0" IDS="549048:549047:P38924" BK_phints_rule="3A17,is,A0D6"/>
+          <outline text="Area 2" CAT="false:false:false" REACH="0" IDS="549049:549047:P38923" BK_phints_rule="3A17,is,A196"/>
+          <outline text="Area 3" CAT="false:false:false" REACH="0" IDS="549050:549047:P38922" BK_phints_rule="3A17,is,6157"/>
+          <outline text="Area 4" CAT="false:false:false" REACH="0" IDS="549051:549047:P38921" BK_phints_rule="3A17,is,A316"/>
+        </outline>
+        <outline text="Region" CAT="false:false:false" REACH="0" IDS="549052:549120:">
+          <outline text="Abruzzo" CAT="false:false:false" REACH="0" IDS="549053:549052:P38920" BK_phints_rule="D522,is,E68C"/>
+          <outline text="Basilicata" CAT="false:false:false" REACH="0" IDS="549054:549052:P38919" BK_phints_rule="D522,is,2A40"/>
+          <outline text="Calabria" CAT="false:false:false" REACH="0" IDS="549055:549052:P38918" BK_phints_rule="D522,is,EB23"/>
+          <outline text="Campania" CAT="false:false:false" REACH="0" IDS="549056:549052:P38917" BK_phints_rule="D522,is,BB1F"/>
+          <outline text="Emilia-Romagna" CAT="false:false:false" REACH="0" IDS="549057:549052:P38916" BK_phints_rule="D522,is,064A"/>
+          <outline text="Friuli-Venezia Giulia" CAT="false:false:false" REACH="0" IDS="549058:549052:P38915" BK_phints_rule="D522,is,8070"/>
+          <outline text="Lazio" CAT="false:false:false" REACH="0" IDS="549059:549052:P38914" BK_phints_rule="D522,is,D10D"/>
+          <outline text="Liguria" CAT="false:false:false" REACH="0" IDS="549060:549052:P38913" BK_phints_rule="D522,is,A851"/>
+          <outline text="Lombardia" CAT="false:false:false" REACH="0" IDS="549061:549052:P38912" BK_phints_rule="D522,is,BD69"/>
+          <outline text="Marche" CAT="false:false:false" REACH="0" IDS="549062:549052:P38911" BK_phints_rule="D522,is,6DF1"/>
+          <outline text="Molise" CAT="false:false:false" REACH="0" IDS="549063:549052:P38910" BK_phints_rule="D522,is,76B4"/>
+          <outline text="Piemonte" CAT="false:false:false" REACH="0" IDS="549064:549052:P38909" BK_phints_rule="D522,is,5330"/>
+          <outline text="Puglia" CAT="false:false:false" REACH="0" IDS="549065:549052:P38908" BK_phints_rule="D522,is,BFF6"/>
+          <outline text="Sardegna" CAT="false:false:false" REACH="0" IDS="549066:549052:P38907" BK_phints_rule="D522,is,D9FF"/>
+          <outline text="Sicilia" CAT="false:false:false" REACH="0" IDS="549067:549052:P38906" BK_phints_rule="D522,is,3F29"/>
+          <outline text="Toscana" CAT="false:false:false" REACH="0" IDS="549068:549052:P38905" BK_phints_rule="D522,is,710E"/>
+          <outline text="Trentino-Alto Adige" CAT="false:false:false" REACH="0" IDS="549069:549052:P38904" BK_phints_rule="D522,is,D411"/>
+          <outline text="Umbria" CAT="false:false:false" REACH="0" IDS="549070:549052:P38903" BK_phints_rule="D522,is,22B6"/>
+          <outline text="Valle d'Aosta" CAT="false:false:false" REACH="0" IDS="549071:549052:P38902" BK_phints_rule="D522,is,D715"/>
+          <outline text="Veneto" CAT="false:false:false" REACH="0" IDS="549072:549052:P38901" BK_phints_rule="D522,is,106C"/>
+        </outline>
+        <outline text="Province" CAT="false:false:false" REACH="0" IDS="549098:549120:">
+          <outline text="Agrigento" CAT="false:false:false" REACH="0" IDS="549099:549098:P38880" BK_phints_rule="3E43,is,3D0F"/>
+          <outline text="Alessandria" CAT="false:false:false" REACH="0" IDS="549100:549098:P38879" BK_phints_rule="3E43,is,BCF1"/>
+          <outline text="Ancona" CAT="false:false:false" REACH="0" IDS="549101:549098:P38878" BK_phints_rule="3E43,is,70FF"/>
+          <outline text="Aosta" CAT="false:false:false" REACH="0" IDS="549102:549098:P38877" BK_phints_rule="3E43,is,B295"/>
+          <outline text="Arezzo" CAT="false:false:false" REACH="0" IDS="549103:549098:P38876" BK_phints_rule="3E43,is,3AB1"/>
+          <outline text="Ascoli Piceno" CAT="false:false:false" REACH="0" IDS="549104:549098:P38875" BK_phints_rule="3E43,is,5923"/>
+          <outline text="Asti" CAT="false:false:false" REACH="0" IDS="549105:549098:P38874" BK_phints_rule="3E43,is,ABDB"/>
+          <outline text="Avellino" CAT="false:false:false" REACH="0" IDS="549106:549098:P38873" BK_phints_rule="3E43,is,4570"/>
+          <outline text="Bari" CAT="false:false:false" REACH="0" IDS="549107:549098:P38872" BK_phints_rule="3E43,is,4A78"/>
+          <outline text="Barletta" CAT="false:false:false" REACH="0" IDS="549108:549098:P38871" BK_phints_rule="3E43,is,484D"/>
+          <outline text="Belluno" CAT="false:false:false" REACH="0" IDS="549109:549098:P38870" BK_phints_rule="3E43,is,A563"/>
+          <outline text="Benevento" CAT="false:false:false" REACH="0" IDS="549110:549098:P38869" BK_phints_rule="3E43,is,1ABB"/>
+          <outline text="Bergamo" CAT="false:false:false" REACH="0" IDS="549111:549098:P38868" BK_phints_rule="3E43,is,7789"/>
+          <outline text="Biella" CAT="false:false:false" REACH="0" IDS="549112:549098:P38867" BK_phints_rule="3E43,is,6BBB"/>
+          <outline text="Bologna" CAT="false:false:false" REACH="0" IDS="549113:549098:P38866" BK_phints_rule="3E43,is,8A42"/>
+          <outline text="Bolzano" CAT="false:false:false" REACH="0" IDS="549114:549098:P38865" BK_phints_rule="3E43,is,4327"/>
+          <outline text="Brescia" CAT="false:false:false" REACH="0" IDS="549115:549098:P38864" BK_phints_rule="3E43,is,67D9"/>
+          <outline text="Brindisi" CAT="false:false:false" REACH="0" IDS="549116:549098:P38863" BK_phints_rule="3E43,is,AE87"/>
+          <outline text="Cagliari" CAT="false:false:false" REACH="0" IDS="549117:549098:P38862" BK_phints_rule="3E43,is,B39E"/>
+          <outline text="Caltanissetta" CAT="false:false:false" REACH="0" IDS="549118:549098:P38861" BK_phints_rule="3E43,is,4D19"/>
+          <outline text="Campobasso" CAT="false:false:false" REACH="0" IDS="549119:549098:P38860" BK_phints_rule="3E43,is,5270"/>
+          <outline text="Carbonia - Iglesias" CAT="false:false:false" REACH="0" IDS="556688:549098:P38859" BK_phints_rule="3E43,is,4F7F"/>
+          <outline text="Caserta" CAT="false:false:false" REACH="0" IDS="556689:549098:P38858" BK_phints_rule="3E43,is,DADF"/>
+          <outline text="Catania" CAT="false:false:false" REACH="0" IDS="556690:549098:P38857" BK_phints_rule="3E43,is,BCA3"/>
+          <outline text="Catanzaro" CAT="false:false:false" REACH="0" IDS="556691:549098:P38856" BK_phints_rule="3E43,is,4919"/>
+          <outline text="Chieti" CAT="false:false:false" REACH="0" IDS="556692:549098:P38855" BK_phints_rule="3E43,is,EE5F"/>
+          <outline text="Como" CAT="false:false:false" REACH="0" IDS="556693:549098:P38854" BK_phints_rule="3E43,is,4790"/>
+          <outline text="Cosenza" CAT="false:false:false" REACH="0" IDS="556694:549098:P38853" BK_phints_rule="3E43,is,521B"/>
+          <outline text="Cremona" CAT="false:false:false" REACH="0" IDS="556695:549098:P38852" BK_phints_rule="3E43,is,BC0D"/>
+          <outline text="Crotone" CAT="false:false:false" REACH="0" IDS="556696:549098:P38851" BK_phints_rule="3E43,is,2293"/>
+          <outline text="Cuneo" CAT="false:false:false" REACH="0" IDS="556697:549098:P38850" BK_phints_rule="3E43,is,F8F6"/>
+          <outline text="Enna" CAT="false:false:false" REACH="0" IDS="556698:549098:P38849" BK_phints_rule="3E43,is,3B40"/>
+          <outline text="Fermo" CAT="false:false:false" REACH="0" IDS="556699:549098:P38848" BK_phints_rule="3E43,is,3EF8"/>
+          <outline text="Ferrara" CAT="false:false:false" REACH="0" IDS="556700:549098:P38847" BK_phints_rule="3E43,is,4F41"/>
+          <outline text="Firenze" CAT="false:false:false" REACH="0" IDS="556701:549098:P38846" BK_phints_rule="3E43,is,3772"/>
+          <outline text="Foggia" CAT="false:false:false" REACH="0" IDS="556702:549098:P38845" BK_phints_rule="3E43,is,C541"/>
+          <outline text="Forl&#xFFFD; - Cesena" CAT="false:false:false" REACH="0" IDS="556703:549098:P38844" BK_phints_rule="3E43,is,27D4"/>
+          <outline text="Frosinone" CAT="false:false:false" REACH="0" IDS="556704:549098:P38843" BK_phints_rule="3E43,is,4796"/>
+          <outline text="Genova" CAT="false:false:false" REACH="0" IDS="556705:549098:P38842" BK_phints_rule="3E43,is,7B52"/>
+          <outline text="Gorizia" CAT="false:false:false" REACH="0" IDS="556706:549098:P38841" BK_phints_rule="3E43,is,362D"/>
+          <outline text="Grosseto" CAT="false:false:false" REACH="0" IDS="556707:549098:P38840" BK_phints_rule="3E43,is,70EC"/>
+          <outline text="Imperia" CAT="false:false:false" REACH="0" IDS="556708:549098:P38839" BK_phints_rule="3E43,is,4638"/>
+          <outline text="Isernia" CAT="false:false:false" REACH="0" IDS="556709:549098:P38838" BK_phints_rule="3E43,is,49F2"/>
+          <outline text="La Spezia" CAT="false:false:false" REACH="0" IDS="556710:549098:P38837" BK_phints_rule="3E43,is,8B1D"/>
+          <outline text="L'Aquila" CAT="false:false:false" REACH="0" IDS="556711:549098:P38836" BK_phints_rule="3E43,is,079C"/>
+          <outline text="Latina" CAT="false:false:false" REACH="0" IDS="556712:549098:P38835" BK_phints_rule="3E43,is,D94F"/>
+          <outline text="Lecce" CAT="false:false:false" REACH="0" IDS="556713:549098:P38834" BK_phints_rule="3E43,is,5DB4"/>
+          <outline text="Lecco" CAT="false:false:false" REACH="0" IDS="556714:549098:P38833" BK_phints_rule="3E43,is,5A34"/>
+          <outline text="Livorno" CAT="false:false:false" REACH="0" IDS="556715:549098:P38832" BK_phints_rule="3E43,is,EE64"/>
+          <outline text="Lodi" CAT="false:false:false" REACH="0" IDS="556716:549098:P38831" BK_phints_rule="3E43,is,115"/>
+          <outline text="Lucca" CAT="false:false:false" REACH="0" IDS="556717:549098:P38830" BK_phints_rule="3E43,is,5EB1"/>
+          <outline text="Macerata" CAT="false:false:false" REACH="0" IDS="556718:549098:P38829" BK_phints_rule="3E43,is,38C6"/>
+          <outline text="Mantova" CAT="false:false:false" REACH="0" IDS="556719:549098:P38828" BK_phints_rule="3E43,is,4248"/>
+          <outline text="Massa" CAT="false:false:false" REACH="0" IDS="556720:549098:P38827" BK_phints_rule="3E43,is,6B85"/>
+          <outline text="Matera" CAT="false:false:false" REACH="0" IDS="556721:549098:P38826" BK_phints_rule="3E43,is,CB86"/>
+          <outline text="Messina" CAT="false:false:false" REACH="0" IDS="556722:549098:P38825" BK_phints_rule="3E43,is,B14E"/>
+          <outline text="Milano" CAT="false:false:false" REACH="0" IDS="556723:549098:P38824" BK_phints_rule="3E43,is,6FA9"/>
+          <outline text="Modena" CAT="false:false:false" REACH="0" IDS="556724:549098:P38823" BK_phints_rule="3E43,is,0AE3"/>
+          <outline text="Monza - Brianza" CAT="false:false:false" REACH="0" IDS="556725:549098:P38822" BK_phints_rule="3E43,is,9098"/>
+          <outline text="Napoli" CAT="false:false:false" REACH="0" IDS="556726:549098:P38821" BK_phints_rule="3E43,is,ACAF"/>
+          <outline text="Novara" CAT="false:false:false" REACH="0" IDS="556727:549098:P38820" BK_phints_rule="3E43,is,40AF"/>
+          <outline text="Nuoro" CAT="false:false:false" REACH="0" IDS="556728:549098:P38819" BK_phints_rule="3E43,is,985"/>
+          <outline text="Ogliastra" CAT="false:false:false" REACH="0" IDS="556729:549098:P38818" BK_phints_rule="3E43,is,B792"/>
+          <outline text="Olbia - Tempio" CAT="false:false:false" REACH="0" IDS="556730:549098:P38817" BK_phints_rule="3E43,is,F309"/>
+          <outline text="Oristano" CAT="false:false:false" REACH="0" IDS="556731:549098:P38816" BK_phints_rule="3E43,is,65A6"/>
+          <outline text="Padova" CAT="false:false:false" REACH="0" IDS="556732:549098:P38815" BK_phints_rule="3E43,is,44A3"/>
+          <outline text="Palermo" CAT="false:false:false" REACH="0" IDS="556733:549098:P38814" BK_phints_rule="3E43,is,8DE2"/>
+          <outline text="Parma" CAT="false:false:false" REACH="0" IDS="556734:549098:P38813" BK_phints_rule="3E43,is,931"/>
+          <outline text="Pavia" CAT="false:false:false" REACH="0" IDS="556735:549098:P38812" BK_phints_rule="3E43,is,872"/>
+          <outline text="Perugia" CAT="false:false:false" REACH="0" IDS="556736:549098:P38811" BK_phints_rule="3E43,is,0BDD"/>
+          <outline text="Pesaro - Urbino" CAT="false:false:false" REACH="0" IDS="556737:549098:P38810" BK_phints_rule="3E43,is,51A8"/>
+          <outline text="Pescara" CAT="false:false:false" REACH="0" IDS="556738:549098:P38809" BK_phints_rule="3E43,is,720E"/>
+          <outline text="Piacenza" CAT="false:false:false" REACH="0" IDS="556739:549098:P38808" BK_phints_rule="3E43,is,5837"/>
+          <outline text="Pisa" CAT="false:false:false" REACH="0" IDS="556740:549098:P38807" BK_phints_rule="3E43,is,A6FC"/>
+          <outline text="Pistoia" CAT="false:false:false" REACH="0" IDS="556741:549098:P38806" BK_phints_rule="3E43,is,3960"/>
+          <outline text="Pordenone" CAT="false:false:false" REACH="0" IDS="556742:549098:P38805" BK_phints_rule="3E43,is,956E"/>
+          <outline text="Potenza" CAT="false:false:false" REACH="0" IDS="556743:549098:P38804" BK_phints_rule="3E43,is,538C"/>
+          <outline text="Prato" CAT="false:false:false" REACH="0" IDS="556744:549098:P38803" BK_phints_rule="3E43,is,1C4E"/>
+          <outline text="Ragusa" CAT="false:false:false" REACH="0" IDS="556745:549098:P38802" BK_phints_rule="3E43,is,7580"/>
+          <outline text="Ravenna" CAT="false:false:false" REACH="0" IDS="556746:549098:P38801" BK_phints_rule="3E43,is,7DD8"/>
+          <outline text="Reggio Calabria" CAT="false:false:false" REACH="0" IDS="556747:549098:P38800" BK_phints_rule="3E43,is,51C6"/>
+          <outline text="Reggio Emilia" CAT="false:false:false" REACH="0" IDS="556748:549098:P38799" BK_phints_rule="3E43,is,7659"/>
+          <outline text="Rieti" CAT="false:false:false" REACH="0" IDS="556749:549098:P38798" BK_phints_rule="3E43,is,FBF0"/>
+          <outline text="Rimini" CAT="false:false:false" REACH="0" IDS="556750:549098:P38797" BK_phints_rule="3E43,is,3CAB"/>
+          <outline text="Roma" CAT="false:false:false" REACH="0" IDS="556751:549098:P38796" BK_phints_rule="3E43,is,BF14"/>
+          <outline text="Rovigo" CAT="false:false:false" REACH="0" IDS="556752:549098:P38795" BK_phints_rule="3E43,is,8AA3"/>
+          <outline text="Salerno" CAT="false:false:false" REACH="0" IDS="556753:549098:P38794" BK_phints_rule="3E43,is,7DD1"/>
+          <outline text="Sassari" CAT="false:false:false" REACH="0" IDS="556754:549098:P38793" BK_phints_rule="3E43,is,F039"/>
+          <outline text="Savona" CAT="false:false:false" REACH="0" IDS="556755:549098:P38792" BK_phints_rule="3E43,is,0FAC"/>
+          <outline text="Siena" CAT="false:false:false" REACH="0" IDS="556756:549098:P38791" BK_phints_rule="3E43,is,9DC7"/>
+          <outline text="Siracusa" CAT="false:false:false" REACH="0" IDS="556757:549098:P38790" BK_phints_rule="3E43,is,F17A"/>
+          <outline text="Sondrio" CAT="false:false:false" REACH="0" IDS="556758:549098:P38789" BK_phints_rule="3E43,is,5FAA"/>
+          <outline text="Taranto" CAT="false:false:false" REACH="0" IDS="556759:549098:P38788" BK_phints_rule="3E43,is,29C4"/>
+          <outline text="Teramo" CAT="false:false:false" REACH="0" IDS="556760:549098:P38787" BK_phints_rule="3E43,is,BFBD"/>
+          <outline text="Terni" CAT="false:false:false" REACH="0" IDS="556761:549098:P38786" BK_phints_rule="3E43,is,CFC0"/>
+          <outline text="Torino" CAT="false:false:false" REACH="0" IDS="556762:549098:P38785" BK_phints_rule="3E43,is,8CA4"/>
+          <outline text="Trapani" CAT="false:false:false" REACH="0" IDS="556763:549098:P38784" BK_phints_rule="3E43,is,14FD"/>
+          <outline text="Trento" CAT="false:false:false" REACH="0" IDS="556764:549098:P38783" BK_phints_rule="3E43,is,9BF7"/>
+          <outline text="Treviso" CAT="false:false:false" REACH="0" IDS="556765:549098:P38782" BK_phints_rule="3E43,is,CC04"/>
+          <outline text="Trieste" CAT="false:false:false" REACH="0" IDS="556766:549098:P38781" BK_phints_rule="3E43,is,B9B3"/>
+          <outline text="Udine" CAT="false:false:false" REACH="0" IDS="556767:549098:P38780" BK_phints_rule="3E43,is,F18C"/>
+          <outline text="Varese" CAT="false:false:false" REACH="0" IDS="556768:549098:P38779" BK_phints_rule="3E43,is,FB85"/>
+          <outline text="Venezia" CAT="false:false:false" REACH="0" IDS="556769:549098:P38778" BK_phints_rule="3E43,is,0FFE"/>
+          <outline text="Verbania" CAT="false:false:false" REACH="0" IDS="556770:549098:P38777" BK_phints_rule="3E43,is,1148"/>
+          <outline text="Vercelli" CAT="false:false:false" REACH="0" IDS="556771:549098:P38776" BK_phints_rule="3E43,is,B7D7"/>
+          <outline text="Verona" CAT="false:false:false" REACH="0" IDS="556772:549098:P38775" BK_phints_rule="3E43,is,AA5C"/>
+          <outline text="Vibo Valentia" CAT="false:false:false" REACH="0" IDS="556773:549098:P38774" BK_phints_rule="3E43,is,6679"/>
+          <outline text="Vicenza" CAT="false:false:false" REACH="0" IDS="556774:549098:P38773" BK_phints_rule="3E43,is,369E"/>
+          <outline text="Villacidro - Sanluri" CAT="false:false:false" REACH="0" IDS="556775:549098:P38772" BK_phints_rule="3E43,is,F7BE"/>
+          <outline text="Viterbo" CAT="false:false:false" REACH="0" IDS="556776:549098:P38771" BK_phints_rule="3E43,is,37A0"/>
+        </outline>
+        <outline text="Nationality" CAT="false:false:false" REACH="0" IDS="556777:549120:">
+          <outline text="ALBANIA" CAT="false:false:false" REACH="0" IDS="556778:556777:P38770" BK_phints_rule="18A5,is,679B"/>
+          <outline text="EGITTO" CAT="false:false:false" REACH="0" IDS="556779:556777:P38769" BK_phints_rule="18A5,is,1CF6"/>
+          <outline text="FRANCIA" CAT="false:false:false" REACH="0" IDS="556780:556777:P38768" BK_phints_rule="18A5,is,CE38"/>
+          <outline text="GERMANIA" CAT="false:false:false" REACH="0" IDS="556781:556777:P38767" BK_phints_rule="18A5,is,3558"/>
+          <outline text="ITALIA" CAT="false:false:false" REACH="0" IDS="556782:556777:P38766" BK_phints_rule="18A5,is,E079"/>
+          <outline text="MAROCCO" CAT="false:false:false" REACH="0" IDS="556783:556777:P38765" BK_phints_rule="18A5,is,F683"/>
+          <outline text="POLONIA" CAT="false:false:false" REACH="0" IDS="556784:556777:P38764" BK_phints_rule="18A5,is,7CF1"/>
+          <outline text="ROMANIA" CAT="false:false:false" REACH="0" IDS="556785:556777:P38763" BK_phints_rule="18A5,is,94ED"/>
+          <outline text="STATI UNITI D'AMERICA" CAT="false:false:false" REACH="0" IDS="556786:556777:P38762" BK_phints_rule="18A5,is,E31F"/>
+          <outline text="SVIZZERA" CAT="false:false:false" REACH="0" IDS="556787:556777:P38761" BK_phints_rule="18A5,is,3570"/>
+          <outline text="UCRAINA" CAT="false:false:false" REACH="0" IDS="556788:556777:P38760" BK_phints_rule="18A5,is,ABBD"/>
+        </outline>
+      </outline>
+      <outline text="ret" CAT="false:false:false" REACH="0" IDS="549073:498541:">
+        <outline text="Gender" CAT="false:false:false" REACH="0" IDS="549074:549073:">
+          <outline text="F" CAT="false:false:false" REACH="0" IDS="549075:549074:P38900" BK_phints_rule="j1,is,1"/>
+          <outline text="M" CAT="false:false:false" REACH="0" IDS="549076:549074:P38899" BK_phints_rule="j1,is,2"/>
+        </outline>
+        <outline text="Age Groups" CAT="false:false:false" REACH="0" IDS="549077:549073:">
+          <outline text="14-17" CAT="false:false:false" REACH="0" IDS="549078:549077:P38898" BK_phints_rule="k1,is,1"/>
+          <outline text="18-24" CAT="false:false:false" REACH="0" IDS="549079:549077:P38897" BK_phints_rule="k1,is,2"/>
+          <outline text="25-34" CAT="false:false:false" REACH="0" IDS="549080:549077:P38896" BK_phints_rule="k1,is,3"/>
+          <outline text="35-44" CAT="false:false:false" REACH="0" IDS="549081:549077:P38895" BK_phints_rule="k1,is,4"/>
+          <outline text="45-55" CAT="false:false:false" REACH="0" IDS="549082:549077:P38894" BK_phints_rule="k1,is,5"/>
+          <outline text="55+" CAT="false:false:false" REACH="0" IDS="549083:549077:P38893" BK_phints_rule="k1,is,6"/>
+        </outline>
+        <outline text="Accessories" CAT="false:false:false" REACH="0" IDS="556789:549073:">
+          <outline text="Accessories MF" CAT="false:false:false" REACH="0" IDS="556790:556789:P38759" BK_phints_rule="a1,is,1"/>
+          <outline text="Accessories M" CAT="false:false:false" REACH="0" IDS="556791:556789:P38758" BK_phints_rule="a2,is,1"/>
+          <outline text="Accessories F" CAT="false:false:false" REACH="0" IDS="556792:556789:P38757" BK_phints_rule="a3,is,1"/>
+          <outline text="Caps and hats" CAT="false:false:false" REACH="0" IDS="556793:556789:P38756" BK_phints_rule="b1,is,1"/>
+          <outline text="Glasses and sunglasses" CAT="false:false:false" REACH="0" IDS="556794:556789:P38755" BK_phints_rule="c1,is,1"/>
+          <outline text="Wristwatches" CAT="false:false:false" REACH="0" IDS="556795:556789:P38754" BK_phints_rule="d1,is,1"/>
+        </outline>
+        <outline text="Jewelery" CAT="false:false:false" REACH="0" IDS="556796:549073:">
+          <outline text="Jewelery" CAT="false:false:false" REACH="0" IDS="556797:556796:P38753" BK_phints_rule="e1,is,1"/>
+        </outline>
+        <outline text="Bags" CAT="false:false:false" REACH="0" IDS="556798:549073:">
+          <outline text="Bags MF" CAT="false:false:false" REACH="0" IDS="556799:556798:P38752" BK_phints_rule="f1,is,1"/>
+          <outline text="Bags M " CAT="false:false:false" REACH="0" IDS="556800:556798:P38751" BK_phints_rule="f2,is,1"/>
+          <outline text="Bags F" CAT="false:false:false" REACH="0" IDS="556801:556798:P38750" BK_phints_rule="f3,is,1"/>
+        </outline>
+        <outline text="Clothing" CAT="false:false:false" REACH="0" IDS="556802:549073:">
+          <outline text="Dresses MF" CAT="false:false:false" REACH="0" IDS="556803:556802:P38749" BK_phints_rule="h1,is,1"/>
+          <outline text="Trousers MF" CAT="false:false:false" REACH="0" IDS="556804:556802:P38748" BK_phints_rule="i1,is,1"/>
+          <outline text="Shirts MF" CAT="false:false:false" REACH="0" IDS="556805:556802:P38747" BK_phints_rule="l1,is,1"/>
+          <outline text="Jackets MF" CAT="false:false:false" REACH="0" IDS="556806:556802:P38746" BK_phints_rule="m1,is,1"/>
+          <outline text="T Shirts MF" CAT="false:false:false" REACH="0" IDS="556807:556802:P38745" BK_phints_rule="n1,is,1"/>
+          <outline text="Swimwear MF" CAT="false:false:false" REACH="0" IDS="556808:556802:P38744" BK_phints_rule="o1,is,1"/>
+          <outline text="Underwear MF" CAT="false:false:false" REACH="0" IDS="556809:556802:P38743" BK_phints_rule="p1,is,1"/>
+          <outline text="Suits MF" CAT="false:false:false" REACH="0" IDS="556810:556802:P38742" BK_phints_rule="q1,is,1"/>
+          <outline text="Pyjamas MF" CAT="false:false:false" REACH="0" IDS="556811:556802:P38741" BK_phints_rule="r1,is,1"/>
+          <outline text="Sportswear MF" CAT="false:false:false" REACH="0" IDS="556812:556802:P38740" BK_phints_rule="s1,is,1"/>
+          <outline text="Dresses M" CAT="false:false:false" REACH="0" IDS="556813:556802:P38739" BK_phints_rule="h2,is,1"/>
+          <outline text="Trousers M " CAT="false:false:false" REACH="0" IDS="556814:556802:P38738" BK_phints_rule="i2,is,1"/>
+          <outline text="Shirts M " CAT="false:false:false" REACH="0" IDS="556815:556802:P38737" BK_phints_rule="l2,is,1"/>
+          <outline text="Jackets M " CAT="false:false:false" REACH="0" IDS="556816:556802:P38736" BK_phints_rule="m2,is,1"/>
+          <outline text="T Shirts M " CAT="false:false:false" REACH="0" IDS="556817:556802:P38735" BK_phints_rule="n2,is,1"/>
+          <outline text="Swimwear M " CAT="false:false:false" REACH="0" IDS="556818:556802:P38734" BK_phints_rule="o2,is,1"/>
+          <outline text="Underwear M " CAT="false:false:false" REACH="0" IDS="556819:556802:P38733" BK_phints_rule="p2,is,1"/>
+          <outline text="Suits M" CAT="false:false:false" REACH="0" IDS="556820:556802:P38732" BK_phints_rule="q2,is,1"/>
+          <outline text="Pyjamas M " CAT="false:false:false" REACH="0" IDS="556821:556802:P38731" BK_phints_rule="r2,is,1"/>
+          <outline text="Sportswear M " CAT="false:false:false" REACH="0" IDS="556822:556802:P38730" BK_phints_rule="s2,is,1"/>
+          <outline text="Dresses F" CAT="false:false:false" REACH="0" IDS="556823:556802:P38729" BK_phints_rule="h3,is,1"/>
+          <outline text="Trousers F" CAT="false:false:false" REACH="0" IDS="556824:556802:P38728" BK_phints_rule="i3,is,1"/>
+          <outline text="Shirts F" CAT="false:false:false" REACH="0" IDS="556825:556802:P38727" BK_phints_rule="l3,is,1"/>
+          <outline text="Jackets F" CAT="false:false:false" REACH="0" IDS="556826:556802:P38726" BK_phints_rule="m3,is,1"/>
+          <outline text="T Shirts F" CAT="false:false:false" REACH="0" IDS="556827:556802:P38725" BK_phints_rule="n3,is,1"/>
+          <outline text="Swimwear F" CAT="false:false:false" REACH="0" IDS="556828:556802:P38724" BK_phints_rule="o3,is,1"/>
+          <outline text="Underwear F" CAT="false:false:false" REACH="0" IDS="556829:556802:P38723" BK_phints_rule="p3,is,1"/>
+          <outline text="Suits F" CAT="false:false:false" REACH="0" IDS="556830:556802:P38722" BK_phints_rule="q3,is,1"/>
+          <outline text="Pyjamas F" CAT="false:false:false" REACH="0" IDS="556831:556802:P38721" BK_phints_rule="r3,is,1"/>
+          <outline text="Sportswear F" CAT="false:false:false" REACH="0" IDS="556832:556802:P38720" BK_phints_rule="s3,is,1"/>
+        </outline>
+        <outline text="Kids Clothes" CAT="false:false:false" REACH="0" IDS="556833:549073:">
+          <outline text="Kids Clothes" CAT="false:false:false" REACH="0" IDS="556834:556833:P38719" BK_phints_rule="z1,is,1"/>
+        </outline>
+        <outline text="Shoes" CAT="false:false:false" REACH="0" IDS="556835:549073:">
+          <outline text="Shoes MF" CAT="false:false:false" REACH="0" IDS="556836:556835:P38718" BK_phints_rule="t1,is,1"/>
+          <outline text="Shoes M " CAT="false:false:false" REACH="0" IDS="556837:556835:P38717" BK_phints_rule="t2,is,1"/>
+          <outline text="Shoes F" CAT="false:false:false" REACH="0" IDS="556838:556835:P38715" BK_phints_rule="t3,is,1"/>
+          <outline text="Sports shoes" CAT="false:false:false" REACH="0" IDS="556839:556835:P38714" BK_phints_rule="u1,is,1"/>
+          <outline text="Sneakers" CAT="false:false:false" REACH="0" IDS="556840:556835:P38713" BK_phints_rule="v1,is,1"/>
+        </outline>
+        <outline text="Geo" CAT="false:false:false" REACH="0" IDS="556841:549073:">
+          <outline text="AG" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,920&#10;w1,is,921"/>
+          <outline text="AL" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,150&#10;w1,is,151"/>
+          <outline text="AN" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,600&#10;w1,is,601"/>
+          <outline text="AO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,110&#10;w1,is,111"/>
+          <outline text="AP" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,630&#10;w1,is,631"/>
+          <outline text="AQ" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,670&#10;w1,is,671"/>
+          <outline text="AR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,520&#10;w1,is,521"/>
+          <outline text="AT" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,140&#10;w1,is,141"/>
+          <outline text="AV" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,830&#10;w1,is,831"/>
+          <outline text="BA" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,700&#10;w1,is,701"/>
+          <outline text="BG" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,240&#10;w1,is,241"/>
+          <outline text="BI" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,138&#10;w1,is,139"/>
+          <outline text="BL" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,320&#10;w1,is,321"/>
+          <outline text="BN" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,820&#10;w1,is,821"/>
+          <outline text="BO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,400&#10;w1,is,401"/>
+          <outline text="BR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,720&#10;w1,is,721"/>
+          <outline text="BS" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,250&#10;w1,is,251"/>
+          <outline text="BT" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,760&#10;w1,is,761"/>
+          <outline text="BZ" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,390&#10;w1,is,391"/>
+          <outline text="CA" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,91&#10;w1,is,904"/>
+          <outline text="CE" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,810&#10;w1,is,811"/>
+          <outline text="CH" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,660&#10;w1,is,661"/>
+          <outline text="CL" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,930&#10;w1,is,931"/>
+          <outline text="CN" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,120&#10;w1,is,121"/>
+          <outline text="CO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,220&#10;w1,is,221"/>
+          <outline text="CR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,260&#10;w1,is,261"/>
+          <outline text="CS" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,870&#10;w1,is,871"/>
+          <outline text="CT" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,950&#10;w1,is,951"/>
+          <outline text="CZ" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,880&#10;w1,is,881"/>
+          <outline text="EN" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,940&#10;w1,is,941"/>
+          <outline text="FC" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,470"/>
+          <outline text="FC" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,471&#10;w1,is,475"/>
+          <outline text="FE" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,440&#10;w1,is,441"/>
+          <outline text="FG" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,710&#10;w1,is,711"/>
+          <outline text="FI" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,500&#10;w1,is,501"/>
+          <outline text="FM" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,638&#10;w1,is,639"/>
+          <outline text="FR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,302&#10;w1,is,303&#10;w1,is,304"/>
+          <outline text="GE" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,160&#10;w1,is,161"/>
+          <outline text="GO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,340"/>
+          <outline text="GR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,580&#10;w1,is,581"/>
+          <outline text="IM" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,180&#10;w1,is,181"/>
+          <outline text="IS" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,860&#10;w1,is,861"/>
+          <outline text="KR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,888&#10;w1,is,889"/>
+          <outline text="LC" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,238&#10;w1,is,239"/>
+          <outline text="LE" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,730&#10;w1,is,731"/>
+          <outline text="LI" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,570&#10;w1,is,571"/>
+          <outline text="LO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,268&#10;w1,is,269"/>
+          <outline text="LT" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,402"/>
+          <outline text="LU" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,550&#10;w1,is,551"/>
+          <outline text="MB" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,208&#10;w1,is,209"/>
+          <outline text="MC" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,620&#10;w1,is,621"/>
+          <outline text="ME" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,980&#10;w1,is,981"/>
+          <outline text="MI" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,200&#10;w1,is,201"/>
+          <outline text="MN" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,460&#10;w1,is,461"/>
+          <outline text="MO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,410&#10;w1,is,411"/>
+          <outline text="MS" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,540&#10;w1,is,541"/>
+          <outline text="MT" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,750&#10;w1,is,751"/>
+          <outline text="NA" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,800&#10;w1,is,801"/>
+          <outline text="NO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,280&#10;w1,is,281"/>
+          <outline text="NU" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,802&#10;w1,is,803"/>
+          <outline text="OG" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,804"/>
+          <outline text="OR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,907"/>
+          <outline text="OR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,908&#10;w1,is,909&#10;w1,is,917"/>
+          <outline text="OT" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,702"/>
+          <outline text="PA" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,900&#10;w1,is,901"/>
+          <outline text="PC" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,290&#10;w1,is,291"/>
+          <outline text="PD" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,350&#10;w1,is,351"/>
+          <outline text="PE" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,650&#10;w1,is,651"/>
+          <outline text="PG" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,610&#10;w1,is,602&#10;w1,is,603&#10;w1,is,604&#10;&#10;w1,is,600&#10;w1,is,607&#10;w1,is,608"/>
+          <outline text="PI" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,560&#10;w1,is,561"/>
+          <outline text="PN" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,330&#10;w1,is,331"/>
+          <outline text="PO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,590&#10;w1,is,591"/>
+          <outline text="PR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,430&#10;w1,is,431"/>
+          <outline text="PT" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,510&#10;w1,is,511"/>
+          <outline text="PU" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,610&#10;w1,is,611"/>
+          <outline text="PV" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,270&#10;w1,is,271"/>
+          <outline text="PZ" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,850&#10;w1,is,851"/>
+          <outline text="RA" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,480&#10;w1,is,481"/>
+          <outline text="RC" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,890&#10;w1,is,891"/>
+          <outline text="RE" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,420&#10;w1,is,421"/>
+          <outline text="RG" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,971&#10;w1,is,970"/>
+          <outline text="RI" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,204&#10;w1,is,203&#10;w1,is,202"/>
+          <outline text="RM" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,010&#10;w1,is,012&#10;w1,is,013&#10;w1,is,015&#10;w1,is,016&#10;w1,is,017&#10;w1,is,018&#10;w1,is,019&#10;w1,is,020&#10;w1,iw1,is,026&#10;w1,is,025&#10;w1,is,024&#10;w1,is,023&#10;w1,is,022&#10;s,021&#10;w1,is,027&#10;w1,is,028&#10;w1,is,029&#10;w1,is,030w1,is,036&#10;w1,is,035&#10;w1,is,034&#10;w1,is,033&#10;w1,is,032&#10;w1,is,031&#10;&#10;w1,is,037&#10;w1,is,038&#10;w1,is,039&#10;w1,w1,is,045&#10;w1,is,044&#10;w1,is,043&#10;w1,is,042&#10;w1,is,041&#10;is,040&#10;w1,is,046&#10;w1,is,047&#10;w1,is,048&#10;w1,is,04w1,is,055&#10;w1,is,054&#10;w1,is,053&#10;w1,is,052&#10;w1,is,051&#10;w1,is,058&#10;w1,is,059&#10;w1,is,060&#10;w1,is,061&#10;w1,isw1,is,068&#10;w1,is,067&#10;w1,is,066&#10;w1,is,065&#10;w1,is,063&#10;,062&#10;w1,is,069"/>
+          <outline text="RN" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,478&#10;w1,is,479"/>
+          <outline text="RO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,450&#10;w1,is,451"/>
+          <outline text="SA" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,840&#10;w1,is,841"/>
+          <outline text="SI" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,530&#10;w1,is,531"/>
+          <outline text="SO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,230&#10;w1,is,231"/>
+          <outline text="SP" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,190&#10;w1,is,191"/>
+          <outline text="SR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,960&#10;w1,is,961"/>
+          <outline text="SS" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,703&#10;w1,is,704"/>
+          <outline text="SV" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,170&#10;w1,is,171"/>
+          <outline text="TA" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,740&#10;w1,is,741"/>
+          <outline text="TE" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,640&#10;w1,is,641"/>
+          <outline text="TN" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,380&#10;w1,is,381"/>
+          <outline text="TO" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,100&#10;w1,is,101"/>
+          <outline text="TP" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,910&#10;w1,is,911"/>
+          <outline text="TR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,502&#10;w1,is,503"/>
+          <outline text="TV" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,310&#10;w1,is,311"/>
+          <outline text="VA" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,210&#10;w1,is,211"/>
+          <outline text="VB" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,288&#10;w1,is,289"/>
+          <outline text="VC" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,130&#10;w1,is,131"/>
+          <outline text="VE" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,300&#10;w1,is,301"/>
+          <outline text="VI" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,360&#10;w1,is,361"/>
+          <outline text="VR" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,370&#10;w1,is,371"/>
+          <outline text="VS" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,902&#10;w1,is,903"/>
+          <outline text="VT" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,102&#10;w1,is,103"/>
+          <outline text="VV" CAT="false:false:false" REACH="NA" IDS="" BK_phints_rule="w1,is,898&#10;w1,is,899"/>
+        </outline>
+        <outline text="Test" CAT="false:false:false" REACH="0" IDS="567377:549073:">
+          <outline text="Test3" CAT="false:false:false" REACH="0" IDS="567379:567377:P38710" BK_phints_rule="ciccio,is,pasticcio"/>
+          <outline text="Test1" CAT="false:false:false" REACH="0" IDS="567378:567377:P38711" BK_phints_rule="d1,is,9"/>
+          <outline text="Test2" CAT="false:false:false" REACH="0" IDS="567379:567377:P38710" BK_phints_rule="d2,is,1"/>
+        </outline>
+      </outline>
+      <outline text="adv" CAT="false:false:false" REACH="0" IDS="549084:498541:">
+        <outline text="merce" CAT="false:false:false" REACH="0" IDS="549085:549084:">
+          <outline text="largo comsumo food" CAT="false:false:false" REACH="0" IDS="549086:549085:P38892" BK_phints_rule="d1,is,B5BE"/>
+          <outline text="largo comsumo non food" CAT="false:false:false" REACH="0" IDS="549087:549085:P38891" BK_phints_rule="d1,is,72FF"/>
+          <outline text="largo comsumo pharma" CAT="false:false:false" REACH="0" IDS="549088:549085:P38890" BK_phints_rule="d2,is,73FF"/>
+          <outline text="auto" CAT="false:false:false" REACH="0" IDS="549089:549085:P38889" BK_phints_rule="d2,is,5EE2"/>
+          <outline text="telco" CAT="false:false:false" REACH="0" IDS="549090:549085:P38888" BK_phints_rule="d2,is,9BE3"/>
+          <outline text="editoria" CAT="false:false:false" REACH="0" IDS="549091:549085:P38887" BK_phints_rule="d2,is,6BF1"/>
+          <outline text="moda" CAT="false:false:false" REACH="0" IDS="549092:549085:P38886" BK_phints_rule="d2,is,3B86"/>
+          <outline text="turismo" CAT="false:false:false" REACH="0" IDS="549093:549085:P38885" BK_phints_rule="d2,is,8A60"/>
+          <outline text="cosmesi" CAT="false:false:false" REACH="0" IDS="549094:549085:P38884" BK_phints_rule="d2,is,8A61"/>
+          <outline text="arredamento" CAT="false:false:false" REACH="0" IDS="549095:549085:P38883" BK_phints_rule="d2,is,8A62"/>
+          <outline text="informatica" CAT="false:false:false" REACH="0" IDS="549096:549085:P38882" BK_phints_rule="d2,is,8A63"/>
+          <outline text="affari" CAT="false:false:false" REACH="0" IDS="549097:549085:P38881" BK_phints_rule="d2,is,8A64"/>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

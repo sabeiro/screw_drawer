@@ -1,0 +1,373 @@
+group,name,key,value
+Gender,F,26B5,B5BE
+Gender,M,26B5,72FF
+Age Groups,18 - 19,6615,2311
+Age Groups,20 - 24,6615,5EE2
+Age Groups,25 - 34,6615,9BE3
+Age Groups,35 - 44,6615,6BF1
+Age Groups,45 - 54,6615,3B86
+Age Groups,55 - 64,6615,0B96
+Age Groups,>65,6615,8A60
+Card Type,RIC,C117,6502
+Card Type,NOR,C117,0F00
+Card Type,DAV,C117,AE25
+Customer,Consumer,5DBC,91B1
+Customer,Business,5DBC,55D9
+Campaign,Abbonamento,A259,DA15
+Campaign,Generico,A259,E91D
+Campaign,Fibra,A259,DDC8
+netflix,activation,DFDD,0E9B
+Message+,true,007B,3771
+Nielsen Area,Area 1,3A17,A0D6
+Nielsen Area,Area 2,3A17,A196
+Nielsen Area,Area 3,3A17,6157
+Nielsen Area,Area 4,3A17,A316
+Region,Abruzzo,D522,E68C
+Region,Basilicata,D522,2A40
+Region,Calabria,D522,EB23
+Region,Campania,D522,BB1F
+Region,Emilia-Romagna,D522,064A
+Region,Friuli-Venezia Giulia,D522,8070
+Region,Lazio,D522,D10D
+Region,Liguria,D522,A851
+Region,Lombardia,D522,BD69
+Region,Marche,D522,6DF1
+Region,Molise,D522,76B4
+Region,Piemonte,D522,5330
+Region,Puglia,D522,BFF6
+Region,Sardegna,D522,D9FF
+Region,Sicilia,D522,3F29
+Region,Toscana,D522,710E
+Region,Trentino-Alto Adige,D522,D411
+Region,Umbria,D522,22B6
+Region,Valle d'Aosta,D522,D715
+Region,Veneto,D522,106C
+Province,Agrigento,3E43,3D0F
+Province,Alessandria,3E43,BCF1
+Province,Ancona,3E43,70FF
+Province,Aosta,3E43,B295
+Province,Arezzo,3E43,3AB1
+Province,Ascoli Piceno,3E43,5923
+Province,Asti,3E43,ABDB
+Province,Avellino,3E43,4570
+Province,Bari,3E43,4A78
+Province,Barletta,3E43,484D
+Province,Belluno,3E43,A563
+Province,Benevento,3E43,1ABB
+Province,Bergamo,3E43,7789
+Province,Biella,3E43,6BBB
+Province,Bologna,3E43,8A42
+Province,Bolzano,3E43,4327
+Province,Brescia,3E43,67D9
+Province,Brindisi,3E43,AE87
+Province,Cagliari,3E43,B39E
+Province,Caltanissetta,3E43,4D19
+Province,Campobasso,3E43,5270
+Province,Carbonia - Iglesias,3E43,4F7F
+Province,Caserta,3E43,DADF
+Province,Catania,3E43,BCA3
+Province,Catanzaro,3E43,4919
+Province,Chieti,3E43,EE5F
+Province,Como,3E43,4790
+Province,Cosenza,3E43,521B
+Province,Cremona,3E43,BC0D
+Province,Crotone,3E43,2293
+Province,Cuneo,3E43,F8F6
+Province,Enna,3E43,3B40
+Province,Fermo,3E43,3EF8
+Province,Ferrara,3E43,4F41
+Province,Firenze,3E43,3772
+Province,Foggia,3E43,C541
+Province,Forlì - Cesena,3E43,27D4
+Province,Frosinone,3E43,4796
+Province,Genova,3E43,7B52
+Province,Gorizia,3E43,362D
+Province,Grosseto,3E43,70EC
+Province,Imperia,3E43,4638
+Province,Isernia,3E43,49F2
+Province,La Spezia,3E43,8B1D
+Province,L'Aquila,3E43,079C
+Province,Latina,3E43,D94F
+Province,Lecce,3E43,5DB4
+Province,Lecco,3E43,5A34
+Province,Livorno,3E43,EE64
+Province,Lodi,3E43,0115
+Province,Lucca,3E43,5EB1
+Province,Macerata,3E43,38C6
+Province,Mantova,3E43,4248
+Province,Massa,3E43,6B85
+Province,Matera,3E43,CB86
+Province,Messina,3E43,B14E
+Province,Milano,3E43,6FA9
+Province,Modena,3E43,0AE3
+Province,Monza - Brianza,3E43,9098
+Province,Napoli,3E43,ACAF
+Province,Novara,3E43,40AF
+Province,Nuoro,3E43,0985
+Province,Ogliastra,3E43,B792
+Province,Olbia - Tempio,3E43,F309
+Province,Oristano,3E43,65A6
+Province,Padova,3E43,44A3
+Province,Palermo,3E43,8DE2
+Province,Parma,3E43,0931
+Province,Pavia,3E43,0872
+Province,Perugia,3E43,0BDD
+Province,Pesaro - Urbino,3E43,51A8
+Province,Pescara,3E43,720E
+Province,Piacenza,3E43,5837
+Province,Pisa,3E43,A6FC
+Province,Pistoia,3E43,3960
+Province,Pordenone,3E43,956E
+Province,Potenza,3E43,538C
+Province,Prato,3E43,1C4E
+Province,Ragusa,3E43,7580
+Province,Ravenna,3E43,7DD8
+Province,Reggio Calabria,3E43,51C6
+Province,Reggio Emilia,3E43,7659
+Province,Rieti,3E43,FBF0
+Province,Rimini,3E43,3CAB
+Province,Roma,3E43,BF14
+Province,Rovigo,3E43,8AA3
+Province,Salerno,3E43,7DD1
+Province,Sassari,3E43,F039
+Province,Savona,3E43,0FAC
+Province,Siena,3E43,9DC7
+Province,Siracusa,3E43,F17A
+Province,Sondrio,3E43,5FAA
+Province,Taranto,3E43,29C4
+Province,Teramo,3E43,BFBD
+Province,Terni,3E43,CFC0
+Province,Torino,3E43,8CA4
+Province,Trapani,3E43,14FD
+Province,Trento,3E43,9BF7
+Province,Treviso,3E43,CC04
+Province,Trieste,3E43,B9B3
+Province,Udine,3E43,F18C
+Province,Varese,3E43,FB85
+Province,Venezia,3E43,0FFE
+Province,Verbania,3E43,1148
+Province,Vercelli,3E43,B7D7
+Province,Verona,3E43,AA5C
+Province,Vibo Valentia,3E43,6679
+Province,Vicenza,3E43,369E
+Province,Villacidro - Sanluri,3E43,F7BE
+Province,Viterbo,3E43,37A0
+City,Bari,5E23,605E
+City,Bologna,5E23,21BC
+City,Cagliari,5E23,33B4
+City,Catania,5E23,175D
+City,Ferrara,5E23,E4BF
+City,Genova,5E23,C4C9
+City,La Spezia,5E23,541C
+City,Messina,5E23,1AB0
+City,Milano,5E23,D032
+City,Napoli,5E23,1334
+City,Padova,5E23,FB38
+City,Palermo,5E23,261C
+City,Parma,5E23,D39A
+City,Reggio Calabria,5E23,5352
+City,Reggio Emilia,5E23,7069
+City,Roma,5E23,9532
+City,Sassari,5E23,5BC7
+City,Torino,5E23,333F
+City,Trieste,5E23,124D
+City,Venezia,5E23,A400
+City,Verona,5E23,15C7
+Nationality,AFGHANISTAN,18A5,67BE
+Nationality,ALBANIA,18A5,679B
+Nationality,ALGERIA,18A5,9197
+Nationality,ANDORRA,18A5,5BDB
+Nationality,ANGOLA,18A5,B2D2
+Nationality,ANTIGUA E BARBUDA,18A5,4B05
+Nationality,ANTILLE OLANDESI,18A5,F074
+Nationality,ARABIA SAUDITA,18A5,B04B
+Nationality,ARGENTINA,18A5,E08C
+Nationality,ARMENIA,18A5,E8CD
+Nationality,AUSTRALIA,18A5,B95D
+Nationality,AUSTRIA,18A5,A7A0
+Nationality,AZERBAIGIAN,18A5,D741
+Nationality,BAHAMAS,18A5,B646
+Nationality,BAHREIN,18A5,3904
+Nationality,BANGLADESH,18A5,E958
+Nationality,BARBADOS,18A5,642A
+Nationality,BELGIO,18A5,3276
+Nationality,BELIZE,18A5,C69A
+Nationality,BENIN,18A5,54EC
+Nationality,BERMUDA,18A5,FA1E
+Nationality,BHUTAN,18A5,6A6B
+Nationality,BIELORUSSIA,18A5,DB53
+Nationality,BIRMANIA,18A5,0A54
+Nationality,BOLIVIA,18A5,F243
+Nationality,BOSNIA ED ERZEGOVINA,18A5,1B44
+Nationality,BOTSWANA,18A5,15AC
+Nationality,BRASILE,18A5,F359
+Nationality,BRUNEI,18A5,6D50
+Nationality,BULGARIA,18A5,B2D3
+Nationality,BURKINA FASO,18A5,7CF5
+Nationality,BURUNDI,18A5,0B6B
+Nationality,CAMBOGIA,18A5,8298
+Nationality,CAMERUN,18A5,8965
+Nationality,CANADA,18A5,CEE2
+Nationality,CAPO VERDE,18A5,CE02
+Nationality,CARAIBI,18A5,4ECF
+Nationality,CIAD,18A5,6684
+Nationality,CILE,18A5,3641
+Nationality,CINA,18A5,9541
+Nationality,CITTA' DEL VATICANO,18A5,31F2
+Nationality,COLOMBIA,18A5,EB4A
+Nationality,COMORE,18A5,2BE5
+Nationality,COREA DEL NORD,18A5,EE42
+Nationality,COREA DEL SUD,18A5,EB36
+Nationality,COSTA D'AVORIO,18A5,CCBE
+Nationality,COSTA RICA,18A5,4012
+Nationality,CROAZIA,18A5,DCD6
+Nationality,CUBA,18A5,5385
+Nationality,DANIMARCA,18A5,FE5F
+Nationality,ECUADOR,18A5,34C8
+Nationality,EGITTO,18A5,1CF6
+Nationality,EL SALVADOR,18A5,CED0
+Nationality,EMIRATI ARABI UNITI,18A5,6E34
+Nationality,ERITREA,18A5,12B8
+Nationality,ESTONIA,18A5,E397
+Nationality,ETIOPIA,18A5,501A
+Nationality,FED. RUSSA,18A5,D4FA
+Nationality,FIGI,18A5,CF46
+Nationality,FILIPPINE,18A5,92F8
+Nationality,FINLANDIA,18A5,1CB3
+Nationality,FRANCIA,18A5,CE38
+Nationality,GABON,18A5,C7E2
+Nationality,GAMBIA,18A5,9E17
+Nationality,GAZA,18A5,67CE
+Nationality,GEORGIA,18A5,B904
+Nationality,GERMANIA,18A5,3558
+Nationality,GHANA,18A5,CF50
+Nationality,GIAMAICA,18A5,F721
+Nationality,GIAPPONE,18A5,9B2D
+Nationality,GIBILTERRA,18A5,01BD
+Nationality,GIBUTI,18A5,D94D
+Nationality,GIORDANIA,18A5,E442
+Nationality,GRECIA,18A5,FDC1
+Nationality,GRENADA,18A5,9E7C
+Nationality,GUADALUPA,18A5,B01B
+Nationality,GUATEMALA,18A5,D8A1
+Nationality,GUINEA,18A5,AEE3
+Nationality,GUYANA,18A5,5DD0
+Nationality,HAITI,18A5,368C
+Nationality,HONDURAS,18A5,D32F
+Nationality,INDIA,18A5,B72B
+Nationality,INDONESIA,18A5,18FF
+Nationality,INGHILTERRA,18A5,B0D8
+Nationality,IRAN,18A5,BE77
+Nationality,IRAQ,18A5,7636
+Nationality,IRLANDA,18A5,487C
+Nationality,ISLANDA,18A5,997D
+Nationality,ISOLA DI GUAM,18A5,FBE0
+Nationality,ISOLE CAYMAN,18A5,7E81
+Nationality,ISOLE MARIANNE,18A5,1465
+Nationality,ISOLE VERGINI AMERICANE,18A5,447A
+Nationality,ISRAELE,18A5,5AA2
+Nationality,ITALIA,18A5,E079
+Nationality,KAZAKISTAN,18A5,5CD7
+Nationality,KENYA,18A5,917D
+Nationality,KIRGHIZISTAN,18A5,B6E7
+Nationality,KOSOVO,18A5,8C60
+Nationality,KUWAIT,18A5,8611
+Nationality,LAOS,18A5,DE42
+Nationality,LESOTHO,18A5,4618
+Nationality,LETTONIA,18A5,CA06
+Nationality,LIBANO,18A5,C487
+Nationality,LIBERIA,18A5,0487
+Nationality,LIBIA,18A5,C206
+Nationality,LIECHTENSTEIN,18A5,4A1E
+Nationality,LITUANIA,18A5,E2F5
+Nationality,LUSSEMBURGO,18A5,3509
+Nationality,MADAGASCAR,18A5,03E7
+Nationality,MALAWI,18A5,AEEE
+Nationality,MALAYSIA,18A5,9318
+Nationality,MALDIVE,18A5,4587
+Nationality,MALESIA,18A5,8DAE
+Nationality,MALI,18A5,19C2
+Nationality,MALTA,18A5,F151
+Nationality,MAROCCO,18A5,F683
+Nationality,MARTINICA,18A5,3169
+Nationality,MAURITIUS,18A5,E296
+Nationality,MESSICO,18A5,2098
+Nationality,MOLDAVIA,18A5,F22D
+Nationality,MONGOLIA,18A5,3F4B
+Nationality,MONTENEGRO,18A5,8EB2
+Nationality,MOZAMBICO,18A5,EC10
+Nationality,NAMIBIA,18A5,18F3
+Nationality,NEPAL,18A5,521A
+Nationality,NICARAGUA,18A5,1677
+Nationality,NIGERIA,18A5,C468
+Nationality,NORVEGIA,18A5,6F87
+Nationality,NUOVA CALEDONIA,18A5,99E3
+Nationality,NUOVA ZELANDA,18A5,1FDF
+Nationality,OLANDA,18A5,D4FC
+Nationality,OMAN,18A5,F046
+Nationality,PAESI BASSI,18A5,0ADB
+Nationality,PAKISTAN,18A5,ADCD
+Nationality,PALESTINA,18A5,6B5B
+Nationality,PANAMA',18A5,90FC
+Nationality,PARAGUAY,18A5,5B3A
+Nationality,PERU',18A5,7F5D
+Nationality,POLINESIA,18A5,E210
+Nationality,POLONIA,18A5,7CF1
+Nationality,PORTOGALLO,18A5,4186
+Nationality,PRINCIPATO DI MONACO,18A5,294F
+Nationality,QATAR,18A5,694F
+Nationality,REP. CECA,18A5,0E52
+Nationality,REP. CENTRAFRICANA,18A5,E129
+Nationality,REP. DEL CONGO,18A5,6D2B
+Nationality,REP. DEL SURINAME,18A5,8328
+Nationality,REP. DELLE SEYCHELLES,18A5,8ED8
+Nationality,REP. DI MACEDONIA,18A5,CECF
+Nationality,REP. DI VANUATU,18A5,AD79
+Nationality,REP. DOMINICANA,18A5,65C1
+Nationality,REP. PORTORICANA,18A5,94D6
+Nationality,REP. SAN MARINO,18A5,9160
+Nationality,REP. SLOVACCA,18A5,5089
+Nationality,REP. SUDAFRICANA,18A5,3646
+Nationality,RHODESIA,18A5,7C0B
+Nationality,ROMANIA,18A5,94ED
+Nationality,RUANDA,18A5,9BE2
+Nationality,SAMOA,18A5,C3A2
+Nationality,SAO TOME' E PRINCIPE,18A5,725E
+Nationality,SENEGAL,18A5,C9AE
+Nationality,SERBIA E MONTENEGRO,18A5,9446
+Nationality,SIERRA LEONE,18A5,187A
+Nationality,SINGAPORE,18A5,2E3C
+Nationality,SIRIA,18A5,C592
+Nationality,SLOVACCHIA,18A5,E8B3
+Nationality,SLOVENIA,18A5,75A7
+Nationality,SOMALIA,18A5,945C
+Nationality,SPAGNA,18A5,E8F9
+Nationality,SRI LANKA,18A5,2871
+Nationality,ST KITTS E NEVIS,18A5,25EF
+Nationality,STATI UNITI D'AMERICA,18A5,E31F
+Nationality,SUDAFRICA,18A5,FBCE
+Nationality,SUDAN,18A5,5533
+Nationality,SVEZIA,18A5,EEE2
+Nationality,SVIZZERA,18A5,3570
+Nationality,SWAZILAND,18A5,B10E
+Nationality,TAGIKISTAN,18A5,ACAF
+Nationality,TANGANICA,18A5,02F0
+Nationality,TANZANIA,18A5,B32A
+Nationality,THAILANDIA,18A5,CDE5
+Nationality,TOGO,18A5,B423
+Nationality,TONGA,18A5,2BE2
+Nationality,TRINIDAD E TOBAGO,18A5,759D
+Nationality,TUNISIA,18A5,C85F
+Nationality,TURCHIA,18A5,D5FD
+Nationality,TURKMENISTAN,18A5,E603
+Nationality,UCRAINA,18A5,ABBD
+Nationality,UGANDA,18A5,2F5B
+Nationality,UNGHERIA,18A5,136C
+Nationality,URUGUAY,18A5,9ECF
+Nationality,UZBEKISTAN,18A5,A64C
+Nationality,VENEZUELA,18A5,664E
+Nationality,VIETNAM,18A5,3A4A
+Nationality,YEMEN,18A5,567D
+Nationality,ZAIRE,18A5,9037
+Nationality,ZAMBIA,18A5,1314
+Nationality,ZIMBAWE,18A5,165C

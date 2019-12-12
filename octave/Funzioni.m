@@ -1,0 +1,10 @@
+f(x)=A/s/sqrt(2)*exp(-(x-m)*(x-m)/(s*s)/2);
+h(x)=x>1024?0:x>0?C*(1024-x)**pot:0;
+g(x)=x>1024?0:x>0?B*exp(4*mu*(x-1024)):0;
+A=.012;m=5.;s=.07;
+B=10.;pot=-2.;mu=2.;C=10.;
+fit [0:1024]f(x) 'Distribuzione.dat' via A,m,s;
+fit [0:1024]g(x) 'Autocorrelazione.dat' via B,mu;
+fit [0:1024]h(x) 'Autocorrelazione.dat' via C,pot;
+plot [1:1050]'Distribuzione.dat' with line, f(x);
+plot [1:1050]'Autocorrelazione.dat' with line, g(x), h(x);

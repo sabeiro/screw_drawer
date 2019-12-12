@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>taxonomy_dev</title>
+    <expansionState>0,1,2,3,4,7,8,10,11,14,15,17,19,22</expansionState>
+  </head>
+  <body>
+    <outline text="Self-Classification" CAT="true:true:false" REACH="0" IDS="515290::U36810" BK_URL_rule="http://example.com">
+      <outline text="Taxonomy Mgr Test" CAT="false:false:false" REACH="0" IDS="547772:515290:U38069" BK_URL_rule="http://www.mediaset.it/"/>
+	  <outline text="Taxonomy Mgr Test 20160314" CAT="false:false:false" REACH="0" IDS="548196:515290:U36809" BK_URL_rule="http://www.mediaset.it/"/>
+	  <outline text="Mobile App Test" CAT="false:false:false" REACH="0" IDS="529232:515290:">
+        <outline text="App" CAT="false:false:false" REACH="0" IDS="533343:529232:">
+          <outline text="Test-App" BK_phints_rule="mx_mb_n,contains,test-app_test" CAT="false:false:false" IDS="539129:533343:P36811">
+            <outline text="Home Page" BK_phints_rule="mx_mb_n,contains,test-app_test&#10;mx_cn_s,contains,homepage" CAT="false:false:false" IDS="539130:539129:P36812">
+              <outline text="Ultimissime" BK_phints_rule="mx_mb_n,contains,test-app_test&#10;mx_cn_ss,contains,ultimissime&#10;&#10;mx_mb_n,contains,test-app_test&#10;mx_cn_t,contains,ultimissime" CAT="false:false:false" IDS="539131:539130:P36813,P36814"/>
+              <outline text="Sport" BK_phints_rule="mx_mb_n,contains,test-app_test&#10;mx_cn_l,contains,sportmediaset" CAT="false:false:false" IDS="539132:539130:P36815"/>
+            </outline>
+          </outline>
+          <outline text="Test-Cesaroni" BK_phints_rule="mx_mb_n,contains,test-cesaroni" CAT="false:false:false" IDS="539133:533343:P36816">
+            <outline text="Home Page" BK_phints_rule="mx_mb_n,contains,test-cesaroni&#10;mx_cn_s,contains,homepage" CAT="false:false:false" IDS="539134:539133:P36817">
+              <outline text="Cesaroni" BK_phints_rule="mx_mb_n,contains,test-cesaroni&#10;mx_cn_ss,contains,cesaroni&#10;&#10;mx_mb_n,contains,test-cesaroni&#10;mx_cn_t,contains,cesaroni&#10;&#10;mx_mb_n,contains,test-cesaroni&#10;mx_cn_l,contains,example.com" CAT="false:false:false" IDS="539135:539134:P36818,P36819,P36820"/>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="User" CAT="true:true:false" IDS="539136:529232:">
+          <outline text="Sesso" CAT="true:true:false" IDS="539137:539136:">
+            <outline text="Maschio" BK_phints_rule="mx_u_g,is,a" CAT="false:false:false" IDS="539138:539137:P36821"/>
+            <outline text="Femmina" BK_phints_rule="mx_u_g,is,b" CAT="false:false:false" IDS="539139:539137:P36822"/>
+          </outline>
+          <outline text="Geografici" CAT="true:true:false" IDS="539140:539136:">
+            <outline text="IP Based" CAT="true:true:false" IDS="539141:539140:">
+              <outline text="Italia" BK_phints_rule="mx_g_cn,is,Italy" CAT="false:false:false" IDS="539142:539141:P36823"/>
+              <outline text="Lombardia" BK_phints_rule="mx_g_rg,is,Lombardy" CAT="false:false:false" IDS="539143:539141:P36824">
+                <outline text="Cologno Monzese" BK_phints_rule="mx_g_ct,is,Cologno Monzese&#10;&#10;mx_g_pc,is,20093" CAT="false:false:false" IDS="539144:539143:P36825,P36826"/>
+              </outline>
+            </outline>
+            <outline text="Self-Declared" CAT="true:true:false" IDS="539145:539140:">
+              <outline text="Roma" BK_phints_rule="mx_u_p,is,RM" CAT="false:false:false" IDS="539146:539145:P36827"/>
+              <outline text="Milano" BK_phints_rule="mx_u_p,is,MI" CAT="false:false:false" IDS="539147:539145:P36828"/>
+            </outline>
+          </outline>
+          <outline text="Eta" CAT="true:true:false" IDS="539148:539136:">
+            <outline text="&gt; 74" BK_phints_rule="mx_u_e,is,h" CAT="false:false:false" IDS="539149:539148:P36829"/>
+            <outline text="11-17" BK_phints_rule="mx_u_e,is,b" CAT="false:false:false" IDS="539150:539148:P36830"/>
+            <outline text="18-24" BK_phints_rule="mx_u_e,is,c" CAT="false:false:false" IDS="539151:539148:P36831"/>
+            <outline text="2-10" BK_phints_rule="mx_u_e,is,a" CAT="false:false:false" IDS="539152:539148:P36832"/>
+            <outline text="25-34" BK_phints_rule="mx_u_e,is,d" CAT="false:false:false" IDS="539153:539148:P36833"/>
+            <outline text="35-44" BK_phints_rule="mx_u_e,is,e" CAT="false:false:false" IDS="539154:539148:P36834"/>
+            <outline text="45-54" BK_phints_rule="mx_u_e,is,f" CAT="false:false:false" IDS="539155:539148:P36835"/>
+            <outline text="55-74" BK_phints_rule="mx_u_e,is,g" CAT="false:false:false" IDS="539156:539148:P36836"/>
+          </outline>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

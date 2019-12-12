@@ -1,0 +1,24 @@
+{
+    "name": "bk-tag-test",
+    "version": "1.0.0",
+    "description": "Test Bluekai Tag",
+    "main": "index.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Malistro",
+    "license": "ISC",
+    "dependencies": {
+	"request": "^2.69.0",
+	"tough-cookie": "^2.2.1",
+	"tough-cookie-filestore": "0.0.1",
+	"cheerio": "^0.19.0",
+	"restify": "^4.0.3",
+	"sequence": "^3.0.0",
+	"socket.io": "^1.4.5",
+	"url-parse": "^1.0.5",
+	"utf8": "^2.1.1",
+	"valid-url": "^1.0.9"
+    }
+}
+

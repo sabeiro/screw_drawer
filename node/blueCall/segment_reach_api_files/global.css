@@ -1,0 +1,5 @@
+input { width: 60px; }
+
+input[name*="Date"] { width: 85px; }
+
+input#key, input#secret { width: 150px; }

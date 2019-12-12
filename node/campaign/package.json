@@ -1,0 +1,21 @@
+{
+  "name": "taxonomy",
+  "version": "1.0.0",
+  "description": "BlueKai Taxonomy Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tommaso Tessarolo",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.67.0",
+    "restify": "^4.0.3",
+    "sequence": "^3.0.0",
+    "socket.io": "^1.4.5",
+    "url-parse": "^1.0.5",
+    "utf8": "^2.1.1",
+    "valid-url": "^1.0.9"
+  }
+}

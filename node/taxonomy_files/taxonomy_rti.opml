@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>taxonomy_prod</title>
+    <expansionState>0,71,81,82,146,149,228,270,535,574,582,658,659,660</expansionState>
+  </head>
+  <body>
+    <outline text="Self-Classification" IDS="505176::" CAT="false:false:false" REACH="0">
+       <outline text="Dati Personali" IDS="556123:505176:" CAT="true:true:false" REACH="0">
+        <outline text="Geografici" IDS="556124:556123:" CAT="true:true:false" REACH="0">
+          <outline text="Self-Declared" IDS="556125:556124:" CAT="true:true:false" REACH="0">
+            <outline text="Nazione" IDS="556126:556125:" CAT="true:true:false" REACH="0">
+              <outline text="Italia" IDS="556127:556126:" CAT="false:false:false" REACH="0">
+                <outline text="Nord" IDS="556128:556127:" CAT="false:false:false" REACH="0">
+                  <outline text="Valle d Aosta" IDS="556129:556128:" CAT="false:false:false" REACH="0">
+                    <outline text="Aosta" BK_phints_rule="mx_u_p,is,AO" IDS="556130:556129:P39482" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Piemonte" IDS="556131:556128:" CAT="false:false:false" REACH="0">
+                    <outline text="Torino" BK_phints_rule="mx_u_p,is,TO" IDS="556132:556131:P39483" CAT="false:false:false" REACH="0"/>
+                    <outline text="Asti" BK_phints_rule="mx_u_p,is,AT" IDS="556133:556131:P39484" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cuneo" BK_phints_rule="mx_u_p,is,CN" IDS="556134:556131:P39485" CAT="false:false:false" REACH="0"/>
+                    <outline text="Novara" BK_phints_rule="mx_u_p,is,NO" IDS="556135:556131:P39486" CAT="false:false:false" REACH="0"/>
+                    <outline text="Alessandria" BK_phints_rule="mx_u_p,is,AL" IDS="556136:556131:P39487" CAT="false:false:false" REACH="0"/>
+                    <outline text="Verbania" BK_phints_rule="mx_u_p,is,VB" IDS="556137:556131:P39488" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vercelli" BK_phints_rule="mx_u_p,is,VC" IDS="556138:556131:P39489" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Liguria" IDS="556139:556128:" CAT="false:false:false" REACH="0">
+                    <outline text="Genova" BK_phints_rule="mx_u_p,is,GE" IDS="556140:556139:P39490" CAT="false:false:false" REACH="0"/>
+                    <outline text="Imperia" BK_phints_rule="mx_u_p,is,IM" IDS="556141:556139:P39491" CAT="false:false:false" REACH="0"/>
+                    <outline text="Spezia" BK_phints_rule="mx_u_p,is,SP" IDS="556142:556139:P39492" CAT="false:false:false" REACH="0"/>
+                    <outline text="Savona" BK_phints_rule="mx_u_p,is,SV" IDS="556143:556139:P39493" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Lombardia" IDS="556144:556128:" CAT="false:false:false" REACH="0">
+                    <outline text="Bergamo" BK_phints_rule="mx_u_p,is,BG" IDS="556145:556144:P39494" CAT="false:false:false" REACH="0"/>
+                    <outline text="Brescia" BK_phints_rule="mx_u_p,is,BS" IDS="556146:556144:P39495" CAT="false:false:false" REACH="0"/>
+                    <outline text="Como" BK_phints_rule="mx_u_p,is,CO" IDS="556147:556144:P39496" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cremona" BK_phints_rule="mx_u_p,is,CR" IDS="556148:556144:P39497" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lecco" BK_phints_rule="mx_u_p,is,LC" IDS="556149:556144:P39498" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lodi" BK_phints_rule="mx_u_p,is,LO" IDS="556150:556144:P39499" CAT="false:false:false" REACH="0"/>
+                    <outline text="Mantova" BK_phints_rule="mx_u_p,is,MN" IDS="556151:556144:P39500" CAT="false:false:false" REACH="0"/>
+                    <outline text="Milano" BK_phints_rule="mx_u_p,is,MI" IDS="556152:556144:P39501" CAT="false:false:false" REACH="0"/>
+                    <outline text="Monza" BK_phints_rule="mx_u_p,is,MB" IDS="556153:556144:P39502" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pavia" BK_phints_rule="mx_u_p,is,PV" IDS="556154:556144:P39503" CAT="false:false:false" REACH="0"/>
+                    <outline text="Sondrio" BK_phints_rule="mx_u_p,is,SO" IDS="556155:556144:P39504" CAT="false:false:false" REACH="0"/>
+                    <outline text="Varese" BK_phints_rule="mx_u_p,is,VA" IDS="556156:556144:P39505" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Trentino-Alto Adige" IDS="556157:556128:" CAT="false:false:false" REACH="0">
+                    <outline text="Trento" BK_phints_rule="mx_u_p,is,TN" IDS="556158:556157:P39506" CAT="false:false:false" REACH="0"/>
+                    <outline text="Bolzano" BK_phints_rule="mx_u_p,is,BZ" IDS="556159:556157:P39507" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Friuli Venezia Giulia" IDS="556160:556128:" CAT="false:false:false" REACH="0">
+                    <outline text="Gorizia" BK_phints_rule="mx_u_p,is,GO" IDS="556161:556160:P39508" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pordenone" BK_phints_rule="mx_u_p,is,PN" IDS="556162:556160:P39509" CAT="false:false:false" REACH="0"/>
+                    <outline text="Trieste" BK_phints_rule="mx_u_p,is,TS" IDS="556163:556160:P39510" CAT="false:false:false" REACH="0"/>
+                    <outline text="Udine" BK_phints_rule="mx_u_p,is,UD" IDS="556164:556160:P39511" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Veneto" IDS="556165:556128:" CAT="false:false:false" REACH="0">
+                    <outline text="Belluno" BK_phints_rule="mx_u_p,is,BL" IDS="556166:556165:P39512" CAT="false:false:false" REACH="0"/>
+                    <outline text="Padova" BK_phints_rule="mx_u_p,is,PD" IDS="556167:556165:P39513" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rovigo" BK_phints_rule="mx_u_p,is,RO" IDS="556168:556165:P39514" CAT="false:false:false" REACH="0"/>
+                    <outline text="Treviso" BK_phints_rule="mx_u_p,is,TV" IDS="556169:556165:P39515" CAT="false:false:false" REACH="0"/>
+                    <outline text="Venezia" BK_phints_rule="mx_u_p,is,VE" IDS="556170:556165:P39516" CAT="false:false:false" REACH="0"/>
+                    <outline text="Verona" BK_phints_rule="mx_u_p,is,VR" IDS="556171:556165:P39517" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vicenza" BK_phints_rule="mx_u_p,is,VI" IDS="556172:556165:P39518" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Emilia-Romagna" IDS="556173:556128:" CAT="false:false:false" REACH="0">
+                    <outline text="Bologna" BK_phints_rule="mx_u_p,is,BO" IDS="556174:556173:P39519" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ferrara" BK_phints_rule="mx_u_p,is,FE" IDS="556175:556173:P39520" CAT="false:false:false" REACH="0"/>
+                    <outline text="Forli-Cesena" BK_phints_rule="mx_u_p,is,FC" IDS="556176:556173:P39521" CAT="false:false:false" REACH="0"/>
+                    <outline text="Modena" BK_phints_rule="mx_u_p,is,MO" IDS="556177:556173:P39522" CAT="false:false:false" REACH="0"/>
+                    <outline text="Parma" BK_phints_rule="mx_u_p,is,PR" IDS="556178:556173:P39523" CAT="false:false:false" REACH="0"/>
+                    <outline text="Piacenza" BK_phints_rule="mx_u_p,is,PC" IDS="556179:556173:P39524" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ravenna" BK_phints_rule="mx_u_p,is,RA" IDS="556180:556173:P39525" CAT="false:false:false" REACH="0"/>
+                    <outline text="Reggio Emilia" BK_phints_rule="mx_u_p,is,RE" IDS="556181:556173:P39526" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rimini" BK_phints_rule="mx_u_p,is,RN" IDS="556182:556173:P39527" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Centro" IDS="556183:556127:" CAT="false:false:false" REACH="0">
+                  <outline text="Toscana" IDS="556184:556183:" CAT="false:false:false" REACH="0">
+                    <outline text="Arezzo" BK_phints_rule="mx_u_p,is,AR" IDS="556185:556184:P39528" CAT="false:false:false" REACH="0"/>
+                    <outline text="Firenze" BK_phints_rule="mx_u_p,is,FI" IDS="556186:556184:P39529" CAT="false:false:false" REACH="0"/>
+                    <outline text="Grosseto" BK_phints_rule="mx_u_p,is,GR" IDS="556187:556184:P39530" CAT="false:false:false" REACH="0"/>
+                    <outline text="Livorno" BK_phints_rule="mx_u_p,is,LI" IDS="556188:556184:P39531" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lucca" BK_phints_rule="mx_u_p,is,LU" IDS="556189:556184:P39532" CAT="false:false:false" REACH="0"/>
+                    <outline text="Massa-Carrara" BK_phints_rule="mx_u_p,is,MS" IDS="556190:556184:P39533" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pisa" BK_phints_rule="mx_u_p,is,PI" IDS="556191:556184:P39534" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pistoia" BK_phints_rule="mx_u_p,is,PT" IDS="556192:556184:P39535" CAT="false:false:false" REACH="0"/>
+                    <outline text="Prato" BK_phints_rule="mx_u_p,is,PO" IDS="556193:556184:P39536" CAT="false:false:false" REACH="0"/>
+                    <outline text="Siena" BK_phints_rule="mx_u_p,is,SI" IDS="556194:556184:P39537" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Marche" IDS="556195:556183:" CAT="false:false:false" REACH="0">
+                    <outline text="Ancona" BK_phints_rule="mx_u_p,is,AN" IDS="556196:556195:P39538" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ascoli Piceno" BK_phints_rule="mx_u_p,is,AP" IDS="556197:556195:P39539" CAT="false:false:false" REACH="0"/>
+                    <outline text="Fermo" BK_phints_rule="mx_u_p,is,FM" IDS="556198:556195:P39540" CAT="false:false:false" REACH="0"/>
+                    <outline text="Macerata" BK_phints_rule="mx_u_p,is,MC" IDS="556199:556195:P39541" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pesaro e Urbino" BK_phints_rule="mx_u_p,is,PU" IDS="556200:556195:P39542" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Umbria" IDS="556201:556183:" CAT="false:false:false" REACH="0">
+                    <outline text="Perugia" BK_phints_rule="mx_u_p,is,PG" IDS="556202:556201:P39543" CAT="false:false:false" REACH="0"/>
+                    <outline text="Terni" BK_phints_rule="mx_u_p,is,TR" IDS="556203:556201:P39544" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Lazio" IDS="556204:556183:" CAT="false:false:false" REACH="0">
+                    <outline text="Frosinone" BK_phints_rule="mx_u_p,is,FR" IDS="556205:556204:P39545" CAT="false:false:false" REACH="0"/>
+                    <outline text="Latina" BK_phints_rule="mx_u_p,is,LT" IDS="556206:556204:P39546" CAT="false:false:false" REACH="0"/>
+                    <outline text="Rieti" BK_phints_rule="mx_u_p,is,RI" IDS="556207:556204:P39547" CAT="false:false:false" REACH="0"/>
+                    <outline text="Roma" BK_phints_rule="mx_u_p,is,RM" IDS="556208:556204:P39548" CAT="false:false:false" REACH="0"/>
+                    <outline text="Viterbo" BK_phints_rule="mx_u_p,is,VT" IDS="556209:556204:P39549" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Abruzzo" IDS="556210:556183:" CAT="false:false:false" REACH="0">
+                    <outline text="Chieti" BK_phints_rule="mx_u_p,is,CH" IDS="556211:556210:P39550" CAT="false:false:false" REACH="0"/>
+                    <outline text="L Aquila" BK_phints_rule="mx_u_p,is,AQ" IDS="556212:556210:P39551" CAT="false:false:false" REACH="0"/>
+                    <outline text="Pescara" BK_phints_rule="mx_u_p,is,PE" IDS="556213:556210:P39552" CAT="false:false:false" REACH="0"/>
+                    <outline text="Teramo" BK_phints_rule="mx_u_p,is,TE" IDS="556214:556210:P39553" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Molise" IDS="556215:556183:" CAT="false:false:false" REACH="0">
+                    <outline text="Campobasso" BK_phints_rule="mx_u_p,is,CB" IDS="556216:556215:P39554" CAT="false:false:false" REACH="0"/>
+                    <outline text="Isernia" BK_phints_rule="mx_u_p,is,IS" IDS="556217:556215:P39555" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Sud" IDS="556218:556127:" CAT="false:false:false" REACH="0">
+                  <outline text="Campania" IDS="556219:556218:" CAT="false:false:false" REACH="0">
+                    <outline text="Avellino" BK_phints_rule="mx_u_p,is,AV" IDS="556220:556219:P39556" CAT="false:false:false" REACH="0"/>
+                    <outline text="Benevento" BK_phints_rule="mx_u_p,is,BN" IDS="556221:556219:P39557" CAT="false:false:false" REACH="0"/>
+                    <outline text="Caserta" BK_phints_rule="mx_u_p,is,CE" IDS="556222:556219:P39558" CAT="false:false:false" REACH="0"/>
+                    <outline text="Napoli" BK_phints_rule="mx_u_p,is,NA" IDS="556223:556219:P39559" CAT="false:false:false" REACH="0"/>
+                    <outline text="Salerno" BK_phints_rule="mx_u_p,is,SA" IDS="556224:556219:P39560" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Puglia" IDS="556225:556218:" CAT="false:false:false" REACH="0">
+                    <outline text="Bari" BK_phints_rule="mx_u_p,is,BA" IDS="556226:556225:P39561" CAT="false:false:false" REACH="0"/>
+                    <outline text="Barletta-Andria-Trani" BK_phints_rule="mx_u_p,is,BT" IDS="556227:556225:P39562" CAT="false:false:false" REACH="0"/>
+                    <outline text="Brindisi" BK_phints_rule="mx_u_p,is,BR" IDS="556228:556225:P39563" CAT="false:false:false" REACH="0"/>
+                    <outline text="Foggia" BK_phints_rule="mx_u_p,is,FG" IDS="556229:556225:P39564" CAT="false:false:false" REACH="0"/>
+                    <outline text="Lecce" BK_phints_rule="mx_u_p,is,LE" IDS="556230:556225:P39565" CAT="false:false:false" REACH="0"/>
+                    <outline text="Taranto" BK_phints_rule="mx_u_p,is,TA" IDS="556231:556225:P39566" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Basilicata" IDS="556232:556218:" CAT="false:false:false" REACH="0">
+                    <outline text="Matera" BK_phints_rule="mx_u_p,is,MT" IDS="556233:556232:P39567" CAT="false:false:false" REACH="0"/>
+                    <outline text="Potenza" BK_phints_rule="mx_u_p,is,PZ" IDS="556234:556232:P39568" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Calabria" IDS="556235:556218:" CAT="false:false:false" REACH="0">
+                    <outline text="Catanzaro" BK_phints_rule="mx_u_p,is,CZ" IDS="556236:556235:P39569" CAT="false:false:false" REACH="0"/>
+                    <outline text="Cosenza" BK_phints_rule="mx_u_p,is,CS" IDS="556237:556235:P39570" CAT="false:false:false" REACH="0"/>
+                    <outline text="Crotone" BK_phints_rule="mx_u_p,is,KR" IDS="556238:556235:P39571" CAT="false:false:false" REACH="0"/>
+                    <outline text="Reggio Calabria" BK_phints_rule="mx_u_p,is,RC" IDS="556239:556235:P39572" CAT="false:false:false" REACH="0"/>
+                    <outline text="Vibo Valentia" BK_phints_rule="mx_u_p,is,VV" IDS="556240:556235:P39573" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+                <outline text="Isole" IDS="556241:556127:" CAT="false:false:false" REACH="0">
+                  <outline text="Sicilia" IDS="556242:556241:" CAT="false:false:false" REACH="0">
+                    <outline text="Agrigento" BK_phints_rule="mx_u_p,is,AG" IDS="556243:556242:P39574" CAT="false:false:false" REACH="0"/>
+                    <outline text="Caltanissetta" BK_phints_rule="mx_u_p,is,CL" IDS="556244:556242:P39575" CAT="false:false:false" REACH="0"/>
+                    <outline text="Catania" BK_phints_rule="mx_u_p,is,CT" IDS="556245:556242:P39576" CAT="false:false:false" REACH="0"/>
+                    <outline text="Enna" BK_phints_rule="mx_u_p,is,EN" IDS="556246:556242:P39577" CAT="false:false:false" REACH="0"/>
+                    <outline text="Messina" BK_phints_rule="mx_u_p,is,ME" IDS="556247:556242:P39578" CAT="false:false:false" REACH="0"/>
+                    <outline text="Palermo" BK_phints_rule="mx_u_p,is,PA" IDS="556248:556242:P39579" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ragusa" BK_phints_rule="mx_u_p,is,RG" IDS="556249:556242:P39580" CAT="false:false:false" REACH="0"/>
+                    <outline text="Siracusa" BK_phints_rule="mx_u_p,is,SR" IDS="556250:556242:P39581" CAT="false:false:false" REACH="0"/>
+                    <outline text="Trapani" BK_phints_rule="mx_u_p,is,TP" IDS="556251:556242:P39582" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                  <outline text="Sardegna" IDS="556252:556241:" CAT="false:false:false" REACH="0">
+                    <outline text="Cagliari" BK_phints_rule="mx_u_p,is,CA" IDS="556253:556252:P39583" CAT="false:false:false" REACH="0"/>
+                    <outline text="Carbonia-Iglesias" BK_phints_rule="mx_u_p,is,CI" IDS="556254:556252:P39584" CAT="false:false:false" REACH="0"/>
+                    <outline text="Medio Campidano" BK_phints_rule="mx_u_p,is,VS" IDS="556255:556252:P39585" CAT="false:false:false" REACH="0"/>
+                    <outline text="Nuoro" BK_phints_rule="mx_u_p,is,NU" IDS="556256:556252:P39586" CAT="false:false:false" REACH="0"/>
+                    <outline text="Ogliastra" BK_phints_rule="mx_u_p,is,OG" IDS="556257:556252:P39587" CAT="false:false:false" REACH="0"/>
+                    <outline text="Olbia-Tempio" BK_phints_rule="mx_u_p,is,OT" IDS="556258:556252:P39588" CAT="false:false:false" REACH="0"/>
+                    <outline text="Oristano" BK_phints_rule="mx_u_p,is,OR" IDS="556259:556252:P39589" CAT="false:false:false" REACH="0"/>
+                    <outline text="Sassari" BK_phints_rule="mx_u_p,is,SS" IDS="556260:556252:P39590" CAT="false:false:false" REACH="0"/>
+                  </outline>
+                </outline>
+              </outline>
+            </outline>
+          </outline>
+	   </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

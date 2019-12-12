@@ -1,0 +1,3 @@
+asc <- function(x) { strtoi(charToRaw(x),16L) }
+chr <- function(n) { rawToChar(as.raw(n)) }
+coderange = c(32:126)<br>asciitable_printable = data.frame(<br> coderange,<br> as.raw(coderange),<br> row.names=rawToChar(as.raw(coderange),multiple=TRUE)<br>)<br><br>colnames(asciitable_printable) <- c("dec","hex")<br>asciitable_printable<br>

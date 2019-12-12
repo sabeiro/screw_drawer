@@ -1,0 +1,622 @@
+node1,node2,reach
+Yahoo Premium Audience,,
+Content Interests,Apparel,
+Content Interests,Arts And Entertainment,56000000
+Content Interests,Beauty,856000000
+Content Interests,Business,181000000
+Content Interests,Education,299000000
+Content Interests,Family And Relationships,186000000
+Content Interests,Fince,517000000
+Content Interests,Food And Cooking,325000000
+Content Interests,Health,17000000
+Content Interests,Hobbies And Persol Activities,603000000
+Content Interests,Home And Garden,288000000
+Content Interests,Humanities,166000000
+Content Interests,ture And Environment,354000000
+Content Interests,Real Estate,
+Content Interests,Science,137000000
+Content Interests,Society And Culture,156000000
+Content Interests,Sports And Recreation,675000000
+Content Interests,Transportation,
+Content Interests,Travel And Tourism,309000000
+Content Interests,Flurry,19000000
+Content Interests,Demographic Estimates, 
+Content Interests,Syndicated Segments, 
+Purchase Prediction,,
+Purchase Prediction,Animal Lovers, 
+Purchase Prediction,Apps and Games, 
+Purchase Prediction,Auto Parts, 
+Purchase Prediction,Babies and Kids, 
+Purchase Prediction,Clothing and Shoes, 
+Purchase Prediction,Dating, 
+Purchase Prediction,Electronics and Software, 
+Purchase Prediction,Entertainment, 
+Purchase Prediction,Fince, 
+Purchase Prediction,Grocery, 
+Purchase Prediction,Health and Beauty, 
+Purchase Prediction,Home and Office, 
+Purchase Prediction,Retail, 
+Purchase Prediction,Sporting Goods, 
+Purchase Prediction,Travel, 
+Semantic Search,Brand Type,
+Semantic Search,Industry,
+Semantic Search,Notability Category,
+Semantic Search,Smart TV Data,
+Semantic Search,In-app Ads,
+Semantic Search,TV Ads,
+Semantic Search,TV Apps,157000000
+Semantic Search,TV Shows,
+Social Brand,,
+Social Brand,Entertainment,
+Social Brand,Publishing,
+Social Brand,Retail,
+Social Brand,Travel & Transportation,
+Yahoo Demographics,,
+Yahoo Demographics,Yahoo Games,
+Yahoo Demographics,Yahoo Games Users, 
+Yahoo Mail,Automotive,
+Yahoo Mail,Business & Fince,1066000000
+Yahoo Mail,Custom Segments,1001000000
+Yahoo Mail,Demographics,
+Yahoo Mail,Electronics & Computers,916000000
+Yahoo Mail,Entertainment Purchase Receipts,
+Yahoo Mail,Entertainment Segments,193000000
+Yahoo Mail,Food and Drink,1268000000
+Yahoo Mail,Insurance,107000000
+Yahoo Mail,Life Stages,597000000
+Yahoo Mail,Pets,1525000000
+Yahoo Mail,Product Purchase Categories,40000000
+Yahoo Mail,Product Purchase Receipts,441000000
+Yahoo Mail,Self Serve Segments,473000000
+Yahoo Mail,Sender Domain Category,2534000000
+Yahoo Mail,Services,173000000
+Yahoo Mail,Tech Telecommunication,344000000
+Yahoo Mail,Test Segments,1274000000
+Yahoo Mail,Travel,139000000
+Yahoo Mail,Travel Segment,488000000
+Yahoo Marketing,,
+Yahoo Marketing,,253000000
+Yahoo Political Data,,
+Yahoo Political Data,Yahoo Congressiol Districts,1189000000
+Yahoo Taiwan E-Commerce,,
+Yahoo Taiwan E-Commerce,dora,106000000
+Yahoo Taiwan E-Commerce,,
+APAC Data,,
+APAC Data,ADBM (1st Party),34000000
+APAC Data,APS, 
+APAC Data,Ad tech test,2
+APAC Data,Geo-registration (SM), 
+APAC Data,Roy Morgan,24000000
+APAC Data,Yahoo All Users,159000000
+APAC Data,Yahoo Mail App,55000000
+ARGUS,,
+ARGUS,Movies, 
+ARGUS,Supplemental Data, 
+Acxiom,,
+Acxiom,Taxonomy Element,986000000
+Acxiom AU (APAC integration),,
+Acxiom AU (APAC integration),AU Taxonomy Element,354000
+Acxiom Australia,,
+Acxiom Australia,AU Taxonomy Element,994000
+Acxiom Brazil,,
+Acxiom Brazil,Acxiom Brasil, 
+Acxiom DE,,
+Acxiom DE,Adler CRM data, 
+Acxiom France,,
+Acxiom France,Acxiom, 
+Acxiom France,FR Taxonomy Element, 
+Acxiom UK,,
+Acxiom UK,Acxiom,68000000
+AddThis,,3415000000
+AddThis,EMEA,1152000000
+AddThis,US,2284000000
+Agoston Test,,
+Agoston Test,test_1, 
+BlueKai,,8325000000
+BlueKai,A/B Test Groups,2234000000
+BlueKai,B2B,209000000
+BlueKai,Branded Data,5414000000
+BlueKai,Datalogix - Private > Yahoo, 
+BlueKai,Demographic,4827000000
+BlueKai,Age,2147000000
+BlueKai,Education,1549000000
+BlueKai,Family Composition,179000000
+BlueKai,Fincial Attributes,1746000000
+BlueKai,Gender,2041000000
+BlueKai,Housing Attributes,1798000000
+BlueKai,Language,1595000000
+BlueKai,Marital Status,1651000000
+BlueKai,Military Status,218000000
+BlueKai,Validated Demographic,3721000000
+BlueKai,Device Data,2674000000
+BlueKai,Browser,2666000000
+BlueKai,Browser Language,2641000000
+BlueKai,Operating System,2658000000
+BlueKai,Type,2662000000
+BlueKai,Geographic,4772000000
+BlueKai,IP based,4737000000
+BlueKai,Self-Declared,1378000000
+BlueKai,IXI - Private > Sophisticated Investors: Discount Brokers,394000000
+BlueKai,IXI - Private > Sophisticated Investors: Full Service Brokers,147000000
+BlueKai,In-Market,3752000000
+BlueKai,Autos,111000000
+BlueKai,Consumer Packaged Goods (CPG),1581000000
+BlueKai,Education,1054000000
+BlueKai,Fincial Products & Services,1093000000
+BlueKai,Other Vehicles,35000000
+BlueKai,Real Estate,179000000
+BlueKai,Retail,3194000000
+BlueKai,Services,509000000
+BlueKai,Travel,357000000
+BlueKai,Interest,5453000000
+BlueKai,Animals,1701000000
+BlueKai,Arts & Entertainment,3706000000
+BlueKai,Autos,311000000
+BlueKai,Business & Fince,2648000000
+BlueKai,Education,2882000000
+BlueKai,Food & Drink,2984000000
+BlueKai, Beauty & Style,317000000
+BlueKai, Games & Toys,268000000
+BlueKai,Home & Garden,2813000000
+BlueKai,Internet & Online Activities,3194000000
+BlueKai,Lifestyles,3186000000
+BlueKai,News & Current Events,2685000000
+BlueKai,Other Vehicles,2186000000
+BlueKai,Parenting & Family,2782000000
+BlueKai,Persol Fince,3468000000
+BlueKai,Politics & Society,2539000000
+BlueKai,Science & Humanities,1066000000
+BlueKai,Shopping,3034000000
+BlueKai,Sports & Recreation,4052000000
+BlueKai,Technology & Computers,4122000000
+BlueKai,Travel,354000000
+BlueKai,Video Games,237000000
+BlueKai,Past Purchases,5072000000
+BlueKai,Predictors,579000000
+BlueKai,Qualified In-Market, 
+BlueKai,Television,2332000000
+BlueKai,User Counts, 
+Cross Pixel,,1158000000
+Cross Pixel,Audience Profiles,729000000
+Cross Pixel,Career Services,117000000
+Cross Pixel,Demographics,564000000
+Cross Pixel,Age,15000000
+Cross Pixel,Ethnicity,261000000
+Cross Pixel,Gender,284000000
+Cross Pixel,Language,24000000
+Cross Pixel,Lifestages,15000000
+Cross Pixel,Entertainment,122000000
+Cross Pixel,Fincial Services,34000000
+Cross Pixel,Food & Dining,88000000
+Cross Pixel,Latin America (LATAM),266000000
+Cross Pixel,Real Estate,43000000
+Cross Pixel,SRT Keywords,201000000
+Cross Pixel,Shopping,764000000
+Cross Pixel,Technology Information,30000000
+Cross Pixel,Telecom Services,5334000
+Cross Pixel,Travel,44000000
+Cross Pixel,US Hispanic,168000000
+Datalogix,,7001000000
+Datalogix,DLX Auto powered by Polk,6288000000
+Datalogix,DLX B2B,172000000
+Datalogix,DLX CPG,6634000000
+Datalogix,DLX CPG Brands,6043000000
+Datalogix,DLX CPG BuyStyles,6102000000
+Datalogix,DLX Demographics,6916000000
+Datalogix,DLX Fince,6865000000
+Datalogix,DLX Geo,6572000000
+Datalogix,DLX Lifestyles,6597000000
+Datalogix,DLX Philanthropy,3406000000
+Datalogix,DLX Retail,550000000
+Datalogix,DLX Retail Brands,5261000000
+Datalogix,DLX Seasol,5817000000
+Datalogix,DLX Subscription Services,5394000000
+Datalogix,DLX TV powered by TRA,5163000000
+Datalogix,Partner Customs, 
+Datalogix,Partner Customs,2557000000
+Datalogix,VisaVue Audiences powered by DLX,5819000000
+Datonics,,2505000000
+Datonics,Automotive,685000000
+Datonics,Business & Industry,1108000000
+Datonics,CPG,51000000
+Datonics,Careers & Employment,762000000
+Datonics,Education,325000000
+Datonics,Electronics,582000000
+Datonics,Entertainment,721000000
+Datonics,Family,512000000
+Datonics,Fince & Money,706000000
+Datonics,Food & Beverages,705000000
+Datonics,Green Products,5559000
+Datonics,Hobbies & Interest,412000000
+Datonics,Home & Garden,349000000
+Datonics,Household Consumer Behaviors,78000000
+Datonics,Internet & Software,199000000
+Datonics,Lifestyle,964000000
+Datonics,Politics,224000000
+Datonics,Privacy Conscious,4385000
+Datonics,Real Estate,128000000
+Datonics,Shopping Intent,452000000
+Datonics,Sports,351000000
+Datonics,Style & Fashion,336000000
+Datonics,Tech Enthusiasts,1908000000
+Datonics,Telecommunications,178000000
+Datonics,Travel,327000000
+Decolar,Probability Based Segments,
+Decolar,Segment Audiences, 
+Decolar,Split Audiences,19000000
+Decolar,DoubleVerify, 
+Decolar,DoubleVerify Bot, 
+Epsilon,Custom,
+Epsilon,Standard,144000000
+Epsilon,Experian,233000000
+Epsilon,Custom,114000000
+Epsilon,Standard Segments,889000000
+Experian UK,Experian UK,
+Experian UK,FullLab,89000000
+Experian UK,Alimentos e Bebidas, 
+Experian UK,Automaniacos, 
+Experian UK,Cinema em Casa, 
+Experian UK,Consumidores de Livros, 
+Experian UK,Esportistas, 
+Experian UK,Estetica e Beleza, 
+Experian UK,Fashionistas, 
+Experian UK,Geeks e Dummies, 
+Experian UK,Lar Doce Lar, 
+Experian UK,Marcas de Pet, 
+Experian UK,Papais e Mamaes, 
+Experian UK,Petshoppers, 
+Experian UK,Religiosos, 
+Experian UK,Viajantes, 
+GDB - Global Data Bank,GDB_Segments_Global,
+GDB - Global Data Bank,IXI,4000000
+GDB - Global Data Bank,Network (Private),1406000000
+GDB - Global Data Bank,Open Market (Standard),1445000000
+In Loco,In Loco Media Taxonomy V1,
+In Loco,Julia DataX production test,
+In Loco,Interl Yahoo Users,4
+In Loco,Others, 
+Krux,LiveRamp,
+Lotame,,4555000000
+Lotame,Lotame Data Selling Network,4554000000
+Lotame,Targeted Victory Network - Client,321000000
+Lotame,Targeted Victory Network - PAC,618000
+vegg,Age,
+vegg,Brand,585000000
+vegg,Browser,186000000
+vegg,Career,509000000
+vegg,Connection,56000000
+vegg,Device,515000000
+vegg,Education,509000000
+vegg,Everybuyer,561000000
+vegg,Everyone,528000000
+vegg,Gender,581000000
+vegg,Income,58000000
+vegg,Interest,561000000
+vegg,Marital,539000000
+vegg,Os,561000000
+vegg,Product,509000000
+vegg,Social,372000000
+vegg,Special,365000000
+vegg,Nectar,366000000
+vegg,Finish, 
+Neustar,3rd Party Data,
+Neustar,AdAdvisor Data,942000000
+Neustar,Private Data,1181000000
+Neustar,Nielsen Catali Solutions (NCS),231000000
+Neustar,CUSTOM SEGMENTS,871000000
+Neustar,SYNDICATED SEGMENTS,843000000
+Ninth Decimal,Demographics,
+Ninth Decimal,Age, 
+Ninth Decimal,Ethnicity, 
+Ninth Decimal,Family, 
+Ninth Decimal,Gender, 
+Ninth Decimal,Household Income, 
+Ninth Decimal,Enthusiast, 
+Ninth Decimal,Food & Beverage, 
+Ninth Decimal,In Market, 
+Ninth Decimal,Lifestyle, 
+Ninth Decimal,Shopper, 
+Ninth Decimal,Travel, 
+Ninth Decimal,SirData, 
+Sirdata,Sirdata [Active Buyers] Star Wars, 
+Sirdata,Sirdata [Active Buyers] Animal Products & Services,178000
+Sirdata,Sirdata [Active Buyers] Apple,8012000
+Sirdata,Sirdata [Active Buyers] Art & Entertainment,3287000
+Sirdata,Sirdata [Active Buyers] Athletics,1000000
+Sirdata,Sirdata [Active Buyers] Audio Players and Systems,51000000
+Sirdata,Sirdata [Active Buyers] Automotive,6792000
+Sirdata,Sirdata [Active Buyers] Automotive & Garage tools,3665000
+Sirdata,Sirdata [Active Buyers] Autos & Vehicles,68000000
+Sirdata,Sirdata [Active Buyers] B2B Supplies & Services,8147000
+Sirdata,Sirdata [Active Buyers] Baby Clothing,55000000
+Sirdata,Sirdata [Active Buyers] Banking,1761000
+Sirdata,Sirdata [Active Buyers] Beauty & Persol Care,64000000
+Sirdata,Sirdata [Active Buyers] Beauty & hair Salons, 
+Sirdata,Sirdata [Active Buyers] Beauty Products,5633000
+Sirdata,Sirdata [Active Buyers] Beverages, 
+Sirdata,Sirdata [Active Buyers] Business & Industry,4103000
+Sirdata,Sirdata [Active Buyers] Business Services,24000000
+Sirdata,Sirdata [Active Buyers] Camera & Photography,18000
+Sirdata,Sirdata [Active Buyers] Carnivals,11000000
+Sirdata,Sirdata [Active Buyers] Celebrations,3444000
+Sirdata,Sirdata [Active Buyers] Children,41000000
+Sirdata,Sirdata [Active Buyers] Classifieds,17000000
+Sirdata,Sirdata [Active Buyers] Clothing Men,33000000
+Sirdata,Sirdata [Active Buyers] Clothing Women,49000000
+Sirdata,Sirdata [Active Buyers] Computers & Electronics,76000000
+Sirdata,Sirdata [Active Buyers] Cosmetic,79000
+Sirdata,Sirdata [Active Buyers] DIY Do It Yourself,146000000
+Sirdata,Sirdata [Active Buyers] E-Learning,17
+Sirdata,Sirdata [Active Buyers] Ecology & Environment,8903000
+Sirdata,Sirdata [Active Buyers] Education,423000
+Sirdata,Sirdata [Active Buyers] Employment,765000
+Sirdata,Sirdata [Active Buyers] Entertainment,69000000
+Sirdata,Sirdata [Active Buyers] Events & Happenings,8285000
+Sirdata,Sirdata [Active Buyers] Fair Trade, 
+Sirdata,Sirdata [Active Buyers] Family & Parenting,28000000
+Sirdata,Sirdata [Active Buyers] Fashion & Apparel,89000000
+Sirdata,Sirdata [Active Buyers] Fince,5082000
+Sirdata,Sirdata [Active Buyers] Fitness,9723000
+Sirdata,Sirdata [Active Buyers] Food,56
+Sirdata,Sirdata [Active Buyers] Food & Drink,1709000
+Sirdata,Sirdata [Active Buyers] Footwear & Shoes,3000000
+Sirdata,Sirdata [Active Buyers] Gardening & Landscaping,34000000
+Sirdata,Sirdata [Active Buyers] Gifts & Special Event Items,12000000
+Sirdata,Sirdata [Active Buyers] Hardware,739000
+Sirdata,Sirdata [Active Buyers] Health,1671000
+Sirdata,Sirdata [Active Buyers] Healthy Food, 
+Sirdata,Sirdata [Active Buyers] Hobbies,161000
+Sirdata,Sirdata [Active Buyers] Home & Garden,122000000
+Sirdata,Sirdata [Active Buyers] Home Appliances,194000
+Sirdata,Sirdata [Active Buyers] Home Furnishing,5194000
+Sirdata,Sirdata [Active Buyers] Home improvement,58000000
+Sirdata,Sirdata [Active Buyers] ICT,67000000
+Sirdata,Sirdata [Active Buyers] Insurance,8347000
+Sirdata,Sirdata [Active Buyers] Internet & Telecommunications,8401000
+Sirdata,Sirdata [Active Buyers] Investing,273000
+Sirdata,Sirdata [Active Buyers] Kitchenware,758000
+Sirdata,Sirdata [Active Buyers] Leisure & Recreation,55000000
+Sirdata,Sirdata [Active Buyers] Motorcycles,7796000
+Sirdata,Sirdata [Active Buyers] Nursery,71000000
+Sirdata,Sirdata [Active Buyers] Public Services & Government, 
+Sirdata,Sirdata [Active Buyers] Science,142000
+Sirdata,Sirdata [Active Buyers] Shopping Misc,71000000
+Sirdata,Sirdata [Active Buyers] Software & programming,1114000
+Sirdata,Sirdata [Active Buyers] Special Event items,11000000
+Sirdata,Sirdata [Active Buyers] Sports,66000000
+Sirdata,Sirdata [Active Buyers] Teaching,844
+Sirdata,Sirdata [Active Buyers] Tobacco Products, 
+Sirdata,Sirdata [Active Buyers] Tourism,57000000
+Sirdata,Sirdata [Active Buyers] Toys & Games,46000000
+Sirdata,Sirdata [Active Buyers] Travel & Transportation,81000000
+Sirdata,Sirdata [Active Buyers] Travel Agencies & Services,6544000
+Sirdata,Sirdata [Active buyers] TV & Home Theater,51000000
+Sirdata,Sirdata [Branded] Audiofanzine,4008000
+Sirdata,Sirdata [Branded] Groupon,25000000
+Sirdata,Sirdata [Branded] Groupon - Local deals,2000000
+Sirdata,Sirdata [Branded] Groupon - tiol Deals,506000
+Sirdata,Sirdata [Branded] Groupon - Shopping,8087000
+Sirdata,Sirdata [Branded] Groupon - Ticketing,1211000
+Sirdata,Sirdata [Branded] Groupon - Travel,7434000
+Sirdata,Sirdata [Branded] Kelkoo, 
+Sirdata,Sirdata [Branded] Kelkoo - Baby and Nursery,105000
+Sirdata,Sirdata [Branded] Kelkoo - Cars and Motorcycles,272000
+Sirdata,Sirdata [Branded] Kelkoo - Computers and Software,649000
+Sirdata,Sirdata [Branded] Kelkoo - Consoles,
+Sirdata,Sirdata [Branded] Kelkoo - Electronics,72000
+Sirdata,Sirdata [Branded] Kelkoo - Entertainment,424000
+Sirdata,Sirdata [Branded] Kelkoo - Fashion,811000
+Sirdata,Sirdata [Branded] Kelkoo - Food and Drinks,64000
+Sirdata,Sirdata [Branded] Kelkoo - Garden and Home improvment,576000
+Sirdata,Sirdata [Branded] Kelkoo - Gifts and Flowers,19000
+Sirdata,Sirdata [Branded] Kelkoo - Health and Beauty,354000
+Sirdata,Sirdata [Branded] Kelkoo - Home and Furniture,623000
+Sirdata,Sirdata [Branded] Kelkoo - Household Appliances,632000
+Sirdata,Sirdata [Branded] Kelkoo - Phones and accessories,354000
+Sirdata,Sirdata [Branded] Kelkoo - Sexy Erotic,61000
+Sirdata,Sirdata [Branded] Kelkoo - Shoes,24000
+Sirdata,Sirdata [Branded] Kelkoo - Sport and Leisure,781000
+Sirdata,Sirdata [Branded] Kelkoo - Travel,392000
+Sirdata,Sirdata [Branded] Petit Futé,11000000
+Sirdata,Sirdata [Branded] Petit Futé - Leisure,1
+Sirdata,Sirdata [Branded] Petit Futé - Restaurants,1
+Sirdata,Sirdata [Demographics] Age 15-24,42000
+Sirdata,Sirdata [Demographics] Age 25-34,789000
+Sirdata,Sirdata [Demographics] Age 35-49,1898000
+Sirdata,Sirdata [Demographics] Age 50-64,2503000
+Sirdata,Sirdata [Demographics] Age 65 and more,4803000
+Sirdata,Sirdata [Demographics] Architect,1087000
+Sirdata,Sirdata [Demographics] Females,7561000
+Sirdata,Sirdata [Demographics] Grandparents,4962000
+Sirdata,Sirdata [Demographics] Lower class,64000
+Sirdata,Sirdata [Demographics] Males,3824000
+Sirdata,Sirdata [Demographics] Medical professions,175000
+Sirdata,Sirdata [Demographics] Middle class, 
+Sirdata,Sirdata [Demographics] Real Estate Owner, 
+Sirdata,Sirdata [Demographics] Teacher,47000
+Sirdata,Sirdata [Demographics] Upper class,1324000
+Sirdata,Sirdata [Hot Prospects] ATA ARRIVAL AT VIE,5000
+Sirdata,Sirdata [Hot Prospects] Accessories Men,8579000
+Sirdata,Sirdata [Hot Prospects] Air Conditioning,147000
+Sirdata,Sirdata [Hot Prospects] Amusement and Theme Parks,813000
+Sirdata,Sirdata [Hot Prospects] Auto Accessories,128000
+Sirdata,Sirdata [Hot Prospects] Auto parts and accessories,1814000
+Sirdata,Sirdata [Hot Prospects] Baby Bath,577
+Sirdata,Sirdata [Hot Prospects] Baby Health and Safety,58000
+Sirdata,Sirdata [Hot Prospects] Baby Toys,51000
+Sirdata,Sirdata [Hot Prospects] Baby Underwear,629000
+Sirdata,Sirdata [Hot Prospects] Baking,7386000
+Sirdata,Sirdata [Hot Prospects] Beauty Accessories,143000
+Sirdata,Sirdata [Hot Prospects] Beauty Blogs,1415000
+Sirdata,Sirdata [Hot Prospects] Bedroom,2731000
+Sirdata,Sirdata [Hot Prospects] Beds & Mattresses,9812000
+Sirdata,Sirdata [Hot Prospects] Beer & Cider,7343000
+Sirdata,Sirdata [Hot Prospects] Birth Announcement,43000
+Sirdata,Sirdata [Hot Prospects] Birthday Present,7671000
+Sirdata,Sirdata [Hot Prospects] Blu-Ray & DVD Players,176000
+Sirdata,Sirdata [Hot Prospects] Body care,42000000
+Sirdata,Sirdata [Hot Prospects] Boys Clothing,6285000
+Sirdata,Sirdata [Hot Prospects] Buses & Coaches,5067000
+Sirdata,Sirdata [Hot Prospects] Business Education,543000
+Sirdata,Sirdata [Hot Prospects] Business Software,29000
+Sirdata,Sirdata [Hot Prospects] Business Travel,21000000
+Sirdata,Sirdata [Hot Prospects] Car Dealers & MarketPlaces,1754000
+Sirdata,Sirdata [Hot Prospects] Car Insurance,8721000
+Sirdata,Sirdata [Hot Prospects] Casinos,1
+Sirdata,Sirdata [Hot Prospects] Casual Shoes, 
+Sirdata,Sirdata [Hot Prospects] Celebrity News,11000000
+Sirdata,Sirdata [Hot Prospects] Cell Phone Plans,3000
+Sirdata,Sirdata [Hot Prospects] Charters,28000
+Sirdata,Sirdata [Hot Prospects] Children Underwear,644000
+Sirdata,Sirdata [Hot Prospects] Cleaning and Washing,2644000
+Sirdata,Sirdata [Hot Prospects] Clothing,56000000
+Sirdata,Sirdata [Hot Prospects] Computer Hardware,55000000
+Sirdata,Sirdata [Hot Prospects] Computers,13000000
+Sirdata,Sirdata [Hot Prospects] Concerts & Festivals, 
+Sirdata,Sirdata [Hot Prospects] Construction,702000
+Sirdata,Sirdata [Hot Prospects] Cooking & Recipes,1623000
+Sirdata,Sirdata [Hot Prospects] Cooking Utensils,12000000
+Sirdata,Sirdata [Hot Prospects] Coupons & Discount Offers,185000
+Sirdata,Sirdata [Hot Prospects] Crafts,70000
+Sirdata,Sirdata [Hot Prospects] Crowdfunding Services,553000
+Sirdata,Sirdata [Hot Prospects] Cruises,38000
+Sirdata,Sirdata [Hot Prospects] Currency Exchange,26000
+Sirdata,Sirdata [Hot Prospects] DIY Guides & Tutorials,3142000
+Sirdata,Sirdata [Hot Prospects] Dating,819000
+Sirdata,Sirdata [Hot Prospects] Debt consolidation,404000
+Sirdata,Sirdata [Hot Prospects] Dental Insurance,1652000
+Sirdata,Sirdata [Hot Prospects] Discount and second hand store,23000000
+Sirdata,Sirdata [Hot Prospects] Dishes & Tableware,1855000
+Sirdata,Sirdata [Hot Prospects] Drawing & Painting,529000
+Sirdata,Sirdata [Hot Prospects] Durable goods,2362000
+Sirdata,Sirdata [Hot Prospects] Easter (Celebrations),6747000
+Sirdata,Sirdata [Hot Prospects] Economics & Intertiol Fince,1686000
+Sirdata,Sirdata [Hot Prospects] Eyewear,15000
+Sirdata,Sirdata [Hot Prospects] Family Resorts,17000000
+Sirdata,Sirdata [Hot Prospects] Fashion accessories,7000000
+Sirdata,Sirdata [Hot Prospects] Fasion Accessories Women,39000000
+Sirdata,Sirdata [Hot Prospects] Fathers Day,6694000
+Sirdata,Sirdata [Hot Prospects] Fil Goods,75000000
+Sirdata,Sirdata [Hot Prospects] Flash Games,801000
+Sirdata,Sirdata [Hot Prospects] Football,9901000
+Sirdata,Sirdata [Hot Prospects] Formal Shoes, 
+Sirdata,Sirdata [Hot Prospects] Frames & Orments,4214000
+Sirdata,Sirdata [Hot Prospects] Fun & Trivia,36000
+Sirdata,Sirdata [Hot Prospects] Funeral Insurance,55000
+Sirdata,Sirdata [Hot Prospects] Furnitures,18000000
+Sirdata,Sirdata [Hot Prospects] Gambling,1585000
+Sirdata,Sirdata [Hot Prospects] Game contest,5801000
+Sirdata,Sirdata [Hot Prospects] Garden Furniture,1751000
+Sirdata,Sirdata [Hot Prospects] Gifts by occasion,12000000
+Sirdata,Sirdata [Hot Prospects] Girls Clothing,6285000
+Sirdata,Sirdata [Hot Prospects] Gourmet Food & Drinks,4892000
+Sirdata,Sirdata [Hot Prospects] Grants & Fincial Assistance,65000
+Sirdata,Sirdata [Hot Prospects] Hair Care,86000
+Sirdata,Sirdata [Hot Prospects] Health insurance,75000
+Sirdata,Sirdata [Hot Prospects] Home Education,22000
+Sirdata,Sirdata [Hot Prospects] Home Insurance, 
+Sirdata,Sirdata [Hot Prospects] Home Security,9781000
+Sirdata,Sirdata [Hot Prospects] Home heating and cooling,7445000
+Sirdata,Sirdata [Hot Prospects] Honeymoons Getaways (Travel),6042000
+Sirdata,Tail Target,
+Sirdata,ARGENTI,18000000
+Sirdata,BRAZIL,481000000
+Sirdata,COLOMBIA,18000000
+Sirdata,GLOBAL,645000000
+Sirdata,MEXICO,58000000
+Sirdata,UNITED STATES,61000000
+Ubiquity,Rosella,
+Ubiquity,Veda,823000
+Ubiquity,INIVIO,16000000
+Visa,,
+Visa,VisaVue Audiences,1299000000
+Weborama,,
+Weborama,Weborama segments for country COUNTRY, 
+Weborama,Weborama segments for country ES,8000000
+Weborama,Weborama segments for country FR,212000000
+Weborama,Weborama segments for country IT,85000000
+Xaxis,,
+Xaxis,Xaxis Audience Search 20160301,2463000
+Yahoo Games,,
+Yahoo Games,Yahoo Games Users, 
+Yahoo Games,Yahoo Games Employees - Mobile Ad Tracking, 
+Yahoo Games,Yahoo Games Experiments,464
+eXelate,,3324000000
+eXelate,Alliant, 
+eXelate,Alliant Composites, 
+eXelate,Branded Data,1632000000
+eXelate,Dataium, 
+eXelate,Kantar Shopcom, 
+eXelate,MasterCard, 
+eXelate,MasterCard Custom Genome, 
+eXelate,Nielsen Segments,1909000000
+eXelate,Other,144
+eXelate,Private Data,64000000
+eXelate,eXelate Segments,3305000000
+nuggad,,
+nuggad,nuggad > de > factual > intent > fince 1 > fince > general,1000000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > all_pages,4573000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand audi,4504000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand bmw,4506000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand chevrolet,4494000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand chrysler,4494000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand fiat,4495000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand ford,4497000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand honda,4494000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand hyundai,4495000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand kia,4495000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand mazda,4494000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand mercedes,4507000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand nissan,4497000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand opel,4496000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand peugeot,4501000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand porsche,4497000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand reult,450000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand seat,4494000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand smart,4493000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand toyota,4501000
+nuggad,nuggad > fr > factual > intent > automotive provider 1 > brand volkswagen,4507000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > all_pages,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand audi,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand bmw,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand chevrolet,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand chrysler,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand fiat,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand ford,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand honda,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand hyundai,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand kia,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand mazda,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand mercedes,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand nissan,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand opel,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand peugeot,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand porsche,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand reult,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand seat,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand smart,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand toyota,29000000
+nuggad,nuggad > it > factual > intent > automotive provider 1 > brand volkswagen,29000000
+zzz - Prod Test Provider,,
+zzz - Prod Test Provider,1st Party, 
+zzz - Prod Test Provider,Syndicated Segments, 
+zzz - Prod Test Provider,perf test seg1,4
+zzz - Prod Test Provider,perf test seg2,7
+zzz - Prod Test Provider,perf test seg3,8
+zzz - Prod Test Provider,perf test seg4, 
+zzz - Prod Test Provider,perf test1,3
+zzz - Prod Test Provider,perf test2,4
+zzz - Prod Test Provider,perf test3,5
+zzz - Prod v1 Test Provider,,
+zzz - Prod v1 Test Provider,1st Party, 
+zzz - Prod v1 Test Provider,Syndicated Segments, 
+zzz - Prod v1 Test Provider,perf test seg1,15000
+zzz - Prod v1 Test Provider,perf test seg2,7
+zzz - Prod v1 Test Provider,perf test seg3,8
+zzz - Prod v1 Test Provider,perf test1,3
+zzz - Prod v1 Test Provider,perf test2,4
+zzz - Prod v1 Test Provider,perf test3,5
+zzz - adw,,
+zzz - adw,zzz_adw,23
+zzzzz Carlos Prod,,
+zzzzz Carlos Prod,LiveRampTaxonomy-production-v11, 

@@ -1,0 +1,46 @@
+var testo = "";
+var URLSondaggio = "";
+var attiva = "";
+var idSondaggio = "";
+
+//mantenuto questo meccanismo per poter aggiungere altri elementi per escludere la nazione
+var esterostatecode = new Array();
+	esterostatecode[esterostatecode.length] = "IT,,ITALIA,ITALIA";
+
+
+
+function AttivaPopUpEsiste(stringaINNERHTML) {
+	document.getElementById("MediasetEsiste").style.display = "block";
+	document.getElementById("testoPopEsiste").innerHTML=stringaINNERHTML;
+}
+
+function AttivaPopUpImmagine(stringaINNERHTML) {
+	document.getElementById("MediasetEsiste").style.display = "block";
+	document.getElementById("MediasetEsiste").innerHTML = stringaINNERHTML;
+}
+
+function verificaPopUpEstero() {
+	var nazione = "";
+	var regione = "";
+	var area = "";
+	var indiceNazione;
+	var stringaurl = document.location.href;
+	var cookietesto = String(readCookieMediasetItalia("mediasetEstero"));
+	var cookiecode=String(readCookieMediasetItalia("countryCode"));
+
+	if(cookietesto== "null" || cookiecode == "null") {
+		if(stringaurl.indexOf("ind=") > 0) {
+			var ipXmediaset=stringaurl.substring(stringaurl.indexOf("ind=") + 4);
+
+			jQuery.getJSON("http://servizi.mediaset.it/geoip/getData.jsp?callback=?&ip="+ipXmediaset, function(datiCountry) {
+				var items = [];
+				jQuery.each(datiCountry.location, function(key, val) {
+					nazione = val.countryCode;
+					regione = val.region;
+					areaCode = val.timezone;
+					areaCode = areaCode.substring(0, areaCode.indexOf("/"));
+
+					if(areaCode=="Europe")
+						areaCode = "Europa";
+					else if(areaCode=="Australia" || areaCode=="Pacific")
+						area

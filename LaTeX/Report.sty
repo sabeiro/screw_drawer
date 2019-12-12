@@ -1,0 +1,84 @@
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage[mathcal]{eucal}
+\usepackage{makeidx}
+\usepackage{fancyhdr}
+\usepackage[dvips]{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks}
+\usepackage{epsfig}
+\usepackage{ifthen}
+\usepackage{color}
+%\usepackage{columns}
+%\usepackage{mpgmpar} 
+\usepackage{epic}
+%\usepackage{eepic}
+%\usepackage{eepicemu}
+\usepackage{texdraw}
+\usepackage{xy}%MatBildoj
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{longtable}
+\usepackage{marginnote}
+\usepackage{sectsty}
+\usepackage{natbib} 
+\usepackage{booktabs}
+\usepackage{Colori}
+\usepackage[centerlast,small,sc]{caption}
+%\allsectionsfont{\sffamily}
+\subsectionfont{\mdseries\itshape}
+%\usepackage{stackrel}
+\pagestyle{fancy}
+\renewcommand{\subsectionmark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+\fancyhf{}
+%\fancyhead[LE,RO]{\mdseries\thepage}
+\fancyhead[LO,LE]{\mdseries\rightmark}
+\fancyhead[RO,RE]{\mdseries\leftmark}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+%\addtolength{\headheight}{0.5pt}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0.5pt}
+\addtolength{\headwidth}{1cm}
+\addtolength{\textheight}{4cm}
+\addtolength{\textwidth}{1cm}
+\setlength{\marginparwidth}{4.5cm}
+\setlength{\parindent}{1ex}
+\setlength{\parskip}{0pt}
+\addtolength{\voffset}{-2cm}
+\addtolength{\hoffset}{-3cm}
+\renewcommand{\partname}{}
+\renewcommand{\chaptername}{}
+\linespread{1}%interlinea
+%\fancypagestyle{plain}{\fancyhead{}\renewcommand{\headrulewidth}{0pt}}
+\newcommand{\sxdx}{\ifthenelse{\isodd{\thepage}}{}{\hspace{\stretch{1}}}}
+\let\oldmarginpar\marginpar
+\renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\footnotesize #1]%
+{\raggedright\footnotesize #1}}
+%\newcommand{\noto}[1]{\marginpar{\rule{0pt}{1ex}\\\sxdx\footnotesize{{#1}}}}
+\newcommand{\noto}[1]{\marginnote{\footnotesize{#1}}}
+%\newcommand{\noto}[1]{}
+\newcommand{\di}{\mathrm{d}}%diferencialo
+\newcommand{\dm}[1]{\begin{eqnarray}#1\end{eqnarray}}
+\newcommand{\homo}[1]{\fontencoding{T1}\fontfamily{ppl}\fontseries{m}\fontshape{n}\selectfont {#1}\normalfont}
+\newcommand{\titolo}[1]{\fontencoding{T1}\fontfamily{ppl}\fontseries{m}\fontshape{n}\fontsize{22}{24pt}\selectfont {#1}\normalfont}
+\newcommand{\vet}[1]{\boldsymbol{#1}}%vektoro
+\newcommand{\mez}[1]{\langle{#1}\rangle}%MezValoro
+%\newcommand{\citas}[1]{\citet{#1}}
+\newcommand{\citas}[1]{[\citet{#1}]}
+\newcommand{\ekv}[1]{(\ref{#1})}
+\newcommand{\dens}{\mathfrak{w}}%Denseco
+%\newcommand{\subteksto}[2]{\label{#1}\begin{center}\begin{minipage}[c]{0.85\textwidth}\centering\linespread{0.8}\caption{{\footnotesize #2}}\end{minipage}\end{center}}
+\newcommand{\subteksto}[2]{\label{#1}\marginnote{\caption{#2}}}
+\newcommand{\fig}[1]{(Fig: \ref{#1})}
+%\newcommand{\todo}[1]{\parbox[][.75cm]{1cm}{}\begin{center}\fbox{\parbox{0.75\textwidth}{#1}}\marginpar{\fbox{\Large TODO!}}\end{center}\parbox[][.75cm]{1cm}{}}
+\newenvironment{bildo}{\setlength{\unitlength}{2cm}\begin{picture}(0,1)\linethickness{0.075mm}}{\end{picture}}
+%\renewenvironment{figure}[1][]{\@float{figure}[#1]\marginnote{foo}}{\end@float}
+\captionsetup{
+  justification=raggedright,
+%  labelfont={color=Maroon,bf},
+  font=small}

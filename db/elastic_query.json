@@ -1,0 +1,69 @@
+##unique
+{
+  "aggs" : {
+      "unique_users" : {
+          "cardinality" : {
+              "field" : "username"
+          }
+      }
+  }
+}
+
+{
+    "size" : 0,
+    "aggs" : {
+        "distinct_colors" : {
+            "cardinality" : {
+              "field" : "color"
+            }
+        }
+    }
+}
+{
+  "size" : 0,
+  "aggs" : {
+      "months" : {
+        "date_histogram": {
+          "field": "sold",
+          "interval": "month"
+        },
+        "aggs": {
+          "distinct_colors" : {
+              "cardinality" : {
+                "field" : "color"
+              }
+          }
+        }
+      }
+  }
+}
+##count
+{
+    "size" : 0,
+    "aggs" : {
+        "distinct_colors" : {
+            "cardinality" : {
+              "field" : "color",
+              "precision_threshold" : 100 
+            }
+        }
+    }
+}
+
+{
+    "aggs": {
+        "monthly": {
+            "date_histogram": {
+                "field": "timestamp",
+                "interval": "month"
+            },
+            "aggs": {
+                "visitor_count": {
+                    "cardinality": {
+                        "field": "ip_address"
+                    }
+                }
+            }
+        }
+    }
+}'

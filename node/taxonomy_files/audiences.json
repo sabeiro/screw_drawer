@@ -1,0 +1,1554 @@
+{
+  "audiences" : [ {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Cucina",
+    "id" : 110496,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-01-18T09:47:49-0600",
+    "updated_at" : "2016-07-12T10:40:40-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "obsolete tutti",
+    "id" : 111021,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 0,
+    "created_at" : "2016-01-25T03:54:39-0600",
+    "updated_at" : "2016-07-12T10:46:07-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "sport",
+    "id" : 111863,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-02-01T03:45:55-0600",
+    "updated_at" : "2016-02-01T03:45:55-0600",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "moda",
+    "id" : 111864,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-02-01T04:47:51-0600",
+    "updated_at" : "2016-02-01T04:47:51-0600",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Business/Finanza",
+    "id" : 112708,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-02-04T11:21:19-0600",
+    "updated_at" : "2016-06-17T06:36:19-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Audience for Datacratic Lookalike - [Partner ID 3256 + Vendor ID 6379]",
+    "id" : 113216,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-02-10T07:04:46-0600",
+    "updated_at" : "2016-07-11T04:16:18-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Casa Arredo",
+    "id" : 113528,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 4,
+    "created_at" : "2016-02-12T06:50:44-0600",
+    "updated_at" : "2016-06-17T06:30:20-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "tutti",
+    "id" : 113530,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-02-12T06:59:12-0600",
+    "updated_at" : "2016-07-11T11:01:13-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "tv lovers",
+    "id" : 115656,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-03-02T03:21:26-0600",
+    "updated_at" : "2016-08-01T10:05:53-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "musica",
+    "id" : 116731,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-03-11T11:22:56-0600",
+    "updated_at" : "2016-03-11T11:22:56-0600",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "MNO",
+    "id" : 117215,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-03-17T09:35:43-0500",
+    "updated_at" : "2016-03-17T09:35:43-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Lifestyle",
+    "id" : 117216,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 4,
+    "created_at" : "2016-03-17T09:36:57-0500",
+    "updated_at" : "2016-06-17T06:24:25-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "age 25-54",
+    "id" : 117234,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-03-17T11:00:21-0500",
+    "updated_at" : "2016-07-12T10:29:33-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3288,
+      "name" : "RTI DMP - Infinity"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Test Binda",
+    "id" : 120495,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "received",
+    "segments" : {
+    },
+    "recency" : 31,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 0,
+    "created_at" : "2016-04-07T10:44:04-0500",
+    "updated_at" : "2016-04-07T10:44:04-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3288,
+      "name" : "RTI DMP - Infinity"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Internet Addicted",
+    "id" : 120956,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "received",
+    "segments" : {
+    },
+    "recency" : 15,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 0,
+    "created_at" : "2016-04-12T09:07:01-0500",
+    "updated_at" : "2016-04-12T09:09:10-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "mobile"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Salute e benessere",
+    "id" : 121736,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-04-19T04:43:28-0500",
+    "updated_at" : "2016-04-19T04:43:28-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "news",
+    "id" : 121737,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-04-19T04:45:44-0500",
+    "updated_at" : "2016-06-17T06:27:23-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "woman z",
+    "id" : 123921,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-05-06T09:44:53-0500",
+    "updated_at" : "2016-08-01T08:41:26-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "motori",
+    "id" : 125252,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-05-19T05:06:02-0500",
+    "updated_at" : "2016-05-19T05:06:02-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "woman behavioural z",
+    "id" : 125815,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-05-25T11:51:56-0500",
+    "updated_at" : "2016-08-01T08:40:44-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "man z",
+    "id" : 125838,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-05-25T12:58:42-0500",
+    "updated_at" : "2016-08-01T08:44:45-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "man behavioural z",
+    "id" : 125839,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-05-25T12:59:17-0500",
+    "updated_at" : "2016-08-01T08:33:06-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "ch il segreto",
+    "id" : 125936,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 4,
+    "created_at" : "2016-05-26T08:43:02-0500",
+    "updated_at" : "2016-07-15T03:38:20-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "ch uomini e donne",
+    "id" : 125937,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 4,
+    "created_at" : "2016-05-26T08:43:48-0500",
+    "updated_at" : "2016-07-15T03:38:05-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "ch amici",
+    "id" : 125938,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 4,
+    "created_at" : "2016-05-26T08:44:10-0500",
+    "updated_at" : "2016-07-15T03:37:44-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "ch isola",
+    "id" : 125940,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 4,
+    "created_at" : "2016-05-26T08:44:36-0500",
+    "updated_at" : "2016-07-15T03:37:24-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "e-shoppers",
+    "id" : 127686,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-06-08T04:46:22-0500",
+    "updated_at" : "2016-06-08T04:46:22-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Viaggi",
+    "id" : 128192,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-13T07:22:42-0500",
+    "updated_at" : "2016-06-13T07:22:42-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "an donnamoderna",
+    "id" : 128286,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-06-13T11:25:06-0500",
+    "updated_at" : "2016-08-01T08:45:13-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Tech",
+    "id" : 128765,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-16T08:38:01-0500",
+    "updated_at" : "2016-06-16T08:38:01-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "maschile",
+    "id" : 128970,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-17T05:04:19-0500",
+    "updated_at" : "2016-06-17T05:04:19-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "an femminile",
+    "id" : 128971,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-17T05:08:04-0500",
+    "updated_at" : "2016-08-01T08:14:42-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Genitori",
+    "id" : 128977,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-17T06:19:52-0500",
+    "updated_at" : "2016-06-17T06:19:52-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Ecologia/ambiente",
+    "id" : 128978,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-17T06:38:33-0500",
+    "updated_at" : "2016-06-17T06:38:33-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Scommesse",
+    "id" : 128979,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-17T06:39:57-0500",
+    "updated_at" : "2016-06-17T06:39:57-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Animali ",
+    "id" : 128980,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-17T06:41:00-0500",
+    "updated_at" : "2016-06-17T06:41:00-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Fashion woman",
+    "id" : 130452,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-27T08:37:25-0500",
+    "updated_at" : "2016-06-27T08:37:25-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "woman v",
+    "id" : 130983,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-06-30T09:59:13-0500",
+    "updated_at" : "2016-07-12T10:11:55-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "an seconde parti",
+    "id" : 131376,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 0,
+    "created_at" : "2016-07-06T07:35:19-0500",
+    "updated_at" : "2016-07-20T04:18:42-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "man v",
+    "id" : 132626,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 7,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-07-13T05:59:16-0500",
+    "updated_at" : "2016-07-13T05:59:16-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Meteo compulsivi",
+    "id" : 132696,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 7,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 0,
+    "created_at" : "2016-07-13T10:10:18-0500",
+    "updated_at" : "2016-07-13T10:10:18-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "an video viewers",
+    "id" : 132704,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 0,
+    "created_at" : "2016-07-13T10:35:24-0500",
+    "updated_at" : "2016-07-20T04:18:20-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "ch temptation island",
+    "id" : 133151,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-07-15T03:36:48-0500",
+    "updated_at" : "2016-07-15T03:36:48-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Meteo leggero",
+    "id" : 133153,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-07-15T04:09:46-0500",
+    "updated_at" : "2016-07-15T04:09:46-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "spendaccioni",
+    "id" : 134827,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-07-25T08:07:48-0500",
+    "updated_at" : "2016-07-25T08:07:48-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "woman z brightroll",
+    "id" : 135584,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-07-28T05:44:47-0500",
+    "updated_at" : "2016-07-28T05:44:47-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "woman first",
+    "id" : 135998,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-08-01T07:45:19-0500",
+    "updated_at" : "2016-08-01T07:45:19-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "man first",
+    "id" : 135999,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-08-01T07:49:30-0500",
+    "updated_at" : "2016-08-01T07:49:30-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Cultura",
+    "id" : 136006,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-08-01T08:37:36-0500",
+    "updated_at" : "2016-08-01T08:37:36-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Scienza",
+    "id" : 136007,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-08-01T08:38:15-0500",
+    "updated_at" : "2016-08-01T08:38:15-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Faceto/gossip",
+    "id" : 136008,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-08-01T08:39:47-0500",
+    "updated_at" : "2016-08-01T08:39:47-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "diete",
+    "id" : 136305,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-08-02T06:03:12-0500",
+    "updated_at" : "2016-08-02T06:03:12-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 first",
+    "id" : 136561,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-08-03T09:29:50-0500",
+    "updated_at" : "2016-08-03T09:30:32-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 z",
+    "id" : 136563,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-08-03T09:32:44-0500",
+    "updated_at" : "2016-08-03T09:32:44-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 v",
+    "id" : 136568,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 3,
+    "created_at" : "2016-08-03T09:51:09-0500",
+    "updated_at" : "2016-08-03T09:51:09-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 M first",
+    "id" : 136569,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "active",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-08-03T09:52:04-0500",
+    "updated_at" : "2016-08-03T09:52:04-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 M v",
+    "id" : 136571,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "active",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-08-03T09:53:09-0500",
+    "updated_at" : "2016-08-03T09:53:09-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 M z",
+    "id" : 136573,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "active",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-08-03T10:04:52-0500",
+    "updated_at" : "2016-08-03T10:04:52-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 F first",
+    "id" : 136578,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "active",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-08-03T10:33:51-0500",
+    "updated_at" : "2016-08-03T10:33:51-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 F v",
+    "id" : 136582,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "active",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-08-03T11:06:06-0500",
+    "updated_at" : "2016-08-03T11:06:06-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "18-44 F z",
+    "id" : 136584,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "active",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 1,
+    "created_at" : "2016-08-03T11:06:55-0500",
+    "updated_at" : "2016-08-03T11:06:55-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  }, {
+    "owner" : {
+      "id" : 3256,
+      "name" : "RTI DMP - MediaMond - JSON"
+    },
+    "campaigns" : [ ],
+    "price" : null,
+    "name" : "Calcio",
+    "id" : 140743,
+    "attributes" : [ ],
+    "labels" : [ ],
+    "status" : "shared",
+    "segments" : {
+    },
+    "recency" : 90,
+    "countryCodes" : [ "ALL" ],
+    "retargeting" : true,
+    "prospecting" : true,
+    "notes" : "",
+    "sharing_type" : "BOTH",
+    "campaign_count" : 2,
+    "created_at" : "2016-08-27T13:25:27-0500",
+    "updated_at" : "2016-08-27T13:25:27-0500",
+    "usage_type" : "TARGETING_AND_ANALYTICS",
+    "device_type" : "all"
+  } ],
+  "total_count" : 62
+}

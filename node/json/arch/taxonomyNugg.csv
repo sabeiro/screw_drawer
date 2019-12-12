@@ -1,0 +1,56 @@
+group,name,key,value
+Gender,F,j1,1
+Gender,M,j1,2
+Age Groups,14-17,k1,1
+Age Groups,18-24,k1,2
+Age Groups,25-34,k1,3
+Age Groups,35-44,k1,4
+Age Groups,45-55,k1,5
+Age Groups,55+,k1,6
+Accessories,Accessories MF,a1,1
+Accessories,Accessories M,a2,1
+Accessories,Accessories F,a3,1
+Accessories,Caps and hats,b1,1
+Accessories,Glasses and sunglasses,c1,1
+Accessories,Wristwatches,d1,1
+Jewelery,Jewelery,e1,1
+Bags,Bags MF,f1,1
+Bags,Bags M ,f2,1
+Bags,Bags F,f3,1
+Clothing,Dresses MF,h1,1
+Clothing,Trousers MF,i1,1
+Clothing,Shirts MF,l1,1
+Clothing,Jackets MF,m1,1
+Clothing,T Shirts MF,n1,1
+Clothing,Swimwear MF,o1,1
+Clothing,Underwear MF,p1,1
+Clothing,Suits MF,q1,1
+Clothing,Pyjamas MF,r1,1
+Clothing,Sportswear MF,s1,1
+Clothing,Dresses M,h2,1
+Clothing,Trousers M ,i2,1
+Clothing,Shirts M ,l2,1
+Clothing,Jackets M ,m2,1
+Clothing,T Shirts M ,n2,1
+Clothing,Swimwear M ,o2,1
+Clothing,Underwear M ,p2,1
+Clothing,Suits M,q2,1
+Clothing,Pyjamas M ,r2,1
+Clothing,Sportswear M ,s2,1
+Clothing,Dresses F,h3,1
+Clothing,Trousers F,i3,1
+Clothing,Shirts F,l3,1
+Clothing,Jackets F,m3,1
+Clothing,T Shirts F,n3,1
+Clothing,Swimwear F,o3,1
+Clothing,Underwear F,p3,1
+Clothing,Suits F,q3,1
+Clothing,Pyjamas F,r3,1
+Clothing,Sportswear F,s3,1
+Kids Clothes,Kids Clothes,z1,1
+Shoes,Shoes MF,t1,1
+Shoes,Shoes M ,t2,1
+Shoes,Shoes F,t3,1
+Shoes,Sports shoes,u1,1
+Shoes,Sneakers,v1,1
+Geo,Geo,w1,1

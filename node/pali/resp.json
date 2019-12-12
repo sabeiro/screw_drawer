@@ -1,0 +1,4335 @@
+{
+    "soapenv:Envelope": {
+        "$": {
+            "xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/"
+        },
+        "soap-env:Body": [
+            {
+                "$": {
+                    "xmlns:soap-env": "http://schemas.xmlsoap.org/soap/envelope/"
+                },
+                "MHP": [
+                    {
+                        "$": {
+                            "xmlns": "http://rti.mediaset.it/onair/main/MHPService"
+                        },
+                        "Prg": [
+                            {
+                                "Title": [
+                                    "X-STYLE MOTORI"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307849101000101"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 00:30:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 01:00:00"
+                                ],
+                                "Duration": [
+                                    "00:30:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "X-STYLE MOTORI AUT.'16"
+                                ],
+                                "Description": [
+                                    "SOFT NEWS 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n "
+                                ],
+                                "Tipology": [
+                                    "SOFT NEWS"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "ROTOCALCO"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "TG5 "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198301109601"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 01:00:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 01:44:00"
+                                ],
+                                "Duration": [
+                                    "00:44:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "LA VOCE DELL' IMPUDENZA  - STRISCIA LA NOTIZIA"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307782901000501"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 01:45:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 02:12:00"
+                                ],
+                                "Duration": [
+                                    "00:27:00"
+                                ],
+                                "AudioType": [
+                                    "Stereo"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "STRISCIA LA NOTIZIA -'17 LA VOCE DELL'IMPUDENZA"
+                                ],
+                                "Description": [
+                                    "INTRATTENIMENTO 30' - HD Italia,2016\nCondotto da Michelle Hunziker e Belen Rodriguez "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nTelegiornale Satirico "
+                                ],
+                                "Tipology": [
+                                    "INTRATTENIMENTO LEGGERO"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "COMICO"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "UOMINI E DONNE "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307782601001501"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 02:13:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 05:00:00"
+                                ],
+                                "Duration": [
+                                    "02:47:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "UOMINI E DONNE  -'17"
+                                ],
+                                "Description": [
+                                    "TALK SHOW 120' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nTalk dei sentimenti giunto alla sua ventunesima edizione. Il format prevede l'incontro tra persone disposte a conoscersi nella speranza di incontrare l'anima gemella o semplicemente far nascere una nuova amicizia. Il programma coinvolge con successo sia ragazzi di giovane eta' sia persone piu' adulte."
+                                ],
+                                "Tipology": [
+                                    "TALK SHOW"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TALK SHOW"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    ""
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 05:00:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 05:15:00"
+                                ],
+                                "Duration": [
+                                    "00:15:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Description": [
+                                    " "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "SHOPPING "
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2011"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "PUBBLICITA'"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "TG5 "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198301109601"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 05:15:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 05:44:00"
+                                ],
+                                "Duration": [
+                                    "00:29:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    ""
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 05:45:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 05:59:00"
+                                ],
+                                "Duration": [
+                                    "00:14:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Description": [
+                                    " "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "SHOPPING "
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2011"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "PUBBLICITA'"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001264901"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 06:00:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 06:15:00"
+                                ],
+                                "Duration": [
+                                    "00:15:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001265001"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 06:15:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 06:31:00"
+                                ],
+                                "Duration": [
+                                    "00:16:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001265101"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 06:31:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 06:46:00"
+                                ],
+                                "Duration": [
+                                    "00:15:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001265201"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 06:46:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 07:00:00"
+                                ],
+                                "Duration": [
+                                    "00:14:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001265301"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 07:00:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 07:15:00"
+                                ],
+                                "Duration": [
+                                    "00:15:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001265401"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 07:15:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 07:30:00"
+                                ],
+                                "Duration": [
+                                    "00:15:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001265501"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 07:30:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 07:45:00"
+                                ],
+                                "Duration": [
+                                    "00:15:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001265601"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 07:45:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 07:55:00"
+                                ],
+                                "Duration": [
+                                    "00:10:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "TG5 "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198301109701"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 07:59:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 08:45:00"
+                                ],
+                                "Duration": [
+                                    "00:46:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "MEDIA SHOPPING - MEDIASHOPPING"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    ""
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 08:45:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 09:10:00"
+                                ],
+                                "Duration": [
+                                    "00:25:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Description": [
+                                    " "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "TELEVENDITE"
+                                ],
+                                "Countries": [
+                                    ""
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2011"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "PUBBLICITA'"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "LE PERLE DEL FRIULI - LUOGHI DI MAGNIFICA ITALIA"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F301651201001701"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 09:10:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 09:15:00"
+                                ],
+                                "Duration": [
+                                    "00:05:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "LUOGHI DI MAGNIFICA ITALIA 1 - PILLOLE"
+                                ],
+                                "Description": [
+                                    "LE PERLE DEL FRIULI - DOCUMENTARIO 5' - Italia, 2009 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "DOCUMENTARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2009"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TURISMO/GEOGRAFIA/ETNOLOGIA"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "VERONA E VICENZA - LUOGHI DI MAGNIFICA ITALIA"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F301651201004201"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 09:15:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 09:20:00"
+                                ],
+                                "Duration": [
+                                    "00:05:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "LUOGHI DI MAGNIFICA ITALIA 1 - PILLOLE"
+                                ],
+                                "Description": [
+                                    "VERONA E VICENZA - DOCUMENTARIO 5' - Italia, 2009 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "DOCUMENTARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2009"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TURISMO/GEOGRAFIA/ETNOLOGIA"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "I LAGHI INCANTATI DEL TRENTINO - LUOGHI DI MAGNIFICA ITALIA"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F301651201000401"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 09:20:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 09:25:00"
+                                ],
+                                "Duration": [
+                                    "00:05:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "LUOGHI DI MAGNIFICA ITALIA 1 - PILLOLE"
+                                ],
+                                "Description": [
+                                    "I LAGHI INCANTATI DEL TRENTINO - DOCUMENTARIO 5' - Italia, 2009 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "DOCUMENTARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2009"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TURISMO/GEOGRAFIA/ETNOLOGIA"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    " VITA ALLA FINE DEL MONDO - I PARTE -  WILD PATAGONIA - PRIMA TV"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307261202000502"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 09:25:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 09:56:00"
+                                ],
+                                "Duration": [
+                                    "00:31:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "Yes"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "WILD PATAGONIA"
+                                ],
+                                "Description": [
+                                    "VITA ALLA FINE DEL MONDO - I PARTE - DOCUMENTARIO 50' - Regno Unito Di Gran Bretagna E Irlanda, 2015 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nCape Horn, l'ultimo centro abitato nel sud del mondo. Sulle coste di questa remota isola, vivono colonie di animali particolari, come i pinguini saltarocce che, per nutrire la prole, sono costretti a lunghe maratone quotidiane piene di insidie. O le orche, che in queste regioni hanno messo a punto tecniche di caccia uniche al mondo. Oppure i parrocchetti delle tane che, per procurarsi l'acqua, hanno imparato ad azionare i mulini fabbricati dall'uomo."
+                                ],
+                                "Tipology": [
+                                    "DOCUMENTARI"
+                                ],
+                                "Countries": [
+                                    "REGNO UNITO DI GRAN BRETAGNA E IRLANDA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2015"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "ANIMALI"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "IL PRIMO DEI PRIMI "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307677201000101"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 09:56:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 10:56:00"
+                                ],
+                                "Duration": [
+                                    "01:00:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "IL PRIMO DEI PRIMI"
+                                ],
+                                "Description": [
+                                    "SOFT NEWS 50' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nIl Primo dei Primi\", il nuovo talent culinario della domenica di Canale5. \nAlla conduzione Martina Panagia con Claudio Sadler, e Francesco Passalacqua\nProtagonisti quattro concorrenti non professionisti della ristorazione, ma con la passione per la cucina.In tre manche a puntata, i concorrenti si sfideranno due alla volta, in un vero e proprio campionato a staffetta. Sara' una competizione alla cieca, perche' nessuno degli sfidanti conosce ne' la ricetta ne' le procedure per realizzarla. \nIl vincitore avra' l'onore di ricevere lo stesso premio consegnato ai Campioni del Barilla-Pasta World Championship. Inoltre ,gli sara' riservata un'esperienza gourmet straordinaria: un percorso di formazione gastronomica di 6 corsi di cucina individuali con gli chef di Academia Barilla, il \"The italian food Academy a Parma\". E ancora, un tour enogastronomico alla scoperta dei prodotti tipici del territorio con  la degustazione della cucina dei  3 dei migliori ristoranti stellati d'Italia. \n"
+                                ],
+                                "Tipology": [
+                                    "SOFT NEWS"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "PROGRAMMA DI SERVIZIO"
+                                ],
+                                "Genre2": [
+                                    "GASTRONOMIA"
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "FORUM "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307782502000401"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 11:00:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 13:00:00"
+                                ],
+                                "Duration": [
+                                    "02:00:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "FORUM"
+                                ],
+                                "Description": [
+                                    "FORUM - SOFT NEWS 120' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "SOFT NEWS"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "PROGRAMMA DI SERVIZIO"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "TG5 "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198301109801"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 13:00:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 13:39:00"
+                                ],
+                                "Duration": [
+                                    "00:39:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "7307, 7308 BEAUTIFUL XXVI - BEAUTIFUL - PRIMA TV"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307277502007402"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 13:40:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 14:10:00"
+                                ],
+                                "Duration": [
+                                    "00:30:00"
+                                ],
+                                "AudioType": [
+                                    "Stereo"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    "Yellow"
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "Yes"
+                                ],
+                                "SubtitledProgram": [
+                                    "ITA"
+                                ],
+                                "DisplayTitle": [
+                                    "BEAUTIFUL XXVI"
+                                ],
+                                "Description": [
+                                    "Ep. 74 - Regia:  Registi Vari - Cast: Katherine Kelly Lang, John Mccook, Hunter Tylo, Winsor Harmon. SOAP 16' - Stati Uniti D'America, 2015 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\nVISIONE CONSIGLIATA CON LA PRESENZA DI UN ADULTO.\r\n7307, BEAUTIFUL XXVI\rQuinn (Rena Sofer) progetta la sua fuga e vuole coinvolgere Deacon (Sean Kanan), miracolosamente vivo e vegeto dopo che Quinn lo aveva spinto dalla scogliera. Ma lui, che con grande determinazione, le nega la sua disponibilita' a peggiorare una situazione gia' molto compromessa. Bill (Don Diamont) e' intenzionato a farla pagare a Quinn per quello che ha fatto a Liam (Scott Clifton), il quale, finalmente, puo' riabbracciare Steffy (Jacqueline MacInnes Wood), scossa ma fe...\r7308, BEAUTIFUL XXVI\rA casa di Quinn (Rena Sofer), Bill (Don Diamont) e Wyatt (Darin Brooks) scoprono che la donna e' fuggita, cosi' chiamano la polizia. Intanto a casa di Liam (Scott Clifton), lui e Steffy (Jacqueline MacInnes Wood) parlano dell'accaduto. Liam e' agitato e non ricorda ancora tutto. Ricorda che lui e Quinn dovevano partire o forse Quinn voleva ucciderlo. Steffy in quel momento si rende conto che Quinn ha fatto tutto questo per "
+                                ],
+                                "Tipology": [
+                                    "SOAP"
+                                ],
+                                "Countries": [
+                                    "STATI UNITI D'AMERICA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2015"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "SENTIMENTALE"
+                                ],
+                                "Genre2": [
+                                    "DRAMMATICO"
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "UNA VITA - PRIMA TV"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307072002011102"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 14:10:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 14:45:00"
+                                ],
+                                "Duration": [
+                                    "00:35:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    "Yellow"
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "Yes"
+                                ],
+                                "SubtitledProgram": [
+                                    "ITA"
+                                ],
+                                "DisplayTitle": [
+                                    "UNA VITA III "
+                                ],
+                                "Description": [
+                                    "Ep. 111 - Regia: Ruben Torrejon, Humberto Miro' - Cast: Sheyla Farina, Roger Berruezo, Sara Miquel, Carlos Serrano-Clark. TELENOVELAS 25' - Spagna, 2015 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\nVISIONE CONSIGLIATA CON LA PRESENZA DI UN ADULTO.\r\nVITA III (UNA), 196 - I PARTEA Guadalupe viene diagnosticata la pellagra da Germán e le condizioni della donna sembrano peggiorare rapidamente. Cayetana e' oggetto dei pettegolezzi delle vicine e si rifugia in casa, rifiutando anche di vedere Justo. L'uomo pero' riesce a rientrare nelle sue grazie, mostrandole di averla nominata sua unica erede nel testamento. Cayetana sembra riconciliarsi con lui, anche se ha saputo direttamente dal giudice Sánchez che e' stato Justo stesso a spingerlo a metterla in cattiva luce con la regina."
+                                ],
+                                "Tipology": [
+                                    "TELENOVELAS"
+                                ],
+                                "Countries": [
+                                    "SPAGNA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2015"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "DRAMMATICO"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "IL SEGRETO XVII , 1119/1120 - IL SEGRETO  - PRIMA TV"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307612502000302"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 14:45:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 16:10:00"
+                                ],
+                                "Duration": [
+                                    "01:25:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    "Yellow"
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "Yes"
+                                ],
+                                "SubtitledProgram": [
+                                    "ITA"
+                                ],
+                                "DisplayTitle": [
+                                    "IL SEGRETO XVIII "
+                                ],
+                                "Description": [
+                                    "Ep. 3 - Regia: Alberto Pernet, Pedro Martinez Cifuentes - Cast: Alex Gadea, Maria Bouzas, Sandra Cervera, Ramon Ibarra. TELENOVELAS 100' - Spagna, 2015 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\nVISIONE CONSIGLIATA CON LA PRESENZA DI UN ADULTO.\r\nN.1117 - SECONDA PARTEMariana e Nicolas sembra l'unica coppia consolidata di Puente Viejo.N.1118Lucas viene malmenato, ma Sol non lo ringrazia nemmeno per averla aiutata. Severo chiede spiegazioni alla sorella e promette di aiutarla. Bosco non racconta niente ad Aurora sulla malattia di Ine's, ma Rosario suggerisce di convocare una riunione di famiglia per informare tutti della situazione. Mauricio racconta a Francisca cosa e' successo alla locanda con Sol e la donna inizia ad immaginare la vendetta contro Severo.N.1119Ine's mette al corrente tutta la sua famiglia del suo malessere incurabile. Nonostante stia per morire, non si lascia abbattere e si mostra forte davanti ai suoi cari. Prado decide di cogliere l'attimo e di vivere ogni giorno come se fosse l'ultimo. Per questo motivo dice a Sixto di amarlo e di essere disposta a fare qualsiasi cosa pur di avere in cambio il suo amore. Gracia continua a stare male, ma si rifiuta di pren"
+                                ],
+                                "Tipology": [
+                                    "TELENOVELAS"
+                                ],
+                                "Countries": [
+                                    "SPAGNA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2015"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "DRAMMATICO"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "VERISSIMO"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307783601000301"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 16:10:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 18:45:00"
+                                ],
+                                "Duration": [
+                                    "02:35:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "VERISSIMO - '17"
+                                ],
+                                "Description": [
+                                    "RUBRICA DI ATTUALITA' 120' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nVerissimo e' un talk show, in onda ogni sabato pomeriggio su Canale 5.\nBrand ventennale di Mediaset, da dieci anni e' condotto con grande successo da Silvia Toffanin.\nIl successo di Verissimo si estende anche al mondo web e social: 4.500.000 video visti sul sito ufficiale (www.verissimo.it, n.d.r), 458.000 followers su Instagram e oltre 790.000 like su Facebook. \n Lo stile di conduzione di Silvia Toffanin, garbato e accogliente, fa di Verissimo un talk unico, nel quale i personaggi, anche i piu' riservati, si raccontano volentieri. \nMolte le star internazioni che in questi ultimi anni sono state ospiti del programma di Canale 5. Tra queste: Madonna, Cher, Take That, Robert De Niro, Sharon Stone, Rene'e Zellweger e Andy Garcia.\n"
+                                ],
+                                "Tipology": [
+                                    "PROGRAMMI INFORMATIVI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "RUBRICA DI ATTUALITA'"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "CADUTA LIBERA SMILE"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307793301002001"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 18:45:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 19:57:00"
+                                ],
+                                "Duration": [
+                                    "01:12:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "CADUTA LIBERA - 17"
+                                ],
+                                "Description": [
+                                    "INTRATTENIMENTO 50' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nUn concorrente, 10 sfidanti e sotto i loro piedi 11 botole. Chi riuscira' a non cadere potra' vincere 100.000 euro rispondendo esattamente alle \"Magnifiche 7\" domande finali, ma attenzione la botola e' sempre  pronta ad aprirsi!!!"
+                                ],
+                                "Tipology": [
+                                    "INTRATTENIMENTO LEGGERO"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "GAME SHOW/QUIZ"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "CADUTA LIBERA SMILE"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307793301002001"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 18:45:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 19:57:00"
+                                ],
+                                "Duration": [
+                                    "01:12:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "CADUTA LIBERA - 17"
+                                ],
+                                "Description": [
+                                    "INTRATTENIMENTO 50' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nUn concorrente, 10 sfidanti e sotto i loro piedi 11 botole. Chi riuscira' a non cadere potra' vincere 100.000 euro rispondendo esattamente alle \"Magnifiche 7\" domande finali, ma attenzione la botola e' sempre  pronta ad aprirsi!!!"
+                                ],
+                                "Tipology": [
+                                    "INTRATTENIMENTO LEGGERO"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "GAME SHOW/QUIZ"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "TG5 "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198301109901"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 20:00:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 20:39:00"
+                                ],
+                                "Duration": [
+                                    "00:39:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "LA VOCE DELL' IMPUDENZA  - STRISCIA LA NOTIZIA"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307782901000601"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 20:40:00"
+                                ],
+                                "EndTime": [
+                                    "01/10/2016 21:10:00"
+                                ],
+                                "Duration": [
+                                    "00:30:00"
+                                ],
+                                "AudioType": [
+                                    "Stereo"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "STRISCIA LA NOTIZIA -'17 LA VOCE DELL'IMPUDENZA"
+                                ],
+                                "Description": [
+                                    "INTRATTENIMENTO 30' - HD Italia,2016\nCondotto da Michelle Hunziker e Belen Rodriguez "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nTelegiornale Satirico "
+                                ],
+                                "Tipology": [
+                                    "INTRATTENIMENTO LEGGERO"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "COMICO"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "TU SI QUE VALES "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307793201000201"
+                                ],
+                                "StartTime": [
+                                    "01/10/2016 21:10:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 00:30:00"
+                                ],
+                                "Duration": [
+                                    "03:20:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "TU SI QUE VALES"
+                                ],
+                                "Description": [
+                                    "INTRATTENIMENTO 170' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nTerza edizione del talent show che vede protagonisti concorrenti di qualsiasi eta  ,nazionalita' e performances. In giuria Maria De Filippi, Gerry Scotti , Rudy Zerbi e Teo Mammuccari. Mara Venier a  capo della giuria popolare e \nalla conduzione Belen Rodriguez e Simone Rugiati.  \n"
+                                ],
+                                "Tipology": [
+                                    "INTRATTENIMENTO LEGGERO"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TALENT SHOW"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "GRANDE FRATELLO VIP "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307866601000301"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 00:30:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 01:00:00"
+                                ],
+                                "Duration": [
+                                    "00:30:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "GRANDE FRATELLO VIP S.S. SA/DO"
+                                ],
+                                "Description": [
+                                    "REALITY 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nImmagini inedite di quello che succede nella casa piu' famosa d'Italia"
+                                ],
+                                "Tipology": [
+                                    "REALITY"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "DOCU-SOAP"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "GRANDE FRATELLO VIP LIVE"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307888601000301"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 01:00:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 01:20:00"
+                                ],
+                                "Duration": [
+                                    "00:20:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "GRANDE FRATELLO  VIP LIVE S.S. SAB/DOM"
+                                ],
+                                "Description": [
+                                    "REALITY 10' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nIn diretta dalla casa del Grande Fratello le immagini dei Vip piu' spiati d'Italia."
+                                ],
+                                "Tipology": [
+                                    "REALITY"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "DOCU-SOAP"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "TG5 "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198301110001"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 01:20:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 02:04:00"
+                                ],
+                                "Duration": [
+                                    "00:44:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "STRISCIA LA NOTIZIA LA VOCE DLL'IMPUDENZA"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307782901000601"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 02:05:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 02:43:00"
+                                ],
+                                "Duration": [
+                                    "00:38:00"
+                                ],
+                                "AudioType": [
+                                    "Stereo"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "STRISCIA LA NOTIZIA -'17 LA VOCE DELL'IMPUDENZA"
+                                ],
+                                "Description": [
+                                    "INTRATTENIMENTO 30' - HD Italia,2016\nCondotto da Michelle Hunziker e Belen Rodriguez "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\nTelegiornale Satirico "
+                                ],
+                                "Tipology": [
+                                    "INTRATTENIMENTO LEGGERO"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "COMICO"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "LA MALEDIZIONE DELLO SCORPIONE DI GIADA - FILM "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F010948001000102"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 02:45:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 04:34:00"
+                                ],
+                                "Duration": [
+                                    "01:49:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    "Yellow"
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "ITA"
+                                ],
+                                "DisplayTitle": [
+                                    "LA MALEDIZIONE DELLO SCORPIONE DI GIADA"
+                                ],
+                                "Description": [
+                                    "Regia: Woody Allen - Cast: Woody Allen, Helen Hunt, Dan Aykroyd, Elizabeth Berkeley. COMMEDIA 102' - Stati Uniti D'America, 2000 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\nVISIONE CONSIGLIATA CON LA PRESENZA DI UN ADULTO.\r\nCW Briggs e Betty Ann Fitzgerald sono due investigatori costantemente in competizione e in conflitto. Una sera, durante uno spettacolo di magia, vengono ipnotizzati con l'ausilio del malefico influsso dello scorpione di giada: da quel momento, pronunciando una semplice parole, l'ipnotizzatore e' in grado di sfruttarli per compiere furti su cui poi loro stessi si trovano ad indagare."
+                                ],
+                                "Tipology": [
+                                    "FILM"
+                                ],
+                                "Countries": [
+                                    "STATI UNITI D'AMERICA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2000"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "COMMEDIA"
+                                ],
+                                "Genre2": [
+                                    "GIALLO"
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "LA MALEDIZIONE DELLO SCORPIONE DI GIADA - FILM "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F010948001000102"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 02:45:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 04:34:00"
+                                ],
+                                "Duration": [
+                                    "01:49:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    "Yellow"
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "ITA"
+                                ],
+                                "DisplayTitle": [
+                                    "LA MALEDIZIONE DELLO SCORPIONE DI GIADA"
+                                ],
+                                "Description": [
+                                    "Regia: Woody Allen - Cast: Woody Allen, Helen Hunt, Dan Aykroyd, Elizabeth Berkeley. COMMEDIA 102' - Stati Uniti D'America, 2000 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "B"
+                                ],
+                                "Synopsis": [
+                                    "\r\nVISIONE CONSIGLIATA CON LA PRESENZA DI UN ADULTO.\r\nCW Briggs e Betty Ann Fitzgerald sono due investigatori costantemente in competizione e in conflitto. Una sera, durante uno spettacolo di magia, vengono ipnotizzati con l'ausilio del malefico influsso dello scorpione di giada: da quel momento, pronunciando una semplice parole, l'ipnotizzatore e' in grado di sfruttarli per compiere furti su cui poi loro stessi si trovano ad indagare."
+                                ],
+                                "Tipology": [
+                                    "FILM"
+                                ],
+                                "Countries": [
+                                    "STATI UNITI D'AMERICA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2000"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "COMMEDIA"
+                                ],
+                                "Genre2": [
+                                    "GIALLO"
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "3 - CENTOVETRINE"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F009418101000301"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 04:35:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 05:00:00"
+                                ],
+                                "Duration": [
+                                    "00:25:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    "Yellow"
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "ITA"
+                                ],
+                                "DisplayTitle": [
+                                    "CENTOVETRINE"
+                                ],
+                                "Description": [
+                                    "Ep. 3 - Regia:  Badolisani Renzo, Michele Rovini - Cast:  Andreasi Gabriele, Roberto Alpi,  Bettini Valerio, Pietro Genuardi. SOAP 25' - Italia, 2001 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    " "
+                                ],
+                                "Synopsis": [
+                                    "\r\nVISIONE CONSIGLIATA CON LA PRESENZA DI UN ADULTO.\r\nPaola, la madre di Elena, confessa alla figlia di non aver piu' un soldo, il suo  fidanzato le ha rubato tutto. La ragazza parla con Ettore che, a sorpresa, le propone  di entrare in societa' con lui. Giuliano trova in Gabriele, oltre che un nuovo amico,  anche un avvocato pronto ad aiutarlo nella sua lotta contro Ettore."
+                                ],
+                                "Tipology": [
+                                    "SOAP"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2001"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "SENTIMENTALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    ""
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 05:00:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 05:15:00"
+                                ],
+                                "Duration": [
+                                    "00:15:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Description": [
+                                    " "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "SHOPPING "
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2011"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "PUBBLICITA'"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "TG5 "
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198301110001"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 05:15:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 05:44:00"
+                                ],
+                                "Duration": [
+                                    "00:29:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 30' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    ""
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 05:45:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 05:59:00"
+                                ],
+                                "Duration": [
+                                    "00:14:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Not live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "MEDIA SHOPPING"
+                                ],
+                                "Description": [
+                                    " "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "SHOPPING "
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2011"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "PUBBLICITA'"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            },
+                            {
+                                "Title": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Channel": [
+                                    "C5"
+                                ],
+                                "ChannelDescription": [
+                                    "Canale 5"
+                                ],
+                                "ContentRef": [
+                                    "F307198001265701"
+                                ],
+                                "StartTime": [
+                                    "02/10/2016 06:00:00"
+                                ],
+                                "EndTime": [
+                                    "02/10/2016 06:15:00"
+                                ],
+                                "Duration": [
+                                    "00:15:00"
+                                ],
+                                "AudioType": [
+                                    "Mono"
+                                ],
+                                "DoubleLanguage": [
+                                    "One language"
+                                ],
+                                "TrafficLight": [
+                                    ""
+                                ],
+                                "Replica": [
+                                    "No"
+                                ],
+                                "AudioReturn": [
+                                    "Live"
+                                ],
+                                "FirstRun": [
+                                    "No"
+                                ],
+                                "SubtitledProgram": [
+                                    "No subtitles"
+                                ],
+                                "DisplayTitle": [
+                                    "PRIMA PAGINA TG5"
+                                ],
+                                "Description": [
+                                    "TELEGIORNALE 6' - Italia, 2016 "
+                                ],
+                                "MaterialAudioFormat": [
+                                    "Null"
+                                ],
+                                "MaterialDoubleLanguage": [
+                                    "No"
+                                ],
+                                "MaterialScreenFormat": [
+                                    "A"
+                                ],
+                                "Synopsis": [
+                                    "\r\n\r\n"
+                                ],
+                                "Tipology": [
+                                    "NOTIZIARI"
+                                ],
+                                "Countries": [
+                                    "ITALIA"
+                                ],
+                                "ParentalRating": [
+                                    "1"
+                                ],
+                                "ProductionYear": [
+                                    "2016"
+                                ],
+                                "CastActors": [
+                                    ""
+                                ],
+                                "CastDirector": [
+                                    ""
+                                ],
+                                "Genre1": [
+                                    "TELEGIORNALE"
+                                ],
+                                "Genre2": [
+                                    ""
+                                ],
+                                "Price": [
+                                    ""
+                                ],
+                                "Pod": [
+                                    "N"
+                                ],
+                                "Nettv": [
+                                    "N"
+                                ],
+                                "Nocivo": [
+                                    "N"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

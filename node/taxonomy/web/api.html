@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>TAXONOMY MANAGER</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+	<script type="text/javascript">
+
+	var socket = io();
+	socket.on('api update', function(msg){
+    	console.log(msg)
+  	});
+	
+	var fileSub = function(evt){
+		var file = document.getElementById('fileBox').files[0]; //Files[0] = 1st file
+		var reader = new FileReader();
+		reader.readAsText(file, 'UTF-8');
+		reader.onload = shipOff;
+		return false;
+	}	
+
+	function shipOff(event) {
+	    var result = event.target.result;
+	    var fileName = document.getElementById('fileBox').files[0].name; 
+	    $.post('/taxonomy/opml/', { data: result, name: fileName }).done(function( msg ) {
+		    console.log(msg);
+		  });;
+	}
+
+	var callAPI = function(endPoint, the_method, the_data){
+		$.ajax({
+		  method: the_method,
+		  url: endPoint,
+		  data: the_data
+		})
+		.done(function( msg ) {
+		    console.log(msg);
+		  });
+	}
+
+	</script>
+</head>
+<body>
+<h3>TAXONOMY MANAGER</h3>
+<h3>APPLICATION</h3>
+<ul>
+<li><a href="javascript:callAPI('/app/mode/','PUT',{the_mode:'_dev'});">Set DEV MODE</a></li>
+<li><a href="javascript:callAPI('/app/mode/','PUT',{the_mode:'_prod'});">Set PROD MODE</a></li>
+<li><a href="javascript:callAPI('/app/mode/','GET');">Get MODE</a></li>
+<li><a href="javascript:callAPI('/app/users/','GET');">Get Conneted Users</a></li>
+</ul>
+<h3>DMP Taxonomy</h3>
+<ul>
+<li><a href="javascript:callAPI('/taxonomy/','PUT');">Update DMP Taxonomy</a></li>
+<li><a href="javascript:callAPI('/taxonomy/','GET');">Get DMP Taxonomy</a></li>
+<li><a href="javascript:callAPI('/taxonomy/reach/','GET');">Get DMP Taxonomy Reach</a></li>
+</ul>
+<h3>DMP Classification Rules</h3>
+<ul>
+<li><a href="javascript:callAPI('/taxonomy/rules/','GET');">Get DMP Classification Rules</a></li>
+<li><a href="javascript:callAPI('/taxonomy/rules/check/','GET');">Check DMP Classification Rules</a></li>
+</ul>
+<h3>OMPL</h3>
+<ul>
+<li><a href="javascript:callAPI('/taxonomy/opml/','GET');">Get OPML File</a></li>
+<li><form action="" onSubmit="fileSub(); return false;" method="" if-none-match="*">
+<label>Upload OMPL:</label>
+  <input type="file" name="fileToUpload" id="fileBox">
+  <input type="submit" value="Upload"/>
+</form></li>
+<li><a href="javascript:callAPI('/taxonomy/opml/check/','GET');">Check OPML File</a></li>
+
+</ul>
+<body>
+</html>
